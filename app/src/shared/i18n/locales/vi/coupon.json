@@ -1,0 +1,182 @@
+{
+  "title": "Mã giảm giá",
+  "availableCoupons": "Mã giảm giá khả dụng",
+  "myCoupons": "Mã giảm giá của tôi",
+  "applyCoupon": "Áp dụng mã giảm giá",
+  "enterCouponCode": "Nhập mã giảm giá",
+  "couponCode": "Mã giảm giá",
+  "use": "Sử dụng",
+  "applied": "Đã áp dụng",
+  "expired": "Đã hết hạn",
+  "used": "Đã sử dụng",
+  "expiringSoon": "Sắp hết hạn",
+  "available": "Có thể sử dụng",
+  "off": "giảm",
+  "freeDelivery": "Miễn phí giao hàng",
+  "discount": "Giảm giá",
+  "minOrder": "Cho đơn hàng từ {{amount}}",
+  "validUntil": "Có hiệu lực đến {{date}}",
+  "expiresSoon": "Hết hạn sau {{days}} ngày",
+  "usedUp": "Đã sử dụng hết",
+  "lastUse": "Cơ hội sử dụng cuối",
+  "usesRemaining": "Còn {{count}} lần",
+  "categories": {
+    "all": "Tất cả",
+    "percentage": "Giảm theo phần trăm",
+    "fixed_amount": "Giảm số tiền cố định",
+    "free_delivery": "Miễn phí giao hàng"
+  },
+  "empty": {
+    "title": "Không có mã giảm giá khả dụng",
+    "description": "Chúng tôi sẽ thông báo khi có mã giảm giá mới",
+    "actionText": "Khám phá nhà hàng"
+  },
+  "error": {
+    "loadFailed": "Không thể tải mã giảm giá",
+    "applyFailed": "Áp dụng mã giảm giá thất bại",
+    "invalidCode": "Mã giảm giá không hợp lệ",
+    "expired": "Mã giảm giá đã hết hạn",
+    "minOrderNotMet": "Chưa đạt số tiền tối thiểu",
+    "alreadyUsed": "Mã giảm giá đã được sử dụng"
+  },
+  "success": {
+    "applied": "Mã giảm giá đã được áp dụng",
+    "removed": "Mã giảm giá đã được xóa"
+  },
+  "center": {
+    "title": "Trung tâm mã giảm giá",
+    "description": "Nhận các mã giảm giá đa dạng",
+    "subtitle": "Tiết kiệm thêm cho mọi đơn hàng"
+  },
+  "status": {
+    "available": "Có thể sử dụng",
+    "used": "Đã sử dụng",
+    "expired": "Đã hết hạn",
+    "comingSoon": "Sắp có"
+  },
+  "filter": {
+    "all": "Tất cả",
+    "available": "Có thể sử dụng",
+    "used": "Đã dùng",
+    "expired": "Hết hạn"
+  },
+  "actions": {
+    "viewDetails": "Xem chi tiết",
+    "copyCode": "Sao chép mã",
+    "shareCode": "Chia sẻ mã",
+    "useNow": "Dùng ngay"
+  },
+  "details": {
+    "terms": "Điều kện sử dụng",
+    "validFrom": "Có hiệu lực từ",
+    "validTo": "Có hiệu lực đến",
+    "usageLimit": "Giới hạn sử dụng",
+    "minOrderAmount": "Số tiền đơn hàng tối thiểu"
+  },
+  "tabs": {
+    "my": "Mã của tôi",
+    "available": "Mã khả dụng",
+    "myWithCount": "Mã của tôi ({{count}})",
+    "availableWithCount": "Mã khả dụng ({{count}})"
+  },
+  "chips": {
+    "all": "Tất cả",
+    "available": "Có thể dùng",
+    "used": "Đã dùng",
+    "expired": "Hết hạn",
+    "expiring": "Sắp hết hạn"
+  },
+  "states": {
+    "loading": "Đang tải mã giảm giá...",
+    "refreshing": "Đang cập nhật...",
+    "loadingMore": "Đang tải thêm..."
+  },
+  "promotions": "Khuyến mãi",
+  "vietnamFestivals": "Lễ hội Việt Nam",
+  "traditionalEvents": "Các sự kiện truyền thống",
+  "promotionCategories": "Danh mục khuyến mãi",
+  "dailyDeals": "Khuyến mãi hàng ngày",
+  "vndSpecial": "Ưu đãi VND",
+  "availableOffers": "Có ưu đãi khả dụng",
+  "getCoupon": "Nhận mã",
+  "noDailyDeals": "Chưa có khuyến mãi hàng ngày",
+  "noVndOffers": "Chưa có ưu đãi VND",
+  "checkBackLater": "Hãy quay lại sau",
+  "expiresInDay": "Hết hạn trong 1 ngày",
+  "expiresInDays": "Hết hạn trong {{days}} ngày",
+  "tetSpecial": "Ưu đãi Tết Nguyên Đán",
+  "weatherBased": "Khuyến mãi theo thời tiết",
+  "regional": "Ưu đãi theo khu vực",
+  "festivals": {
+    "tet": {
+      "name": "Tết Nguyên Đán",
+      "period": "Cuối tháng 1 - Đầu tháng 2",
+      "discount": "Giảm tới 30%",
+      "description": "Khuyến mãi đặc biệt dịp Tết lớn nhất Việt Nam"
+    },
+    "midAutumn": {
+      "name": "Tết Trung Thu",
+      "period": "Tháng 9",
+      "discount": "Giảm tới 25%",
+      "description": "Ưu đãi đặc biệt dịp Trăng rằm"
+    },
+    "nationalDay": {
+      "name": "Quốc Khánh",
+      "period": "2 tháng 9",
+      "discount": "Giảm tới 20%",
+      "description": "Khuyến mãi kỷ niệm Ngày Quốc Khánh Việt Nam"
+    }
+  },
+  "accessibility": {
+    "tabSelected": "Đã chọn tab {{tab}}",
+    "filterSelected": "Đã chọn bộ lọc {{filter}}",
+    "couponCard": "Mã giảm giá {{name}}, {{discount}}, {{status}}",
+    "useButton": "Sử dụng mã giảm giá {{name}}",
+    "viewButton": "Xem chi tiết mã giảm giá {{name}}",
+    "refreshList": "Làm mới danh sách mã giảm giá",
+    "emptyStateIcon": "Không có mã giảm giá",
+    "errorStateIcon": "Lỗi tải dữ liệu",
+    "retryButton": "Thử lại tải mã giảm giá",
+    "tabList": "Điều hướng tab",
+    "filterGroup": "Tùy chọn bộ lọc",
+    "couponList": "Danh sách mã {{tab}}",
+    "emptyState": "Thông tin trạng thái trống",
+    "errorState": "Thông tin lỗi",
+    "emptyStateAction": "Thực hiện hành động được gợi ý",
+    "retryHint": "Chạm để thử lại tải nội dung"
+  },
+  "emptyStates": {
+    "myEmpty": {
+      "title": "Chưa có mã giảm giá",
+      "description": "Bạn chưa có mã giảm giá nào. Khám phá các mã khuyến mãi hấp dẫn!",
+      "actionText": "Xem mã khả dụng"
+    },
+    "availableEmpty": {
+      "title": "Chưa có mã khuyến mãi",
+      "description": "Hiện tại chưa có mã giảm giá. Chúng tôi sẽ thông báo khi có ưu đãi mới!",
+      "actionText": "Quay lại"
+    },
+    "filteredEmpty": {
+      "title": "Không tìm thấy mã phù hợp",
+      "description": "Thử thay đổi bộ lọc để xem các mã khác",
+      "actionText": "Xóa bộ lọc"
+    }
+  },
+  "errorStates": {
+    "networkError": {
+      "title": "Không thể kết nối",
+      "description": "Vui lòng kiểm tra kết nối mạng và thử lại",
+      "actionText": "Thử lại"
+    },
+    "serverError": {
+      "title": "Lỗi hệ thống",
+      "description": "Có lỗi xảy ra. Vui lòng thử lại sau",
+      "actionText": "Thử lại"
+    },
+    "unexpectedError": {
+      "title": "Có lỗi xảy ra",
+      "description": "Vui lòng khởi động lại ứng dụng",
+      "actionText": "Thử lại"
+    }
+  }
+}

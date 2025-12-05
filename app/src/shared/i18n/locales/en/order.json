@@ -1,0 +1,640 @@
+{
+  "ongoing": "Ongoing",
+  "history": "Order History",
+  "emptyOngoing": "No ongoing orders",
+  "emptyOngoingDesc": "Start a new order!",
+  "emptyHistory": "No order history",
+  "emptyHistoryDesc": "Place your first order!",
+  "startOrdering": "Start Ordering",
+  "viewHistory": "View past orders",
+  "orderNumber": "Order #",
+  "andOthers": "and {{count}} more",
+  "totalItems": "Total {{count}} items",
+  "noItems": "No items",
+  "deliveringSoon": "Delivering soon",
+  "estimatedMinutes": "About {{minutes}} minutes",
+  "estimatedTime": "About {{hours}}h {{minutes}}m",
+  "urgent": "Urgent",
+  "reorder": "Reorder",
+  "writeReview": "Write Review",
+  "reorderSuccess": "Added to cart",
+  "status": {
+    "pending": "Payment Pending",
+    "pendingShort": "Pending",
+    "confirmed": "Payment Confirmed",
+    "confirmedShort": "Confirmed",
+    "preparing": "Preparing",
+    "preparingShort": "Cooking",
+    "ready": "Ready",
+    "readyShort": "Ready",
+    "pickedUp": "Picked Up",
+    "pickedUpShort": "Picked",
+    "outForDelivery": "Out for Delivery",
+    "outForDeliveryShort": "Delivery",
+    "delivered": "Delivered",
+    "deliveredShort": "Done",
+    "cancelled": "Cancelled",
+    "cancelledShort": "Cancelled",
+    "failed": "Order Failed",
+    "failedShort": "Failed",
+    "refunded": "Refunded",
+    "orderCompleted": "Order Completed",
+    "PENDING": "Pending Payment",
+    "CONFIRMED": "Payment Confirmed",
+    "PREPARING": "Preparing",
+    "READY": "Ready",
+    "PICKED_UP": "Picked Up",
+    "DELIVERING": "Delivering",
+    "DELIVERED": "Delivered",
+    "COMPLETED": "Completed",
+    "CANCELLED": "Cancelled",
+    "REJECTED": "Rejected"
+  },
+  "statusMessages": {
+    "pending": "Your order has been received",
+    "confirmed": "Your order has been confirmed",
+    "preparing": "Your food is being prepared",
+    "ready": "Your food is ready",
+    "pickedUp": "Driver has picked up your food",
+    "outForDelivery": "Your order is on the way",
+    "delivering": "Your order is being delivered",
+    "delivered": "Your order has been delivered",
+    "orderCancelled": "Order has been cancelled",
+    "orderFailed": "Order processing failed"
+  },
+  "unknownStore": "Store",
+  "items": "items",
+  "itemsUnit": "",
+  "deliveryFee": "Delivery Fee",
+  "discount": "Discount",
+  "paymentMethod": {
+    "CASH": "Cash",
+    "CARD": "Card",
+    "MOMO": "MoMo",
+    "ZALO_PAY": "ZaloPay",
+    "BANKING": "Bank Transfer",
+    "COD": "Cash on Delivery",
+    "BANK_TRANSFER": "Bank Transfer",
+    "CREDIT_CARD": "Credit Card",
+    "VNPAY": "VNPay",
+    "ZALOPAY": "ZaloPay",
+    "momo": "MoMo",
+    "zalopay": "ZaloPay",
+    "vnpay": "VNPay",
+    "cod": "Cash on Delivery"
+  },
+  "filter": {
+    "title": "Filter",
+    "all": "All",
+    "allTime": "All Time",
+    "today": "Today",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "status": "Order Status",
+    "dateRange": "Date Range",
+    "paymentMethod": "Payment Method",
+    "reset": "Reset",
+    "apply": "Apply",
+    "activeCount": "{{count}} filter applied"
+  },
+  "notifications": {
+    "statusUpdate": "Order Status Update",
+    "statusUpdated": "Order status has been updated",
+    "orderComplete": "Order Complete",
+    "deliveryUpdate": "Delivery Update",
+    "connectionIssue": "Connection Issue",
+    "orderCancelled": "Order Cancelled",
+    "confirmed": "Payment has been completed",
+    "preparing": "Food is being prepared",
+    "ready": "Food is ready",
+    "pickedUp": "Driver has picked up your food",
+    "outForDelivery": "Food is out for delivery",
+    "delivered": "Food has been delivered",
+    "driverAssigned": "Driver Assigned",
+    "driverAssignedMessage": "Driver {{driverName}} has been assigned (Contact: {{phone}})",
+    "nearDestination": "Driver is near the destination",
+    "orderCancelledMessage": "Your order has been cancelled"
+  },
+  "tracking": {
+    "title": "Order Tracking",
+    "orderInfo": "Order Information",
+    "deliveryInfo": "Delivery Information",
+    "timeline": "Progress",
+    "progress": "Delivery progress",
+    "currentTime": "Current time",
+    "estimatedArrivalShort": "ETA",
+    "arrivingSoon": "Driver is arriving soon. Please be ready!",
+    "delayNotice": "Delivery may be delayed due to traffic conditions",
+    "severeDelay": "We apologize for the delay. Please contact support",
+    "deliveredOnTime": "Delivered on time. Enjoy your meal!",
+    "deliveredDelayed": "Delivered with a delay of {{minutes}} minutes",
+    "liveUpdate": "Live updates",
+    "stepsCompleted": "steps completed",
+    "contact": "Contact",
+    "contactStore": "Contact Store",
+    "contactSupport": "Customer Support",
+    "cancelOrder": "Request Cancellation",
+    "driverInfo": "Driver Information",
+    "rating": "Rating",
+    "vehicleType": "Vehicle Type",
+    "vehicleNumber": "Vehicle Number",
+    "callDriver": "Call Driver",
+    "messageDriver": "Message Driver",
+    "estimatedArrival": "Estimated Arrival",
+    "currentLocation": "Current Location",
+    "viewOrderInfo": "View order information"
+  },
+  "detail": {
+    "title": "Order Details",
+    "orderSummary": "Order Summary",
+    "orderItems": "Order Items",
+    "paymentInfo": "Payment Information",
+    "orderNumber": "Order Number",
+    "storeInfo": "Store Info",
+    "chat": "Chat",
+    "driver": "Driver",
+    "orderTime": "Order Time",
+    "paymentMethod": "Payment Method",
+    "deliveryAddress": "Delivery Address",
+    "specialInstructions": "Special Instructions",
+    "orderItems": "Order Items",
+    "quantity": "Quantity",
+    "unitPrice": "Unit Price",
+    "options": "Options",
+    "subtotal": "Subtotal",
+    "deliveryFee": "Delivery Fee",
+    "discount": "Discount",
+    "tax": "Tax",
+    "total": "Total Amount",
+    "receipt": "Receipt",
+    "downloadReceipt": "Download Receipt",
+    "emailReceipt": "Email Receipt",
+    "printReceipt": "Print Receipt",
+    "saveReceipt": "Save Receipt",
+    "noItems": "No items in order",
+    "recipient": "Recipient",
+    "contact": "Contact",
+    "phone": "Phone Number",
+    "delivery": "Delivery",
+    "pickup": "Pickup",
+    "deliveryNotes": "Delivery Notes",
+    "deliveryNote": "Delivery Note",
+    "note": "Note",
+    "notFound": "Order not found",
+    "notFoundDesc": "Unable to load order information. Please try again.",
+    "liveTracking": "Live Tracking",
+    "currentLocation": "Current Location",
+    "lastUpdate": "Last Update",
+    "estimatedDelivery": "Estimated Delivery Time"
+  },
+  "pointsUsed": "Points Used",
+  "refundInfo": "Refund Information",
+  "refundAmount": "Refund Amount",
+  "refundDate": "Refund Date",
+  "refundStatus": "Status",
+  "refundCompleted": "Refund Completed",
+  "processing": "Processing",
+  "checkout": {
+    "title": "Order Confirmation",
+    "deliveryAddress": "Delivery Address",
+    "deliveryInfo": "Delivery Information",
+    "requestNote": "Request",
+    "selectAddress": "Please select delivery address",
+    "estimatedTime": "Estimated arrival",
+    "orderDetails": "Order Details",
+    "menuCount": "{{count}} items",
+    "promotion": "Promotion",
+    "selectPromotion": "Select a discount coupon",
+    "subtotal": "Subtotal",
+    "deliveryFee": "Delivery Fee",
+    "discount": "Discount",
+    "totalAmount": "Total Amount",
+    "addNew": "Add New",
+    "addDeliveryAddress": "Add Delivery Address",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "total": "Total",
+    "placeOrder": "Place Order",
+    "creating": "Creating order...",
+    "tempAddressLabel": "Temporary Address",
+    "tempAddressText": "110 Sejong-daero, Jung-gu, Seoul (temp)",
+    "tempRecipient": "Customer",
+    "moreForFreeDelivery": "Add {{amount}} more for free delivery",
+    "freeDeliveryApplied": "Free delivery applied",
+    "defaultMenu": "Menu"
+  },
+  "orderSuccessMessage": "Your order has been successfully received. The store will confirm and start preparing your food.",
+  "store": "Store",
+  "storeName": "Store Name",
+  "nextSteps": "Next Steps",
+  "stepsDescription": "• The store will confirm your order\n• You'll receive a notification when preparation begins",
+  "create": {
+    "title": "Place Order",
+    "step1": "Select Store",
+    "step2": "Select Items",
+    "step3": "Delivery Address",
+    "step4": "Special Requests",
+    "step5": "Order Confirmation",
+    "selectStore": "Please select a store",
+    "storeInfo": "Store Information",
+    "businessHours": "Business Hours",
+    "deliveryArea": "Delivery Area",
+    "minimumOrder": "Minimum Order",
+    "selectItems": "Please select items",
+    "fromCart": "Import from Cart",
+    "reviewItems": "Review Selected Items",
+    "deliveryAddress": "Delivery Address",
+    "selectAddress": "Select Address",
+    "newAddress": "Add New Address",
+    "addressDetails": "Address Details",
+    "contactInfo": "Contact Information",
+    "specialRequests": "Special Requests",
+    "requestToStore": "Request to Store",
+    "requestToDriver": "Request to Driver",
+    "commonRequests": "Common Requests",
+    "characterLimit": "{{current}}/{{max}} characters",
+    "orderConfirm": "Order Confirmation",
+    "finalReview": "Final Order Review",
+    "paymentMethod": "Payment Method",
+    "termsAgreement": "Agree to Terms of Service",
+    "privacyAgreement": "Agree to Privacy Policy",
+    "placeOrder": "Place Order",
+    "processing": "Processing order...",
+    "success": "Order placed successfully",
+    "failed": "Order failed"
+  },
+  "cancel": {
+    "title": "Cancel Order",
+    "reason": "Cancellation Reason",
+    "reasonRequired": "Please select a cancellation reason",
+    "reasons": {
+      "changeOrder": "Change Order",
+      "wrongAddress": "Wrong Delivery Address",
+      "paymentIssue": "Payment Issue",
+      "tooLong": "Delivery Time Too Long",
+      "other": "Other"
+    },
+    "otherReason": "Other Reason",
+    "confirm": "Are you sure you want to cancel this order?",
+    "confirmMessage": "This action cannot be undone",
+    "processing": "Processing cancellation...",
+    "success": "Order cancelled successfully",
+    "failed": "Order cancellation failed",
+    "notAllowed": "Cannot cancel order in current status"
+  },
+  "review": {
+    "title": "Write Review",
+    "rating": "Rating",
+    "rateFood": "Rate Food",
+    "rateDelivery": "Rate Delivery",
+    "rateOverall": "Overall Rating",
+    "writeReview": "Write Review",
+    "reviewPlaceholder": "How was your food and service?",
+    "photos": "Attach Photos",
+    "addPhotos": "Add Photos",
+    "anonymous": "Post Anonymously",
+    "submit": "Submit Review",
+    "submitting": "Submitting...",
+    "success": "Review submitted successfully",
+    "failed": "Failed to submit review"
+  },
+  "auth": {
+    "loginRequired": "Login Required",
+    "loginMessage": "Please login to view order history"
+  },
+  "driver": {
+    "title": "Driver",
+    "info": "Driver Information",
+    "loading": "Loading driver information...",
+    "online": "Online",
+    "offline": "Offline",
+    "noContact": "Driver contact information unavailable",
+    "phoneNotAvailable": "Phone function not available",
+    "phoneCallFailed": "Phone call failed",
+    "messageNotAvailable": "Messaging function not available",
+    "messageSendFailed": "Failed to send message",
+    "call": "Call Driver",
+    "message": "Message",
+    "rating": "Rating",
+    "deliveries": "deliveries",
+    "successRate": "Success Rate",
+    "avgTime": "min",
+    "avgTimeLabel": "Average Time",
+    "experience": "months",
+    "experienceLabel": "Experience",
+    "badges": "Driver Badges",
+    "totalDeliveries": "Total Deliveries",
+    "statusMessage": {
+      "confirmed": "On the way to store",
+      "preparing": "Waiting to pickup food at store",
+      "ready": "Picked up food",
+      "outForDelivery": "Delivering to you",
+      "delivered": "Delivery completed"
+    }
+  },
+  "actions": {
+    "cancel": "Cancel Order",
+    "reorder": "Reorder",
+    "writeReview": "Write Review",
+    "availableActions": "Available Actions",
+    "pay": {
+      "title": "Make Payment",
+      "description": "Complete your order with secure payment"
+    },
+    "cancelOrder": {
+      "title": "Cancel Order",
+      "descriptionBeforePayment": "Can cancel before payment",
+      "descriptionBeforeCooking": "Can cancel before cooking starts"
+    },
+    "callStore": {
+      "title": "Contact Store",
+      "descriptionGeneral": "Contact us for order changes or inquiries",
+      "descriptionCooking": "You can inquire about cooking status",
+      "descriptionReady": "Pickup is ready",
+      "descriptionDelivery": "Contact store for inquiries"
+    },
+    "callDriver": {
+      "title": "Contact Driver",
+      "description": "You can call the driver directly"
+    },
+    "trackLocation": {
+      "title": "Track Location",
+      "description": "Check the driver's current location"
+    },
+    "confirmDelivery": {
+      "title": "Confirm Delivery",
+      "description": "Please confirm if you received your food"
+    },
+    "writeReviewAction": {
+      "title": "Write Review",
+      "description": "How was the service?"
+    },
+    "reorderAction": {
+      "title": "Reorder",
+      "description": "Would you like to order the same menu?"
+    },
+    "reorderNew": {
+      "title": "Order Again",
+      "description": "Start a new order"
+    }
+  },
+  "toasts": {
+    "cancelConfirm": {
+      "message": "Cancel Order",
+      "description": "Are you sure you want to cancel this order?",
+      "button": "Cancel Order"
+    },
+    "cancelProcessing": {
+      "message": "Processing cancellation...",
+      "description": "Please wait a moment"
+    },
+    "storeContactNotFound": {
+      "message": "Store contact not found",
+      "description": "Please contact customer support"
+    },
+    "phoneNotAvailable": "Phone function not available",
+    "phoneCallFailed": "Phone call failed",
+    "driverContactNotFound": {
+      "message": "Driver contact not found",
+      "description": "Please contact the store"
+    },
+    "confirmDelivery": {
+      "message": "Confirm Delivery",
+      "description": "Did you receive your food?",
+      "button": "Yes, I received it"
+    },
+    "deliveryConfirmed": {
+      "message": "Delivery confirmed",
+      "description": "Enjoy your meal!"
+    },
+    "featureComingSoon": {
+      "message": "Feature coming soon",
+      "description": "Please wait for updates"
+    }
+  },
+  "map": {
+    "loading": "Loading map...",
+    "loadingWithNote": "Loading map...\n(react-native-maps not installed)"
+  },
+  "contact": {
+    "title": "Contact",
+    "store": "Contact Store",
+    "storeDesc": "Contact about order or food",
+    "support": "Contact Customer Support",
+    "supportDesc": "Support for delivery or app usage"
+  },
+  "timeline": {
+    "pending": "Order Received",
+    "confirmed": "Order Confirmed",
+    "preparing": "Preparing",
+    "ready": "Ready",
+    "pickedUp": "Picked Up",
+    "outForDelivery": "Out for Delivery",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "simplified": {
+      "waiting": "Pending",
+      "cooking": "Confirmed/Cooking",
+      "delivering": "Ready/Delivering",
+      "completed": "Delivered",
+      "rejected": "Rejected"
+    },
+    "steps": {
+      "orderReceived": {
+        "title": "Order Received",
+        "description": "Order has been received"
+      },
+      "orderConfirmed": {
+        "title": "Order Confirmed",
+        "description": "Store has confirmed the order"
+      },
+      "preparing": {
+        "title": "Preparing Food",
+        "description": "Store is preparing your food",
+        "currentInfo": "Est. completion: about 10 min"
+      },
+      "ready": {
+        "title": "Ready for Pickup",
+        "description": "Food is ready",
+        "currentInfo": "Assigning driver"
+      },
+      "pickedUp": {
+        "title": "Picked Up",
+        "description": "Driver has picked up your food"
+      },
+      "outForDelivery": {
+        "title": "Out for Delivery",
+        "description": "Delivering to you",
+        "currentInfo": "Est. arrival: about 15 min"
+      },
+      "delivered": {
+        "title": "Delivered",
+        "description": "Delivery completed"
+      },
+      "confirmed": {
+        "currentInfo": "Waiting for store confirmation"
+      }
+    },
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "pending": "Pending",
+      "estimatedTime": "About {{time}} minutes"
+    },
+    "totalEstimatedTime": "Total Estimated Time",
+    "trackingNumber": "Tracking Number",
+    "minutesUntilArrival": "Arriving in {{minutes}} min",
+    "defaultEstimatedTime": "About 40-50 min",
+    "collapseView": "Show less",
+    "expandView": "View all",
+    "moreSteps": "{{count}} more steps"
+  },
+  "messages": {
+    "CART_ADD_SUCCESS": "Added to cart",
+    "ORDER_COMPLETED_SUCCESS": "Order completed",
+    "ORDER_CREATED_SUCCESS": "Order created",
+    "ORDER_REORDER_FAILED": "Reorder failed",
+    "DRIVER_MESSAGE_NOT_AVAILABLE": "Cannot send message to driver",
+    "DRIVER_MESSAGE_SEND_FAILED": "Failed to send message to driver",
+    "DRIVER_NO_CONTACT": "No driver contact information",
+    "DRIVER_PHONE_CALL_FAILED": "Failed to call driver",
+    "DRIVER_PHONE_NOT_AVAILABLE": "Cannot call driver"
+  },
+  "title": "Order",
+  "makeFirstOrder": "Place your first order",
+  "payment": {
+    "payment": "Payment",
+    "methods": {
+      "COD": "Cash",
+      "cod": "Cash",
+      "codDescription": "Pay with cash on delivery",
+      "VNPAY": "VNPay",
+      "vnpay": "VNPay",
+      "vnpayDescription": "Pay with VNPay wallet",
+      "MOMO": "MoMo",
+      "momo": "MoMo",
+      "momoDescription": "Pay with MoMo wallet",
+      "ZALOPAY": "ZaloPay",
+      "zalopay": "ZaloPay",
+      "zalopayDescription": "Pay with ZaloPay wallet",
+      "NAPAS_QR": "NAPAS QR",
+      "napasQr": "NAPAS QR",
+      "napasQrDescription": "Pay with NAPAS QR code",
+      "INFOCMS_SHINHAN": "Shinhan Bank",
+      "infocmsShinhan": "Shinhan Bank",
+      "infocmsShinhanDescription": "Pay via Infocms Shinhan",
+      "INFOCMS_BIDV": "BIDV Bank",
+      "infocmsBidv": "BIDV Bank",
+      "infocmsBidvDescription": "Pay via Infocms BIDV",
+      "MBBANK": "MB Bank",
+      "mbbank": "MB Bank",
+      "mbbankDescription": "Pay via MB Bank",
+      "BANK_TRANSFER": "Bank Transfer",
+      "bankTransfer": "Bank Transfer",
+      "bankTransferDescription": "Transfer via bank account"
+    },
+    "recommended": "Recommended",
+    "marketShare": "Market Share"
+  },
+  "cart": {
+    "empty": {
+      "title": "Cart is empty",
+      "description": "Add some delicious food",
+      "browsestores": "Browse stores"
+    }
+  },
+  "common": {
+    "loading": "Loading..."
+  },
+  "errors": {
+    "storeNotFound": "Store information not found",
+    "serverUnavailable": "Server connection issue",
+    "serverRetryMessage": "Please try again later",
+    "navigationError": "Navigation error",
+    "navigationErrorMessage": "Please restart the app",
+    "orderNotFound": "Order information not found"
+  },
+  "validation": {
+    "storeNotOpen": "Store is not open",
+    "cannotReorderStatus": "Cannot reorder from current order status",
+    "allItemsSoldOut": "All ordered items are currently sold out",
+    "someItemsSoldOut": "{{count}} items are sold out",
+    "notInDeliveryArea": "Your location is not in the delivery area",
+    "minOrderNotMet": "Minimum order amount {{amount}} not met",
+    "cartHasItems": "Cart has other items. Delete existing items and reorder?",
+    "reorderUnavailable": "Reorder unavailable"
+  },
+  "reorderError": "Reorder error",
+  "cooking": {
+    "steps": {
+      "ingredients": {
+        "title": "Preparing ingredients",
+        "description": "Fresh ingredients are being prepared"
+      },
+      "cooking": {
+        "title": "Cooking",
+        "description": "Cooking with care"
+      },
+      "plating": {
+        "title": "Packaging",
+        "description": "Packaging your delicious food"
+      },
+      "ready": {
+        "title": "Ready",
+        "description": "Food is ready!"
+      }
+    },
+    "messages": {
+      "message1": "Chef is preparing with care 👨‍🍳",
+      "message2": "Making delicious food with fresh ingredients 🥬",
+      "message3": "Just a little more time! ⏰",
+      "message4": "Almost ready 🔥"
+    },
+    "itemProgress": "Item progress",
+    "moreItems": "{{count}} more items",
+    "remainingMinutes": "About {{minutes}} min",
+    "specialRequest": "Special request",
+    "contactStore": "Contact store"
+  },
+  "header": {
+    "arrivingSoon": "Arriving soon",
+    "arrivalMinutes": "About {{minutes}} min",
+    "arrivalHoursMinutes": "About {{hours}}h {{minutes}}m",
+    "normalDeliveryTime": "Normal delivery time",
+    "isOpen": "Open",
+    "isClosed": "Closed",
+    "customerService": "Customer Service"
+  },
+  "paymentStatus": {
+    "completed": "Paid",
+    "pending": "Pending",
+    "failed": "Failed"
+  },
+  "deliveryFreeLabel": "Free",
+  "stats": {
+    "title": "Order Statistics",
+    "thisMonthOrders": "This month's orders",
+    "thisMonthSpent": "This month's spending",
+    "totalOrders": "Total orders",
+    "totalSpent": "Total spent"
+  },
+  "addressRequired": "Please select delivery address",
+  "cartEmpty": "Cart is empty",
+  "unknownItem": "Unknown item",
+  "unknownOption": "Unknown option",
+  "actionsSection": {
+    "title": "Order Functions",
+    "cancelOrder": "Cancel Order",
+    "liveTracking": "Live Tracking",
+    "viewReceipt": "View Receipt",
+    "customerService": "Customer Service",
+    "completedMessage": "Order completed successfully!",
+    "reviewRequest": "Did you enjoy your meal? Please leave a review to help other customers.",
+    "preparingMessage": "Store is carefully preparing your order",
+    "preparingSubMessage": "It may take longer than expected. Please wait a little longer!",
+    "cancelledMessage": "Order has been cancelled",
+    "cancelReason": "Cancel reason",
+    "refundMessage": "Refund completed. It will be deposited to your account within 2-3 business days.",
+    "needHelp": "Need help with your order?"
+  }
+}

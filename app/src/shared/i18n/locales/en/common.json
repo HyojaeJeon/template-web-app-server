@@ -1,0 +1,823 @@
+{
+  "actions": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "more": "more",
+    "viewInfo": "View Info",
+    "businessInfo": "Business Info",
+    "done": "Done",
+    "loading": "Loading...",
+    "loadingMore": "Loading more...",
+    "retry": "Retry",
+    "reset": "Restart App",
+    "skip": "Skip",
+    "allow": "Allow",
+    "deny": "Deny",
+    "later": "Later",
+    "getStarted": "Get Started",
+    "ok": "OK",
+    "continue": "Continue",
+    "call": "Call",
+    "goBack": "Go Back",
+    "goBackHint": "Return to previous screen",
+    "dismissToast": "Tap to dismiss notification",
+    "selectCountry": "Select Country",
+    "searchCountry": "Search Country",
+    "noCountryFound": "No country found",
+    "pleaseSelect": "Please select",
+    "seeAll": "See All",
+    "seeMore": "See More",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "processing": "Processing...",
+    "tryAgain": "Please try again",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "tapToSelect": "Tap to select",
+    "filter": "Filter",
+    "clearAll": "Clear all",
+    "dismiss": "Dismiss",
+    "tapToView": "Tap to view",
+    "copy": "Copy",
+    "suspend": "Suspend",
+    "default": "Default",
+    "change": "Change"
+  },
+  "toast": {
+    "OPERATION_SUCCESS": "Operation completed",
+    "OPERATION_FAILED": "Operation failed",
+    "LOADING": "Loading...",
+    "TRY_AGAIN": "Please try again",
+    "LINK_NOT_SUPPORTED": "Link not supported",
+    "LINK_OPEN_FAILED": "Failed to open link",
+    "COPY_SUCCESS": "Copied to clipboard",
+    "SEARCH_FAILED": "Search failed",
+    "MAP_PICKER_NOT_IMPLEMENTED": "Map is not available yet",
+    "LOAD_MORE_ERROR": "Unable to load more items",
+    "REFRESH_ERROR": "Failed to refresh",
+    "FAVORITE_TOGGLE_ERROR": "Failed to update favorites",
+    "INVALID_CUSTOMIZATION": "Please check selected options",
+    "ITEM_NOT_AVAILABLE": "This item is currently unavailable",
+    "ADD_TO_CART_SUCCESS": "Added to cart",
+    "ADD_TO_CART_FAILED": "Failed to add to cart",
+    "VALIDATION_ADDRESS_FAILED": "Please check address fields",
+    "NOTIFICATION_MARK_READ_FAILED": "Failed to mark notification as read",
+    "NOTIFICATION_MARK_ALL_READ_FAILED": "Failed to mark all as read",
+    "NOTIFICATION_SETTINGS_UPDATE_FAILED": "Failed to update notification settings",
+    "NOTIFICATION_DELETE_FAILED": "Failed to delete notification",
+    "NOTIFICATION_CLEAR_ALL_FAILED": "Failed to clear all notifications",
+    "POINTS_LOAD_ERROR": "Failed to load points",
+    "POINTS_EARN_ERROR": "Failed to earn points",
+    "POINTS_USE_ERROR": "Failed to use points",
+    "PROMOTION_CLAIM_ERROR": "Failed to claim promotion",
+    "POINTS_REPORT_ERROR": "Failed to generate points report",
+    "POINTS_HISTORY_ERROR": "Failed to load points history",
+    "STATISTICS_LOAD_ERROR": "Failed to load statistics",
+    "FEATURE_COMING_SOON": "Feature coming soon"
+  },
+  "notice": "Notice",
+  "refresh": "Refresh",
+  "unknown": "Unknown",
+  "promotion": "Promotion",
+  "discount": "Discount",
+  "promotionDiscount": "Promotion Discount",
+  "getDiscount": "Get discount benefits",
+  "selectPromotion": "Select Promotion",
+  "noPromotionsAvailable": "No available promotions",
+  "noPromotion": "Do not use promotion",
+  "noPromotions": "No active promotions",
+  "noPromotionsMessage": "New promotions are coming soon!",
+  "default": "Default",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "refreshing": "Refreshing...",
+    "free": "Free",
+    "minute": "min",
+    "minutes": "mins",
+    "store": "store",
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "noLocationInfo": "No location info",
+    "close": "Close",
+    "reset": "Reset",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "preparing": "Preparing",
+    "loading": "Loading...",
+    "goBack": "Go Back",
+    "filter": "Filter",
+    "sort": "Sort",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "actions": {
+      "viewOnMap": "View on Map",
+      "goBack": "Go back"
+    },
+    "refresh": "Refresh",
+    "pullToRefresh": "Pull to refresh",
+    "error": {
+      "network": {
+        "title": "Network Error",
+        "description": "Please check your internet connection"
+      }
+    },
+    "auth": {
+      "tokenExpired": "Your session has expired and you have been logged out. Please log in again.",
+      "sessionExpired": "Your login session has expired. Please log in again.",
+      "tokenRefreshFailed": "Failed to refresh authentication token",
+      "loggedOut": "You have been logged out successfully.",
+      "loginRequired": "Please log in to continue.",
+      "login": "Login"
+    },
+    "selectCountry": "Chọn quốc gia",
+    "searchCountry": "Tìm kiếm quốc gia",
+    "noCountryFound": "Không tìm thấy quốc gia"
+  },
+  "store": {
+    "featured": "Featured",
+    "promotion": "Promo",
+    "new": "New",
+    "card": {
+      "freeDelivery": "Free Delivery",
+      "deliveryFee": "Delivery Fee",
+      "minOrder": "Min Order",
+      "off": "OFF",
+      "discount": "Discount",
+      "new": "NEW",
+      "popular": "Popular",
+      "closed": "Closed",
+      "viewMenu": "View Menu"
+    },
+    "list": {
+      "title": "Store List"
+    },
+    "search": {
+      "title": "Search Stores",
+      "placeholder": "Search stores, food..."
+    },
+    "sort": {
+      "distance": "By Distance",
+      "rating": "By Rating",
+      "deliveryTime": "By Delivery Time",
+      "popularity": "By Popularity",
+      "newest": "Newest"
+    },
+    "filter": {
+      "title": "Filter"
+    },
+    "storeCount": "{{count}} stores",
+    "searchResults": "{{count}} results for '{{query}}'",
+    "error": {
+      "notFound": {
+        "title": "Store not found",
+        "description": "This store is not available at the moment"
+      }
+    },
+    "tab": {
+      "menu": "Menu",
+      "info": "Info",
+      "reviews": "Reviews"
+    },
+    "loading": "Loading store information...",
+    "deliveryTime": "Delivery Time",
+    "deliveryFee": "Delivery Fee",
+    "minOrder": "Min order {{amount}}",
+    "operatingHours": "Operating Hours",
+    "noOperatingHours": "No operating hours information",
+    "deliveryInfo": "Delivery Info",
+    "paymentMethods": "Payment Methods",
+    "address": "Address",
+    "call": "Call",
+    "general": "Restaurant",
+    "distanceUnknown": "Distance unknown",
+    "empty": {
+      "noStores": {
+        "title": "No stores available",
+        "description": "Currently no stores are open",
+        "action": "Refresh"
+      },
+      "searchNoResults": {
+        "title": "No search results",
+        "description": "No results found for '{{query}}'",
+        "action": "Change keywords"
+      },
+      "filteredNoResults": {
+        "title": "No matching stores",
+        "description": "Try changing your filter criteria",
+        "action": "Search again"
+      }
+    },
+    "about": "About store",
+    "businessNumber": "Business number",
+    "joinedDate": "Joined date",
+    "contactInfo": "Contact information",
+    "statistics": "Statistics",
+    "stats": {
+      "rating": "Rating",
+      "reviews": "Reviews",
+      "orders": "Orders",
+      "totalRatings": "Total ratings"
+    },
+    "phone": {
+      "unavailable": "No phone number",
+      "unavailableDesc": "We couldn't find this store's phone number",
+      "confirm": "Call",
+      "confirmDesc": "Call {{phone}}?"
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed",
+      "not_accepting_orders": "Not accepting orders",
+      "unknown": "Unknown"
+    },
+    "notFound": {
+      "title": "Store not found",
+      "description": "The requested store does not exist or is temporarily unavailable"
+    }
+  },
+  "filter": {
+    "title": "Filter",
+    "close": "Close",
+    "reset": "Reset",
+    "apply": "Apply",
+    "results_other": "{{count}} results",
+    "deliveryFee": {
+      "title": "Delivery Fee",
+      "all": "All",
+      "free": "Free Delivery",
+      "under15k": "Under 15,000₫",
+      "under25k": "Under 25,000₫"
+    },
+    "minOrder": {
+      "title": "Minimum Order",
+      "all": "All",
+      "under50k": "Under 50,000₫",
+      "under100k": "Under 100,000₫",
+      "under150k": "Under 150,000₫"
+    },
+    "rating": {
+      "title": "Rating",
+      "all": "All",
+      "above45": "4.5+ stars",
+      "above40": "4.0+ stars",
+      "above35": "3.5+ stars"
+    },
+    "hours": {
+      "title": "Operating Hours",
+      "openNow": "Open Now",
+      "openNowDesc": "Currently accepting orders",
+      "acceptingOrders": "Accepting Orders",
+      "acceptingOrdersDesc": "Currently taking orders"
+    },
+    "activeFilters": "{{count}} filters",
+    "free": "Free",
+    "results": "Results",
+    "emptyTitle": "No results match these filters",
+    "emptyDescription": "Try changing or resetting filters",
+    "clearFilters": "Clear filters"
+  },
+  "orders": {
+    "noOrdersYet": "No orders yet",
+    "startOrdering": "Start your first order",
+    "browseStores": "Browse Stores",
+    "items": "{{count}} items",
+    "review": "Write Review",
+    "reorder": "Reorder"
+  },
+  "menu": {
+    "detail": "Menu Detail",
+    "notFound": "Menu not found",
+    "notFoundDesc": "The requested menu item does not exist or is temporarily unavailable",
+    "empty": {
+      "title": "No menu available",
+      "description": "There are currently no menu items available"
+    },
+    "options": {
+      "summary": "{{count}} options selected",
+      "extra": "Additional cost",
+      "singleSelect": "Select one",
+      "selectedCount": "{{count}} selected",
+      "multiSelectRange": "Select {{min}}~{{max}} options",
+      "confirmWithExtra": "Confirm (+{{amount}})",
+      "selected": "{{count}} selected",
+      "count": "{{count}} items",
+      "selectRange": "Select {{min}} to {{max}}"
+    },
+    "required": "Required",
+    "selectUpTo": "Select up to {{max}}",
+    "specialInstructions": "Special instructions",
+    "addNote": "Enter special requests (e.g., less spicy, no sauce)",
+    "addToCart": "Add to cart"
+  },
+  "cart": {
+    "viewCart": "View Cart"
+  },
+  "payment": {
+    "cash": "Cash",
+    "card": "Card"
+  },
+  "review": {
+    "filter": {
+      "all": "All"
+    },
+    "reviews": "Reviews",
+    "empty": {
+      "title": "No reviews yet",
+      "description": "No reviews have been written yet"
+    },
+    "helpful": "Helpful"
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "completed": "Completed",
+    "pending": "Pending",
+    "failed": "Failed",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "operational": "Operational",
+    "delayed": "Delayed",
+    "suspended": "Suspended",
+    "unknown": "Unknown"
+  },
+  "available": "Available",
+  "ai": "AI",
+  "navigation": {
+    "home": "Home",
+    "store": "Store",
+    "cart": "Cart",
+    "chat": "Chat",
+    "orders": "Orders",
+    "profile": "Profile",
+    "search": "Search",
+    "favorites": "Favorites",
+    "settings": "Settings"
+  },
+  "delivery": {
+    "info": {
+      "title": "Delivery Info",
+      "time": "Delivery Time",
+      "fee": "Delivery Fee",
+      "minOrder": "Min Order",
+      "freeDelivery": "Free Delivery",
+      "estimatedTime": "Estimated Delivery Time",
+      "moreForFreeDelivery": "more for free delivery",
+      "minOrderAmount": "Minimum Order Amount",
+      "moreToOrder": "more to order",
+      "distance": "Distance"
+    },
+    "status": {
+      "locationRequired": "Location information required",
+      "outOfRange": "Out of delivery range ({{distance}}km)",
+      "minOrder": "Minimum order amount not reached",
+      "available": "Delivery available"
+    },
+    "error": {
+      "cannotDeliver": "Cannot deliver",
+      "cannotOrder": "Cannot order"
+    }
+  },
+  "time": {
+    "hoursAgo": "{{count}} hours ago",
+    "minutesAgo": "{{count}} minutes ago",
+    "justNow": "Just now",
+    "morning": "Morning",
+    "lunch": "Lunch",
+    "afternoon": "Afternoon",
+    "dinner": "Dinner",
+    "lateNight": "Late Night",
+    "minutes": "min",
+    "min": "min",
+    "daysAgo": "{{count}} days ago",
+    "approximately": "~",
+    "about": "~"
+  },
+  "promotions": {
+    "hot_deal": "Hot Deal",
+    "coupon_available": "Coupon Available",
+    "apply_now": "Apply Now",
+    "newUser": {
+      "title": "New User Offer",
+      "desc": "Up to 70,000₫ off your first order"
+    }
+  },
+  "tabs": {
+    "delivery": "Delivery",
+    "takeout": "Takeout",
+    "shopping": "Shopping"
+  },
+  "categories": {
+    "title": "Categories",
+    "viewAll": "View All",
+    "korean_food": "Korean",
+    "bunsik_ramen": "Snacks & Ramen",
+    "chicken": "Chicken",
+    "pizza": "Pizza",
+    "chinese_food": "Chinese",
+    "vietnamese_food": "Vietnamese",
+    "japanese_food": "Japanese & Katsu",
+    "sushi_sashimi": "Sushi & Sashimi",
+    "western_fastfood": "Western & Fast Food",
+    "cafe_dessert": "Cafe & Dessert",
+    "bar_pocha": "Bar & Pub"
+  },
+  "services": {
+    "convenience_mart_beauty": "Convenience & Beauty"
+  },
+  "home": {
+    "header": {
+      "deliverTo": "Deliver to",
+      "selectLocation": "Select location"
+    },
+    "search": {
+      "placeholder": "Search stores, food..."
+    },
+    "category": {
+      "all": "All",
+      "vietnamese": "Vietnamese",
+      "korean": "Korean",
+      "chinese": "Chinese",
+      "western": "Western",
+      "dessert": "Dessert",
+      "drinks": "Drinks"
+    },
+    "location": {
+      "district1": "District 1, Ho Chi Minh City, Vietnam"
+    },
+    "stores": {
+      "pho24": {
+        "name": "Phở 24 - Authentic Vietnamese Noodle"
+      },
+      "banh_mi": {
+        "name": "Bánh Mì 25 - Fresh Vietnamese Sandwich"
+      },
+      "kimchi": {
+        "name": "Kimchi Store - Korean Cuisine"
+      },
+      "malatang": {
+        "name": "Malatang Store - Spicy Chinese Food"
+      },
+      "discount": {
+        "fifteen": "15% OFF",
+        "twenty": "20% OFF",
+        "thirty": "30% OFF"
+      },
+      "deliveryFee": {
+        "free": "FREE"
+      },
+      "distance": {
+        "zeroPointEight": "0.8km",
+        "onePointTwo": "1.2km",
+        "onePointEight": "1.8km",
+        "twoPointOne": "2.1km"
+      },
+      "deliveryTime": {
+        "fifteenToTwentyFive": "15-25 min",
+        "twentyToThirty": "20-30 min",
+        "twentyFiveToThirtyFive": "25-35 min",
+        "thirtyToForty": "30-40 min"
+      }
+    },
+    "empty": {
+      "noSearchResults": "No search results found",
+      "noStores": "No available stores at the moment"
+    },
+    "emptyState": {
+      "noStores": {
+        "title": "No nearby stores",
+        "description": "Select another area or try again later",
+        "action": "Change location"
+      },
+      "noSearchResults": {
+        "title": "No search results",
+        "description": "Try a different keyword or browse categories",
+        "action": "Search again"
+      },
+      "offline": {
+        "title": "Check internet connection",
+        "description": "Please check your network and try again",
+        "action": "Try again"
+      },
+      "error": {
+        "title": "Temporary error",
+        "description": "Please try again later or contact support",
+        "action": "Try again"
+      }
+    }
+  },
+  "validation": {
+    "invalidPhoneNumber": "Please enter a valid phone number"
+  },
+  "phoneHint": "Example: {{format}}",
+  "chat": {
+    "customerSupport": "Customer Support",
+    "customer": "Customer"
+  },
+  "comingSoon": "Coming Soon",
+  "error": {
+    "title": "Error",
+    "networkError": "Network error occurred"
+  },
+  "errors": {
+    "unexpected": "An unexpected error occurred",
+    "general": "An error occurred in the app. Please try again later.",
+    "feature_error": "An error occurred in the {{feature}} feature. Please try again later.",
+    "retryAttempt": "Retry {{current}}/{{max}}",
+    "saveError": "Save failed",
+    "updateError": "Update failed",
+    "deleteError": "Delete failed",
+    "loadError": "Load failed",
+    "networkError": "Network error",
+    "unexpectedError": "Unexpected error",
+    "tryAgain": "Please try again",
+    "trackingFetchFailed": "Failed to load delivery information",
+    "locationUpdateFailed": "Location update failed:",
+    "network": {
+      "title": "Network error",
+      "description": "Please check your internet connection",
+      "connectionFailed": "Failed to connect",
+      "timeout": "Request timed out",
+      "serverError": "A server error occurred"
+    },
+    "errorModal": {
+      "temporaryError": "A temporary error occurred",
+      "tryAgainLater": "Please try again later."
+    }
+  },
+  "mock": {
+    "mapView": "Map View (Mock)"
+  },
+  "language": {
+    "selectTitle": "Select Language"
+  },
+  "languages": {
+    "ko": "Korean",
+    "vi": "Vietnamese",
+    "en": "English"
+  },
+  "noData": "No data",
+  "promotionNotFound": "Promotion not found",
+  "goBack": "Go back",
+  "promotionDetail": "Promotion Details",
+  "description": "Description",
+  "conditions": "Conditions",
+  "targetCustomers": "Target customers",
+  "usePromotion": "Use promotion",
+  "promotionDetail": {
+    "minOrderAmount": "Minimum order amount",
+    "maxOrderAmount": "Maximum order amount",
+    "maxDiscountAmount": "Maximum discount",
+    "code": "Code",
+    "usageLimitPerUser": "Limit {{count}} per user"
+  },
+  "mapToggle": {
+    "currentList": "Current list",
+    "switchToList": "Switch to list",
+    "currentMap": "Current map",
+    "switchToMap": "Switch to map"
+  },
+  "soldOut": "Sold out",
+  "storeOpen": "Open",
+  "freeDelivery": "Free delivery",
+  "anonymous": "Anonymous",
+  "results": "results",
+  "loadingMore": "Loading more...",
+  "filters": {
+    "all": "All"
+  },
+  "imagePicker": {
+    "permissions": {
+      "photoLibraryTitle": "Permission Required",
+      "photoLibraryMessage": "Photo library access permission is required to select photos.",
+      "cameraTitle": "Permission Required",
+      "cameraMessage": "Camera access permission is required to take photos.",
+      "ok": "OK"
+    },
+    "dialog": {
+      "title": "Select Image",
+      "message": "How would you like to select an image?",
+      "gallery": "Gallery",
+      "camera": "Camera",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "permissionDenied": "permission_denied",
+      "gallerySelectFailed": "Unable to select image.",
+      "cameraCaptureFailed": "Unable to take photo.",
+      "multipleSelectFailed": "Unable to select images."
+    },
+    "logs": {
+      "permissionRequestFailed": "Permission request failed",
+      "permissionCheckFailed": "Permission check failed",
+      "gallerySelectError": "Gallery image selection failed",
+      "cameraError": "Camera capture failed",
+      "multipleSelectError": "Multiple image selection failed",
+      "cleanupFailed": "Temporary file cleanup failed",
+      "cleanupCompleted": "Temporary image file cleanup completed"
+    }
+  },
+  "favorites": {
+    "title": "Favorites",
+    "stores": "Stores",
+    "menus": "Menus",
+    "noStores": "No favorite stores yet",
+    "noStoresDesc": "Add stores you like to favorites",
+    "noMenus": "No favorite menus yet",
+    "noMenusDesc": "Add menu items you like to favorites",
+    "storeInfo": {
+      "orderCount": "{{count}} orders placed",
+      "totalSpent": "Total ₫{{amount}} spent"
+    }
+  },
+  "emptyTitle": "No content",
+  "emptyDescription": "There's nothing to display",
+  "retry": "Retry",
+  "back": "Back",
+  "more": "more",
+  "loading": "Loading...",
+  "pleaseWait": "Please wait",
+  "auth": {
+    "login": "Login",
+    "loginRequired": "Login required",
+    "loginRequiredMessage": "Please log in to edit your profile"
+  },
+  "ui": {
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "pullToRefresh": "Pull to refresh",
+    "optional": "Optional",
+    "saving": "Saving...",
+    "error": {
+      "network": {
+        "title": "Network error",
+        "description": "Please check your internet connection"
+      }
+    },
+    "auth": {
+      "tokenExpired": "Your session has expired and you have been logged out. Please log in again.",
+      "sessionExpired": "Your login session has expired. Please log in again.",
+      "loggedOut": "You have been logged out.",
+      "loginRequired": "Login required.",
+      "login": "Login"
+    }
+  },
+  "orderNumber": "Order number",
+  "completed": "Completed",
+  "connected": "Connected",
+  "deliveryExpert": "Delivery expert",
+  "callDriver": "Call driver",
+  "tapToCall": "Tap to call",
+  "currentLocation": "Current location",
+  "tapToOpen": "Tap to open",
+  "tapToViewDetails": "Tap to view details",
+  "stay": "Stay",
+  "promotionNotifications": "Promotion notifications",
+  "marketingNotifications": "Marketing notifications",
+  "orderUpdates": "Order status notifications",
+  "promotions": "Promotion notifications",
+  "chatMessages": "Chat messages",
+  "dataSaver": "Data saver mode",
+  "reduceDataUsage": "Reduce data usage",
+  "autoPlayVideos": "Auto-play videos",
+  "shareLocation": "Share location",
+  "improveDelivery": "Help improve delivery service",
+  "analytics": "Usage analytics",
+  "helpImprove": "Help improve service",
+  "other": "Other",
+  "confirmDelete": "Are you sure you want to delete?",
+  "success": "Success",
+  "cacheCleared": "Cache cleared",
+  "tryAgain": "Please try again",
+  "messages": {
+    "noChanges": "No changes",
+    "saveSuccess": "Saved",
+    "updateSuccess": "Updated",
+    "deleteSuccess": "Deleted",
+    "operationComplete": "Operation completed"
+  },
+  "order": {
+    "orderNow": "Order now"
+  },
+  "emptyStates": {
+    "points": {
+      "title": "No points yet",
+      "description": "Complete an order to earn points",
+      "actionText": "Place an order"
+    },
+    "search": {
+      "title": "No search results",
+      "description": "Try searching with different keywords",
+      "actionText": "Search again"
+    },
+    "favorite": {
+      "title": "No favorites yet",
+      "description": "Add your favorite stores to favorites",
+      "actionText": "Browse stores"
+    },
+    "location": {
+      "title": "Location not available",
+      "description": "Please allow location permission",
+      "actionText": "Open settings"
+    },
+    "filter": {
+      "title": "No stores match your filters",
+      "description": "Try changing your filter conditions",
+      "actionText": "Reset filters"
+    },
+    "permission": {
+      "title": "Permission required",
+      "description": "Please allow permissions to use the app",
+      "actionText": "Go to settings"
+    }
+  },
+  "coupon": {
+    "emptyStates": {
+      "myEmpty": {
+        "title": "No coupons available",
+        "description": "Get new coupons!",
+        "actionText": "Get coupons"
+      },
+      "availableEmpty": {
+        "title": "No redeemable coupons",
+        "description": "New coupons will be available soon"
+      }
+    }
+  },
+  "sort": {
+    "distance": "Distance",
+    "distanceDesc": "Nearest first",
+    "rating": "Rating",
+    "ratingDesc": "Highest rating first",
+    "deliveryTime": "Delivery time",
+    "deliveryTimeDesc": "Fastest delivery first",
+    "popularity": "Popularity",
+    "popularityDesc": "Most popular first",
+    "newest": "Newest",
+    "newestDesc": "Newest first",
+    "alphabetical": "Alphabetical",
+    "alphabeticalDesc": "Name A–Z",
+    "title": "Sort",
+    "subtitle": "Choose how to sort stores",
+    "tip": "Select your preferred sort order"
+  },
+  "search": {
+    "placeholder": "Search for stores or food",
+    "button": "Search",
+    "noResults": "No search results",
+    "tryDifferent": "Try a different keyword",
+    "suggestions": "Suggestions",
+    "history": "Recent searches",
+    "popular": "Popular searches",
+    "trending": "Trending searches",
+    "clear": "Clear",
+    "clearHistory": "Clear search history",
+    "noHistory": "No search history",
+    "searching": "Searching...",
+    "enterKeyword": "Enter a keyword",
+    "minLength": "Please enter at least 2 characters"
+  },
+  "items": "items",
+  "gallery": {
+    "empty": {
+      "title": "No images",
+      "description": "No images have been uploaded yet"
+    }
+  },
+  "notification": {
+    "center": "Trung tâm thông báo",
+    "title": "Thông báo",
+    "message": "Bạn có thông báo mới",
+    "empty": "Không có thông báo nào",
+    "emptyDescription": "Khi có thông báo mới, chúng sẽ hiển thị ở đây",
+    "orderUpdate": "Cập nhật đơn hàng",
+    "orderStatusChanged": "Trạng thái đơn hàng đã thay đổi thành {{status}}"
+  },
+  "accessibility": {
+    "tapToView": "Tap to view"
+  },
+  "a11y": {
+    "bannerImage": "banner image"
+  }
+}

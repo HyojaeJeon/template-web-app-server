@@ -1,0 +1,51 @@
+{
+  "status": {
+    "connected": "Đã kết nối trực tuyến",
+    "disconnected": "Không có kết nối Internet",
+    "limitedMode": "Chế độ chức năng hạn chế",
+    "workingOffline": "Chế độ Ngoại tuyến"
+  },
+  "sync": "Đồng bộ",
+  "syncing": "Đang đồng bộ...",
+  "syncSuccess": "Đồng bộ hoàn tất",
+  "syncFailed": "Đồng bộ thất bại",
+  "pendingActions": "{{count}} tác vụ đang chờ",
+  "cache": {
+    "justNow": "Vừa xong",
+    "minutesAgo": "{{minutes}} phút trước",
+    "lastUpdated": "Cập nhật lần cuối: {{age}}",
+    "expired": "Đã hết hạn ({{age}})",
+    "loading": "Đang tải cache..."
+  },
+  "warning": {
+    "cachedData": "Bạn đang ngoại tuyến. Hiển thị dữ liệu đã lưu.",
+    "dataOutdated": "Thông tin hiển thị có thể không được cập nhật.",
+    "limitedFunctionality": "Một số tính năng bị hạn chế."
+  },
+  "error": {
+    "noConnection": "Vui lòng kiểm tra kết nối internet",
+    "loadFailed": "Không thể tải dữ liệu",
+    "refreshFailed": "Làm mới thất bại",
+    "syncFailed": "Đồng bộ thất bại",
+    "checkConnection": "Vui lòng kiểm tra kết nối mạng",
+    "tryAgain": "Vui lòng thử lại"
+  },
+  "empty": {
+    "noData": "Không có dữ liệu đã lưu",
+    "connectToRefresh": "Kết nối internet để làm mới",
+    "pullToRefresh": "Kéo xuống để làm mới"
+  },
+  "actions": {
+    "retry": "Thử lại",
+    "refresh": "Làm mới",
+    "viewCached": "Xem dữ liệu đã lưu",
+    "clearCache": "Xóa cache"
+  },
+  "settings": {
+    "title": "Cài đặt Ngoại tuyến",
+    "cacheEnabled": "Bật cache ngoại tuyến",
+    "cacheSize": "Kích thước cache",
+    "autoSync": "Tự động đồng bộ",
+    "syncOnConnection": "Tự động đồng bộ khi kết nối"
+  }
+}

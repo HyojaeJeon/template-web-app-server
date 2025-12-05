@@ -1,0 +1,73 @@
+{
+  "title": "Điểm",
+  "myPoints": "Điểm của tôi",
+  "pointBalance": "Số dư điểm",
+  "availablePoints": "Có sẵn {{points}}Đ",
+  "usePoints": "Sử dụng điểm",
+  "pointHistory": "Lịch sử điểm",
+  "earnedThisMonth": "Tích lũy tháng này",
+  "usedThisMonth": "Đã dùng tháng này",
+  "nextTier": "Đến hạng tiếp theo",
+  "tier": {
+    "bronze": "Đồng",
+    "silver": "Bạc",
+    "gold": "Vàng",
+    "platinum": "Bạch kim"
+  },
+  "transactionTypes": {
+    "earn_order": "Tích điểm từ đơn hàng",
+    "earn_review": "Tích điểm từ đánh giá",
+    "earn_referral": "Tích điểm từ giới thiệu",
+    "earn_signup": "Tích điểm từ đăng ký",
+    "earn_event": "Tích điểm từ sự kiện",
+    "use_order": "Dùng điểm cho đơn hàng",
+    "expire": "Điểm hết hạn",
+    "cancel": "Hủy/Hoàn tiền"
+  },
+  "filters": {
+    "all": "Tất cả",
+    "earned": "Đã tích",
+    "used": "Đã dùng",
+    "week": "Tuần qua",
+    "month": "Tháng qua",
+    "year": "Năm qua"
+  },
+  "expiringWarning": "{{points}}Đ sẽ hết hạn sau {{days}} ngày",
+  "pointsEarned": "+{{points}}Đ đã tích",
+  "pointsUsed": "-{{points}}Đ đã dùng",
+  "pointsExpired": "{{points}}Đ đã hết hạn",
+  "insufficientPoints": "Không đủ điểm",
+  "maxUsablePoints": "Tối đa có thể dùng {{points}}Đ",
+  "pointsToEarn": "Sẽ tích: {{points}}Đ",
+  "empty": {
+    "title": "Không có lịch sử điểm",
+    "description": "Đặt hàng và tích điểm nào"
+  },
+  "error": {
+    "loadFailed": "Không thể tải lịch sử điểm",
+    "useFailed": "Thất bại khi sử dụng điểm",
+    "insufficientBalance": "Số dư điểm không đủ"
+  },
+  "success": {
+    "pointsUsed": "Đã sử dụng {{points}}Đ",
+    "pointsEarned": "Đã tích lũy {{points}}Đ"
+  },
+  "emptyHistory": "Không có lịch sử điểm",
+  "emptyHistoryDesc": "Đặt hàng và tích điểm nào",
+  "startOrdering": "Bắt đầu đặt hàng",
+  "unit": "điểm",
+  "rewards": "Điểm thưởng",
+  "useRewards": "Sử dụng điểm thưởng",
+  "availableLabel": "Điểm có sẵn",
+  "pendingLabel": "Điểm chờ xử lý",
+  "expiringSoonLabel": "Sắp hết hạn",
+  "thisOrderWillEarn": "Đơn này sẽ tích được",
+  "inputLabel": "Số điểm muốn sử dụng (Tối thiểu {{min}} điểm)",
+  "quickSelect": "Chọn nhanh",
+  "discountFromPoints": "Giảm giá từ điểm",
+  "remainingPoints": "Điểm còn lại",
+  "minRedeemRequired": "Cần tối thiểu {{min}} điểm để sử dụng",
+  "insufficientPointsDetail": "Không đủ điểm. Bạn có {{points}} điểm",
+  "enableToUseHint": "Bật để sử dụng điểm cho đơn hàng",
+  "rateHint": "1 điểm = 1 VND"
+}

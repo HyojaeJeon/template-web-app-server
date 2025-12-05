@@ -1,0 +1,355 @@
+{
+  "inputs": {
+    "title": "Biểu mẫu nhập liệu",
+    "subtitle": "Các thành phần nhập liệu và xác thực đa dạng",
+    "systemTitle": "Hệ thống nhập liệu ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Hệ thống thành phần biểu mẫu nhập liệu thân thiện với người dùng và có thể tiếp cận cho ứng dụng giao đồ ăn Việt Nam",
+    "basicInputs": {
+      "title": "Trường nhập cơ bản",
+      "description": "Các trường nhập văn bản với các trạng thái khác nhau"
+    },
+    "searchInputs": {
+      "title": "Nhập tìm kiếm",
+      "description": "Trường tìm kiếm sử dụng cùng với biểu tượng"
+    },
+    "labelHelper": {
+      "title": "Nhãn và hướng dẫn",
+      "description": "Trường nhập bao gồm nhãn và văn bản hướng dẫn"
+    },
+    "textArea": {
+      "title": "Vùng văn bản",
+      "description": "Vùng văn bản có thể nhập nhiều dòng"
+    },
+    "vietnamSpecial": {
+      "title": "Nhập đặc biệt Việt Nam",
+      "description": "Các trường nhập đặc biệt được bản địa hóa cho Việt Nam"
+    },
+    "fields": {
+      "basicInput": "Nhập cơ bản",
+      "focusState": "Trạng thái tập trung",
+      "errorState": "Trạng thái lỗi",
+      "successState": "Trạng thái thành công",
+      "disabledState": "Trạng thái vô hiệu hóa",
+      "email": "Email",
+      "optional": "Tùy chọn",
+      "requirements": "Yêu cầu",
+      "deliveryAddress": "Địa chỉ giao hàng",
+      "amountInput": "Nhập số tiền"
+    },
+    "placeholders": {
+      "enterText": "Vui lòng nhập văn bản",
+      "focusedInput": "Trường nhập đang tập trung",
+      "errorInput": "Trường nhập có lỗi",
+      "successInput": "Trường nhập trạng thái thành công",
+      "disabledInput": "Trường nhập đã vô hiệu hóa",
+      "emailExample": "example@email.com",
+      "deliveryRequests": "Vui lòng nhập yêu cầu khi giao hàng\n(Ví dụ: đặt trước cửa)",
+      "vietnamAddress": "Quận 7, Thành phố Hồ Chí Minh",
+      "amount": "285,000"
+    },
+    "helperTexts": {
+      "invalidFormat": "Định dạng không hợp lệ",
+      "available": "Có thể sử dụng",
+      "emailHelper": "Vui lòng nhập địa chỉ email để nhận email xác nhận đơn hàng"
+    },
+    "inputTexts": {
+      "enteredText": "Văn bản đã nhập",
+      "wrongInput": "Nhập sai",
+      "correctInput": "Nhập đúng"
+    },
+    "textInput": {
+      "title": "Nhập văn bản",
+      "description": "Trường nhập văn bản cơ bản"
+    },
+    "phoneInput": {
+      "title": "Nhập số điện thoại",
+      "description": "Nhập theo định dạng số điện thoại Việt Nam (+84)"
+    },
+    "addressInput": {
+      "title": "Nhập địa chỉ",
+      "description": "Hệ thống địa chỉ Việt Nam dựa trên Quận/Phường"
+    },
+    "searchInput": {
+      "title": "Nhập tìm kiếm",
+      "description": "Nhập liệu để tìm kiếm cửa hàng và thực đơn"
+    },
+    "passwordInput": {
+      "title": "Nhập mật khẩu",
+      "description": "Nhập và xác nhận mật khẩu an toàn"
+    }
+  },
+  "buttons": {
+    "title": "Nút",
+    "subtitle": "Các kiểu nút và tương tác khác nhau",
+    "systemTitle": "Hệ thống thành phần nút",
+    "systemDescription": "Hệ thống thiết kế nút tích hợp cho ứng dụng giao đồ ăn Việt Nam, cung cấp các kiểu nút đa dạng với tính khả dụng và dễ tiếp cận."
+  },
+  "modals": {
+    "title": "Modal",
+    "subtitle": "Thành phần modal cho tương tác người dùng",
+    "systemTitle": "Hệ thống modal ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Các thiết kế modal đa dạng và mẫu tương tác cho đặt hàng, thanh toán và thông báo",
+    "orderConfirmation": {
+      "title": "Modal xác nhận đơn hàng",
+      "description": "Chi tiết đơn hàng và xác nhận cuối cùng"
+    },
+    "paymentModal": {
+      "title": "Modal thanh toán",
+      "description": "Lựa chọn phương thức thanh toán Việt Nam"
+    },
+    "addressModal": {
+      "title": "Modal nhập địa chỉ",
+      "description": "Thiết lập và chỉnh sửa địa chỉ giao hàng"
+    },
+    "reviewModal": {
+      "title": "Modal viết đánh giá",
+      "description": "Viết đánh giá cửa hàng và thực đơn"
+    }
+  },
+  "navigation": {
+    "title": "Điều hướng",
+    "subtitle": "Hệ thống điều hướng trong ứng dụng",
+    "systemTitle": "Điều hướng ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Mẫu điều hướng ứng dụng trực quan và có thể tiếp cận",
+    "bottomTab": {
+      "title": "Điều hướng tab dưới",
+      "description": "Di chuyển giữa các phần chính"
+    },
+    "topTab": {
+      "title": "Điều hướng tab trên",
+      "description": "Tab danh mục và bộ lọc"
+    },
+    "drawer": {
+      "title": "Ngăn kéo bên",
+      "description": "Truy cập menu và cài đặt"
+    },
+    "breadcrumb": {
+      "title": "Breadcrumb",
+      "description": "Hiển thị vị trí và đường dẫn hiện tại"
+    }
+  },
+  "payment": {
+    "title": "Hệ thống thanh toán",
+    "subtitle": "Tích hợp phương thức thanh toán địa phương Việt Nam",
+    "systemTitle": "Cổng thanh toán Việt Nam",
+    "systemDescription": "Hỗ trợ các phương thức thanh toán địa phương như MoMo, ZaloPay, VNPay và thanh toán mã QR",
+    "methods": {
+      "title": "Phương thức thanh toán",
+      "description": "Các tùy chọn thanh toán đa dạng"
+    },
+    "qrPayment": {
+      "title": "Thanh toán QR",
+      "description": "Hỗ trợ tiêu chuẩn QR NAPAS"
+    },
+    "cardPayment": {
+      "title": "Thanh toán thẻ",
+      "description": "Thẻ tín dụng và thẻ ghi nợ"
+    },
+    "eWallet": {
+      "title": "Ví điện tử",
+      "description": "MoMo, ZaloPay, VNPay"
+    },
+    "cod": {
+      "title": "Thanh toán khi nhận hàng",
+      "description": "Thanh toán bằng tiền mặt khi giao hàng"
+    }
+  },
+  "cart": {
+    "title": "Giỏ hàng",
+    "subtitle": "Quản lý đơn hàng và chức năng giỏ hàng",
+    "systemTitle": "Hệ thống giỏ hàng ứng dụng giao hàng Việt Nam",
+    "systemDescription": "Quản lý đơn hàng trực quan và tính toán giá thời gian thực, kiểm tra tồn kho kết nối",
+    "emptyState": {
+      "title": "Giỏ hàng đang trống",
+      "description": "Hãy thêm món ngon vào giỏ!\nChúng tôi có đa dạng thực đơn đang chờ bạn.",
+      "actionButton": "Xem thực đơn"
+    },
+    "orderButton": {
+      "canOrder": "Đặt hàng",
+      "cannotOrder": "Đặt hàng",
+      "freeDelivery": "Đặt gì cũng được, phí ship 0 đồng",
+      "minimumOrderCheck": "Vui lòng kiểm tra số tiền đặt hàng tối thiểu"
+    },
+    "actions": {
+      "save": "Lưu",
+      "share": "Chia sẻ",
+      "reset": "Đặt lại"
+    },
+    "status": {
+      "cannotOrder": "Không thể đặt hàng trong trạng thái này"
+    },
+    "itemManagement": {
+      "title": "Quản lý sản phẩm",
+      "description": "Điều chỉnh số lượng và lựa chọn tùy chọn"
+    },
+    "priceCalculation": {
+      "title": "Tính toán giá",
+      "description": "Tính toán bao gồm phí giao hàng, giảm giá, thuế"
+    },
+    "couponSystem": {
+      "title": "Hệ thống coupon",
+      "description": "Áp dụng và quản lý coupon giảm giá"
+    },
+    "orderSummary": {
+      "title": "Tóm tắt đơn hàng",
+      "description": "Xác nhận chi tiết đơn hàng cuối cùng"
+    }
+  },
+  "addressSearch": {
+    "title": "Tìm kiếm địa chỉ",
+    "subtitle": "Tìm kiếm tích hợp hệ thống địa chỉ Việt Nam",
+    "systemTitle": "Hệ thống tìm kiếm địa chỉ Việt Nam",
+    "systemDescription": "Hệ thống địa chỉ Việt Nam dựa trên Quận/Phường và xác thực địa chỉ thời gian thực",
+    "districtSearch": {
+      "title": "Tìm kiếm Quận",
+      "description": "Tìm kiếm khu vực chính"
+    },
+    "wardSearch": {
+      "title": "Tìm kiếm Phường",
+      "description": "Tìm kiếm địa chỉ chi tiết"
+    },
+    "mapIntegration": {
+      "title": "Tích hợp bản đồ",
+      "description": "Lựa chọn vị trí dựa trên OpenStreetMap"
+    },
+    "addressValidation": {
+      "title": "Xác thực địa chỉ",
+      "description": "Kiểm tra khu vực có thể giao hàng"
+    }
+  },
+  "chat": {
+    "title": "Chat & Hỗ trợ khách hàng",
+    "subtitle": "Giao tiếp thời gian thực và dịch vụ khách hàng",
+    "systemTitle": "Hệ thống chat ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Giao tiếp thời gian thực giữa khách hàng-cửa hàng-tài xế và dịch vụ khách hàng hỗ trợ đa ngôn ngữ",
+    "customerSupport": {
+      "title": "Hỗ trợ khách hàng",
+      "description": "Trợ giúp và tư vấn thời gian thực"
+    },
+    "orderChat": {
+      "title": "Chat đơn hàng",
+      "description": "Giao tiếp trực tiếp với cửa hàng"
+    },
+    "driverChat": {
+      "title": "Chat với tài xế",
+      "description": "Giao tiếp thời gian thực với tài xế"
+    },
+    "multiLanguage": {
+      "title": "Hỗ trợ đa ngôn ngữ",
+      "description": "Hỗ trợ tiếng Việt, Hàn Quốc, Anh"
+    }
+  },
+  "icons": {
+    "title": "Hệ thống biểu tượng",
+    "subtitle": "Hệ thống biểu tượng thống nhất cho ứng dụng giao hàng Việt Nam",
+    "systemTitle": "Hệ thống biểu tượng ứng dụng giao hàng Việt Nam",
+    "systemDescription": "Hệ thống biểu tượng tính nhất quán và trực quan\nNgôn ngữ thị giác xem xét bản địa hóa và khả năng tiếp cận của Việt Nam",
+    "sections": {
+      "navigation": {
+        "title": "🧭 Navigation Icons",
+        "description": "Các biểu tượng cơ bản cho việc di chuyển trong ứng dụng"
+      },
+      "action": {
+        "title": "⚡ Action Icons",
+        "description": "Các biểu tượng chức năng cho hành động của người dùng"
+      },
+      "status": {
+        "title": "📊 Status Icons",
+        "description": "Các biểu tượng hiển thị trạng thái"
+      },
+      "payment": {
+        "title": "💳 Payment Icons",
+        "description": "Các biểu tượng phương thức thanh toán bản địa Việt Nam"
+      },
+      "delivery": {
+        "title": "🏍️ Delivery Icons",
+        "description": "Các biểu tượng liên quan đến dịch vụ giao hàng"
+      },
+      "food": {
+        "title": "🍜 Food Icons",
+        "description": "Các biểu tượng danh mục ăn uống Việt Nam"
+      }
+    },
+    "guidelines": {
+      "title": "📖 Hướng dẫn sử dụng biểu tượng"
+    }
+  },
+  "search": {
+    "title": "Hệ thống tìm kiếm",
+    "subtitle": "Các thành phần tìm kiếm và bộ lọc",
+    "systemTitle": "Hệ thống tìm kiếm ứng dụng giao hàng Việt Nam",
+    "systemDescription": "Hệ thống tìm kiếm cho việc khám phá của người dùng\nGiao diện bao gồm tìm kiếm thông minh, bộ lọc, chức năng gợi ý",
+    "sections": {
+      "basic": {
+        "title": "🔍 Thanh tìm kiếm cơ bản",
+        "description": "Giao diện tìm kiếm tiêu chuẩn"
+      },
+      "gradient": {
+        "title": "🎨 Thanh tìm kiếm gradient",
+        "description": "Thanh tìm kiếm phong cách cao cấp"
+      },
+      "withFilters": {
+        "title": "⚙️ Tìm kiếm có bộ lọc",
+        "description": "Tùy chọn tìm kiếm nâng cao"
+      },
+      "recent": {
+        "title": "🕐 Từ khóa gần đây",
+        "description": "Lịch sử tìm kiếm"
+      },
+      "popular": {
+        "title": "🔥 Từ khóa phổ biến",
+        "description": "Từ khóa được tìm nhiều"
+      },
+      "categories": {
+        "title": "📂 Tìm kiếm theo danh mục",
+        "description": "Tìm kiếm theo phân loại"
+      },
+      "results": {
+        "title": "📋 Kết quả tìm kiếm",
+        "description": "Bô sáng từ khóa tìm kiếm"
+      },
+      "states": {
+        "title": "🎯 Trạng thái tìm kiếm",
+        "description": "Các trạng thái tìm kiếm khác nhau"
+      }
+    },
+    "placeholders": {
+      "basic": "Tìm menu, tên quán...",
+      "premium": "Tìm món ăn bạn muốn...",
+      "withFilters": "Nhập từ khóa tìm kiếm..."
+    },
+    "labels": {
+      "inputSearch": "Từ khóa đã nhập:",
+      "noInput": "(không có)",
+      "filterOptions": "💡 Tùy chọn bộ lọc:",
+      "filterDescription": "Khoảng giá, đánh giá, thời gian giao, loại món ăn, v.v.",
+      "clearHistory": "Xóa toàn bộ lịch sử tìm kiếm",
+      "searchTerm": "Từ khóa:",
+      "searchResults": "Kết quả tìm kiếm"
+    },
+    "states": {
+      "loading": "Đang tìm kiếm...",
+      "success": "Tìm kiếm hoàn tất",
+      "noResults": "Không có kết quả tìm kiếm"
+    }
+  },
+  "products": {
+    "title": "Lưới sản phẩm",
+    "subtitle": "Hệ thống lưới và thẻ sản phẩm",
+    "systemTitle": "Hệ thống sản phẩm ứng dụng giao hàng Việt Nam",
+    "systemDescription": "Hệ thống hiển thị sản phẩm cho ứng dụng giao hàng\\nGiao diện trực quan dựa trên lưới",
+    "verticalCards": "Thẻ dọc",
+    "verticalCardsDesc": "Thẻ sản phẩm dạng dọc",
+    "horizontalCards": "Thẻ ngang",
+    "horizontalCardsDesc": "Thẻ sản phẩm dạng ngang",
+    "categoryGrid": "Lưới danh mục",
+    "categoryGridDesc": "Phân loại danh mục ăn uống",
+    "storeCard": "Thẻ cửa hàng",
+    "storeCardDesc": "Hiển thị thông tin cửa hàng",
+    "deliveryProgress": "Tình hình giao hàng",
+    "deliveryProgressDesc": "Theo dõi giao hàng thời gian thực",
+    "promotionCard": "Thẻ khuyến mãi",
+    "promotionCardDesc": "Thông tin giảm giá và sự kiện",
+    "savingsMessage": "Giảm giá phí giao hàng"
+  }
+}

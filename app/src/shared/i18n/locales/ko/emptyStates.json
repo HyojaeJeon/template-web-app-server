@@ -1,0 +1,52 @@
+{
+  "orderHistory": {
+    "title": "주문 내역이 없어요",
+    "message": "아직 주문한 음식이 없어요",
+    "description": "맛있는 Local 음식을 탐험해보고\n첫 주문을 시작해보세요!",
+    "action": "지금 주문하기"
+  },
+  "searchResults": {
+    "title": "검색 결과가 없어요",
+    "message": "검색 결과를 찾을 수 없어요",
+    "description": "다른 검색어를 시도해보거나\n인기 Local 요리를 확인해보세요",
+    "searchAgain": "다시 검색",
+    "popularDishes": "인기 요리"
+  },
+  "favorites": {
+    "title": "찜한 목록이 없어요",
+    "message": "찜한 음식이 없어요",
+    "description": "좋아하는 메뉴를 찜해두면\n나중에 쉽게 주문할 수 있어요",
+    "action": "맛집 둘러보기"
+  },
+  "networkError": {
+    "title": "네트워크 오류",
+    "message": "인터넷 연결을 확인해주세요",
+    "description": "네트워크 상태를 확인하고\n다시 시도해주세요",
+    "action": "다시 시도"
+  },
+  "serviceUnavailable": {
+    "title": "서비스 이용 불가",
+    "message": "배달 불가 지역입니다",
+    "description": "현재 위치는 서비스 지역이 아닙니다\n다른 주소로 변경해주세요",
+    "action": "주소 변경"
+  },
+  "maintenance": {
+    "title": "서비스 점검 중",
+    "message": "시스템 점검 중입니다",
+    "description": "더 나은 서비스 제공을 위해\n시스템을 점검하고 있습니다",
+    "expectedTime": "예상 완료 시간: 오후 3:00 (약 30분 후)",
+    "action": "완료 알림 받기"
+  },
+  "cart": {
+    "title": "장바구니가 비어있어요",
+    "message": "장바구니에 담긴 상품이 없어요",
+    "description": "맛있는 음식을 장바구니에 담아보세요",
+    "action": "메뉴 보기"
+  },
+  "notifications": {
+    "title": "알림이 없어요",
+    "message": "새로운 알림이 없어요",
+    "description": "주문 업데이트와 프로모션 소식을 알려드릴게요",
+    "action": "알림 설정하기"
+  }
+}

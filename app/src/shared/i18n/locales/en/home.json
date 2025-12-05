@@ -1,0 +1,148 @@
+{
+  "header": {
+    "deliverTo": "Deliver to"
+  },
+  "banner": {
+    "title": "Featured"
+  },
+  "search": {
+    "placeholder": "What would you like to eat today?"
+  },
+  "store": {
+    "recommended": "Recommended stores",
+    "favorites": "Favorite stores",
+    "closed": "Closed",
+    "defaultDescription": "A store offering delicious food",
+    "card": {
+      "freeDelivery": "Free delivery"
+    }
+  },
+  "menu": {
+    "popular": "Popular menu"
+  },
+  "points": {
+    "myPoints": "My points",
+    "expiring": "{{points}}P expiring on {{date}}"
+  },
+  "order": {
+    "status": {
+      "READY": "Ready"
+    },
+    "items": "Order items"
+  },
+  "orders": {
+    "active": "Ongoing order"
+  },
+  "featuredStores": {
+    "title": "Featured Stores"
+  },
+  "featuredMenus": {
+    "title": "Popular Menus"
+  },
+  "newStores": {
+    "title": "Newly Opened Stores",
+    "subtitle": "Don't miss special discounts from new stores!",
+    "openToday": "Opened today!",
+    "openDays": "Open for {{count}} days",
+    "newStore": "New Store",
+    "noRating": "No rating",
+    "daysLeft": "{{count}} days left",
+    "viewStore": "Browse New Store",
+    "viewAll": "View All",
+    "eventNotice": "New store events may vary by store",
+    "loading": "Loading...",
+    "loadError": "Failed to load store information",
+    "cuisineTypes": {
+      "VIETNAMESE": "Vietnamese",
+      "KOREAN": "Korean",
+      "CHINESE": "Chinese",
+      "JAPANESE": "Japanese",
+      "WESTERN": "Western",
+      "THAI": "Thai"
+    },
+    "events": {
+      "grandOpening": "Grand Opening",
+      "welcomeOffer": "Welcome Offer",
+      "freeDelivery": "Opening Event"
+    },
+    "discounts": {
+      "50off": "50% OFF",
+      "30off": "30% OFF",
+      "freeDelivery": "Free Delivery"
+    },
+    "features": {
+      "new": "New",
+      "freeDelivery": "Free Delivery",
+      "discount": "Discount Event",
+      "recommended": "Recommended"
+    }
+  },
+  "noData": {
+    "title": "No data available",
+    "message": "We are updating the latest information for you",
+    "retry": "Retry"
+  },
+  "stores": {
+    "nearby": "Nearby stores",
+    "popular": "Popular stores",
+    "new": "New stores"
+  },
+  "brand": {
+    "hint": "Tap to view brand stores",
+    "unknown": "Brand",
+    "sale": "SALE",
+    "partnerBrands": "Partner Brands",
+    "description": "Trusted brands you can rely on",
+    "specialOffers": "Brand special offers!",
+    "specialOffersDescription": "Order now and get special discounts",
+    "logoHint": "Tap to visit brand page",
+    "error": {
+      "title": "Unable to load brands",
+      "description": "Please check your network and try again"
+    },
+    "empty": {
+      "title": "No partner brands",
+      "description": "We will partner with more brands soon"
+    }
+  },
+  "promotions": {
+    "title": "Hot Promotions",
+    "count": "{{count}} promotions available",
+    "viewAll": "View all",
+    "off": "off",
+    "freeDelivery": "Free delivery",
+    "expired": "Expired",
+    "expiresToday": "Expires today",
+    "expiresDays": "{{days}} days left",
+    "badge": {
+      "discount": "Discount",
+      "free": "Free Delivery",
+      "cashback": "Cashback",
+      "bundle": "Bundle",
+      "bogo": "1+1",
+      "loyalty": "Loyalty",
+      "firstOrder": "First Order"
+    }
+  },
+  "coupons": {
+    "firstOrder": "First Order",
+    "firstOrderDiscount": "20% OFF",
+    "freeShipping": "Free Shipping",
+    "freeShippingMinOrder": "Orders over 500,000₫",
+    "newStore": "New Store",
+    "newStoreDiscount": "100,000₫ OFF",
+    "useNow": "Use Now",
+    "a11y": {
+      "firstOrderLabel": "First order 20% off coupon",
+      "firstOrderHint": "Get 20% off your first order",
+      "freeShippingLabel": "Free shipping coupon",
+      "freeShippingHint": "Free shipping for orders over 500,000₫",
+      "newStoreLabel": "New store 100,000₫ off coupon",
+      "newStoreHint": "Get 100,000₫ off at new stores"
+    }
+  },
+  "category": {
+    "expand": "Expand",
+    "collapse": "Collapse"
+  }
+}

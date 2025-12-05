@@ -1,0 +1,138 @@
+{
+  "empty": {
+    "title": "Không có thực đơn",
+    "description": "Hiện tại không có món ăn nào"
+  },
+  "popularMenus": "Món phổ biến",
+  "searchPlaceholder": "Tìm kiếm món ăn...",
+  "noPopularMenus": "Không có món phổ biến",
+  "noPopularMenusDesc": "Hiện tại không có món phổ biến nào. Hãy thử làm mới.",
+  "totalMenus": "Tổng cộng {{count}} món",
+  "detail": "Chi tiết món ăn",
+  "loadFailed": "Không thể tìm thấy món ăn",
+  "loadFailedDesc": "Món ăn bạn yêu cầu không tồn tại hoặc tạm thời không khả dụng",
+  "itemDetail": {
+    "title": "Chi tiết món ăn"
+  },
+  "error": {
+    "itemNotFound": {
+      "title": "Không tìm thấy món ăn",
+      "description": "Món ăn bạn tìm kiếm không tồn tại hoặc đã bị xóa"
+    }
+  },
+  "menu": {
+    "categories": {
+      "all": "Tất cả",
+      "popular": "Phổ biến",
+      "recommended": "Đề xuất",
+      "appetizers": "Khai vị",
+      "mains": "Món chính",
+      "desserts": "Tráng miệng",
+      "beverages": "Đồ uống",
+      "combos": "Combo",
+      "special": "Menu đặc biệt"
+    },
+    "availability": {
+      "available": "Còn hàng",
+      "limited": "Số lượng có hạn",
+      "lowStock": "Sắp hết",
+      "soldOut": "Hết hàng",
+      "restockingSoon": "Sắp có hàng",
+      "restockInMinutes": "Có hàng sau {{minutes}} phút",
+      "restockInHours": "Có hàng sau {{hours}}g {{minutes}}p",
+      "restockInDays": "Có hàng sau {{days}} ngày",
+      "lastUpdate": "Cập nhật lần cuối",
+      "realTime": "Cập nhật thời gian thực",
+      "connectionLost": "Mất kết nối",
+      "reconnecting": "Đang kết nối lại...",
+      "refreshing": "Đang làm mới..."
+    },
+    "item": {
+      "addToCart": "Thêm vào giỏ",
+      "customize": "Tùy chỉnh",
+      "viewDetails": "Xem chi tiết",
+      "ingredients": "Thành phần",
+      "nutrition": "Thông tin dinh dưỡng",
+      "allergens": "Thông tin dị ứng",
+      "spicyLevel": "Độ cay",
+      "prepTime": "Thời gian chuẩn bị",
+      "calories": "Calo",
+      "price": "Giá",
+      "originalPrice": "Giá gốc",
+      "discount": "Giảm giá",
+      "options": "Tùy chọn",
+      "required": "Bắt buộc",
+      "optional": "Tùy chọn",
+      "quantity": "Số lượng",
+      "specialInstructions": "Ghi chú đặc biệt",
+      "addNote": "Thêm ghi chú",
+      "unavailable": {
+        "title": "Món không khả dụng",
+        "message": "Món này hiện không khả dụng"
+      },
+      "orderCount": "{{count}} đơn đặt hàng",
+      "soldOut": "Hết hàng",
+      "noImage": "Không có hình ảnh",
+      "storeInfo": "Thông tin cửa hàng"
+    },
+    "youMightAlsoLike": "Bạn có thể thích",
+    "search": {
+      "placeholder": "Tìm kiếm món ăn...",
+      "noResults": "Không tìm thấy món ăn",
+      "searching": "Đang tìm kiếm...",
+      "recent": "Tìm kiếm gần đây",
+      "clear": "Xóa"
+    },
+    "filters": {
+      "sortBy": "Sắp xếp theo",
+      "priceRange": "Khoảng giá",
+      "dietary": "Chế độ ăn",
+      "vegetarian": "Chay",
+      "vegan": "Thuần chay",
+      "glutenFree": "Không gluten",
+      "halal": "Halal",
+      "apply": "Áp dụng",
+      "reset": "Đặt lại"
+    },
+    "errors": {
+      "loadFailed": "Không thể tải menu",
+      "itemUnavailable": "Món này hiện không có sẵn",
+      "connectionError": "Lỗi kết nối. Vui lòng thử lại.",
+      "updateFailed": "Không thể cập nhật tình trạng món"
+    },
+    "notifications": {
+      "itemBackInStock": "{{item}} đã có hàng trở lại!",
+      "itemSoldOut": "{{item}} đã hết hàng",
+      "priceChanged": "Giá {{item}} đã được cập nhật",
+      "limitedStock": "Chỉ còn {{count}} {{item}}"
+    },
+    "options": {
+      "title": "Tùy chỉnh",
+      "description": "Vui lòng chọn các tùy chọn bạn muốn",
+      "required": "Bắt buộc",
+      "optional": "Tùy chọn",
+      "selectOne": "Chọn một",
+      "selectRange": "Chọn từ {{min}} đến {{max}} món",
+      "selectMax": "Chọn tối đa {{max}} món",
+      "selectMultiple": "Có thể chọn nhiều",
+      "selected": "Đã chọn {{count}}",
+      "selectedOptions": "Tùy chọn đã chọn",
+      "optionIndex": "Tùy chọn {{index}}",
+      "moreOptions": "+{{count}} tùy chọn khác",
+      "count": "{{count}} cái",
+      "unavailable": "Không có sẵn",
+      "pleaseSelectRequired": "Vui lòng chọn các tùy chọn bắt buộc",
+      "selectPrompt": "Vui lòng chọn tùy chọn",
+      "maxSelectionReached": "Bạn chỉ có thể chọn tối đa {{max}} món",
+      "note": "Yêu cầu đặc biệt",
+      "addNote": "Thêm ghi chú",
+      "error": {
+        "minRequired": "Yêu cầu chọn tối thiểu",
+        "minRequiredDesc": "Vui lòng chọn ít nhất {{min}} món từ nhóm {{groupName}}",
+        "maxExceeded": "Vượt quá số lượng tối đa",
+        "maxExceededDesc": "Bạn có thể chọn tối đa {{max}} món từ nhóm {{groupName}}"
+      }
+    }
+  },
+  "ordered": "{{count}} đơn đặt hàng"
+}

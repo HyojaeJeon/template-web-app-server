@@ -1,0 +1,155 @@
+{
+  "weather": {
+    "title": "Weather",
+    "subtitle": "Weather-based food recommendation system",
+    "systemTitle": "Vietnamese Food Delivery App Weather Integration System",
+    "systemDescription": "Smart system with AI recommending food and drinks suitable for current weather",
+    "currentWeather": {
+      "title": "Current Weather",
+      "description": "Real-time weather information"
+    },
+    "recommendations": {
+      "title": "Weather-based Recommendations",
+      "description": "Food recommendations suitable for weather"
+    },
+    "conditions": {
+      "sunny": "Sunny",
+      "rainy": "Rainy",
+      "cloudy": "Cloudy",
+      "hot": "Hot",
+      "cold": "Cold"
+    },
+    "suggestions": {
+      "hotWeather": {
+        "title": "Hot Weather",
+        "foods": "Cool drinks, cold noodles, ice cream",
+        "description": "Cool foods to beat the heat"
+      },
+      "rainyWeather": {
+        "title": "Rainy Day",
+        "foods": "Hot soup, pancakes, warm drinks",
+        "description": "Warm up on gloomy days"
+      },
+      "coldWeather": {
+        "title": "Cold Weather",
+        "foods": "Spicy soup, hot broth, warm tea",
+        "description": "Foods that warm the body"
+      }
+    }
+  },
+  "accessibility": {
+    "title": "Accessibility",
+    "subtitle": "Accessibility features for all users",
+    "systemTitle": "Vietnamese Food Delivery App Accessibility System",
+    "systemDescription": "Inclusive design for users with visual, auditory, and physical disabilities",
+    "screenReader": {
+      "title": "Screen Reader Support",
+      "description": "Voice guidance for visually impaired users"
+    },
+    "fontSize": {
+      "title": "Font Size Adjustment",
+      "description": "Font size settings to improve readability"
+    },
+    "highContrast": {
+      "title": "High Contrast Mode",
+      "description": "Enhanced contrast for visual distinction"
+    },
+    "voiceOrdering": {
+      "title": "Voice Ordering",
+      "description": "Order food by voice"
+    },
+    "largeButtons": {
+      "title": "Large Buttons",
+      "description": "Large buttons easy to touch"
+    },
+    "colorBlindSupport": {
+      "title": "Color Blind Support",
+      "description": "Information delivery through methods other than color"
+    }
+  },
+  "personalization": {
+    "title": "Personalization",
+    "subtitle": "Providing customized user experiences",
+    "systemTitle": "Vietnamese Food Delivery App Personalization System",
+    "systemDescription": "Customized recommendations analyzed from user preferences and ordering patterns",
+    "preferences": {
+      "title": "Preference Settings",
+      "description": "Manage personal tastes and preferences"
+    },
+    "orderHistory": {
+      "title": "Order History Analysis",
+      "description": "Recommendations based on past orders"
+    },
+    "dietaryRestrictions": {
+      "title": "Dietary Restrictions",
+      "description": "Manage dietary restrictions like allergies, vegan"
+    },
+    "favoriteStores": {
+      "title": "Favorite Stores",
+      "description": "Manage frequently ordered stores"
+    },
+    "customization": {
+      "title": "App Customization",
+      "description": "Personalization settings like themes, layouts"
+    },
+    "smartSuggestions": {
+      "title": "Smart Suggestions",
+      "description": "AI-based customized food recommendations"
+    },
+    "dietary": {
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "halal": "Halal",
+      "kosher": "Kosher",
+      "glutenFree": "Gluten Free",
+      "allergies": "Allergies"
+    }
+  },
+  "reviewSystem": {
+    "title": "Review System",
+    "subtitle": "Comprehensive rating and review management",
+    "systemTitle": "Vietnamese Food Delivery App Review System",
+    "systemDescription": "Writing and managing detailed and helpful reviews about stores and food",
+    "writeReview": {
+      "title": "Write Review",
+      "description": "Rate stores and food"
+    },
+    "ratingCategories": {
+      "title": "Rating Categories",
+      "description": "Ratings from various perspectives"
+    },
+    "photoReviews": {
+      "title": "Photo Reviews",
+      "description": "Reviews with food photos"
+    },
+    "reviewIncentives": {
+      "title": "Review Incentives",
+      "description": "Points and discounts for writing reviews"
+    },
+    "helpfulVotes": {
+      "title": "Helpful Reviews",
+      "description": "Helpful votes from other users"
+    },
+    "categories": {
+      "taste": "Taste",
+      "delivery": "Delivery",
+      "packaging": "Packaging",
+      "temperature": "Temperature",
+      "portion": "Portion",
+      "value": "Value"
+    },
+    "quickFeedback": {
+      "delicious": "Delicious",
+      "fresh": "Fresh",
+      "hot": "Hot",
+      "fast": "Fast",
+      "goodPackaging": "Good packaging",
+      "generous": "Generous portion"
+    },
+    "incentives": {
+      "photoReward": "500 points for photo reviews",
+      "detailedReward": "300 points for detailed reviews",
+      "firstReview": "1000 points for first review"
+    }
+  }
+}

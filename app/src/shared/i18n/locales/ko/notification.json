@@ -1,0 +1,360 @@
+{
+  "emptyTitle": "알림이 없습니다",
+  "emptyDescription": "새로운 알림이 오면 여기에 표시됩니다",
+  "title": "알림",
+  "filter": {
+    "all": "전체",
+    "unread": "읽지 않음",
+    "important": "중요",
+    "promotions": "프로모션"
+  },
+  "settings": {
+    "title": "알림 설정",
+    "saveSuccess": {
+      "message": "알림 설정이 저장되었습니다"
+    },
+    "saveError": {
+      "message": "알림 설정 저장에 실패했습니다"
+    },
+    "permission": {
+      "title": "알림 권한",
+      "granted": "알림 권한이 허용되었습니다",
+      "denied": "알림 권한이 거부되었습니다",
+      "not_determined": "알림 권한을 설정해주세요",
+      "unknown": "알림 권한 상태를 확인할 수 없습니다",
+      "enable": "권한 허용"
+    },
+    "permissionError": {
+      "message": "알림 권한 요청에 실패했습니다"
+    },
+    "testSuccess": {
+      "message": "테스트 알림이 전송되었습니다"
+    },
+    "testError": {
+      "message": "테스트 알림 전송에 실패했습니다"
+    },
+    "unsavedChanges": {
+      "message": "저장하지 않은 변경사항이 있습니다",
+      "discard": "변경사항 버리기"
+    },
+    "general": {
+      "title": "일반 설정",
+      "enabled": "알림 활성화",
+      "enabledDesc": "모든 알림을 받으시겠습니까?",
+      "quietHours": "방해 금지 시간",
+      "quietHoursDesc": "야간 시간대(22:00-08:00) 알림 차단",
+      "test": "테스트 알림",
+      "testDesc": "알림이 정상적으로 작동하는지 확인",
+      "testButton": "테스트 전송"
+    },
+    "core": {
+      "title": "핵심 알림"
+    },
+    "marketing_section": {
+      "title": "마케팅 알림"
+    },
+    "orderUpdates": {
+      "title": "주문 업데이트",
+      "description": "주문 상태 변경에 대한 알림 (주문 확인, 조리 중, 배달 중)"
+    },
+    "chatMessages": {
+      "title": "채팅 메시지",
+      "description": "매장이나 고객 서비스로부터의 새 메시지 알림"
+    },
+    "paymentAlerts": {
+      "title": "결제 알림",
+      "description": "결제 확인, 환불 및 결제 관련 알림"
+    },
+    "systemNotices": {
+      "title": "시스템 공지",
+      "description": "중요한 앱 업데이트 및 서비스 공지사항"
+    },
+    "promotions": {
+      "title": "프로모션",
+      "description": "특별 할인 및 기간 한정 제안"
+    },
+    "marketing": {
+      "title": "마케팅",
+      "description": "새로운 매장 정보 및 일반 이벤트 소식"
+    }
+  },
+  "markAsRead": "읽음 처리",
+  "delete": "삭제",
+  "markAllAsRead": "모두 읽음",
+  "loading": "로딩중...",
+  "empty": {
+    "noNotifications": "알림이 없습니다",
+    "noUnread": "읽지 않은 알림이 없습니다",
+    "description": "새로운 알림이 도착하면 여기에 표시됩니다"
+  },
+  "error": {
+    "loadFailed": "알림을 불러오는데 실패했습니다"
+  },
+  "messages": {
+    "orderConfirmed": {
+      "title": "주문 확인",
+      "message": "매장에서 주문을 확인했습니다"
+    },
+    "orderPreparing": {
+      "title": "조리 시작",
+      "message": "맛있는 음식을 준비하고 있어요"
+    },
+    "orderReady": {
+      "title": "조리 완료",
+      "message": "음식이 준비되었습니다"
+    },
+    "driverAssigned": {
+      "title": "배달원 배정",
+      "message": "배달원이 배정되어 픽업하러 가고 있어요"
+    },
+    "outForDelivery": {
+      "title": "배달 시작",
+      "message": "고객님께 배달하고 있어요"
+    },
+    "deliveryArriving": {
+      "title": "곧 도착",
+      "message": "배달원이 곧 도착할 예정입니다"
+    },
+    "orderDelivered": {
+      "title": "배달 완료",
+      "message": "주문이 배달 완료되었습니다. 맛있게 드세요!"
+    },
+    "orderCancelled": {
+      "title": "주문 취소",
+      "message": "주문이 취소되었습니다"
+    },
+    "orderRejected": {
+      "title": "주문 거절",
+      "message": "죄송합니다. 매장 사정으로 주문이 거절되었습니다"
+    },
+    "paymentFailed": {
+      "title": "결제 실패",
+      "message": "결제 처리 중 문제가 발생했습니다"
+    },
+    "withDriver": "(배달원: {{driverName}})",
+    "withEstimatedTime": "(예상시간: {{estimatedTime}}분)",
+    "withStoreName": "({{storeName}})"
+  },
+  "system": {
+    "notificationDisabled": "알림이 비활성화됨",
+    "unknownNotificationType": "알 수 없는 알림 타입",
+    "loadSettingsError": "알림 설정 로드 오류",
+    "saveSettingsError": "알림 설정 저장 오류",
+    "vibrationError": "진동 재생 오류",
+    "navigationError": "네비게이션 오류",
+    "navigationRefMissing": "네비게이션 ref가 없음",
+    "logSaveError": "알림 로그 저장 오류",
+    "pendingActionsError": "대기 중인 알림 액션 저장 오류",
+    "processingPendingActions": "대기 중인 알림 액션 처리 오류",
+    "getLogsError": "알림 로그 가져오기 오류",
+    "clearLogsError": "알림 로그 초기화 오류",
+    "getOrderHistoryError": "주문 알림 히스토리 가져오기 오류"
+  },
+  "categories": {
+    "orders": {
+      "title": "주문 알림",
+      "push": "푸시 알림",
+      "pushDesc": "주문 상태 변경 시 알림을 받습니다",
+      "sound": "알림음",
+      "soundDesc": "알림 수신 시 소리를 재생합니다",
+      "vibration": "진동",
+      "vibrationDesc": "알림 수신 시 진동을 울립니다"
+    },
+    "promotions": {
+      "title": "프로모션 알림",
+      "push": "푸시 알림",
+      "pushDesc": "할인 및 프로모션 정보를 받습니다",
+      "sound": "알림음",
+      "soundDesc": "프로모션 알림 시 소리를 재생합니다",
+      "vibration": "진동",
+      "vibrationDesc": "프로모션 알림 시 진동을 울립니다"
+    },
+    "updates": {
+      "title": "업데이트 알림",
+      "push": "푸시 알림",
+      "pushDesc": "앱 업데이트 및 새 기능 소식을 받습니다",
+      "sound": "알림음",
+      "soundDesc": "업데이트 알림 시 소리를 재생합니다",
+      "vibration": "진동",
+      "vibrationDesc": "업데이트 알림 시 진동을 울립니다"
+    }
+  },
+  "orderStatus": {
+    "ORDER_CONFIRMED": {
+      "title": "주문 확인",
+      "message": "매장에서 주문을 확인했습니다"
+    },
+    "ORDER_PREPARING": {
+      "title": "조리 시작",
+      "message": "맛있는 음식을 준비하고 있어요"
+    },
+    "ORDER_READY": {
+      "title": "조리 완료",
+      "message": "음식이 준비되었습니다"
+    },
+    "DRIVER_ASSIGNED": {
+      "title": "배달원 배정",
+      "message": "배달원이 배정되어 픽업하러 가고 있어요"
+    },
+    "OUT_FOR_DELIVERY": {
+      "title": "배달 시작",
+      "message": "고객님께 배달하고 있어요"
+    },
+    "DELIVERY_ARRIVING": {
+      "title": "곧 도착",
+      "message": "배달원이 곧 도착할 예정입니다"
+    },
+    "ORDER_DELIVERED": {
+      "title": "배달 완료",
+      "message": "주문이 배달 완료되었습니다. 맛있게 드세요!"
+    },
+    "ORDER_CANCELLED": {
+      "title": "주문 취소",
+      "message": "주문이 취소되었습니다"
+    },
+    "ORDER_REJECTED": {
+      "title": "주문 거절",
+      "message": "죄송합니다. 매장 사정으로 주문이 거절되었습니다"
+    },
+    "PAYMENT_FAILED": {
+      "title": "결제 실패",
+      "message": "결제 처리 중 문제가 발생했습니다"
+    }
+  },
+  "logs": {
+    "loadError": "알림 설정 로드 오류:",
+    "saveError": "알림 설정 저장 오류:",
+    "disabled": "알림이 비활성화됨",
+    "unknownType": "알 수 없는 알림 타입:",
+    "received": "📱 주문 알림 수신:",
+    "inScreenUpdate": "[SYNC] 화면 내 실시간 업데이트:",
+    "toastInApp": "🍞 앱 내 토스트 알림 표시",
+    "background": "📱 백그라운드 알림 처리",
+    "pendingActionsSaveError": "대기 중인 알림 액션 저장 오류:",
+    "vibrationError": "진동 재생 오류:",
+    "badgeUpdate": "🔢 앱 배지 카운트 업데이트",
+    "navigationRefMissing": "네비게이션 ref가 없음",
+    "navigationError": "네비게이션 오류:",
+    "logSaveError": "알림 로그 저장 오류:",
+    "pendingActions": "📱 대기 중인 알림 액션 처리:",
+    "pendingActionsError": "대기 중인 알림 액션 처리 오류:",
+    "logLoadError": "알림 로그 가져오기 오류:",
+    "logClearError": "알림 로그 초기화 오류:",
+    "orderHistoryError": "주문 알림 히스토리 가져오기 오류:"
+  },
+  "dynamicMessages": {
+    "driverPrefix": " (배달원: ",
+    "estimatedTimePrefix": " (예상시간: ",
+    "estimatedTimeSuffix": "분)",
+    "storePrefix": " (",
+    "storeSuffix": ")"
+  },
+  "fcm": {
+    "initialization": {
+      "disabled": "🚫 Firebase messaging 비활성화됨 - FCM 초기화 생략",
+      "permissionCheckDisabled": "🚫 Firebase messaging 비활성화됨 - 권한 체크 생략",
+      "tokenGetDisabled": "🚫 Firebase messaging 비활성화됨 - 토큰 가져오기 생략"
+    },
+    "permission": {
+      "requestTitle": "알림 권한 요청",
+      "requestMessage": "주문 상태 및 프로모션 알림을 받으시려면 권한을 허용해주세요.",
+      "buttonNeutral": "나중에",
+      "buttonNegative": "거부",
+      "buttonPositive": "허용",
+      "androidGranted": "Android 알림 권한 승인",
+      "iosGranted": "iOS 알림 권한 승인",
+      "requestFailed": "권한 요청 실패:",
+      "iosRegistrationComplete": "iOS 원격 알림 등록 완료"
+    },
+    "token": {
+      "refresh": "FCM 토큰 갱신:",
+      "noUserId": "사용자 ID 없음, 토큰 전송 보류",
+      "serverSendSuccess": "FCM 토큰 서버 전송 성공",
+      "serverSendFailed": "FCM 토큰 서버 전송 실패:",
+      "serverSendError": "토큰 서버 전송 오류:"
+    },
+    "channels": {
+      "deliveryName": "배달 알림",
+      "deliveryDescription": "주문 및 배달 관련 알림",
+      "deliveryCreated": "배달 알림 채널 생성:",
+      "promotionName": "프로모션 알림",
+      "promotionDescription": "할인 및 이벤트 알림",
+      "promotionCreated": "프로모션 알림 채널 생성:",
+      "createFailed": "알림 채널 생성 실패:"
+    },
+    "listeners": {
+      "registrationStart": "🎧 FCM 리스너 등록 시작",
+      "foregroundReceived": "📩 FCM 포그라운드 메시지 수신:",
+      "foregroundError": "[ERROR] FCM 포그라운드 메시지 처리 실패:",
+      "backgroundClicked": "👆 FCM 백그라운드 알림 클릭:",
+      "backgroundError": "[ERROR] FCM 백그라운드 알림 클릭 처리 실패:",
+      "terminatedLaunch": "[API] FCM 종료 상태 알림으로 앱 실행:",
+      "terminatedError": "[ERROR] FCM 종료 상태 알림 처리 실패:",
+      "notLaunchedByNotification": "[INFO] 알림으로 앱 실행되지 않음",
+      "getInitialError": "[ERROR] FCM getInitialNotification 실패:",
+      "registrationComplete": "[SUCCESS] FCM 리스너 등록 완료",
+      "backgroundReceived": "백그라운드 메시지 수신:"
+    },
+    "localNotification": {
+      "displayStart": "🔔 FCM 로컬 알림 표시 시작:",
+      "processedData": "🔔 처리된 알림 데이터:",
+      "displaySuccess": "[SUCCESS] FCM 로컬 알림 표시 완료",
+      "displayError": "[ERROR] FCM 로컬 알림 표시 실패:",
+      "defaultTitle": "알림",
+      "defaultBody": "새로운 알림이 도착했습니다.",
+      "fallbackError": "[ERROR] 기본 알림도 실패:"
+    },
+    "clickHandling": {
+      "clickStart": "👆 FCM 알림 클릭 처리 시작:",
+      "noData": "[WARNING] 알림 클릭 데이터 없음",
+      "processedData": "👆 처리된 클릭 데이터:",
+      "navigateOrder": "📱 주문 상세 화면으로 이동:",
+      "noOrderId": "[WARNING] 주문 ID 없음",
+      "navigateDelivery": "📱 배달 추적 화면으로 이동:",
+      "noDeliveryId": "[WARNING] 배달 주문 ID 없음",
+      "navigatePromotion": "📱 프로모션 화면으로 이동:",
+      "noPromotionId": "[WARNING] 프로모션 ID 없음",
+      "navigateChat": "📱 채팅 화면으로 이동:",
+      "noChatId": "[WARNING] 채팅룸 ID 없음",
+      "unknownType": "[WARNING] 알 수 없는 알림 타입:",
+      "clickComplete": "[SUCCESS] FCM 알림 클릭 처리 완료",
+      "clickError": "[ERROR] FCM 알림 클릭 처리 실패:"
+    },
+    "badge": {
+      "updateStart": "🔢 FCM 배지 카운트 업데이트 시작",
+      "noBadgeData": "[WARNING] 배지 카운트 데이터 없음",
+      "noBadgeCount": "[WARNING] 배지 카운트 값 없음",
+      "processedCount": "🔢 처리된 배지 카운트:",
+      "iosSetComplete": "🍎 iOS 배지 카운트 설정 완료:",
+      "localSaveComplete": "💾 배지 카운트 로컬 저장 완료:",
+      "updateComplete": "[SUCCESS] FCM 배지 카운트 업데이트 완료",
+      "updateError": "[ERROR] FCM 배지 카운트 업데이트 실패:"
+    },
+    "settings": {
+      "updateSuccess": "알림 설정 업데이트:",
+      "updateError": "알림 설정 업데이트 실패:"
+    },
+    "topic": {
+      "subscribeSuccess": "토픽 구독 성공:",
+      "subscribeFailed": "토픽 구독 실패:",
+      "unsubscribeSuccess": "토픽 구독 해제:",
+      "unsubscribeFailed": "토픽 구독 해제 실패:"
+    }
+  },
+  "toastMessages": {
+    "NOTIFICATION_PERMISSION_ERROR": "알림 권한 요청에 실패했습니다",
+    "NOTIFICATION_PERMISSION_GRANTED": "알림 권한이 허용되었습니다",
+    "NOTIFICATION_SETTINGS_LOAD_ERROR": "알림 설정 로드에 실패했습니다",
+    "NOTIFICATION_SETTINGS_SAVED": "알림 설정이 저장되었습니다",
+    "NOTIFICATION_SETTINGS_SAVE_ERROR": "알림 설정 저장에 실패했습니다",
+    "NOTIFICATION_SETTINGS_SAVE_SUCCESS": "알림 설정이 성공적으로 저장되었습니다",
+    "NOTIFICATION_SETTINGS_UPDATE_SUCCESS": "알림 설정이 업데이트되었습니다",
+    "NOTIFICATION_SETTINGS_UPDATE_FAILED": "알림 설정 업데이트에 실패했습니다",
+    "NOTIFICATION_MARK_READ_FAILED": "알림을 읽음 처리하는 데 실패했습니다",
+    "NOTIFICATION_MARK_ALL_READ_FAILED": "모든 알림을 읽음 처리하는 데 실패했습니다",
+    "NOTIFICATION_DELETE_FAILED": "알림 삭제에 실패했습니다",
+    "NOTIFICATION_CLEAR_ALL_FAILED": "모든 알림 삭제에 실패했습니다",
+    "NOTIFICATION_TEST_ERROR": "테스트 알림 전송에 실패했습니다",
+    "NOTIFICATION_TEST_SUCCESS": "테스트 알림이 성공적으로 전송되었습니다"
+  }
+}

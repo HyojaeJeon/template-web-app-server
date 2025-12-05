@@ -1,0 +1,76 @@
+{
+  "title": "Delivery Tracking",
+  "realTimeTracking": "Real-time Tracking",
+  "orderProgress": "Order Progress",
+  "deliveryInfo": "Delivery Information",
+  "contact": {
+    "call_store": "Call Store",
+    "call_driver": "Call Driver"
+  },
+  "estimatedTime": "Estimated Delivery Time",
+  "orderTime": "Order Time",
+  "callStore": "Call Store",
+  "callCustomerService": "Customer Service",
+  "customerServiceAvailable": "24/7 Support Available",
+  "inquiry": "Inquiry",
+  "callAction": "Call",
+  "loading": "Loading delivery information...",
+  "loadingWait": "Please wait",
+  "retry": "Try Again",
+  "backToHome": "Back to Home",
+  "orderNotFound": "Order information not found",
+  "orderNotFoundDesc": "Please access again with correct order ID",
+  "loadError": "Cannot load information",
+  "refreshToRetry": "Pull to refresh",
+  "status": {
+    "received": {
+      "title": "Order Received",
+      "description": "Your order has been received and is being confirmed at the store"
+    },
+    "preparing": {
+      "title": "Preparing Food",
+      "description": "Our chef is carefully preparing your meal"
+    },
+    "delivering": {
+      "title": "Out for Delivery",
+      "description": "Our delivery person is on the way to you"
+    },
+    "completed": {
+      "title": "Delivery Completed",
+      "description": "Enjoy your meal! Please leave us a review"
+    }
+  },
+  "timeline": {
+    "completed": "Completed",
+    "estimated": "Estimated",
+    "waiting": "Waiting"
+  },
+  "toast": {
+    "realTimeComingSoon": "Real-time tracking will be available in future update",
+    "mvpNotice": "MVP version only provides basic status tracking",
+    "contactFeatureComingSoon": "Contact feature will be activated soon",
+    "storeContactMissing": "Store contact information not available",
+    "customerServiceMissing": "Customer service contact information not available",
+    "loadError": "Failed to load delivery information",
+    "loadErrorDesc": "Please try again later",
+    "connecting": "Connecting call...",
+    "customerServiceConnecting": "Connecting to customer service..."
+  },
+  "dialog": {
+    "callStore": {
+      "title": "Contact Store",
+      "message": "Would you like to call {{storeName}}?\n{{phone}}",
+      "cancel": "Cancel",
+      "call": "Call"
+    },
+    "callCustomerService": {
+      "title": "Contact Customer Service",
+      "message": "Would you like to call customer service?\n{{phone}}",
+      "cancel": "Cancel",
+      "call": "Call"
+    }
+  },
+  "map": {
+    "imageLabel": "IMG"
+  }
+}

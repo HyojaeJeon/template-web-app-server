@@ -1,0 +1,121 @@
+{
+  "required": {
+    "email": "이메일을 입력해주세요",
+    "password": "비밀번호를 입력해주세요",
+    "confirmPassword": "비밀번호 확인을 입력해주세요",
+    "name": "이름을 입력해주세요",
+    "phone": "전화번호를 입력해주세요",
+    "businessName": "상호명을 입력해주세요",
+    "address": "주소를 입력해주세요",
+    "city": "도시를 선택해주세요",
+    "district": "구를 선택해주세요",
+    "ward": "동을 선택해주세요",
+    "agreeTerms": "이용약관에 동의해주세요",
+    "agreePrivacy": "개인정보 처리방침에 동의해주세요"
+  },
+  "invalid": {
+    "email": "올바른 이메일 형식을 입력해주세요",
+    "password": "비밀번호는 8자리 이상이어야 합니다",
+    "confirmPassword": "비밀번호가 일치하지 않습니다",
+    "phone": "올바른 전화번호 형식을 입력해주세요",
+    "phoneFormat": "선택한 국가의 전화번호 형식에 맞지 않습니다"
+  },
+  "step": {
+    "account": "계정 정보를 올바르게 입력해주세요",
+    "business": "업체 정보를 올바르게 입력해주세요",
+    "address": "주소 정보를 올바르게 입력해주세요",
+    "terms": "약관에 동의해주세요"
+  },
+  "email": {
+    "required": "이메일 주소를 입력해주세요",
+    "invalidFormat": "올바른 이메일 형식을 입력해주세요",
+    "localPartTooLong": "이메일 로컬 부분이 너무 깁니다 (최대 64자)",
+    "domainTooLong": "이메일 도메인이 너무 깁니다 (최대 255자)",
+    "consecutiveDots": "이메일에 연속된 점은 사용할 수 없습니다",
+    "invalidLocalPart": "이메일 형식 오류 - 로컬 부분은 점으로 시작하거나 끝날 수 없습니다",
+    "disposableNotAllowed": "일회용 이메일 주소는 사용할 수 없습니다",
+    "didYouMean": "혹시 이것을 의미하셨나요",
+    "valid": "유효한 이메일 주소입니다"
+  },
+  "website": {
+    "required": "웹사이트 URL을 입력해주세요",
+    "invalidFormat": "올바른 웹사이트 URL을 입력해주세요",
+    "noSpacesAllowed": "URL에는 공백을 사용할 수 없습니다",
+    "protocolRequired": "URL은 http:// 또는 https://로 시작해야 합니다",
+    "httpsRequired": "URL은 https://를 사용해야 합니다",
+    "ipNotAllowed": "IP 주소는 웹사이트 URL로 사용할 수 없습니다",
+    "invalidIP": "올바르지 않은 IP 주소 형식입니다",
+    "invalidDomain": "올바르지 않은 도메인명입니다",
+    "domainTooLong": "도메인명이 너무 깁니다",
+    "invalidDomainLabel": "올바르지 않은 도메인 형식입니다",
+    "invalidCharacters": "도메인에 올바르지 않은 문자가 포함되어 있습니다",
+    "invalidTLD": "올바르지 않은 최상위 도메인입니다",
+    "consecutiveDots": "도메인에 연속된 점은 사용할 수 없습니다",
+    "valid": "유효한 웹사이트 URL입니다"
+  },
+  "businessReg": {
+    "required": "사업자등록번호를 입력해주세요",
+    "searchCountry": "국가 검색...",
+    "noCountryFound": "국가를 찾을 수 없습니다",
+    "formatHint": "형식",
+    "unsupportedCountry": "지원하지 않는 국가입니다",
+    "valid": "유효한 사업자등록번호입니다",
+    "vietnam": {
+      "invalidLength": "Local 사업자등록번호는 10자리 또는 13자리여야 합니다",
+      "invalidProvinceCode": "유효하지 않은 지역 코드입니다",
+      "invalidChecksum": "유효하지 않은 사업자등록번호입니다 - 확인해주세요",
+      "invalidSubsidiaryCode": "유효하지 않은 자회사 코드입니다 (001-999)"
+    },
+    "korea": {
+      "invalidLength": "한국 사업자등록번호는 10자리여야 합니다",
+      "invalidChecksum": "유효하지 않은 사업자등록번호입니다 - 확인해주세요"
+    },
+    "us": {
+      "invalidLength": "미국 EIN은 9자리여야 합니다",
+      "invalidPrefix": "유효하지 않은 EIN 접두사입니다"
+    },
+    "japan": {
+      "invalidLength": "일본 법인번호는 13자리여야 합니다",
+      "invalidChecksum": "유효하지 않은 법인번호입니다"
+    },
+    "singapore": {
+      "invalidFormat": "유효하지 않은 싱가포르 UEN 형식입니다"
+    }
+  },
+  "taxId": {
+    "required": "세금 번호를 입력해주세요",
+    "searchCountry": "국가 검색...",
+    "noCountryFound": "국가를 찾을 수 없습니다",
+    "formatHint": "형식",
+    "unsupportedCountry": "지원하지 않는 국가입니다",
+    "valid": "유효한 세금 번호입니다",
+    "vietnam": {
+      "invalidLength": "Local MST는 10자리 또는 13자리여야 합니다",
+      "invalidProvinceCode": "유효하지 않은 지역 코드입니다",
+      "invalidChecksum": "유효하지 않은 MST입니다 - 세금 번호를 확인해주세요",
+      "invalidSubsidiaryCode": "유효하지 않은 자회사 코드입니다 (001-999)"
+    },
+    "korea": {
+      "invalidLength": "사업자등록번호는 10자리여야 합니다",
+      "invalidChecksum": "유효하지 않은 사업자등록번호입니다 - 확인해주세요"
+    },
+    "us": {
+      "invalidLength": "미국 EIN은 9자리여야 합니다",
+      "invalidPrefix": "유효하지 않은 EIN 접두사입니다"
+    },
+    "japan": {
+      "invalidLength": "일본 법인번호는 13자리여야 합니다",
+      "invalidChecksum": "유효하지 않은 법인번호입니다"
+    },
+    "singapore": {
+      "invalidFormat": "유효하지 않은 싱가포르 UEN 형식입니다"
+    }
+  },
+  "countries": {
+    "VN": "Local",
+    "KR": "한국",
+    "US": "미국",
+    "JP": "일본",
+    "SG": "싱가포르"
+  }
+}

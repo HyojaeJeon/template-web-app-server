@@ -1,0 +1,37 @@
+{
+  "offline": "오프라인",
+  "offlineDesc": "저장된 데이터 표시",
+  "online": "온라인",
+  "connected": "연결됨",
+  "connectedDesc": "인터넷 연결이 복구되었습니다",
+  "restored": "연결 복구됨",
+  "restoredDesc": "데이터를 업데이트하는 중...",
+  "stillOffline": "여전히 오프라인",
+  "checkConnection": "인터넷 연결을 확인해주세요",
+  "retry": "다시 시도",
+  "tapToRetry": "터치하여 다시 시도하세요",
+  "autoReconnecting": "자동으로 재연결을 시도합니다",
+  "slowConnection": "느린 연결",
+  "slowConnectionDesc": "인터넷 연결이 느립니다",
+  "cache": {
+    "availableData": "사용 가능한 데이터",
+    "stores": "{count}개 매장",
+    "menus": "{count}개 메뉴",
+    "images": "{size}",
+    "lastUpdate": "마지막 업데이트",
+    "expired": "데이터 만료됨",
+    "refreshNeeded": "업데이트를 위해 연결 필요"
+  },
+  "location": {
+    "permission": {
+      "title": "위치 접근 권한",
+      "message": "근처 매장을 보여주기 위해 위치 접근 권한이 필요합니다"
+    },
+    "permissionDenied": "위치 접근 권한이 거부됨",
+    "permissionDeniedDesc": "설정에서 위치 접근 권한을 허용해주세요",
+    "error": "위치 오류",
+    "errorDesc": "위치를 확인할 수 없습니다",
+    "myLocation": "내 위치",
+    "calculating": "위치 확인 중..."
+  }
+}

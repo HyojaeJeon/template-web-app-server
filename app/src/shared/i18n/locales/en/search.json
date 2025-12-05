@@ -1,0 +1,84 @@
+{
+  "title": "Search",
+  "placeholder": "Search for stores, dishes...",
+  "button": "Search",
+  "typing": "Searching...",
+  "recent": "Recent Searches",
+  "popular": "Popular Searches",
+  "suggestions": "Suggestions",
+  "results": "Search Results",
+  "noResults": "No search results found",
+  "tryDifferent": "Try a different search term",
+  "filters": {
+    "title": "Filters",
+    "category": "Category",
+    "priceRange": "Price Range",
+    "deliveryTime": "Delivery Time",
+    "rating": "Rating",
+    "deliveryFee": "Delivery Fee",
+    "freeDelivery": "Free Delivery",
+    "apply": "Apply",
+    "reset": "Reset",
+    "clear": "Clear All"
+  },
+  "sorting": {
+    "title": "Sort By",
+    "recommended": "Recommended",
+    "distance": "Distance",
+    "deliveryCost": "Delivery Cost",
+    "rating": "Rating",
+    "newest": "Newest",
+    "priceHigh": "Price: High to Low",
+    "priceLow": "Price: Low to High"
+  },
+  "categories": {
+    "all": "All",
+    "vietnamese": "Vietnamese",
+    "korean": "Korean",
+    "chinese": "Chinese",
+    "japanese": "Japanese",
+    "western": "Western",
+    "fastfood": "Fast Food",
+    "cafe": "Cafe",
+    "dessert": "Dessert"
+  },
+  "popularItems": {
+    "pizza": "Pizza",
+    "burger": "Burger",
+    "sushi": "Sushi",
+    "pho": "Pho",
+    "coffee": "Coffee",
+    "tea": "Tea",
+    "banh_mi": "Banh mi",
+    "com_tam": "Com tam"
+  },
+  "error": {
+    "general": "An error occurred during search.",
+    "loadMore": "Unable to load more results."
+  },
+  "recentSearches": "Recent Searches",
+  "popularSearches": "Popular Searches",
+  "categoryResults": "Category search results",
+  "promotion": "Promotion",
+  "sections": {
+    "stores": "Restaurants",
+    "menuItems": "Menu Items",
+    "promotions": "Promotions",
+    "reviews": "Reviews"
+  },
+  "emptyTitle": "No search results",
+  "emptyDescription": "Try entering a different search term",
+  "clearSearch": "Clear search",
+  "searching": "Searching...",
+  "findingBest": "Finding the best food for you",
+  "searchTips": "Search Tips",
+  "searchTipsText": "Try searching by store name, menu item, or cuisine type",
+  "noResultsDescription": "No results found for \"{{query}}\".",
+  "searchAgain": "Search again",
+  "results": {
+    "stores": "Stores",
+    "menus": "Menus",
+    "categories": "Categories"
+  },
+  "storesCount": "stores"
+}

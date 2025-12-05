@@ -1,0 +1,14 @@
+{
+  "required": "Permission required",
+  "description": "Please allow permission to use this feature",
+  "openSettings": "Open Settings",
+  "gallery": {
+    "title": "Photo access permission required",
+    "message": "Permission is required to select photos from the gallery.",
+    "description": "Please allow permission to select photos from your gallery."
+  },
+  "notifications": {
+    "title": "Notification permission",
+    "message": "Please allow notifications to receive order updates and promotions."
+  }
+}

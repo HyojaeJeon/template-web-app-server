@@ -1,0 +1,58 @@
+{
+  "title": "포인트",
+  "myPoints": "내 포인트",
+  "pointBalance": "포인트 잔액",
+  "availablePoints": "사용 가능 {{points}}P",
+  "usePoints": "포인트 사용",
+  "pointHistory": "포인트 내역",
+  "earnedThisMonth": "이달 적립",
+  "usedThisMonth": "이달 사용",
+  "nextTier": "다음 등급까지",
+  "tier": {
+    "bronze": "브론즈",
+    "silver": "실버",
+    "gold": "골드",
+    "platinum": "플래티넘"
+  },
+  "transactionTypes": {
+    "earn_order": "주문 적립",
+    "earn_review": "리뷰 적립",
+    "earn_referral": "추천 적립",
+    "earn_signup": "가입 적립",
+    "earn_event": "이벤트 적립",
+    "use_order": "주문 사용",
+    "expire": "포인트 만료",
+    "cancel": "취소/환불"
+  },
+  "filters": {
+    "all": "전체",
+    "earned": "적립",
+    "used": "사용",
+    "week": "최근 1주",
+    "month": "최근 1개월",
+    "year": "최근 1년"
+  },
+  "expiringWarning": "{{points}}P가 {{days}}일 후 만료됩니다",
+  "pointsEarned": "+{{points}}P 적립",
+  "pointsUsed": "-{{points}}P 사용",
+  "pointsExpired": "{{points}}P 만료",
+  "insufficientPoints": "포인트가 부족합니다",
+  "maxUsablePoints": "최대 {{points}}P까지 사용 가능",
+  "pointsToEarn": "적립 예정: {{points}}P",
+  "empty": {
+    "title": "포인트 내역이 없습니다",
+    "description": "주문하고 포인트를 적립해보세요"
+  },
+  "error": {
+    "loadFailed": "포인트 내역을 불러올 수 없습니다",
+    "useFailed": "포인트 사용에 실패했습니다",
+    "insufficientBalance": "사용 가능한 포인트가 부족합니다"
+  },
+  "success": {
+    "pointsUsed": "{{points}}P가 사용되었습니다",
+    "pointsEarned": "{{points}}P가 적립되었습니다"
+  },
+  "emptyHistory": "포인트 내역이 없습니다",
+  "emptyHistoryDesc": "주문 시 포인트를 적립해보세요",
+  "startOrdering": "주문하러 가기"
+}

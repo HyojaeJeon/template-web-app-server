@@ -1,0 +1,203 @@
+{
+  "title": "매장 채팅",
+  "subtitle": "매장과 직접 소통하세요",
+  "storeInfo": {
+    "operatingHours": "운영시간",
+    "rating": "평점",
+    "deliveryTime": "배달시간",
+    "deliveryFee": "배달비",
+    "phone": "전화번호",
+    "address": "주소",
+    "specialInfo": "특별 안내"
+  },
+  "status": {
+    "operating": "영업중",
+    "closed": "마감",
+    "busy": "바쁨",
+    "preparing": "준비중",
+    "offline": "오프라인",
+    "online": "온라인",
+    "lastSeenJustNow": "방금 활동",
+    "lastSeenMinutesAgo": "{{count}}분 전 활동",
+    "lastSeenHoursAgo": "{{count}}시간 전 활동",
+    "lastSeenDaysAgo": "{{count}}일 전 활동",
+    "lastSeenWeeksAgo": "{{count}}주 전 활동",
+    "lastSeenMonthsAgo": "{{count}}개월 전 활동"
+  },
+  "inquiryTypes": {
+    "ORDER": {
+      "title": "주문 문의",
+      "description": "주문 상태, 변경, 취소에 대한 문의",
+      "subCategories": {
+        "STATUS": "주문 상태",
+        "MODIFICATION": "주문 변경",
+        "CANCELLATION": "주문 취소",
+        "REFUND": "환불"
+      }
+    },
+    "DELIVERY": {
+      "title": "배달 문의",
+      "description": "배달 시간, 위치, 문제에 대한 문의",
+      "subCategories": {
+        "DELAY": "배달 지연",
+        "LOCATION": "배달 위치",
+        "CONTACT": "배달원 연락",
+        "ISSUE": "배달 문제"
+      }
+    },
+    "MENU": {
+      "title": "메뉴 문의",
+      "description": "음식 재료, 가격, 구성에 대한 문의",
+      "subCategories": {
+        "INGREDIENTS": "음식 재료",
+        "ALLERGEN": "알레르기 유발 요소",
+        "AVAILABILITY": "메뉴 품절",
+        "PRICE": "가격"
+      }
+    },
+    "PAYMENT": {
+      "title": "결제 문의",
+      "description": "결제 방법이나 영수증 관련 문의",
+      "subCategories": {
+        "METHOD": "결제 방법",
+        "FAILED": "결제 실패",
+        "REFUND": "환불",
+        "DISCOUNT": "할인"
+      }
+    },
+    "SERVICE": {
+      "title": "고객서비스",
+      "description": "서비스 관련 의견, 불만, 칭찬",
+      "subCategories": {
+        "COMPLAINT": "불만",
+        "COMPLIMENT": "칭찬",
+        "SUGGESTION": "제안",
+        "SUPPORT": "지원"
+      }
+    },
+    "OTHER": {
+      "title": "기타",
+      "description": "기타 문의사항",
+      "subCategories": {
+        "GENERAL": "일반",
+        "FEEDBACK": "피드백",
+        "TECHNICAL": "기술적 문제"
+      }
+    }
+  },
+  "actions": {
+    "startChat": "채팅 시작",
+    "callStore": "매장 전화",
+    "viewMenu": "메뉴 보기",
+    "shareMenu": "메뉴 공유",
+    "sendMessage": "메시지 전송",
+    "attachFile": "파일 첨부",
+    "selectCategory": "문의 유형 선택",
+    "backToList": "목록으로 돌아가기"
+  },
+  "messages": {
+    "welcome": "안녕하세요! 무엇을 도와드릴까요?",
+    "autoReply": "문의해주셔서 감사합니다! 빠른 시간 내에 답변드리겠습니다.",
+    "typing": "입력 중...",
+    "connecting": "연결 중...",
+    "connected": "연결됨",
+    "disconnected": "연결 끊김",
+    "messageSent": "전송됨",
+    "messageDelivered": "전달됨",
+    "messageRead": "읽음"
+  },
+  "notifications": {
+    "newMessage": "{{storeName}}에서 새 메시지가 도착했습니다",
+    "newImageMessage": "{{storeName}}에서 이미지가 도착했어요",
+    "storeOnline": "{{storeName}}이(가) 온라인 상태입니다",
+    "storeOffline": "{{storeName}}이(가) 오프라인 상태입니다",
+    "orderStatusUpdate": "주문 상태가 업데이트되었습니다"
+  },
+  "placeholders": {
+    "typeMessage": "메시지를 입력하세요...",
+    "searchStores": "매장 검색...",
+    "selectInquiryType": "문의 유형을 선택하세요...",
+    "orderNumber": "주문번호를 입력하세요..."
+  },
+  "validation": {
+    "messageRequired": "메시지를 입력해주세요",
+    "categoryRequired": "문의 유형을 선택해주세요",
+    "messageTooLong": "메시지가 너무 깁니다 (최대 {{max}}자)",
+    "attachmentTooLarge": "첨부파일이 너무 큽니다 (최대 {{max}}MB)"
+  },
+  "errors": {
+    "connectionFailed": "매장과 연결할 수 없습니다",
+    "sendMessageFailed": "메시지 전송에 실패했습니다",
+    "loadChatFailed": "채팅을 불러올 수 없습니다",
+    "storeUnavailable": "현재 매장에서 응답할 수 없습니다",
+    "attachmentFailed": "파일 업로드에 실패했습니다"
+  },
+  "time": {
+    "justNow": "방금",
+    "minuteAgo": "{{count}}분 전",
+    "hourAgo": "{{count}}시간 전",
+    "dayAgo": "{{count}}일 전",
+    "weekAgo": "{{count}}주 전",
+    "minuteAgo_plural": "{{count}} minutes ago",
+    "hourAgo_plural": "{{count}} hours ago",
+    "dayAgo_plural": "{{count}} days ago",
+    "weekAgo_plural": "{{count}} weeks ago"
+  },
+  "orderIntegration": {
+    "relatedOrder": "관련 주문",
+    "orderNumber": "주문번호",
+    "orderStatus": "주문상태",
+    "orderTotal": "총 금액",
+    "viewOrderDetails": "주문 상세보기",
+    "noRelatedOrder": "관련 주문이 없습니다"
+  },
+  "settings": {
+    "chatSettings": "채팅 설정",
+    "notifications": "알림",
+    "soundEnabled": "알림음 활성화",
+    "vibrationEnabled": "진동 알림",
+    "autoTranslate": "자동 번역",
+    "language": "언어",
+    "blockChat": "채팅 차단"
+  },
+  "translation": {
+    "originalMessage": "원본 메시지",
+    "translatedMessage": "번역됨",
+    "translateTo": "{{language}}로 번역",
+    "translating": "번역 중...",
+    "translationFailed": "메시지 번역에 실패했습니다",
+    "showOriginal": "원문 보기",
+    "showTranslation": "번역 보기"
+  },
+  "accessibility": {
+    "storeProfileImage": "{{name}} 매장 프로필 이미지",
+    "sendMessageButton": "메시지 전송 버튼",
+    "attachmentButton": "파일 첨부 버튼",
+    "callStoreButton": "매장 전화 버튼",
+    "backButton": "뒤로가기 버튼",
+    "menuButton": "메뉴 버튼",
+    "messageInput": "메시지 입력창",
+    "categorySelector": "문의 유형 선택",
+    "you": "Bạn",
+    "store": "Nhà hàng",
+    "imageMessage": "đã gửi hình ảnh",
+    "orderMessage": "đã chia sẻ thông tin đơn hàng",
+    "menuMessage": "đã chia sẻ thực đơn",
+    "systemMessage": "tin nhắn hệ thống",
+    "message": "tin nhắn",
+    "tapToViewDetails": "Chạm để xem chi tiết",
+    "longPressForOptions": "Nhấn giữ để xem tùy chọn",
+    "doubleTapToViewImage": "Chạm hai lần để xem hình ảnh",
+    "translated": "đã dịch",
+    "delivered": "đã gửi",
+    "read": "đã đọc",
+    "imageOpened": "Hình ảnh đã mở",
+    "chatImage": "Hình ảnh trong trò chuyện",
+    "tapToViewFullImage": "Chạm để xem hình ảnh đầy đủ",
+    "sentAt": "Gửi lúc",
+    "avatarOf": "Ảnh đại diện của",
+    "messageWasTranslated": "Tin nhắn đã được dịch",
+    "chatMessageList": "Danh sách tin nhắn trò chuyện",
+    "chatMessageListHint": "Vuốt để tải thêm tin nhắn cũ"
+  }
+}

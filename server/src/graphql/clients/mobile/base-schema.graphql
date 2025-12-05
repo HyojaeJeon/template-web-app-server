@@ -1,0 +1,18 @@
+# Base GraphQL Schema for Mobile Client
+# Provides base Query and Mutation types that can be extended
+
+type Query {
+  # Health check for Mobile GraphQL
+  health: String!
+
+  # Empty query for extending
+  _empty: String
+}
+
+type Mutation {
+  # Health check mutation
+  healthMutation: Boolean!
+
+  # Empty mutation for extending
+  _emptyMutation: Boolean
+}

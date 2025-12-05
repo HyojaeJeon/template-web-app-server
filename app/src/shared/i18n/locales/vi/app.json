@@ -1,0 +1,43 @@
+{
+  "initialization": {
+    "title": "Khởi tạo ứng dụng",
+    "loading": "Đang tải...",
+    "starting": "Ứng dụng đã khởi động",
+    "failed": "Khởi tạo ứng dụng thất bại",
+    "success": "Khởi tạo ứng dụng thành công"
+  },
+  "apollo": {
+    "initializing": "Bắt đầu khởi tạo Apollo Client...",
+    "initSuccess": "Khởi tạo Apollo Client thành công",
+    "initFailed": "Khởi tạo Apollo Client thất bại, sử dụng fallback",
+    "initTimeout": "Khởi tạo Apollo Client hết thời gian",
+    "fallbackSuccess": "Tạo Fallback Apollo Client hoàn tất",
+    "fallbackFailed": "Tạo Fallback Apollo Client thất bại",
+    "cacheRefreshSuccess": "Làm mới cache Apollo Client hoàn tất (thay đổi ngôn ngữ)",
+    "cacheRefreshFailed": "Làm mới cache Apollo Client thất bại"
+  },
+  "errors": {
+    "title": "Lỗi",
+    "cannotStart": "Không thể khởi động ứng dụng",
+    "initialization": "Khởi tạo ứng dụng thất bại hoặc hết thời gian",
+    "apolloInitializing": "Đang khởi tạo Apollo Client..."
+  },
+  "messages": {
+    "loading": "Đang tải...",
+    "loadingApp": "Đang tải ứng dụng...",
+    "testing": "Đang thử nghiệm ứng dụng...",
+    "apolloSocketReady": "Khởi tạo Apollo Client + Socket hoàn tất",
+    "allProviderReady": "Tất cả Provider hoạt động bình thường!",
+    "apolloTest": "Thử nghiệm Apollo Client 3.14.0"
+  },
+  "i18n": {
+    "initialized": "Khởi tạo i18n hoàn tất",
+    "initFailed": "Khởi tạo i18n thất bại",
+    "languageChanged": "Ngôn ngữ đã được thay đổi thành {language}",
+    "languageChangeFailed": "Thay đổi ngôn ngữ thất bại",
+    "languageLoadFailed": "Không thể tải cài đặt ngôn ngữ",
+    "missingKeys": "Thiếu khóa dịch ({count} khóa)",
+    "fallbackInit": "i18n được khởi tạo với cài đặt mặc định",
+    "fallbackInitFailed": "Khởi tạo i18n fallback cũng thất bại"
+  }
+}

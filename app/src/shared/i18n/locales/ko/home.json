@@ -1,0 +1,148 @@
+{
+  "header": {
+    "deliverTo": "배달 주소"
+  },
+  "banner": {
+    "title": "추천"
+  },
+  "search": {
+    "placeholder": "오늘 뭘 드실래요?"
+  },
+  "store": {
+    "recommended": "추천 매장",
+    "favorites": "즐겨찾는 매장",
+    "closed": "영업 종료",
+    "defaultDescription": "맛있는 음식을 제공하는 매장입니다",
+    "card": {
+      "freeDelivery": "무료배달"
+    }
+  },
+  "stores": {
+    "nearby": "내 주변 매장",
+    "popular": "인기 매장",
+    "new": "신규 매장"
+  },
+  "brand": {
+    "hint": "탭하여 브랜드 매장 보기",
+    "unknown": "브랜드",
+    "sale": "세일",
+    "partnerBrands": "제휴 브랜드",
+    "description": "믿을 수 있는 브랜드들과 함께합니다",
+    "specialOffers": "브랜드 특가 진행 중!",
+    "specialOffersDescription": "지금 주문하고 특별 할인 혜택을 받아보세요",
+    "logoHint": "탭하여 브랜드 페이지로 이동",
+    "error": {
+      "title": "브랜드를 불러올 수 없습니다",
+      "description": "네트워크를 확인하고 다시 시도해주세요"
+    },
+    "empty": {
+      "title": "제휴 브랜드가 없습니다",
+      "description": "곧 다양한 브랜드와 제휴할 예정입니다"
+    }
+  },
+  "menu": {
+    "popular": "인기 메뉴"
+  },
+  "points": {
+    "myPoints": "내 포인트",
+    "expiring": "{{points}}P가 {{date}}에 만료됩니다"
+  },
+  "order": {
+    "status": {
+      "READY": "준비 완료"
+    },
+    "items": "주문 항목"
+  },
+  "orders": {
+    "active": "진행중인 주문"
+  },
+  "featuredStores": {
+    "title": "추천 매장"
+  },
+  "featuredMenus": {
+    "title": "인기 메뉴"
+  },
+  "newStores": {
+    "title": "새로 오픈한 매장",
+    "subtitle": "신규 매장 특별 할인 혜택을 놓치지 마세요!",
+    "openToday": "오늘 오픈!",
+    "openDays": "오픈 {{count}}일째",
+    "newStore": "신규 매장",
+    "noRating": "평가 없음",
+    "daysLeft": "{{count}}일 남음",
+    "viewStore": "신규 매장 구경하기",
+    "viewAll": "전체보기",
+    "eventNotice": "신규 매장 이벤트는 매장별로 기간과 조건이 다를 수 있습니다",
+    "loading": "로딩 중...",
+    "loadError": "매장 정보를 불러올 수 없습니다",
+    "cuisineTypes": {
+      "VIETNAMESE": "Local 요리",
+      "KOREAN": "한식",
+      "CHINESE": "중식",
+      "JAPANESE": "일식",
+      "WESTERN": "양식",
+      "THAI": "태국 요리"
+    },
+    "events": {
+      "grandOpening": "그랜드 오픈 기념",
+      "welcomeOffer": "신규 고객 환영",
+      "freeDelivery": "오픈 기념"
+    },
+    "discounts": {
+      "50off": "50% 할인",
+      "30off": "30% 할인",
+      "freeDelivery": "배달비 무료"
+    },
+    "features": {
+      "new": "신규",
+      "freeDelivery": "무료 배달",
+      "discount": "할인 이벤트",
+      "recommended": "추천"
+    }
+  },
+  "noData": {
+    "title": "데이터가 없습니다",
+    "message": "최신 정보를 업데이트하고 있습니다",
+    "retry": "다시 시도"
+  },
+  "promotions": {
+    "title": "핫한 프로모션",
+    "count": "{{count}}개의 프로모션 진행중",
+    "viewAll": "전체 보기",
+    "off": "할인",
+    "freeDelivery": "무료 배달",
+    "expired": "만료됨",
+    "expiresToday": "오늘 만료",
+    "expiresDays": "{{days}}일 남음",
+    "badge": {
+      "discount": "할인",
+      "free": "무료 배송",
+      "cashback": "캐시백",
+      "bundle": "번들",
+      "bogo": "1+1",
+      "loyalty": "포인트",
+      "firstOrder": "첫 주문"
+    }
+  },
+  "coupons": {
+    "firstOrder": "첫 주문",
+    "firstOrderDiscount": "20% 할인",
+    "freeShipping": "무료배송",
+    "freeShippingMinOrder": "50만원 이상",
+    "newStore": "신규 매장",
+    "newStoreDiscount": "10만원 할인",
+    "useNow": "지금 사용",
+    "a11y": {
+      "firstOrderLabel": "첫 주문 20% 할인 쿠폰",
+      "firstOrderHint": "첫 주문 시 20% 할인을 받을 수 있습니다",
+      "freeShippingLabel": "무료배송 쿠폰",
+      "freeShippingHint": "50만원 이상 주문 시 무료배송이 적용됩니다",
+      "newStoreLabel": "신규 매장 10만원 할인 쿠폰",
+      "newStoreHint": "신규 매장에서 10만원 할인을 받을 수 있습니다"
+    }
+  },
+  "category": {
+    "expand": "펼치기",
+    "collapse": "접기"
+  }
+}

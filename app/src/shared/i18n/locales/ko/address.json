@@ -1,0 +1,213 @@
+{
+  "emptyTitle": "저장된 주소가 없습니다",
+  "emptyDescription": "배송 주소를 추가해주세요",
+  "addAddress": "주소 추가하기",
+  "title": "배송지 관리",
+  "add": "배송지 추가",
+  "edit": "배송지 수정",
+  "addNew": "새 주소 추가",
+  "empty": {
+    "title": "등록된 배송지가 없습니다",
+    "description": "자주 사용하는 배송지를 등록해보세요",
+    "helper": "배송 주소를 추가해 주세요"
+  },
+  "error": {
+    "title": "오류",
+    "message": "주소를 불러올 수 없습니다",
+    "loadFailed": "주소 목록을 불러올 수 없습니다",
+    "deleteFailed": "주소 삭제에 실패했습니다",
+    "defaultFailed": "기본 주소 설정에 실패했습니다"
+  },
+  "delete": {
+    "title": "주소 삭제",
+    "message": "이 주소를 삭제하시겠습니까?",
+    "confirm": "삭제",
+    "successTitle": "삭제 완료",
+    "successMessage": "주소가 삭제되었습니다"
+  },
+  "default": {
+    "successTitle": "설정 완료",
+    "successMessage": "기본 주소로 설정되었습니다"
+  },
+  "management": {
+    "title": "주소 관리",
+    "count": "총 {{count}}개 주소"
+  },
+  "loading": "주소를 불러오는 중...",
+  "labels": {
+    "default": "기본",
+    "recipient": "받는 사람",
+    "phone": "전화번호",
+    "district": "구/군",
+    "ward": "동/면",
+    "street": "도로명",
+    "detail": "상세 주소",
+    "alias": "주소 별칭",
+    "instructions": "배달 요청사항",
+    "lastUsed": "마지막 사용",
+    "deliveryInfo": "배송 정보",
+    "deliveryInfoDesc": "현재 호치민시와 인근 지역에 배달 가능합니다. 배달 시간은 20-45분 소요됩니다.",
+    "quickActions": "빠른 작업",
+    "hoChiMinh": "호치민시",
+    "label": "주소 라벨",
+    "recipientName": "수령인 이름",
+    "recipientPhone": "수령인 전화번호",
+    "address": "주소",
+    "addressDetail": "상세 주소",
+    "deliveryNote": "배달 메모"
+  },
+  "sections": {
+    "basicInfo": "기본 정보",
+    "addressInfo": "주소",
+    "deliveryInfo": "배달 정보"
+  },
+  "types": {
+    "home": "집",
+    "office": "회사",
+    "other": "기타",
+    "store": "매장",
+    "hotel": "호텔"
+  },
+  "actions": {
+    "add": "배송지 추가",
+    "addFirst": "첫 번째 배송지 추가",
+    "edit": "수정",
+    "delete": "삭제",
+    "setDefault": "기본으로 설정",
+    "confirmDelete": "이 주소를 삭제하시겠습니까?",
+    "selectLocation": "지도에서 위치 선택",
+    "getCurrentLocation": "현재 위치 사용",
+    "searchAddress": "주소 검색"
+  },
+  "form": {
+    "title": "주소 추가",
+    "name": "주소 이름",
+    "namePlaceholder": "예: 집, 회사",
+    "recipientPlaceholder": "수령인 이름 입력",
+    "phonePlaceholder": "+84901234567",
+    "labelPlaceholder": "예: 집, 회사, 학교",
+    "aliasPlaceholder": "주소 별칭 (예: 집, 회사)",
+    "street": "도로명 주소",
+    "streetPlaceholder": "도로명 주소를 입력하세요",
+    "addressPlaceholder": "전체 주소 입력 (District, Ward, Street)",
+    "detailPlaceholder": "동/호수, 층수 등",
+    "instructionsPlaceholder": "배달 시 참고사항",
+    "ward": "동/면",
+    "wardPlaceholder": "동/면을 입력하세요",
+    "district": "구/군",
+    "districtPlaceholder": "구/군을 입력하세요",
+    "city": "시/도",
+    "save": "저장",
+    "setAsDefault": "기본 배송지로 설정",
+    "defaultDescription": "이 주소를 기본 배송지로 설정합니다"
+  },
+  "validation": {
+    "labelRequired": "주소 라벨은 필수입니다",
+    "addressRequired": "주소는 필수입니다",
+    "recipientRequired": "받는 사람 이름은 필수입니다",
+    "phoneRequired": "연락처는 필수입니다",
+    "phoneInvalid": "올바른 전화번호 형식이 아닙니다",
+    "aliasRequired": "주소 별칭은 필수입니다",
+    "districtRequired": "구/군을 선택해주세요",
+    "wardRequired": "동/면을 선택해주세요",
+    "streetRequired": "도로명 주소를 입력해주세요"
+  },
+  "messages": {
+    "saveSuccess": "배송지가 저장되었습니다",
+    "updateSuccess": "배송지가 수정되었습니다",
+    "deleteSuccess": "배송지가 삭제되었습니다",
+    "defaultSet": "기본 배송지로 설정되었습니다"
+  },
+  "errors": {
+    "loadFailed": "주소 목록을 불러오지 못했습니다",
+    "saveFailed": "배송지 저장에 실패했습니다",
+    "updateFailed": "배송지 수정에 실패했습니다",
+    "deleteFailed": "배송지 삭제에 실패했습니다",
+    "defaultFailed": "기본 배송지 설정에 실패했습니다",
+    "locationNotFound": "위치를 찾을 수 없습니다",
+    "permissionDenied": "위치 접근 권한이 거부되었습니다"
+  },
+  "requiredFieldsError": "필수 항목을 모두 입력해주세요",
+  "addressSaved": "주소가 저장되었습니다",
+  "addressSaveError": "주소 저장에 실패했습니다. 다시 시도해주세요",
+  "fields": {
+    "city": "시/도",
+    "district": "구/군",
+    "ward": "동/면/리",
+    "street": "도로명/번지",
+    "detail": "상세주소 (선택)",
+    "note": "배달 요청사항 (선택)"
+  },
+  "inputTitle": "주소 직접 입력",
+  "inputDescription": "정확한 배달 주소를 입력해주세요",
+  "guide": {
+    "title": "Local 주소 입력 가이드",
+    "description": "• 시/도: Ho Chi Minh City, Hanoi, Da Nang 등\n• 구/군: Quận 1, Quận 3, Huyện Bình Chánh 등\n• 동/면/리: Phường Bến Nghé, Xã Tân Kiên 등"
+  },
+  "enterDeliveryAddress": "배송 주소를 입력하세요",
+  "deliveryTime": {
+    "ASAP": "바로 배달 (15-30분)",
+    "SCHEDULED": "예약 배달"
+  },
+  "contactless": {
+    "title": "비대면 배달",
+    "description": "기사님이 문 앞에 두고 연락드립니다"
+  },
+  "map": {
+    "searchPlaceholder": "주소를 검색하세요",
+    "currentLocation": "현재 위치",
+    "selectThisLocation": "이 위치 선택",
+    "movePinToSelectLocation": "핀을 이동하여 위치를 선택하세요",
+    "locationSelected": "위치가 선택되었습니다",
+    "selectLocation": "위치 선택",
+    "selectedLocation": "선택된 위치",
+    "selectedAddress": "선택된 주소",
+    "unknownStreet": "주소 정보를 가져오는 중...",
+    "getCurrentLocation": "현재 위치",
+    "currentLocationFound": "현재 위치를 찾았습니다",
+    "locationError": "위치를 가져올 수 없습니다",
+    "locationErrorDesc": "GPS가 켜져 있는지 확인하고 다시 시도해주세요",
+    "selectLocationFirst": "먼저 지도에서 위치를 선택해주세요",
+    "mapView": "지도 화면",
+    "tapToSelectHint": "지도를 탭하여 정확한 위치를 선택하세요",
+    "latitude": "위도",
+    "longitude": "경도",
+    "accuracy": "정확도",
+    "getCurrentLocationAction": "현재 위치 가져오기"
+  },
+  "availability": {
+    "available": "배송 가능",
+    "unavailable": "배송 불가능"
+  },
+  "deliveryCheck": {
+    "title": "배송 가능 지역 확인",
+    "checking": "배송 가능 여부 확인 중...",
+    "available": "배송 가능",
+    "unavailable": "배송 불가능",
+    "estimatedTimeLabel": "예상 시간",
+    "feeLabel": "배송비",
+    "distanceLabel": "거리",
+    "checkButton": "배송 가능 여부 확인"
+  },
+  "tracking": {
+    "title": "위치 추적",
+    "status": "추적 상태",
+    "active": "추적 중",
+    "inactive": "추적 중지",
+    "lastUpdate": "마지막 업데이트",
+    "start": "추적 시작",
+    "stop": "추적 중지"
+  },
+  "regions": {
+    "region": "지역",
+    "selectRegion": "지역 선택",
+    "hoChiMinh": "호찌민시",
+    "hanoi": "하노이",
+    "daNang": "다낭",
+    "canTho": "칸토",
+    "haiPhong": "하이퐁",
+    "bienHoa": "비엔호아",
+    "hue": "후에",
+    "nhaTrang": "나트랑"
+  }
+}

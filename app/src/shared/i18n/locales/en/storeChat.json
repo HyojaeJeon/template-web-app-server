@@ -1,0 +1,203 @@
+{
+  "title": "Store Chat",
+  "subtitle": "Communicate directly with the store",
+  "storeInfo": {
+    "operatingHours": "Operating Hours",
+    "rating": "Rating",
+    "deliveryTime": "Delivery Time",
+    "deliveryFee": "Delivery Fee",
+    "phone": "Phone",
+    "address": "Address",
+    "specialInfo": "Special Information"
+  },
+  "status": {
+    "operating": "Open",
+    "closed": "Closed",
+    "busy": "Busy",
+    "preparing": "Preparing",
+    "offline": "Offline",
+    "online": "Online",
+    "lastSeenJustNow": "Active just now",
+    "lastSeenMinutesAgo": "Active {{count}} minutes ago",
+    "lastSeenHoursAgo": "Active {{count}} hours ago",
+    "lastSeenDaysAgo": "Active {{count}} days ago",
+    "lastSeenWeeksAgo": "Active {{count}} weeks ago",
+    "lastSeenMonthsAgo": "Active {{count}} months ago"
+  },
+  "inquiryTypes": {
+    "ORDER": {
+      "title": "Order Inquiry",
+      "description": "Ask about order status, changes, or cancellation",
+      "subCategories": {
+        "STATUS": "Order Status",
+        "MODIFICATION": "Order Modification",
+        "CANCELLATION": "Order Cancellation",
+        "REFUND": "Refund"
+      }
+    },
+    "DELIVERY": {
+      "title": "Delivery Inquiry",
+      "description": "Ask about delivery time, location, or issues",
+      "subCategories": {
+        "DELAY": "Delivery Delay",
+        "LOCATION": "Delivery Location",
+        "CONTACT": "Contact Delivery Driver",
+        "ISSUE": "Delivery Issue"
+      }
+    },
+    "MENU": {
+      "title": "Menu Inquiry",
+      "description": "Ask about food ingredients, price, or composition",
+      "subCategories": {
+        "INGREDIENTS": "Food Ingredients",
+        "ALLERGEN": "Allergens",
+        "AVAILABILITY": "Menu Availability",
+        "PRICE": "Price"
+      }
+    },
+    "PAYMENT": {
+      "title": "Payment Inquiry",
+      "description": "Payment method or receipt related inquiries",
+      "subCategories": {
+        "METHOD": "Payment Method",
+        "FAILED": "Payment Failed",
+        "REFUND": "Refund",
+        "DISCOUNT": "Discount"
+      }
+    },
+    "SERVICE": {
+      "title": "Customer Service",
+      "description": "Service-related feedback, complaints, or compliments",
+      "subCategories": {
+        "COMPLAINT": "Complaint",
+        "COMPLIMENT": "Compliment",
+        "SUGGESTION": "Suggestion",
+        "SUPPORT": "Support"
+      }
+    },
+    "OTHER": {
+      "title": "Other",
+      "description": "Other inquiries",
+      "subCategories": {
+        "GENERAL": "General",
+        "FEEDBACK": "Feedback",
+        "TECHNICAL": "Technical Issues"
+      }
+    }
+  },
+  "actions": {
+    "startChat": "Start Chat",
+    "callStore": "Call Store",
+    "viewMenu": "View Menu",
+    "shareMenu": "Share Menu",
+    "sendMessage": "Send Message",
+    "attachFile": "Attach File",
+    "selectCategory": "Select Inquiry Type",
+    "backToList": "Back to List"
+  },
+  "messages": {
+    "welcome": "Hello! How can we help you?",
+    "autoReply": "Thank you for your inquiry! We will respond as soon as possible.",
+    "typing": "typing...",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "messageSent": "Sent",
+    "messageDelivered": "Delivered",
+    "messageRead": "Read"
+  },
+  "notifications": {
+    "newMessage": "New message from {{storeName}}",
+    "newImageMessage": "New image from {{storeName}}",
+    "storeOnline": "{{storeName}} is now online",
+    "storeOffline": "{{storeName}} is now offline",
+    "orderStatusUpdate": "Order status has been updated"
+  },
+  "placeholders": {
+    "typeMessage": "Type a message...",
+    "searchStores": "Search stores...",
+    "selectInquiryType": "Select inquiry type...",
+    "orderNumber": "Enter order number..."
+  },
+  "validation": {
+    "messageRequired": "Please enter a message",
+    "categoryRequired": "Please select an inquiry type",
+    "messageTooLong": "Message is too long (max {{max}} characters)",
+    "attachmentTooLarge": "Attachment is too large (max {{max}}MB)"
+  },
+  "errors": {
+    "connectionFailed": "Unable to connect to store",
+    "sendMessageFailed": "Failed to send message",
+    "loadChatFailed": "Unable to load chat",
+    "storeUnavailable": "Store is currently unavailable",
+    "attachmentFailed": "Failed to upload attachment"
+  },
+  "time": {
+    "justNow": "Just now",
+    "minuteAgo": "{{count}} minute ago",
+    "minuteAgo_plural": "{{count}} minutes ago",
+    "hourAgo": "{{count}} hour ago",
+    "hourAgo_plural": "{{count}} hours ago",
+    "dayAgo": "{{count}} day ago",
+    "dayAgo_plural": "{{count}} days ago",
+    "weekAgo": "{{count}} week ago",
+    "weekAgo_plural": "{{count}} weeks ago"
+  },
+  "orderIntegration": {
+    "relatedOrder": "Related Order",
+    "orderNumber": "Order Number",
+    "orderStatus": "Order Status",
+    "orderTotal": "Total Amount",
+    "viewOrderDetails": "View Order Details",
+    "noRelatedOrder": "No related order"
+  },
+  "settings": {
+    "chatSettings": "Chat Settings",
+    "notifications": "Notifications",
+    "soundEnabled": "Sound Notifications",
+    "vibrationEnabled": "Vibration Notifications",
+    "autoTranslate": "Auto Translate",
+    "language": "Language",
+    "blockChat": "Block Chat"
+  },
+  "translation": {
+    "originalMessage": "Original Message",
+    "translatedMessage": "Translated",
+    "translateTo": "Translate to {{language}}",
+    "translating": "Translating...",
+    "translationFailed": "Failed to translate message",
+    "showOriginal": "Show Original",
+    "showTranslation": "Show Translation"
+  },
+  "accessibility": {
+    "storeProfileImage": "{{name}} store profile image",
+    "sendMessageButton": "Send message button",
+    "attachmentButton": "Attachment button",
+    "callStoreButton": "Call store button",
+    "backButton": "Back button",
+    "menuButton": "Menu button",
+    "messageInput": "Message input field",
+    "categorySelector": "Inquiry type selector",
+    "you": "Bạn",
+    "store": "Nhà hàng",
+    "imageMessage": "đã gửi hình ảnh",
+    "orderMessage": "đã chia sẻ thông tin đơn hàng",
+    "menuMessage": "đã chia sẻ thực đơn",
+    "systemMessage": "tin nhắn hệ thống",
+    "message": "tin nhắn",
+    "tapToViewDetails": "Chạm để xem chi tiết",
+    "longPressForOptions": "Nhấn giữ để xem tùy chọn",
+    "doubleTapToViewImage": "Chạm hai lần để xem hình ảnh",
+    "translated": "đã dịch",
+    "delivered": "đã gửi",
+    "read": "đã đọc",
+    "imageOpened": "Hình ảnh đã mở",
+    "chatImage": "Hình ảnh trong trò chuyện",
+    "tapToViewFullImage": "Chạm để xem hình ảnh đầy đủ",
+    "sentAt": "Gửi lúc",
+    "avatarOf": "Ảnh đại diện của",
+    "messageWasTranslated": "Tin nhắn đã được dịch",
+    "chatMessageList": "Danh sách tin nhắn trò chuyện",
+    "chatMessageListHint": "Vuốt để tải thêm tin nhắn cũ"
+  }
+}

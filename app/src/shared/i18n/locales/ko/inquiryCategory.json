@@ -1,0 +1,61 @@
+{
+  "ORDER": {
+    "title": "주문",
+    "description": "주문 상태, 변경, 취소 및 주문 관련 문의",
+    "subCategories": {
+      "STATUS": "주문 상태 확인",
+      "MODIFICATION": "주문 내용 변경",
+      "CANCELLATION": "주문 취소 요청",
+      "REFUND": "환불 요청"
+    }
+  },
+  "DELIVERY": {
+    "title": "배달",
+    "description": "배달 시간, 위치, 기사 연락 및 배달 문제",
+    "subCategories": {
+      "DELAY": "배달 지연",
+      "LOCATION": "배달 주소 문제",
+      "CONTACT": "배달 기사 연락",
+      "ISSUE": "기타 배달 문제"
+    }
+  },
+  "MENU": {
+    "title": "음식",
+    "description": "메뉴 정보, 재료, 알레르기 및 가격",
+    "subCategories": {
+      "INGREDIENTS": "음식 재료 정보",
+      "ALLERGEN": "알레르기 정보",
+      "AVAILABILITY": "재고 현황",
+      "PRICE": "가격 문제"
+    }
+  },
+  "PAYMENT": {
+    "title": "결제",
+    "description": "결제 오류, 환불, 쿠폰 및 결제 관련 문제",
+    "subCategories": {
+      "METHOD": "결제 수단",
+      "FAILED": "결제 실패",
+      "REFUND": "환불 요청",
+      "DISCOUNT": "할인 문제"
+    }
+  },
+  "SERVICE": {
+    "title": "서비스",
+    "description": "불만, 칭찬, 의견 및 일반 지원",
+    "subCategories": {
+      "COMPLAINT": "서비스 불만",
+      "COMPLIMENT": "서비스 칭찬",
+      "SUGGESTION": "개선 의견",
+      "SUPPORT": "일반 지원"
+    }
+  },
+  "OTHER": {
+    "title": "기타",
+    "description": "기타 질문 및 문제",
+    "subCategories": {
+      "GENERAL": "일반 질문",
+      "FEEDBACK": "피드백",
+      "TECHNICAL": "기술적 문제"
+    }
+  }
+}

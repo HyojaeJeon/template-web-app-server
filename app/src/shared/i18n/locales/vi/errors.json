@@ -1,0 +1,43 @@
+{
+  "general": {
+    "title": "Đã xảy ra sự cố",
+    "description": "Ứng dụng gặp lỗi không mong muốn. Vui lòng thử lại sau ít phút."
+  },
+  "errorModal": {
+    "title": "Lỗi xảy ra",
+    "temporaryError": "Đã xảy ra lỗi tạm thời",
+    "appProblem": "Ứng dụng gặp sự cố",
+    "restartRequired": "Nếu sự cố tiếp tục xảy ra, vui lòng khởi động lại ứng dụng.",
+    "tryAgainLater": "Vui lòng thử lại sau.",
+    "code": "Mã lỗi",
+    "category": "Danh mục",
+    "details": "Chi tiết"
+  },
+  "technicalDetails": "Chi tiết kỹ thuật",
+  "retry": "Thử lại",
+  "retrying": "Đang thử lại...",
+  "goBack": "Quay lại",
+  "contactSupport": "Liên hệ hỗ trợ khách hàng",
+  "persistentIssue": "Vấn đề vẫn tiếp tục xảy ra?",
+  "errors": {
+    "menu": {
+      "connectionFailed": "Kết nối thất bại",
+      "notConnected": "Chưa kết nối với máy chủ",
+      "refreshFailed": "Không thể làm mới thông tin menu"
+    },
+    "promotion": {
+      "fetchFailed": "Không thể tải khuyến mãi",
+      "notFound": "Không tìm thấy khuyến mãi",
+      "detailsFetchFailed": "Không thể tải chi tiết khuyến mãi",
+      "notFoundOrInactive": "Khuyến mãi không tồn tại hoặc đã hết hạn",
+      "expired": "Khuyến mãi đã hết hạn",
+      "minOrderAmount": "Giá trị đơn hàng tối thiểu là {{amount}}",
+      "newUsersOnly": "Khuyến mãi này chỉ dành cho khách hàng mới",
+      "vipMembersOnly": "Khuyến mãi này chỉ dành cho thành viên VIP",
+      "locationNotAvailable": "Khuyến mãi không khả dụng tại khu vực của bạn",
+      "flashSaleSoldOut": "Flash sale đã hết hàng",
+      "eligibilityCheckFailed": "Không thể kiểm tra điều kiện khuyến mãi",
+      "applyFailed": "Không thể áp dụng khuyến mãi"
+    }
+  }
+}

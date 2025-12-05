@@ -1,0 +1,59 @@
+{
+  "title": "즐겨찾기",
+  "tabs": {
+    "stores": "매장",
+    "menus": "메뉴"
+  },
+  "stores": "매장",
+  "menus": {
+    "title": "즐겨찾는 메뉴",
+    "count": "{{count}}개 메뉴",
+    "addToCart": "장바구니 담기",
+    "from": "{{storeName}}에서"
+  },
+  "noStores": "즐겨찾는 매장이 없어요",
+  "noStoresDesc": "맛있는 매장을 찾아서 즐겨찾기에 추가해보세요",
+  "noMenus": "즐겨찾는 메뉴가 없어요",
+  "noMenusDesc": "맛있는 메뉴를 찾아서 즐겨찾기에 추가해보세요",
+  "storeInfo": {
+    "title": "즐겨찾는 매장",
+    "count": "{{count}}개 매장",
+    "orderCount": "{{count}}회 주문",
+    "totalSpent": "총 {{amount}}원",
+    "lastOrdered": "최근 주문: {{date}}",
+    "orderNow": "지금 주문"
+  },
+  "empty": {
+    "stores": {
+      "title": "아직 즐겨찾는 매장이 없어요",
+      "subtitle": "맛있는 매장을 찾아서 즐겨찾기에 추가해보세요",
+      "button": "매장 둘러보기"
+    },
+    "menus": {
+      "title": "아직 즐겨찾는 메뉴가 없어요",
+      "subtitle": "맛있는 메뉴를 찾아서 즐겨찾기에 추가해보세요",
+      "button": "메뉴 둘러보기"
+    }
+  },
+  "actions": {
+    "remove": "즐겨찾기에서 제거",
+    "removeConfirm": "즐겨찾기에서 제거하시겠습니까?",
+    "removeSuccess": "즐겨찾기에서 제거되었습니다",
+    "addSuccess": "즐겨찾기에 추가되었습니다",
+    "viewStore": "매장 보기",
+    "orderAgain": "다시 주문"
+  },
+  "filters": {
+    "all": "전체",
+    "recentlyOrdered": "최근 주문",
+    "highRated": "평점 높은순",
+    "nearBy": "가까운 순"
+  },
+  "sorting": {
+    "title": "정렬",
+    "newest": "최신순",
+    "oldest": "오래된순",
+    "mostOrdered": "주문 많은순",
+    "alphabetical": "가나다순"
+  }
+}

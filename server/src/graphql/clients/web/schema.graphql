@@ -1,0 +1,94 @@
+# ===============================================
+# Store Client Unified Schema
+# Location: /graphql/clients/store/schema.graphql
+# Purpose: Store web app GraphQL schema integration
+# Date: 2025-01-14
+# ===============================================
+
+# ===============================================
+# Common Type Import
+# ===============================================
+# directive @import(module: String!) on OBJECT | FIELD_DEFINITION | INTERFACE | UNION | ENUM | SCALAR | INPUT_OBJECT
+
+# ===============================================
+# Domain Schema Import
+# ===============================================
+
+# Analytics - Statistics and analysis
+# @import(module: "./analytics/schema.graphql")
+
+# Auth - Store owner/staff authentication
+# @import(module: "./auth/schema.graphql")
+
+# Chat - Real-time chat and messaging management
+# @import(module: "./chat/schema.graphql")
+
+# Coupon - Coupon creation and management
+# @import(module: "./coupon/schema.graphql")
+
+# Customers - Customer information management
+# @import(module: "./customers/schema.graphql")
+
+# Dashboard - KPI, statistics, widgets and real-time data
+# @import(module: "./dashboard/schema.graphql")
+
+# Delivery - Delivery zone and driver management
+# @import(module: "./delivery/schema.graphql")
+
+# Finance - Settlement and financial management
+# @import(module: "./finance/schema.graphql")
+
+# Menu - Menu CRUD and categories
+# @import(module: "./menu/schema.graphql")
+
+# Orders - Order processing and status management
+# @import(module: "./orders/schema.graphql")
+
+# Payments - Payment processing and management
+# @import(module: "./payments/schema.graphql")
+
+# Notifications - Notification management system
+# @import(module: "./notifications/schema.graphql")
+
+# POS - POS system integration
+# @import(module: "./pos/schema.graphql")
+
+# Print - Printing system and templates
+# @import(module: "./print/schema.graphql")
+
+# Reports - Report generation
+# @import(module: "./reports/schema.graphql")
+
+# Reviews - Review response and management
+# @import(module: "./reviews/schema.graphql")
+
+# Settings - Store and staff settings
+# @import(module: "./settings/schema.graphql")
+
+# ===============================================
+# Schema Information
+# ===============================================
+# 
+# Store Client Exclusive Schema
+# - Total 14 domains (Delivery 도메인 추가)
+# - Prefix: s (e.g., sGetProfile, sUpdateMenu)
+# - Error codes: S1xxx-S9xxx (Store exclusive)
+# - Authentication: withSAuth wrapper
+#
+# Domain Query/Mutation Count:
+# - Analytics: Dashboard data queries
+# - Auth: Login/logout, permission management
+# - Dashboard: KPI monitoring, widgets, statistics, real-time data
+# - Coupon: Coupon CRUD
+# - Customers: Customer queries/management
+# - Delivery: Delivery zone/driver management
+# - Finance: Settlement queries/processing
+# - Menu: Menu item/category CRUD
+# - Orders: Order queries/status changes
+# - POS: POS integration status/settings
+# - Print: Order printing, templates, POS printer integration
+# - Reports: Report generation/queries
+# - Reviews: Review queries/responses
+# - Settings: Store/staff settings
+# 
+# ===============================================

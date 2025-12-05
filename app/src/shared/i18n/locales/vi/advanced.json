@@ -1,0 +1,155 @@
+{
+  "weather": {
+    "title": "Thời tiết",
+    "subtitle": "Hệ thống gợi ý món ăn dựa trên thời tiết",
+    "systemTitle": "Hệ thống tích hợp thời tiết ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Hệ thống thông minh với AI gợi ý món ăn và đồ uống phù hợp với thời tiết hiện tại",
+    "currentWeather": {
+      "title": "Thời tiết hiện tại",
+      "description": "Thông tin thời tiết thời gian thực"
+    },
+    "recommendations": {
+      "title": "Gợi ý theo thời tiết",
+      "description": "Gợi ý món ăn phù hợp với thời tiết"
+    },
+    "conditions": {
+      "sunny": "Nắng",
+      "rainy": "Mưa",
+      "cloudy": "Nhiều mây",
+      "hot": "Nóng",
+      "cold": "Lạnh"
+    },
+    "suggestions": {
+      "hotWeather": {
+        "title": "Thời tiết nóng",
+        "foods": "Đồ uống mát, bún mát, kem",
+        "description": "Món ăn mát lạnh giải nhiệt"
+      },
+      "rainyWeather": {
+        "title": "Ngày mưa",
+        "foods": "Súp nóng, bánh xèo, đồ uống ấm",
+        "description": "Ấm áp trong ngày ủ ê"
+      },
+      "coldWeather": {
+        "title": "Thời tiết lạnh",
+        "foods": "Canh chua cay, súp nóng, trà ấm",
+        "description": "Món ăn làm ấm cơ thể"
+      }
+    }
+  },
+  "accessibility": {
+    "title": "Khả năng tiếp cận",
+    "subtitle": "Tính năng tiếp cận cho tất cả người dùng",
+    "systemTitle": "Hệ thống khả năng tiếp cận ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Thiết kế bao gồm dành cho người dùng khiếm thị, khiếm thính và khuyết tật vận động",
+    "screenReader": {
+      "title": "Hỗ trợ trình đọc màn hình",
+      "description": "Hướng dẫn bằng giọng nói cho người khiếm thị"
+    },
+    "fontSize": {
+      "title": "Điều chỉnh kích thước chữ",
+      "description": "Cài đặt kích thước chữ để cải thiện khả năng đọc"
+    },
+    "highContrast": {
+      "title": "Chế độ tương phản cao",
+      "description": "Tăng cường tương phản để phân biệt trực quan"
+    },
+    "voiceOrdering": {
+      "title": "Đặt hàng bằng giọng nói",
+      "description": "Đặt món ăn bằng giọng nói"
+    },
+    "largeButtons": {
+      "title": "Nút lớn",
+      "description": "Nút lớn dễ chạm"
+    },
+    "colorBlindSupport": {
+      "title": "Hỗ trợ người mù màu",
+      "description": "Truyền đạt thông tin bằng cách khác ngoài màu sắc"
+    }
+  },
+  "personalization": {
+    "title": "Cá nhân hóa",
+    "subtitle": "Cung cấp trải nghiệm tùy chỉnh cho người dùng",
+    "systemTitle": "Hệ thống cá nhân hóa ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Gợi ý tùy chỉnh được phân tích từ sở thích và mẫu đặt hàng của người dùng",
+    "preferences": {
+      "title": "Cài đặt sở thích",
+      "description": "Quản lý sở thích và thị hiếu cá nhân"
+    },
+    "orderHistory": {
+      "title": "Phân tích lịch sử đặt hàng",
+      "description": "Gợi ý dựa trên đơn hàng trước đây"
+    },
+    "dietaryRestrictions": {
+      "title": "Hạn chế chế độ ăn",
+      "description": "Quản lý hạn chế chế độ ăn như dị ứng, thuần chay"
+    },
+    "favoriteStores": {
+      "title": "Nhà hàng yêu thích",
+      "description": "Quản lý nhà hàng thường xuyên đặt hàng"
+    },
+    "customization": {
+      "title": "Tùy chỉnh ứng dụng",
+      "description": "Cài đặt cá nhân hóa như chủ đề, bố cục"
+    },
+    "smartSuggestions": {
+      "title": "Gợi ý thông minh",
+      "description": "Gợi ý món ăn tùy chỉnh dựa trên AI"
+    },
+    "dietary": {
+      "vegetarian": "Ăn chay",
+      "vegan": "Thuần chay",
+      "halal": "Halal",
+      "kosher": "Kosher",
+      "glutenFree": "Không gluten",
+      "allergies": "Dị ứng"
+    }
+  },
+  "reviewSystem": {
+    "title": "Hệ thống đánh giá",
+    "subtitle": "Quản lý đánh giá và nhận xét toàn diện",
+    "systemTitle": "Hệ thống đánh giá ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Viết và quản lý đánh giá chi tiết và hữu ích về nhà hàng và món ăn",
+    "writeReview": {
+      "title": "Viết đánh giá",
+      "description": "Đánh giá nhà hàng và món ăn"
+    },
+    "ratingCategories": {
+      "title": "Danh mục đánh giá",
+      "description": "Đánh giá từ nhiều góc độ khác nhau"
+    },
+    "photoReviews": {
+      "title": "Đánh giá có ảnh",
+      "description": "Đánh giá kèm theo ảnh món ăn"
+    },
+    "reviewIncentives": {
+      "title": "Ưu đãi đánh giá",
+      "description": "Điểm và giảm giá khi viết đánh giá"
+    },
+    "helpfulVotes": {
+      "title": "Đánh giá hữu ích",
+      "description": "Bình chọn hữu ích của người dùng khác"
+    },
+    "categories": {
+      "taste": "Hương vị",
+      "delivery": "Giao hàng",
+      "packaging": "Đóng gói",
+      "temperature": "Nhiệt độ",
+      "portion": "Khẩu phần",
+      "value": "Giá trị"
+    },
+    "quickFeedback": {
+      "delicious": "Ngon",
+      "fresh": "Tươi",
+      "hot": "Nóng",
+      "fast": "Nhanh",
+      "goodPackaging": "Đóng gói tốt",
+      "generous": "Khẩu phần nhiều"
+    },
+    "incentives": {
+      "photoReward": "500 điểm cho đánh giá có ảnh",
+      "detailedReward": "300 điểm cho đánh giá chi tiết",
+      "firstReview": "1000 điểm cho đánh giá đầu tiên"
+    }
+  }
+}

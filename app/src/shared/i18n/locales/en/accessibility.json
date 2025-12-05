@@ -1,0 +1,229 @@
+{
+  "image": "Image",
+  "actions": {
+    "activate": "Activate",
+    "longPress": "Long press",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "select": "Select",
+    "open": "Open",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "alert": {
+    "info": "Information",
+    "warning": "Warning",
+    "error": "Error",
+    "success": "Success"
+  },
+  "settings": {
+    "title": "Accessibility Settings",
+    "fontSize": {
+      "title": "Font Size",
+      "label": "Adjust font size",
+      "small": "Small",
+      "large": "Large",
+      "preview": "This is preview text.",
+      "changed": "Font size changed to {{value}}"
+    },
+    "visual": {
+      "title": "Visual Settings"
+    },
+    "highContrast": {
+      "title": "High Contrast Mode",
+      "label": "Toggle high contrast mode",
+      "description": "Increases contrast between text and background for better readability",
+      "changed": "High contrast mode {{value}}"
+    },
+    "colorInversion": {
+      "title": "Color Inversion",
+      "label": "Toggle color inversion",
+      "description": "Inverts screen colors",
+      "changed": "Color inversion {{value}}"
+    },
+    "reduceMotion": {
+      "title": "Reduce Motion",
+      "label": "Toggle reduce motion",
+      "description": "Reduces screen transitions and animation effects",
+      "changed": "Reduce motion {{value}}"
+    },
+    "interaction": {
+      "title": "Interaction Settings"
+    },
+    "voiceGuidance": {
+      "title": "Voice Guidance",
+      "label": "Toggle voice guidance",
+      "description": "Provides voice guidance for screen content and interactions",
+      "changed": "Voice guidance {{value}}"
+    },
+    "hapticFeedback": {
+      "title": "Haptic Feedback",
+      "label": "Toggle haptic feedback",
+      "description": "Provides vibration feedback on touch",
+      "changed": "Haptic feedback {{value}}"
+    },
+    "system": {
+      "title": "System Information",
+      "screenReader": "Screen Reader",
+      "checkServices": "Check accessibility services",
+      "refresh": "Refresh"
+    },
+    "reset": {
+      "title": "Reset Settings",
+      "message": "Reset all accessibility settings to default?",
+      "button": "Reset to Default",
+      "confirm": "Reset",
+      "success": "Accessibility settings have been reset"
+    },
+    "saveError": {
+      "title": "Save Error",
+      "message": "An error occurred while saving settings"
+    },
+    "announceConnection": "Connection Status Notification",
+    "announceConnectionDesc": "Get notified when connection status changes",
+    "announceNewMessages": "New Message Notification",
+    "announceNewMessagesDesc": "Get notified when new messages arrive"
+  },
+  "navigation": {
+    "menu": "Menu",
+    "home": "Home",
+    "back": "Back",
+    "forward": "Forward",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "more": "More"
+  },
+  "content": {
+    "heading": "Heading",
+    "subheading": "Subheading",
+    "paragraph": "Paragraph",
+    "list": "List",
+    "listItem": "List item",
+    "image": "Image",
+    "button": "Button",
+    "link": "Link",
+    "form": "Form",
+    "textInput": "Text input",
+    "checkbox": "Checkbox",
+    "radio": "Radio button",
+    "slider": "Slider",
+    "switch": "Switch"
+  },
+  "feedback": {
+    "loading": "Loading",
+    "success": "Success",
+    "error": "Error occurred",
+    "required": "Required field",
+    "invalid": "Invalid input",
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "updated": "Updated"
+  },
+  "instructions": {
+    "swipeLeft": "Swipe left",
+    "swipeRight": "Swipe right",
+    "swipeUp": "Swipe up",
+    "swipeDown": "Swipe down",
+    "doubleTap": "Double tap",
+    "longPress": "Long press",
+    "pinchZoom": "Pinch to zoom"
+  },
+  "order": {
+    "tracker": "Order tracker",
+    "help": "Use swipe gestures to navigate order tracking steps",
+    "pending": "Pending confirmation",
+    "pendingHint": "Waiting for store order confirmation",
+    "confirmed": "Order confirmed",
+    "confirmedHint": "Store has confirmed your order",
+    "preparing": "Preparing",
+    "preparingHint": "Store is preparing your food",
+    "ready": "Ready for pickup",
+    "readyHint": "Food is ready and waiting for delivery",
+    "outForDelivery": "Out for delivery",
+    "outForDeliveryHint": "Delivery driver is on the way to you",
+    "delivered": "Delivered",
+    "deliveredHint": "Your order has been successfully delivered",
+    "cancelled": "Order cancelled",
+    "cancelledHint": "Your order has been cancelled",
+    "stepProgress": "Step {current} of {total}",
+    "percentProgress": "{percent} percent complete",
+    "inProgress": "In progress",
+    "estimatedTimeString": "Estimated time: {time}",
+    "estimatedMinutes": "Arriving in {minutes} minutes",
+    "estimatedTime": "Arriving in {hours} hours {minutes} minutes",
+    "arrivingSoon": "Arriving soon"
+  },
+  "map": {
+    "title": "Delivery tracking map",
+    "store": "Store location",
+    "delivery": "Delivery address",
+    "driver": "Driver location",
+    "route": "Delivery route",
+    "zoomIn": "Zoom in map",
+    "zoomOut": "Zoom out map",
+    "centerMap": "Center map",
+    "toggleView": "Toggle map view"
+  },
+  "tracking": {
+    "orderUpdate": "Order status update",
+    "newMessage": "New message from driver",
+    "arrivalNotice": "Arrival notice",
+    "deliveryComplete": "Delivery complete",
+    "callStore": "Call store",
+    "callDriver": "Call driver"
+  },
+  "common": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "loaded": "Loaded",
+    "loading": "Loading"
+  },
+  "chat": {
+    "chatContainer": "Chat container",
+    "chatContainerHint": "Tap to view chat messages",
+    "chatContainerWithRoom": "{{room}} chat room",
+    "chatRoomHint": "Tap to enter chat room",
+    "chatRoomLabel": "Chat room",
+    "connected": "Chat connected",
+    "connectionChanged": "Connection status changed",
+    "connectionLost": "Connection lost",
+    "connectionStatus": "Connection status",
+    "currentlyTyping": "Currently typing",
+    "disconnected": "Chat disconnected",
+    "fileMessageLabel": "File message",
+    "imageMessageLabel": "Image message",
+    "messageHint": "Tap to view message",
+    "messageInput": "Message input",
+    "messageInputHint": "Enter your message",
+    "messageLabel": "Message",
+    "messageList": "Message list",
+    "messageListHint": "Scroll through messages",
+    "messageSent": "Message sent",
+    "newFileMessage": "New file message",
+    "newImageMessage": "New image message",
+    "newMessage": "New message",
+    "newMessagesAvailable": "New messages available",
+    "newTextMessage": "New text message",
+    "newVoiceMessage": "New voice message",
+    "noMessages": "No messages",
+    "reconnecting": "Reconnecting",
+    "roomChanged": "Chat room changed",
+    "roomChangedWithUnread": "Chat room with unread messages",
+    "roomInfo": "Chat room info",
+    "selected": "Selected",
+    "status": {
+      "away": "Away",
+      "offline": "Offline",
+      "online": "Online",
+      "typing": "Typing"
+    },
+    "textMessageLabel": "Text message",
+    "unknownFile": "Unknown file",
+    "userStoppedTyping": "User stopped typing",
+    "userTyping": "{{user}} is typing",
+    "voiceMessageLabel": "Voice message",
+    "you": "You"
+  }
+}

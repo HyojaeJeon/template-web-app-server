@@ -1,0 +1,213 @@
+{
+  "title": "Delivery Addresses",
+  "add": "Add Address",
+  "edit": "Edit Address",
+  "addNew": "Add New Address",
+  "empty": {
+    "title": "No delivery addresses",
+    "description": "Add your frequently used delivery addresses",
+    "helper": "Add home, office or other locations"
+  },
+  "error": {
+    "title": "Error",
+    "message": "Failed to load addresses",
+    "loadFailed": "Unable to load address list",
+    "deleteFailed": "Failed to delete address",
+    "defaultFailed": "Failed to set default address"
+  },
+  "delete": {
+    "title": "Delete Address",
+    "message": "Do you want to delete this address?",
+    "confirm": "Delete",
+    "successTitle": "Deleted Successfully",
+    "successMessage": "Address has been deleted"
+  },
+  "default": {
+    "successTitle": "Set Successfully",
+    "successMessage": "Set as default address"
+  },
+  "management": {
+    "title": "Address Management",
+    "count": "{{count}} addresses"
+  },
+  "loading": "Loading addresses...",
+  "labels": {
+    "default": "Default",
+    "recipient": "Recipient",
+    "phone": "Phone",
+    "district": "District",
+    "ward": "Ward",
+    "street": "Street",
+    "detail": "Detail Address",
+    "alias": "Address Alias",
+    "instructions": "Delivery Instructions",
+    "lastUsed": "Last Used",
+    "deliveryInfo": "Delivery Info",
+    "deliveryInfoDesc": "We currently deliver in HCMC and nearby areas. Delivery time is 20-45 minutes.",
+    "quickActions": "Quick Actions",
+    "hoChiMinh": "Ho Chi Minh City",
+    "label": "Address Label",
+    "recipientName": "Recipient Name",
+    "recipientPhone": "Recipient Phone",
+    "address": "Address",
+    "addressDetail": "Detail Address",
+    "deliveryNote": "Delivery Note"
+  },
+  "sections": {
+    "basicInfo": "Basic Info",
+    "addressInfo": "Address",
+    "deliveryInfo": "Delivery Info"
+  },
+  "enterDeliveryAddress": "Enter delivery address",
+  "deliveryTime": {
+    "ASAP": "Deliver now (15-30 mins)",
+    "SCHEDULED": "Schedule delivery"
+  },
+  "contactless": {
+    "title": "Contactless delivery",
+    "description": "Driver will leave at door and call"
+  },
+  "types": {
+    "home": "Home",
+    "office": "Office",
+    "other": "Other",
+    "store": "Store",
+    "hotel": "Hotel"
+  },
+  "actions": {
+    "add": "Add Address",
+    "addFirst": "Add First Address",
+    "edit": "Edit",
+    "delete": "Delete",
+    "setDefault": "Set as Default",
+    "confirmDelete": "Delete this address?",
+    "selectLocation": "Select on Map",
+    "getCurrentLocation": "Use Current Location",
+    "searchAddress": "Search Address"
+  },
+  "form": {
+    "title": "Add Address",
+    "name": "Address Name",
+    "namePlaceholder": "e.g., Home, Office",
+    "recipientPlaceholder": "Enter recipient name",
+    "phonePlaceholder": "+84901234567",
+    "labelPlaceholder": "e.g., Home, Office, School",
+    "aliasPlaceholder": "Address alias (e.g., Home, Office)",
+    "street": "Street Address",
+    "streetPlaceholder": "Enter street address",
+    "addressPlaceholder": "Full address (District, Ward, Street)",
+    "detailPlaceholder": "Unit, floor, etc.",
+    "instructionsPlaceholder": "Delivery notes",
+    "ward": "Ward",
+    "wardPlaceholder": "Enter ward",
+    "district": "District",
+    "districtPlaceholder": "Enter district",
+    "city": "City",
+    "save": "Save",
+    "setAsDefault": "Set as default address",
+    "defaultDescription": "Set this address as your default delivery address"
+  },
+  "validation": {
+    "labelRequired": "Address label is required",
+    "addressRequired": "Address is required",
+    "recipientRequired": "Recipient name is required",
+    "phoneRequired": "Contact number is required",
+    "phoneInvalid": "Invalid phone number format",
+    "aliasRequired": "Address alias is required",
+    "districtRequired": "Please select district",
+    "wardRequired": "Please select ward",
+    "streetRequired": "Please enter street address"
+  },
+  "messages": {
+    "saveSuccess": "Address saved successfully",
+    "updateSuccess": "Address updated successfully",
+    "deleteSuccess": "Address deleted successfully",
+    "defaultSet": "Set as default address"
+  },
+  "errors": {
+    "loadFailed": "Failed to load address list",
+    "saveFailed": "Failed to save address",
+    "updateFailed": "Failed to update address",
+    "deleteFailed": "Failed to delete address",
+    "defaultFailed": "Failed to set default address",
+    "locationNotFound": "Location not found",
+    "permissionDenied": "Location access denied"
+  },
+  "map": {
+    "searchPlaceholder": "Search address",
+    "currentLocation": "Current Location",
+    "selectThisLocation": "Select This Location",
+    "movePinToSelectLocation": "Move pin to select location",
+    "locationSelected": "Location selected",
+    "selectLocation": "Select Location",
+    "selectedLocation": "Selected Location",
+    "selectedAddress": "Selected Address",
+    "unknownStreet": "Getting address info...",
+    "getCurrentLocation": "Current Location",
+    "currentLocationFound": "Current location found",
+    "locationError": "Cannot get location",
+    "locationErrorDesc": "Please check GPS and try again",
+    "selectLocationFirst": "Please select location on map first",
+    "mapView": "Map View",
+    "tapToSelectHint": "Tap on map to select exact location",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "accuracy": "Accuracy",
+    "getCurrentLocationAction": "Get Current Location"
+  },
+  "availability": {
+    "available": "Delivery available",
+    "unavailable": "Delivery unavailable"
+  },
+  "deliveryCheck": {
+    "title": "Check delivery availability",
+    "checking": "Checking delivery availability...",
+    "available": "Delivery available",
+    "unavailable": "Delivery unavailable",
+    "estimatedTimeLabel": "Estimated time",
+    "feeLabel": "Delivery fee",
+    "distanceLabel": "Distance",
+    "checkButton": "Check availability"
+  },
+  "tracking": {
+    "title": "Location Tracking",
+    "status": "Tracking Status",
+    "active": "Tracking",
+    "inactive": "Not tracking",
+    "lastUpdate": "Last update",
+    "start": "Start Tracking",
+    "stop": "Stop Tracking"
+  },
+  "regions": {
+    "region": "Region",
+    "selectRegion": "Select Region",
+    "hoChiMinh": "Ho Chi Minh City",
+    "hanoi": "Hanoi",
+    "daNang": "Da Nang",
+    "canTho": "Can Tho",
+    "haiPhong": "Hai Phong",
+    "bienHoa": "Bien Hoa",
+    "hue": "Hue",
+    "nhaTrang": "Nha Trang"
+  },
+  "emptyTitle": "No saved addresses",
+  "emptyDescription": "Please add a delivery address",
+  "addAddress": "Add address",
+  "requiredFieldsError": "Please fill in all required fields",
+  "addressSaved": "Address has been saved",
+  "addressSaveError": "Failed to save address. Please try again",
+  "fields": {
+    "city": "City/Province",
+    "district": "District",
+    "ward": "Ward",
+    "street": "Street/Number",
+    "detail": "Detail address (optional)",
+    "note": "Delivery note (optional)"
+  },
+  "inputTitle": "Enter address manually",
+  "inputDescription": "Please enter an accurate delivery address",
+  "guide": {
+    "title": "Guide to entering Vietnamese addresses",
+    "description": "• City/Province: Ho Chi Minh City, Hanoi, Da Nang...\n• District: Quan 1, Quan 3, Huyen Binh Chanh...\n• Ward/Commune: Phuong Ben Nghe, Xa Tan Kien..."
+  }
+}

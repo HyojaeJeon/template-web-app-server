@@ -1,0 +1,131 @@
+{
+  "emptyStates": {
+    "title": "Trạng thái trống",
+    "subtitle": "Trạng thái hiển thị khi không có dữ liệu",
+    "systemTitle": "Hệ thống trạng thái trống ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Thiết kế trạng thái trống cung cấp hướng dẫn rõ ràng và hành động tiếp theo cho người dùng",
+    "noOrders": {
+      "title": "Chưa có lịch sử đặt hàng",
+      "description": "Hãy đặt đơn hàng đầu tiên và thưởng thức món ngon!",
+      "action": "Khám phá nhà hàng"
+    },
+    "noFavorites": {
+      "title": "Chưa có nhà hàng yêu thích",
+      "description": "Hãy yêu thích những nhà hàng bạn thích",
+      "action": "Tìm nhà hàng"
+    },
+    "noSearchResults": {
+      "title": "Không có kết quả tìm kiếm",
+      "description": "Hãy thử tìm kiếm với từ khóa khác",
+      "action": "Thay đổi từ khóa"
+    },
+    "noNetwork": {
+      "title": "Vui lòng kiểm tra kết nối internet",
+      "description": "Hãy kết nối mạng và thử lại",
+      "action": "Thử lại"
+    },
+    "maintenance": {
+      "title": "Đang bảo trì hệ thống",
+      "description": "Chúng tôi đang tạm thời bảo trì để cải thiện dịch vụ",
+      "expectedTime": "Thời gian dự kiến: 30 phút nữa"
+    }
+  },
+  "loaders": {
+    "title": "Bộ tải",
+    "subtitle": "Thành phần hiển thị trạng thái tải",
+    "systemTitle": "Hệ thống bộ tải ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Hoạt ảnh tải mượt mà và trực quan cũng như hiển thị tiến trình",
+    "spinLoader": {
+      "title": "Bộ tải xoay",
+      "description": "Hoạt ảnh tải xoay cơ bản"
+    },
+    "progressLoader": {
+      "title": "Bộ tải tiến trình",
+      "description": "Bộ tải hiển thị tiến trình"
+    },
+    "skeletonLoader": {
+      "title": "Bộ tải khung",
+      "description": "Bộ tải hiển thị trước cấu trúc nội dung"
+    },
+    "pulseLoader": {
+      "title": "Bộ tải nhịp đập",
+      "description": "Bộ tải nhấp nháy như nhịp đập"
+    },
+    "messages": {
+      "loading": "Đang tải...",
+      "fetchingData": "Đang tải dữ liệu...",
+      "processingOrder": "Đang xử lý đơn hàng...",
+      "searchingStores": "Đang tìm nhà hàng...",
+      "processingPayment": "Đang xử lý thanh toán..."
+    }
+  },
+  "toasts": {
+    "title": "Toast",
+    "subtitle": "Tin nhắn thông báo đơn giản",
+    "systemTitle": "Hệ thống toast ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Hệ thống thông báo cung cấp phản hồi tức thì cho người dùng",
+    "success": {
+      "title": "Toast thành công",
+      "description": "Thông báo hoàn thành tác vụ"
+    },
+    "error": {
+      "title": "Toast lỗi",
+      "description": "Thông báo xảy ra lỗi"
+    },
+    "warning": {
+      "title": "Toast cảnh báo",
+      "description": "Thông báo tình huống cần chú ý"
+    },
+    "info": {
+      "title": "Toast thông tin",
+      "description": "Truyền đạt thông tin chung"
+    },
+    "messages": {
+      "orderPlaced": "Đơn hàng đã được tiếp nhận thành công!",
+      "itemAdded": "Đã thêm vào giỏ hàng",
+      "paymentSuccess": "Thanh toán hoàn tất",
+      "orderCancelled": "Đơn hàng đã được hủy",
+      "networkError": "Đã xảy ra lỗi mạng",
+      "lowBattery": "Pin yếu"
+    }
+  },
+  "banners": {
+    "title": "Banner",
+    "subtitle": "Banner khuyến mãi và thông báo",
+    "systemTitle": "Hệ thống banner ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Thiết kế banner thu hút ánh nhìn và truyền đạt thông tin quan trọng cũng như khuyến mãi",
+    "promotional": {
+      "title": "Banner khuyến mãi",
+      "description": "Thông tin giảm giá và ưu đãi"
+    },
+    "informational": {
+      "title": "Banner thông tin",
+      "description": "Truyền đạt thông báo quan trọng"
+    },
+    "seasonal": {
+      "title": "Banner theo mùa",
+      "description": "Sự kiện đặc biệt theo mùa"
+    },
+    "urgentNews": {
+      "title": "Thông báo khẩn",
+      "description": "Thông tin cần xác nhận ngay lập tức"
+    },
+    "examples": {
+      "firstOrder": {
+        "title": "Giảm 50% đơn đầu tiên",
+        "subtitle": "Đăng ký ngay và nhận ưu đãi đặc biệt!",
+        "action": "Đặt hàng ngay"
+      },
+      "freeDelivery": {
+        "title": "Miễn phí giao hàng",
+        "subtitle": "Miễn phí ship cho đơn hàng từ 30.000₫!",
+        "action": "Xem thực đơn"
+      },
+      "newStore": {
+        "title": "Nhà hàng mới mở",
+        "subtitle": "Quán ngon mới đã đến khu vực của chúng ta",
+        "action": "Khám phá"
+      }
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "title": "Trò chuyện với cửa hàng",
+  "subtitle": "Liên hệ trực tiếp với cửa hàng",
+  "storeInfo": {
+    "operatingHours": "Giờ hoạt động",
+    "rating": "Đánh giá",
+    "deliveryTime": "Thời gian giao hàng",
+    "deliveryFee": "Phí giao hàng",
+    "phone": "Điện thoại",
+    "address": "Địa chỉ",
+    "specialInfo": "Thông tin đặc biệt"
+  },
+  "status": {
+    "operating": "Đang mở cửa",
+    "closed": "Đã đóng cửa",
+    "busy": "Bận",
+    "preparing": "Đang chuẩn bị",
+    "offline": "Ngoại tuyến",
+    "online": "Đang trực tuyến",
+    "lastSeenJustNow": "Hoạt động vừa xong",
+    "lastSeenMinutesAgo": "Hoạt động {{count}} phút trước",
+    "lastSeenHoursAgo": "Hoạt động {{count}} giờ trước",
+    "lastSeenDaysAgo": "Hoạt động {{count}} ngày trước",
+    "lastSeenWeeksAgo": "Hoạt động {{count}} tuần trước",
+    "lastSeenMonthsAgo": "Hoạt động {{count}} tháng trước"
+  },
+  "inquiryTypes": {
+    "ORDER": {
+      "title": "Thắc mắc về đơn hàng",
+      "description": "Hỏi về trạng thái, thay đổi hoặc hủy đơn hàng",
+      "subCategories": {
+        "STATUS": "Trạng thái đơn hàng",
+        "MODIFICATION": "Thay đổi đơn hàng",
+        "CANCELLATION": "Hủy đơn hàng",
+        "REFUND": "Hoàn tiền"
+      }
+    },
+    "DELIVERY": {
+      "title": "Thắc mắc về giao hàng",
+      "description": "Hỏi về thời gian giao, địa điểm hoặc vấn đề giao hàng",
+      "subCategories": {
+        "DELAY": "Chậm giao hàng",
+        "LOCATION": "Địa điểm giao hàng",
+        "CONTACT": "Liên hệ shipper",
+        "ISSUE": "Vấn đề giao hàng"
+      }
+    },
+    "MENU": {
+      "title": "Thắc mắc về thực đơn",
+      "description": "Hỏi về món ăn, thành phần hoặc giá cả",
+      "subCategories": {
+        "INGREDIENTS": "Thành phần món ăn",
+        "ALLERGEN": "Dị ứng thực phẩm",
+        "AVAILABILITY": "Tình trạng món ăn",
+        "PRICE": "Giá cả"
+      }
+    },
+    "PAYMENT": {
+      "title": "Thắc mắc về thanh toán",
+      "description": "Vấn đề về phương thức thanh toán hoặc hóa đơn",
+      "subCategories": {
+        "METHOD": "Phương thức thanh toán",
+        "FAILED": "Thanh toán thất bại",
+        "REFUND": "Hoàn tiền",
+        "DISCOUNT": "Giảm giá"
+      }
+    },
+    "SERVICE": {
+      "title": "Dịch vụ khách hàng",
+      "description": "Góp ý, khiếu nại hoặc khen ngợi về dịch vụ",
+      "subCategories": {
+        "COMPLAINT": "Khiếu nại",
+        "COMPLIMENT": "Khen ngợi",
+        "SUGGESTION": "Đề xuất",
+        "SUPPORT": "Hỗ trợ"
+      }
+    },
+    "OTHER": {
+      "title": "Khác",
+      "description": "Các vấn đề khác",
+      "subCategories": {
+        "GENERAL": "Tổng quát",
+        "FEEDBACK": "Phản hồi",
+        "TECHNICAL": "Kỹ thuật"
+      }
+    }
+  },
+  "actions": {
+    "startChat": "Bắt đầu trò chuyện",
+    "callStore": "Gọi cho cửa hàng",
+    "viewMenu": "Xem thực đơn",
+    "shareMenu": "Chia sẻ thực đơn",
+    "sendMessage": "Gửi tin nhắn",
+    "attachFile": "Đính kèm tệp",
+    "selectCategory": "Chọn loại thắc mắc",
+    "backToList": "Quay lại danh sách"
+  },
+  "messages": {
+    "welcome": "Xin chào! Chúng tôi có thể giúp gì cho bạn?",
+    "autoReply": "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong thời gian sớm nhất.",
+    "typing": "đang nhập...",
+    "connecting": "Đang kết nối...",
+    "connected": "Đã kết nối",
+    "disconnected": "Mất kết nối",
+    "messageSent": "Đã gửi",
+    "messageDelivered": "Đã nhận",
+    "messageRead": "Đã đọc"
+  },
+  "notifications": {
+    "newMessage": "Tin nhắn mới từ {{storeName}}",
+    "newImageMessage": "Hình ảnh mới từ {{storeName}}",
+    "storeOnline": "{{storeName}} hiện đang trực tuyến",
+    "storeOffline": "{{storeName}} hiện không trực tuyến",
+    "orderStatusUpdate": "Trạng thái đơn hàng đã được cập nhật"
+  },
+  "placeholders": {
+    "typeMessage": "Nhập tin nhắn...",
+    "searchStores": "Tìm cửa hàng...",
+    "selectInquiryType": "Chọn loại thắc mắc...",
+    "orderNumber": "Nhập số đơn hàng..."
+  },
+  "validation": {
+    "messageRequired": "Vui lòng nhập tin nhắn",
+    "categoryRequired": "Vui lòng chọn loại thắc mắc",
+    "messageTooLong": "Tin nhắn quá dài (tối đa {{max}} ký tự)",
+    "attachmentTooLarge": "Tệp đính kèm quá lớn (tối đa {{max}}MB)"
+  },
+  "errors": {
+    "connectionFailed": "Không thể kết nối với cửa hàng",
+    "sendMessageFailed": "Không thể gửi tin nhắn",
+    "loadChatFailed": "Không thể tải cuộc trò chuyện",
+    "storeUnavailable": "Cửa hàng hiện không khả dụng",
+    "attachmentFailed": "Không thể tải lên tệp đính kèm"
+  },
+  "time": {
+    "justNow": "Vừa xong",
+    "minuteAgo": "{{count}} phút trước",
+    "hourAgo": "{{count}} giờ trước",
+    "dayAgo": "{{count}} ngày trước",
+    "weekAgo": "{{count}} tuần trước",
+    "minuteAgo_plural": "{{count}} minutes ago",
+    "hourAgo_plural": "{{count}} hours ago",
+    "dayAgo_plural": "{{count}} days ago",
+    "weekAgo_plural": "{{count}} weeks ago"
+  },
+  "orderIntegration": {
+    "relatedOrder": "Đơn hàng liên quan",
+    "orderNumber": "Số đơn hàng",
+    "orderStatus": "Trạng thái",
+    "orderTotal": "Tổng cộng",
+    "viewOrderDetails": "Xem chi tiết đơn hàng",
+    "noRelatedOrder": "Không có đơn hàng liên quan"
+  },
+  "settings": {
+    "chatSettings": "Cài đặt trò chuyện",
+    "notifications": "Thông báo",
+    "soundEnabled": "Âm thanh thông báo",
+    "vibrationEnabled": "Rung thông báo",
+    "autoTranslate": "Tự động dịch",
+    "language": "Ngôn ngữ",
+    "blockChat": "Chặn trò chuyện"
+  },
+  "translation": {
+    "originalMessage": "Tin nhắn gốc",
+    "translatedMessage": "Đã dịch",
+    "translateTo": "Dịch sang {{language}}",
+    "translating": "Đang dịch...",
+    "translationFailed": "Không thể dịch tin nhắn",
+    "showOriginal": "Hiện bản gốc",
+    "showTranslation": "Hiện bản dịch"
+  },
+  "accessibility": {
+    "storeProfileImage": "Ảnh đại diện cửa hàng {{name}}",
+    "sendMessageButton": "Nút gửi tin nhắn",
+    "attachmentButton": "Nút đính kèm tệp",
+    "callStoreButton": "Nút gọi cho cửa hàng",
+    "backButton": "Nút quay lại",
+    "menuButton": "Nút thực đơn",
+    "messageInput": "Ô nhập tin nhắn",
+    "categorySelector": "Bộ chọn loại thắc mắc",
+    "you": "Bạn",
+    "store": "Nhà hàng",
+    "imageMessage": "đã gửi hình ảnh",
+    "orderMessage": "đã chia sẻ thông tin đơn hàng",
+    "menuMessage": "đã chia sẻ thực đơn",
+    "systemMessage": "tin nhắn hệ thống",
+    "message": "tin nhắn",
+    "tapToViewDetails": "Chạm để xem chi tiết",
+    "longPressForOptions": "Nhấn giữ để xem tùy chọn",
+    "doubleTapToViewImage": "Chạm hai lần để xem hình ảnh",
+    "translated": "đã dịch",
+    "delivered": "đã gửi",
+    "read": "đã đọc",
+    "imageOpened": "Hình ảnh đã mở",
+    "chatImage": "Hình ảnh trong trò chuyện",
+    "tapToViewFullImage": "Chạm để xem hình ảnh đầy đủ",
+    "sentAt": "Gửi lúc",
+    "avatarOf": "Ảnh đại diện của",
+    "messageWasTranslated": "Tin nhắn đã được dịch",
+    "chatMessageList": "Danh sách tin nhắn trò chuyện",
+    "chatMessageListHint": "Vuốt để tải thêm tin nhắn cũ"
+  }
+}

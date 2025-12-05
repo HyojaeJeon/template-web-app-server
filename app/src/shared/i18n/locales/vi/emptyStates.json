@@ -1,0 +1,52 @@
+{
+  "orderHistory": {
+    "title": "Không có lịch sử đặt hàng",
+    "message": "Bạn chưa đặt món ăn nào",
+    "description": "Khám phá những món ăn Việt Nam ngon và\nbắt đầu đơn hàng đầu tiên của bạn!",
+    "action": "Đặt hàng ngay"
+  },
+  "searchResults": {
+    "title": "Không có kết quả tìm kiếm",
+    "message": "Không tìm thấy kết quả tìm kiếm",
+    "description": "Thử từ khóa khác hoặc\nxem những món Việt Nam phổ biến",
+    "searchAgain": "Tìm lại",
+    "popularDishes": "Món phổ biến"
+  },
+  "favorites": {
+    "title": "Không có yêu thích",
+    "message": "Bạn chưa lưu món yêu thích nào",
+    "description": "Lưu những món ăn yêu thích và\ndễ dàng đặt lại sau này",
+    "action": "Khám phá nhà hàng"
+  },
+  "networkError": {
+    "title": "Lỗi mạng",
+    "message": "Vui lòng kiểm tra kết nối internet",
+    "description": "Kiểm tra trạng thái mạng và\nthử lại",
+    "action": "Thử lại"
+  },
+  "serviceUnavailable": {
+    "title": "Dịch vụ không khả dụng",
+    "message": "Khu vực này không thể giao hàng",
+    "description": "Khu vực hiện tại không nằm trong vùng phục vụ\nThử đổi sang địa chỉ khác",
+    "action": "Đổi địa chỉ"
+  },
+  "maintenance": {
+    "title": "Bảo trì dịch vụ",
+    "message": "Đang bảo trì hệ thống",
+    "description": "Chúng tôi đang cải thiện dịch vụ\nHệ thống đang được bảo trì",
+    "expectedTime": "Dự kiến hoàn thành: 3:00 chiều (khoảng 30 phút nữa)",
+    "action": "Nhận thông báo hoàn thành"
+  },
+  "cart": {
+    "title": "Giỏ hàng trống",
+    "message": "Giỏ hàng của bạn đang trống",
+    "description": "Thêm một số món ăn ngon vào giỏ hàng",
+    "action": "Xem thực đơn"
+  },
+  "notifications": {
+    "title": "Không có thông báo",
+    "message": "Không có thông báo mới",
+    "description": "Chúng tôi sẽ thông báo về cập nhật đơn hàng và khuyến mãi",
+    "action": "Bật thông báo"
+  }
+}

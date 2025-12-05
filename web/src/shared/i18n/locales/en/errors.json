@@ -1,0 +1,374 @@
+{
+  "title": "Error Messages",
+  "common": {
+    "unknownError": "An unknown error occurred",
+    "networkError": "Network connection error",
+    "serverError": "Server error occurred",
+    "timeoutError": "Request timed out",
+    "authenticationError": "Authentication failed",
+    "authorizationError": "Access denied",
+    "validationError": "Validation error",
+    "notFoundError": "Resource not found",
+    "conflictError": "Data conflict occurred",
+    "rateLimitError": "Too many requests",
+    "maintenanceError": "System is under maintenance"
+  },
+  "loadingFailed": "Failed to load data",
+  "validation": {
+    "required": "This field is required",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "invalidUrl": "Invalid URL",
+    "tooShort": "Value is too short",
+    "tooLong": "Value is too long",
+    "invalidNumber": "Invalid number",
+    "negativeNumber": "Number cannot be negative",
+    "outOfRange": "Value is out of range",
+    "invalidDate": "Invalid date",
+    "pastDate": "Date cannot be in the past",
+    "futureDate": "Date cannot be in the future"
+  },
+  "authentication": {
+    "loginFailed": "Login failed",
+    "invalidCredentials": "Invalid username or password",
+    "accountLocked": "Account is locked",
+    "sessionExpired": "Session has expired",
+    "logoutFailed": "Logout failed",
+    "passwordChangeRequired": "Password change required",
+    "twoFactorRequired": "Two-factor authentication required"
+  },
+  "orders": {
+    "orderNotFound": "Order not found",
+    "orderAlreadyCancelled": "Order is already cancelled",
+    "orderCannotCancel": "Order cannot be cancelled",
+    "orderAlreadyCompleted": "Order is already completed",
+    "paymentFailed": "Payment processing failed",
+    "insufficientStock": "Insufficient stock for {{item}}",
+    "invalidOrderStatus": "Invalid order status",
+    "orderUpdateFailed": "Failed to update order"
+  },
+  "menu": {
+    "itemNotFound": "Menu item not found",
+    "categoryNotFound": "Category not found",
+    "itemOutOfStock": "Item is out of stock",
+    "itemNotAvailable": "Item is not available",
+    "priceUpdateFailed": "Failed to update price",
+    "menuSaveFailed": "Failed to save menu changes",
+    "duplicateItemName": "Item name already exists",
+    "invalidPrice": "Invalid price value"
+  },
+  "pos": {
+    "connectionFailed": "POS connection failed",
+    "posOffline": "POS system is offline",
+    "syncFailed": "POS synchronization failed",
+    "transactionFailed": "POS transaction failed",
+    "printerError": "Receipt printer error",
+    "cashDrawerError": "Cash drawer error",
+    "posConfigError": "POS configuration error"
+  },
+  "payment": {
+    "paymentDeclined": "Payment was declined",
+    "cardExpired": "Card has expired",
+    "insufficientFunds": "Insufficient funds",
+    "invalidCard": "Invalid card information",
+    "paymentTimeout": "Payment request timed out",
+    "refundFailed": "Refund processing failed",
+    "gatewayError": "Payment gateway error"
+  },
+  "inventory": {
+    "stockUpdateFailed": "Failed to update stock",
+    "negativeStock": "Stock cannot be negative",
+    "inventoryLocked": "Inventory is locked",
+    "supplierError": "Supplier connection error",
+    "barcodeError": "Invalid barcode",
+    "weightError": "Weight measurement error"
+  },
+  "file": {
+    "uploadFailed": "File upload failed",
+    "fileTooLarge": "File size is too large",
+    "invalidFileType": "Invalid file type",
+    "fileCorrupted": "File is corrupted",
+    "storageError": "Storage service error",
+    "downloadFailed": "File download failed"
+  },
+  "actions": {
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "dismiss": "Dismiss",
+    "reportIssue": "Report Issue",
+    "contactSupport": "Contact Support",
+    "tryAgain": "Try Again",
+    "reload": "Reload Page"
+  },
+  "codes": {
+    "1001": "An unexpected error occurred",
+    "1002": "Input data is invalid",
+    "1003": "Network connection error",
+    "1004": "Internal server error",
+    "1005": "Input data is invalid",
+    "1006": "Missing required field",
+
+    "2001": "Login required",
+    "2002": "No permission to perform this action",
+    "2003": "Login session expired. Automatically refreshing",
+    "2004": "Login information is incorrect",
+    "2005": "Account not found",
+    "2006": "Account already exists",
+    "2007": "Account status is invalid",
+    "2008": "Phone verification required",
+    "2009": "Two-factor authentication required",
+
+    "3001": "Error occurred while loading customer data",
+    "3002": "Failed to update customer status",
+    "3003": "Failed to delete customer",
+    "3004": "Cannot modify order",
+    "3005": "Store is currently closed",
+    "3006": "Menu item not found",
+    "3007": "Menu item is currently unavailable",
+    "3008": "Insufficient stock",
+    "3009": "Order limit exceeded",
+
+    "4001": "Payment failed",
+    "4002": "Insufficient balance",
+    "4003": "Payment method not found",
+    "4004": "Payment amount is invalid",
+    "4005": "Payment gateway error",
+    "4006": "Payment timeout",
+    "4007": "Refund failed",
+    "4008": "Duplicate payment",
+
+    "5001": "POS system connection error",
+    "5002": "POS synchronization failed",
+    "5003": "POS order synchronization failed",
+    "5004": "POS menu synchronization failed",
+    "5005": "POS connection timeout",
+    "5006": "POS authentication failed",
+    "5007": "POS response is invalid",
+
+    "6001": "Delivery error occurred",
+    "6002": "Delivery address is invalid",
+    "6003": "Delivery area not supported",
+    "6004": "Delivery time is invalid",
+    "6005": "No delivery person available",
+    "6006": "Delivery cancelled",
+
+    "7001": "Store not found",
+    "7002": "No access to this store",
+    "7003": "Staff not found",
+    "7004": "No permission to manage this staff",
+
+    "9001": "Browser not supported",
+    "9002": "Local storage error",
+    "9003": "Session storage error",
+    "9004": "JavaScript is disabled",
+    "9005": "Cookies are disabled",
+    "9006": "WebSocket not supported",
+    "9007": "File API not supported",
+    "9008": "Geolocation service not supported",
+    "9009": "Notifications not supported",
+    "9010": "Web push not supported"
+  },
+  
+  "actions": {
+    "retry": "Retry",
+    "login": "Login",
+    "refresh": "Refresh",
+    "contactSupport": "Contact Support",
+    "updateBrowser": "Update Browser",
+    "enableJavaScript": "Enable JavaScript",
+    "enableCookies": "Enable Cookies",
+    "checkConnection": "Check Internet Connection",
+    "updateStoreHours": "Update Store Hours",
+    "updateInventory": "Update Inventory",
+    "contactAdmin": "Contact Administrator",
+    "checkPosConnection": "Check POS Connection",
+    "posLoginRequired": "POS Login Required",
+    "phoneVerification": "Phone Verification",
+    "dismiss": "Dismiss",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "close": "Close",
+    "continue": "Continue"
+  },
+  
+  "success": {
+    "20001": "Operation completed successfully",
+    "20002": "Changes saved successfully",
+    "20003": "Data deleted successfully",
+    "20004": "New item added successfully",
+    "20005": "Update completed successfully",
+    
+    "21001": "Login successful",
+    "21002": "Password changed successfully",
+    "21003": "Account created successfully",
+    "21004": "Phone verification completed",
+    "21005": "Two-factor authentication set up",
+    
+    "22001": "Order created successfully",
+    "22002": "Customer status updated successfully",
+    "22003": "Customer deleted successfully",
+    "22004": "Menu updated",
+    "22005": "Inventory updated",
+    
+    "23001": "Payment completed successfully",
+    "23002": "Refund processed successfully",
+    "23003": "Payment method saved",
+    
+    "24001": "POS connected successfully",
+    "24002": "POS synchronization completed",
+    "24003": "Order sent to POS",
+    "24004": "Menu synchronized with POS",
+    
+    "25001": "Delivery started successfully",
+    "25002": "Delivery completed",
+    "25003": "Delivery address confirmed",
+    
+    "26001": "Store information updated",
+    "26002": "Staff member added successfully",
+    "26003": "Permissions set successfully"
+  },
+  
+  "info": {
+    "30001": "System is operating normally",
+    "30002": "New update available",
+    "30003": "Customer data export feature will be added soon",
+    "30004": "Temporary files cleaned up",
+    
+    "31001": "Login session extended",
+    "31002": "Security settings updated",
+    
+    "32001": "New order available",
+    "32002": "Order is ready",
+    "32003": "Menu information updated",
+    
+    "33001": "Payment confirmation in progress",
+    "33002": "Payment is being processed",
+    
+    "34001": "Checking POS status",
+    "34002": "Synchronizing with POS",
+    
+    "35001": "Driver assigned",
+    "35002": "Delivery in progress",
+    
+    "36001": "Store status confirmed",
+    "36002": "Staff permissions confirmed"
+  },
+  
+  "warning": {
+    "40001": "System performance is degrading",
+    "40002": "Connection is unstable",
+    "40003": "Data synchronization is delayed",
+    "40004": "Memory usage is high",
+    
+    "41001": "Login session is expiring soon",
+    "41002": "Password change recommended",
+    
+    "42001": "High order volume may cause delays",
+    "42002": "Some menu items are running low on stock",
+    "42003": "Store hours are ending soon",
+    
+    "43001": "Too many payment attempts",
+    "43002": "Payment processing is delayed",
+    
+    "44001": "POS connection is unstable",
+    "44002": "POS hardware check required",
+    
+    "45001": "Delivery delays expected",
+    "45002": "Weather may affect delivery times",
+    
+    "46001": "Store capacity is nearly full",
+    "46002": "Please check staff working hours"
+  },
+  
+  "confirmation": {
+    "50001": "Do you want to continue this operation?",
+    "50002": "Do you want to save changes?",
+    "50003": "Do you want to delete this item?",
+    "50004": "Do you want to cancel the operation?",
+    "50005": "Do you want to restart the system?",
+    
+    "51001": "Do you want to logout?",
+    "51002": "Do you want to delete the account?",
+    "51003": "Do you really want to delete customer {{customerName}}?",
+    
+    "52001": "Do you want to cancel the order?",
+    "52002": "Do you want to change order status?",
+    "52003": "Do you want to delete this menu item?",
+    
+    "53001": "Do you want to proceed with payment?",
+    "53002": "Do you want to process refund?",
+    
+    "54001": "Do you want to synchronize with POS?",
+    "54002": "Do you want to reconfigure POS connection?",
+    
+    "55001": "Do you want to start delivery?",
+    "55002": "Do you want to cancel delivery?",
+    
+    "56001": "Do you want to close the store?",
+    "56002": "Do you want to change staff permissions?"
+  },
+  
+  "loading": {
+    "60001": "Processing...",
+    "60002": "Loading data...",
+    "60003": "Saving...",
+    "60004": "Deleting...",
+    "60005": "Updating...",
+    
+    "61001": "Logging in...",
+    "61002": "Creating account...",
+    "61003": "Authenticating...",
+    
+    "62001": "Processing order...",
+    "62002": "Updating menu...",
+    "62003": "Checking inventory...",
+    
+    "63001": "Processing payment...",
+    "63002": "Processing refund...",
+    
+    "64001": "Connecting to POS...",
+    "64002": "Synchronizing with POS...",
+    "64003": "Sending order to POS...",
+    
+    "65001": "Finding driver...",
+    "65002": "Calculating route...",
+    
+    "66001": "Updating store information...",
+    "66002": "Setting staff permissions..."
+  },
+  
+  "notification": {
+    "70001": "New system announcement available",
+    "70002": "Scheduled maintenance planned",
+    "70003": "New feature added",
+    "70004": "Important security update available",
+    
+    "71001": "New order received",
+    "71002": "Delivery completed",
+    "71003": "Customer review posted",
+    
+    "72001": "New menu item added",
+    "72002": "Popular menu rankings updated",
+    
+    "73001": "Daily settlement completed",
+    "73002": "Revenue target achieved",
+    
+    "74001": "POS system updated",
+    "74002": "New POS device connected",
+    
+    "75001": "New delivery area added",
+    "75002": "Delivery policy changed",
+    
+    "76001": "New staff member registered",
+    "76002": "Store rating upgraded"
+  }
+}

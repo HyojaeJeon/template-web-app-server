@@ -1,0 +1,239 @@
+{
+  "detail": {
+    "title": "Store Details",
+    "loading": {
+      "title": "Loading store information..."
+    },
+    "error": {
+      "title": "Failed to load store information",
+      "networkFallback": "Please check your network connection",
+      "retry": "Retry",
+      "goBack": "Go Back",
+      "helpText": "If the problem persists, please restart the app",
+      "noStoreId": "No store ID provided"
+    },
+    "header": {
+      "defaultTitle": "Store"
+    },
+    "info": {
+      "title": "Store Information",
+      "noName": "No store name",
+      "defaultCategory": "Category",
+      "noAddress": "No address information",
+      "addressLabel": "📍 Address",
+      "phoneLabel": "📞 Phone"
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed",
+      "online": "Online"
+    },
+    "action": {
+      "call": "Call",
+      "chat": "Chat"
+    },
+    "hours": {
+      "today": "Today: {{hours}}"
+    },
+    "delivery": {
+      "time": "Delivery Time",
+      "fee": "Delivery Fee",
+      "free": "Free",
+      "estimatedTime": "Delivery {{min}}-{{max}} mins",
+      "feeLabel": "Delivery Fee"
+    },
+    "order": {
+      "minimum": "Minimum Order",
+      "minimumLabel": "Minimum Order"
+    },
+    "tabs": {
+      "menu": "Menu",
+      "promotions": "Promotions",
+      "info": "Info",
+      "reviews": "Reviews"
+    },
+    "category": {
+      "menu": "Menu",
+      "all": "All"
+    },
+    "reviews": {
+      "empty": "No reviews yet"
+    },
+    "cart": {
+      "itemCount": "{{count}} items",
+      "empty": "Cart is empty",
+      "addItemPrompt": "Add some items",
+      "view": "View Cart",
+      "selectMenu": "Please select items",
+      "orderMore": "Add {{amount}} more",
+      "minimumOrder": "Minimum: {{amount}}",
+      "checkout": "Checkout ({{amount}})",
+      "replaceError": "Failed to replace cart. Please try again."
+    }
+  },
+  "tab": {
+    "info": "Info",
+    "menu": "Menu",
+    "reviews": "Reviews"
+  },
+  "action": {
+    "orderNow": "Order Now",
+    "call": "Call"
+  },
+  "status": {
+    "closed": "Closed",
+    "closedToday": "Closed Today",
+    "open": "Open",
+    "opening": "Opening Soon",
+    "noBusinessHours": "No business hours info"
+  },
+  "loading": "Loading store information...",
+  "operatingHours": "Operating Hours",
+  "deliveryInfo": "Delivery Information",
+  "deliveryTime": "Delivery Time",
+  "deliveryFee": "Delivery Fee",
+  "minOrder": "Minimum Order",
+  "minOrderInfo": "Minimum order: {{amount}}",
+  "address": "Address",
+  "reviews": "Reviews",
+  "label": "Store",
+  "store": {
+    "operatingHours": "Operating Hours",
+    "noOperatingHours": "No operating hours information",
+    "deliveryInfo": "Delivery Information",
+    "deliveryTime": "Delivery Time",
+    "deliveryFee": "Delivery Fee",
+    "minOrder": "Minimum Order",
+    "paymentMethods": "Payment Methods",
+    "address": "Address",
+    "call": "Call"
+  },
+  "call": "Call",
+  "addFavorite": "Add to favorites",
+  "removeFavorite": "Remove from favorites",
+  "viewReviews": "View reviews",
+  "closed": "Closed",
+  "open": "Open",
+  "error": {
+    "notFound": {
+      "title": "Store Not Found",
+      "description": "The store you requested does not exist or is temporarily unavailable."
+    },
+    "network": {
+      "title": "Network Error",
+      "description": "Unable to load store information. Please try again later."
+    }
+  },
+  "notFound": {
+    "title": "Store Not Found",
+    "description": "The requested store information is not available."
+  },
+  "paymentMethods": "Payment Methods",
+  "noOperatingHours": "No operating hours information",
+  "sort": {
+    "distance": "By Distance",
+    "rating": "By Rating",
+    "popularity": "By Popularity",
+    "deliveryTime": "By Delivery Time"
+  },
+  "card": {
+    "freeDelivery": "Free Delivery",
+    "freeDeliveryApplied": "Free delivery applied",
+    "free": "Free",
+    "discount": "On Sale",
+    "promotion": "Promotion",
+    "new": "New",
+    "popular": "Popular",
+    "closedMessage": "Currently closed",
+    "featured": "Featured",
+    "deliveryTimeShort": "{{time}} min",
+    "minOrderLabel": "Min",
+    "minOrder": "Min Order"
+  },
+  "rank": "",
+  "searchResults": "\"{{query}}\" search results: {{count}} stores",
+  "storeCount": "Total {{count}} stores",
+  "category": {
+    "title": "Categories",
+    "all": "All",
+    "emptyTitle": "No items available",
+    "emptyDescription": "This category currently has no menu items.",
+    "emptyAction": "View other categories"
+  },
+  "recommended": {
+    "title": "Chef's Recommendations",
+    "badge": "Recommended"
+  },
+  "menu": {
+    "loadingMore": "Loading more items...",
+    "allLoaded": "All items loaded",
+    "noItems": "No items available",
+    "loadingTitle": "Loading menu",
+    "loadingMessage": "Please wait a moment",
+    "emptyTitle": "No menu items",
+    "emptyDescription": "No menu items are currently available"
+  },
+  "defaultDescription": "A store serving delicious food",
+  "messages": {
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites"
+  },
+  "common": {
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "time": {
+      "minutes": "minutes"
+    },
+    "actions": {
+      "viewOnMap": "View on map"
+    }
+  },
+  "payment": {
+    "cash": "Cash",
+    "card": "Card"
+  },
+  "general": "Restaurant",
+  "freeDeliveryApplied": "Free delivery applied",
+  "distanceUnknown": "Distance unknown",
+  "ordersCount": "{{count}} orders",
+  "reviewsCount": "{{count}}+ reviews",
+  "newStore": "Newly opened",
+  "fastDelivery": "Fast delivery {{time}} min",
+  "deliveryTimeLong": "Delivery {{time}} min",
+  "minOrderShort": "Min {{amount}}",
+  "ordersCountShort": "{{count}} orders",
+  "badges": {
+    "fastDelivery": "Fast",
+    "fast": "Fast",
+    "popular": "Popular",
+    "recommended": "Recommended",
+    "coupons": "{{count}} Coupons",
+    "firstOrderDiscount": "First order {{amount}} off",
+    "membership": "Membership",
+    "maxCoupon": "Up to {{amount}} coupon",
+    "pickupAvailable": "Pickup",
+    "freeDelivery": "Free",
+    "nearby": "Nearby",
+    "sale": "Sale",
+    "firstOrder": "1st Order"
+  },
+  "highlights": {
+    "freeDeliveryActive": "🎉 Free delivery applied",
+    "freeDeliveryWithMin": "🎉 Free delivery applied (from {{amount}})",
+    "popularStore": "{{count}} times ordered",
+    "popularBadge": "Popular",
+    "highRated": "{{rating}} ({{count}}+ reviews)",
+    "recommendedBadge": "Recommended",
+    "fastDeliveryTime": "Fast delivery {{time}} min",
+    "fastBadge": "FAST",
+    "newStoreOpen": "Newly opened",
+    "defaultDeliveryTime": "Delivery {{time}} min"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "empty": {
+    "noResults": {
+      "title": "매장을 찾을 수 없습니다",
+      "subtitle": "검색어나 필터 조건을 조정해보세요",
+      "action": "다시 검색"
+    },
+    "noStores": {
+      "title": "아직 매장이 없습니다",
+      "subtitle": "이 지역에는 아직 매장이 없습니다. 다른 지역에서 검색해보세요",
+      "action": "다른 지역 탐색"
+    },
+    "error": {
+      "title": "오류가 발생했습니다",
+      "subtitle": "매장 목록을 불러올 수 없습니다. 잠시 후 다시 시도해주세요",
+      "action": "다시 시도"
+    },
+    "offline": {
+      "title": "오프라인 상태입니다",
+      "subtitle": "인터넷 연결을 확인하고 다시 시도해주세요",
+      "action": "다시 시도"
+    },
+    "noFilters": {
+      "title": "이 필터 조건으로는 결과가 없습니다",
+      "subtitle": "현재 필터 조건에 맞는 매장이 없습니다",
+      "action": "필터 조정"
+    },
+    "resetFilters": "모든 필터 초기화",
+    "searchTips": "검색 팁:",
+    "tip1": "다른 키워드 시도",
+    "tip2": "음식 종류로 검색",
+    "tip3": "맞춤법 확인",
+    "filterSuggestion": {
+      "title": "필터 조정 제안",
+      "subtitle": "더 많은 매장을 찾기 위해 일부 조건을 완화해보세요:",
+      "relaxDeliveryFee": "배달비 제한 제거",
+      "relaxRating": "평점 요구사항 낮추기",
+      "relaxMinOrder": "최소 주문금액 낮추기",
+      "expandRadius": "검색 반경 확대"
+    },
+    "suggestedStores": {
+      "title": "추천 매장",
+      "selectStore": "{{name}} 매장 선택",
+      "hasPromotion": "할인 혜택"
+    },
+    "offlineMode": "오프라인 모드",
+    "offlineDescription": "저장된 데이터를 표시합니다. 최신 정보를 위해 인터넷에 연결하세요.",
+    "errorDescription": "서버에 연결할 수 없습니다. 연결 상태를 확인하고 다시 시도해주세요."
+  },
+  "search": {
+    "placeholder": "매장이나 음식을 검색하세요",
+    "inputLabel": "매장 검색 입력창",
+    "inputHint": "매장명이나 음식 종류를 입력하세요",
+    "clearButton": "검색어 지우기",
+    "clearHint": "입력된 검색어를 모두 지웁니다",
+    "voiceButton": "음성 검색",
+    "voiceHint": "음성으로 검색어를 입력합니다",
+    "error": "검색 중 오류가 발생했습니다",
+    "loading": "검색 중...",
+    "resultCount": "\"{{query}}\" 검색 결과 {{count}}개",
+    "searchResults": "검색 결과",
+    "searchingFor": "검색어:",
+    "title": "Search"
+  },
+  "filter": {
+    "title": "필터",
+    "buttonLabel": "필터 설정",
+    "buttonHint": "{{count}}개 필터가 적용되었습니다",
+    "chipHint": "필터를 열거나 닫습니다",
+    "applied": "적용됨",
+    "active": "활성",
+    "inactive": "비활성",
+    "appliedCount": "{{count}}개 적용",
+    "removeFilter": "{{filter}} 필터 제거",
+    "removeFilterHint": "이 필터를 제거합니다",
+    "clearAll": "모두 해제",
+    "clearAllHint": "모든 필터를 초기화합니다",
+    "appliedSummary": "{{count}}개 필터 적용됨",
+    "viewDetails": "상세 보기",
+    "categories": "{{count}}개 카테고리",
+    "minRating": "평점 {{rating}}점 이상",
+    "maxDeliveryFee": "배달비 {{fee}}₫ 이하",
+    "maxDeliveryTime": "배달시간 {{time}}분 이하"
+  },
+  "view": {
+    "list": "리스트",
+    "grid": "그리드",
+    "map": "지도",
+    "toggleLabel": "보기 모드 변경",
+    "toggleHint": "현재 {{current}} 모드, {{next}} 모드로 변경"
+  },
+  "location": {
+    "change": "위치 변경",
+    "changeHint": "배달 위치를 변경합니다",
+    "usingGPS": "GPS 위치 사용"
+  },
+  "list": {
+    "title": "매장 목록",
+    "resultCount": "총 {{count}}개 매장",
+    "storeUnit": "개 매장"
+  },
+  "title": "매장",
+  "searchResults": "\"{{query}}\" 검색결과 {{count}}개",
+  "storeCount": "총 {{count}}개 매장",
+  "sort": {
+    "distance": "거리순",
+    "rating": "평점순",
+    "deliveryTime": "배달시간순",
+    "popularity": "인기순",
+    "newest": "최신순",
+    "alphabetical": "가나다순",
+    "distanceDesc": "가까운 매장부터",
+    "ratingDesc": "평점 높은 매장부터",
+    "deliveryTimeDesc": "빠른 배달 매장부터",
+    "popularityDesc": "인기 많은 매장부터",
+    "newestDesc": "최근 등록된 매장부터",
+    "alphabeticalDesc": "매장명 가나다순",
+    "title": "정렬",
+    "subtitle": "매장 목록 정렬 방식을 선택하세요",
+    "tip": "원하는 정렬 방식을 선택하여 매장을 찾아보세요",
+    "ascending": "오름차순",
+    "descending": "내림차순",
+    "buttonLabel": "정렬 설정",
+    "buttonHint": "현재 정렬: {{current}}"
+  },
+  "store": {
+    "card": {
+      "freeDelivery": "무료배달",
+      "discount": "할인"
+    },
+    "storeCount": "총 {{count}}개 매장"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "messages": {
+    "promotion": {
+      "applied": "Promotion applied successfully"
+    }
+  },
+  "toastMessages": {
+    "ACCOUNT_SUSPENSION_SUCCESS": "Account suspended",
+    "ADDRESS_DELETE_SUCCESS": "Address deleted",
+    "ADDRESS_SET_DEFAULT_SUCCESS": "Set as default address",
+    "COUPON_APPLIED_SUCCESS": "Coupon applied",
+    "MESSAGE_DELETED_SUCCESS": "Message deleted",
+    "OPERATION_FAILED": "Operation failed",
+    "OPERATION_SUCCESS": "Operation successful",
+    "PHONE_CALL_ERROR": "Phone call failed",
+    "PROFILE_AVATAR_UPDATE_FAILED": "Profile picture update failed",
+    "PROFILE_AVATAR_UPDATE_SUCCESS": "Profile picture updated",
+    "PROFILE_EDIT_VALIDATION_ERROR": "Profile information has errors",
+    "REVIEW_DELETED_SUCCESS": "Review deleted",
+    "REVIEW_DELETE_FAILED": "Failed to delete review",
+    "REVIEW_HELPFUL_VOTE_SUCCESS": "Voted as helpful review",
+    "REVIEW_PHOTO_ERROR": "Review photo upload failed",
+    "SERVER_ERROR": "Server error",
+    "SETTINGS_SAVE_FAILED": "Failed to save settings"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "title": "Settings",
+  "sections": {
+    "notifications": "Notifications",
+    "general": "General Settings",
+    "privacy": "Privacy",
+    "cache": "Cache Management",
+    "other": "Other"
+  },
+  "notifications": {
+    "title": "Notification Settings",
+    "orderUpdates": "Order Updates",
+    "orderUpdatesDesc": "Receive real-time notifications from order acceptance to delivery completion",
+    "promotions": "Promotion Notifications",
+    "promotionsDesc": "Receive information about special offers and events",
+    "chat": "Chat Notifications",
+    "chatDesc": "Receive chat message notifications from stores"
+  },
+  "general": {
+    "title": "General Settings",
+    "language": "Language",
+    "languageDesc": "Select the language to use in the app",
+    "theme": "Theme",
+    "themeDesc": "Choose between light and dark theme"
+  },
+  "theme": {
+    "title": "Theme",
+    "description": "Choose how the app looks",
+    "light": "Light",
+    "lightDesc": "Bright and clean interface",
+    "dark": "Dark",
+    "darkDesc": "Easy on the eyes, saves battery",
+    "system": "System",
+    "systemDesc": "Follow device settings",
+    "current": "Current theme",
+    "changed": "Theme changed successfully"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "locationSharing": "Location Sharing",
+    "locationSharingDesc": "Allow sharing location information to improve delivery service",
+    "analytics": "Usage Analytics",
+    "analyticsDesc": "Allow anonymous data collection to improve the app",
+    "description": "Review DeliveryVN's policy on collection, use, and retention of personal information.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "overview": {
+        "title": "1. Overview",
+        "content": "DeliveryVN values your personal information and processes it securely in compliance with data protection laws."
+      },
+      "collection": {
+        "title": "2. Information We Collect",
+        "content": "We collect name, phone number, address, email, and may collect additional information required for payments."
+      },
+      "usage": {
+        "title": "3. How We Use Information",
+        "content": "We use collected information for service delivery, order processing, customer support, and service improvement."
+      },
+      "sharing": {
+        "title": "4. Sharing Information",
+        "content": "We do not share personal data externally except minimal information required for delivery partners."
+      },
+      "storage": {
+        "title": "5. Data Retention",
+        "content": "We retain data while services are used and delete upon account deletion, except when required by law."
+      },
+      "security": {
+        "title": "6. Security Measures",
+        "content": "We implement encryption, access restrictions, and security software to protect your data."
+      },
+      "rights": {
+        "title": "7. Your Rights",
+        "content": "You may request access, correction, deletion, restriction, and withdraw consent at any time."
+      },
+      "cookies": {
+        "title": "8. Cookies and Tracking",
+        "content": "We may use cookies and similar technologies; you can control them via browser settings."
+      },
+      "location": {
+        "title": "9. Location Information",
+        "content": "We collect and use location information to provide delivery services with your consent."
+      },
+      "children": {
+        "title": "10. Children",
+        "content": "For children under 14, we obtain guardian consent and apply additional protection measures."
+      },
+      "changes": {
+        "title": "11. Changes to Policy",
+        "content": "We notify reasons and details before changes; material changes may require additional consent."
+      }
+    },
+    "contact": {
+      "title": "Contact for privacy inquiries",
+      "description": "For privacy policy inquiries or exercising your rights, contact us at:",
+      "address": "123 Dong Khoi St., District 1, Ho Chi Minh City"
+    },
+    "gdpr": {
+      "title": "GDPR Compliance",
+      "description": "EU residents may exercise additional rights under GDPR."
+    }
+  },
+  "cache": {
+    "title": "Cache Management",
+    "appCache": "App Cache",
+    "appCacheDesc": "Delete temporary files and data to free up storage space",
+    "imageCache": "Image Cache",
+    "imageCacheDesc": "Delete stored images to save space",
+    "size": "Using {{size}}MB",
+    "clear": "Clear Cache",
+    "clearAll": "Clear All Cache",
+    "confirmTitle": "Confirm cache deletion",
+    "confirmMessage": "Delete {{type}} cache? This action cannot be undone.",
+    "clearSuccess": "Cache cleared successfully",
+    "clearSuccessDesc": "Freed up {{size}}MB of storage",
+    "overview": {
+      "title": "Cache usage",
+      "totalSize": "Total cache size",
+      "storageUsed": "Storage usage"
+    },
+    "types": {
+      "title": "Manage by cache type"
+    },
+    "itemCount": "{{count}} items",
+    "advanced": {
+      "title": "Advanced settings"
+    },
+    "clearAllDesc": "Clearing all cache may require restarting the app. Temporary files and saved data will be removed.",
+    "help": {
+      "title": "Help",
+      "description": "Cache stores temporary data to improve performance. Clearing it periodically can save storage."
+    }
+  },
+  "other": {
+    "title": "Other",
+    "about": "About App",
+    "aboutDesc": "View app version and information",
+    "terms": "Terms of Service",
+    "termsDesc": "View terms of service",
+    "privacy": "Privacy Policy",
+    "privacyDesc": "View privacy policy",
+    "support": "Customer Support",
+    "supportDesc": "Contact us if you have questions or need support"
+  },
+  "account": {
+    "title": "Account Management",
+    "suspend": "Suspend Account",
+    "suspendDesc": "Temporarily deactivate your account. You can reactivate it anytime",
+    "delete": "Delete Account",
+    "deleteDesc": "Account and all data will be permanently deleted. This action cannot be undone",
+    "confirmSuspend": "Do you want to suspend your account?",
+    "confirmDelete": "Are you sure you want to delete your account? This action cannot be undone."
+  },
+  "messages": {
+    "notificationUpdated": "Notification settings have been updated",
+    "languageChanged": "Language has been changed",
+    "themeChanged": "Theme has been changed",
+    "cacheCleared": "Cache has been cleared",
+    "accountSuspended": "Account has been suspended",
+    "accountDeleted": "Account has been deleted",
+    "accountActionProcessing": "Processing account action...",
+    "accountDeleteScheduled": "Will be permanently deleted on {{date}}"
+  },
+  "errors": {
+    "updateFailed": "Failed to update settings",
+    "cacheClearFailed": "Failed to clear cache",
+    "accountActionFailed": "Account action failed",
+    "linkNotSupported": "Link not supported",
+    "linkOpenFailed": "Failed to open link"
+  },
+  "testNotification": {
+    "title": "Test Notification",
+    "message": "Notifications are working properly!"
+  },
+  "appDescription": "Vietnam's best food delivery service",
+  "appInfo": {
+    "title": "App Information",
+    "version": "Version",
+    "buildNumber": "Build number",
+    "lastUpdate": "Last update",
+    "lastUpdateDate": "Sep 1, 2024"
+  },
+  "developer": {
+    "title": "Developer",
+    "company": "Company",
+    "companyName": "LN Partners",
+    "contact": "Contact",
+    "email": "support@deliveryvn.com",
+    "website": "Website",
+    "websiteUrl": "deliveryvn.com"
+  },
+  "legal": {
+    "title": "Legal",
+    "copyright": "Copyright",
+    "copyrightText": "© 2024 LN Partners. All rights reserved."
+  },
+  "social": {
+    "title": "Social media",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Read the terms of using DeliveryVN services.",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "general": {
+        "title": "1. General",
+        "content": "These terms govern the rights, obligations, and responsibilities between the company and users regarding the food delivery service provided by DeliveryVN."
+      },
+      "service": {
+        "title": "2. Service Provision",
+        "content": "We provide online food ordering and delivery intermediation services and continuously strive to improve quality."
+      },
+      "user": {
+        "title": "3. User Obligations",
+        "content": "Users must comply with these terms, provide accurate information, and use the services for legitimate purposes."
+      },
+      "order": {
+        "title": "4. Orders and Payments",
+        "content": "An order is established upon payment. Cancellations and refunds follow each store's policy."
+      },
+      "payment": {
+        "title": "5. Payments and Fees",
+        "content": "Payments are processed through secure systems; delivery and service fees may apply."
+      },
+      "delivery": {
+        "title": "6. Delivery Service",
+        "content": "Delivery times may vary by store conditions and may be delayed due to weather."
+      },
+      "liability": {
+        "title": "7. Limitation of Liability",
+        "content": "We are not directly responsible for food quality or store service and are only liable for intermediation."
+      },
+      "intellectual": {
+        "title": "8. Intellectual Property",
+        "content": "All intellectual property rights of content in the service belong to the company or respective owners."
+      },
+      "termination": {
+        "title": "9. Restriction of Use",
+        "content": "We may restrict service use or suspend accounts without notice in case of terms violations."
+      },
+      "changes": {
+        "title": "10. Changes to Terms",
+        "content": "These terms may be amended due to legal or policy changes; we will notify in advance."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have questions about the terms, please contact us at:"
+    }
+  }
+}

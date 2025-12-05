@@ -1,0 +1,174 @@
+# ===============================================
+# GraphQL ENUM 타입 정의
+# Location: /graphql/types/enums.graphql
+# Purpose: 모든 ENUM 타입 중앙 집중 관리
+# ===============================================
+
+# ===============================================
+# 사용자 및 인증 관련 ENUM
+# ===============================================
+
+# 사용자 역할 ENUM
+enum UserRoleEnum {
+  CUSTOMER         # 일반 고객
+  STORE_OWNER      # 매장 사장
+  STORE_MANAGER    # 매장 매니저
+  STORE_STAFF      # 매장 직원
+  DRIVER           # 배달원
+  ADMIN            # 관리자
+  SUPER_ADMIN      # 최고 관리자
+}
+
+# 계정 상태 ENUM
+enum AccountStatusEnum {
+  ACTIVE           # 활성
+  INACTIVE         # 비활성
+  SUSPENDED        # 정지
+  PENDING          # 대기
+  BANNED           # 차단
+}
+
+# 인증 방법 ENUM
+enum AuthMethodEnum {
+  PHONE            # 전화번호
+  EMAIL            # 이메일
+  SOCIAL_GOOGLE    # 구글
+  SOCIAL_FACEBOOK  # 페이스북
+  SOCIAL_APPLE     # 애플
+}
+
+# 소셜 로그인 제공자 ENUM
+enum SocialProviderEnum {
+  GOOGLE           # 구글
+  FACEBOOK         # 페이스북
+  APPLE            # 애플
+  KAKAO            # 카카오
+  NAVER            # 네이버
+}
+
+# OTP 유형 ENUM
+enum OTPTypeEnum {
+  REGISTRATION     # 회원가입
+  LOGIN            # 로그인
+  PASSWORD_RESET   # 비밀번호 재설정
+  PHONE_VERIFICATION # 전화번호 인증
+  TWO_FACTOR       # 2단계 인증
+}
+
+# 전화번호 인증 상태 ENUM
+enum PhoneVerificationStatusEnum {
+  PENDING          # 인증 대기
+  VERIFIED         # 인증 완료
+  EXPIRED          # 만료됨
+  FAILED           # 실패
+}
+
+# ===============================================
+# 성별 ENUM
+# ===============================================
+
+enum GenderEnum {
+  MALE             # 남성
+  FEMALE           # 여성
+  OTHER            # 기타
+  PREFER_NOT_TO_SAY # 밝히지 않음
+}
+
+# ===============================================
+# 언어 관련 ENUM
+# ===============================================
+
+# 언어 코드 ENUM
+enum LanguageCodeEnum {
+  VI               # 베트남어
+  EN               # 영어
+  KO               # 한국어
+}
+
+# ===============================================
+# 디바이스 및 플랫폼 ENUM
+# ===============================================
+
+# 디바이스 타입 ENUM
+enum DeviceTypeEnum {
+  IOS              # iOS 디바이스
+  ANDROID          # Android 디바이스
+  WEB              # 웹 브라우저
+  DESKTOP          # 데스크탑
+}
+
+# 플랫폼 ENUM
+enum PlatformEnum {
+  IOS              # iOS 앱
+  ANDROID          # Android 앱
+  WEB              # 웹
+  MOBILE           # 모바일 (iOS/Android 통합)
+}
+
+# ===============================================
+# 알림 관련 ENUM
+# ===============================================
+
+# 알림 타입 ENUM
+enum NotificationTypeEnum {
+  PUSH             # 푸시 알림
+  EMAIL            # 이메일
+  SMS              # SMS
+  IN_APP           # 인앱 알림
+}
+
+# 알림 우선순위 ENUM
+enum NotificationPriorityEnum {
+  LOW              # 낮음
+  NORMAL           # 보통
+  HIGH             # 높음
+  URGENT           # 긴급
+}
+
+# ===============================================
+# Web 클라이언트 관련 ENUM
+# ===============================================
+
+# Web 계정 역할 ENUM
+enum WebAccountRoleEnum {
+  OWNER            # 소유자
+  MANAGER          # 매니저
+  STAFF            # 직원
+}
+
+# Web 계정 상태 ENUM
+enum WebAccountStatusEnum {
+  ACTIVE           # 활성
+  INACTIVE         # 비활성
+  SUSPENDED        # 정지
+  PENDING          # 대기중
+}
+
+# ===============================================
+# 파일 업로드 관련 ENUM
+# ===============================================
+
+# 업로더 타입 ENUM
+enum UploaderTypeEnum {
+  USER             # 일반 사용자
+  STORE            # 매장
+  ADMIN            # 관리자
+  SYSTEM           # 시스템
+}
+
+# 스토리지 제공자 ENUM
+enum StorageProviderEnum {
+  CLOUDFLARE       # Cloudflare Images/R2
+  S3               # AWS S3
+  LOCAL            # 로컬 스토리지
+}
+
+# 이미지 타입 ENUM
+enum ImageTypeEnum {
+  PROFILE          # 프로필 이미지
+  COVER            # 커버 이미지
+  THUMBNAIL        # 썸네일
+  LOGO             # 로고
+  BANNER           # 배너
+  GALLERY          # 갤러리
+}

@@ -1,0 +1,148 @@
+{
+  "header": {
+    "deliverTo": "Giao đến"
+  },
+  "banner": {
+    "title": "Nổi bật"
+  },
+  "search": {
+    "placeholder": "Hôm nay bạn muốn ăn gì?"
+  },
+  "store": {
+    "recommended": "Cửa hàng đề xuất",
+    "favorites": "Cửa hàng yêu thích",
+    "closed": "Đã đóng cửa",
+    "defaultDescription": "Cửa hàng cung cấp những món ăn ngon",
+    "card": {
+      "freeDelivery": "Miễn phí giao hàng"
+    }
+  },
+  "menu": {
+    "popular": "Món ăn phổ biến"
+  },
+  "points": {
+    "myPoints": "Điểm của tôi",
+    "expiring": "{{points}}P sẽ hết hạn vào {{date}}"
+  },
+  "order": {
+    "status": {
+      "READY": "Sẵn sàng"
+    },
+    "items": "Mục đặt hàng"
+  },
+  "orders": {
+    "active": "Đơn hàng đang giao"
+  },
+  "featuredStores": {
+    "title": "Cửa hàng nổi bật"
+  },
+  "featuredMenus": {
+    "title": "Món ăn phổ biến"
+  },
+  "newStores": {
+    "title": "Cửa hàng mới khai trương",
+    "subtitle": "Đừng bỏ lỡ ưu đãi đặc biệt từ cửa hàng mới!",
+    "openToday": "Khai trương hôm nay!",
+    "openDays": "Đã mở {{count}} ngày",
+    "newStore": "Cửa hàng mới",
+    "noRating": "Chưa có đánh giá",
+    "daysLeft": "Còn {{count}} ngày",
+    "viewStore": "Khám phá cửa hàng mới",
+    "viewAll": "Xem tất cả",
+    "eventNotice": "Sự kiện cửa hàng mới có thể khác nhau tùy cửa hàng",
+    "loading": "Đang tải...",
+    "loadError": "Không thể tải thông tin cửa hàng",
+    "cuisineTypes": {
+      "VIETNAMESE": "Món Việt",
+      "KOREAN": "Món Hàn",
+      "CHINESE": "Món Trung",
+      "JAPANESE": "Món Nhật",
+      "WESTERN": "Món Tây",
+      "THAI": "Món Thái"
+    },
+    "events": {
+      "grandOpening": "Khai trương",
+      "welcomeOffer": "Ưu đãi chào mừng",
+      "freeDelivery": "Sự kiện khai trương"
+    },
+    "discounts": {
+      "50off": "Giảm 50%",
+      "30off": "Giảm 30%",
+      "freeDelivery": "Miễn phí giao hàng"
+    },
+    "features": {
+      "new": "Mới",
+      "freeDelivery": "Miễn phí giao hàng",
+      "discount": "Khuyến mãi",
+      "recommended": "Đề xuất"
+    }
+  },
+  "noData": {
+    "title": "Chưa có dữ liệu",
+    "message": "Chúng tôi đang cập nhật thông tin mới nhất cho bạn",
+    "retry": "Thử lại"
+  },
+  "stores": {
+    "nearby": "Gần bạn",
+    "popular": "Phổ biến",
+    "new": "Mới"
+  },
+  "brand": {
+    "hint": "Nhấn để xem cửa hàng theo thương hiệu",
+    "unknown": "Thương hiệu",
+    "sale": "GIẢM GIÁ",
+    "partnerBrands": "Thương hiệu đối tác",
+    "description": "Các thương hiệu đáng tin cậy",
+    "specialOffers": "Ưu đãi đặc biệt từ thương hiệu!",
+    "specialOffersDescription": "Đặt hàng ngay để nhận ưu đãi đặc biệt",
+    "logoHint": "Nhấn để xem trang thương hiệu",
+    "error": {
+      "title": "Không thể tải thương hiệu",
+      "description": "Vui lòng kiểm tra mạng và thử lại"
+    },
+    "empty": {
+      "title": "Chưa có thương hiệu đối tác",
+      "description": "Chúng tôi sẽ hợp tác với nhiều thương hiệu hơn"
+    }
+  },
+  "promotions": {
+    "title": "Khuyến mãi hot",
+    "count": "{{count}} khuyến mãi đang diễn ra",
+    "viewAll": "Xem tất cả",
+    "off": "giảm",
+    "freeDelivery": "Miễn phí giao hàng",
+    "expired": "Đã hết hạn",
+    "expiresToday": "Hết hạn hôm nay",
+    "expiresDays": "Còn {{days}} ngày",
+    "badge": {
+      "discount": "Giảm giá",
+      "free": "Miễn phí giao hàng",
+      "cashback": "Hoàn tiền",
+      "bundle": "Gói combo",
+      "bogo": "Mua 1 tặng 1",
+      "loyalty": "Điểm thưởng",
+      "firstOrder": "Đơn đầu tiên"
+    }
+  },
+  "coupons": {
+    "firstOrder": "Đơn đầu tiên",
+    "firstOrderDiscount": "Giảm 20%",
+    "freeShipping": "Miễn phí giao hàng",
+    "freeShippingMinOrder": "Đơn từ 500.000₫",
+    "newStore": "Cửa hàng mới",
+    "newStoreDiscount": "Giảm 100.000₫",
+    "useNow": "Sử dụng ngay",
+    "a11y": {
+      "firstOrderLabel": "Phiếu giảm 20% cho đơn đầu tiên",
+      "firstOrderHint": "Nhận giảm 20% cho đơn hàng đầu tiên",
+      "freeShippingLabel": "Phiếu miễn phí giao hàng",
+      "freeShippingHint": "Miễn phí giao hàng cho đơn từ 500.000₫",
+      "newStoreLabel": "Phiếu giảm 100.000₫ cho cửa hàng mới",
+      "newStoreHint": "Nhận giảm 100.000₫ tại cửa hàng mới"
+    }
+  },
+  "category": {
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Points",
+  "myPoints": "My Points",
+  "pointBalance": "Point Balance",
+  "availablePoints": "Available {{points}}P",
+  "usePoints": "Use Points",
+  "pointHistory": "Point History",
+  "earnedThisMonth": "Earned This Month",
+  "usedThisMonth": "Used This Month",
+  "nextTier": "Until Next Tier",
+  "tier": {
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "platinum": "Platinum"
+  },
+  "transactionTypes": {
+    "earn_order": "Order Earned",
+    "earn_review": "Review Earned",
+    "earn_referral": "Referral Earned",
+    "earn_signup": "Signup Earned",
+    "earn_event": "Event Earned",
+    "use_order": "Order Used",
+    "expire": "Points Expired",
+    "cancel": "Canceled/Refund"
+  },
+  "filters": {
+    "all": "All",
+    "earned": "Earned",
+    "used": "Used",
+    "week": "Last Week",
+    "month": "Last Month",
+    "year": "Last Year"
+  },
+  "expiringWarning": "{{points}}P will expire in {{days}} days",
+  "pointsEarned": "+{{points}}P earned",
+  "pointsUsed": "-{{points}}P used",
+  "pointsExpired": "{{points}}P expired",
+  "insufficientPoints": "Insufficient points",
+  "maxUsablePoints": "Maximum {{points}}P can be used",
+  "pointsToEarn": "To be earned: {{points}}P",
+  "empty": {
+    "title": "No point history",
+    "description": "Order and earn points"
+  },
+  "error": {
+    "loadFailed": "Unable to load point history",
+    "useFailed": "Failed to use points",
+    "insufficientBalance": "Insufficient point balance"
+  },
+  "success": {
+    "pointsUsed": "{{points}}P has been used",
+    "pointsEarned": "{{points}}P has been earned"
+  },
+  "emptyHistory": "No point history",
+  "emptyHistoryDesc": "Order and earn points",
+  "startOrdering": "Start ordering",
+  "unit": "points",
+  "rewards": "Reward Points",
+  "useRewards": "Use Reward Points",
+  "availableLabel": "Available Points",
+  "pendingLabel": "Pending points",
+  "expiringSoonLabel": "Expiring soon",
+  "thisOrderWillEarn": "This order will earn",
+  "inputLabel": "Points to use (Minimum {{min}})",
+  "quickSelect": "Quick select",
+  "discountFromPoints": "Discount from points",
+  "remainingPoints": "Remaining points",
+  "minRedeemRequired": "Minimum {{min}} points required to use",
+  "insufficientPointsDetail": "Insufficient points. You have {{points}} points",
+  "enableToUseHint": "Enable to use points for this order",
+  "rateHint": "1 point = 1 VND"
+}

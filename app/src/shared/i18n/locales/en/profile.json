@@ -1,0 +1,852 @@
+{
+  "title": "Profile",
+  "guest": "Guest",
+  "noContact": "No contact information",
+  "memberSince": "Member since {{date}}",
+  "anonymous": "Anonymous User",
+  "greeting": {
+    "title": "Have a delicious day!",
+    "availablePoints": "Available Points",
+    "points": "Points"
+  },
+  "stats": {
+    "totalOrders": "Orders",
+    "favorites": "Favorites",
+    "reviews": "Reviews",
+    "defaultName": "Customer",
+    "greeting": "!",
+    "activityMessage": "Your activities are gathered here!"
+  },
+  "membershipBenefits": {
+    "title": "Membership Benefits",
+    "description": "View benefits for each membership tier"
+  },
+  "membership": {
+    "title": "Membership Tier",
+    "loading": "Loading membership information...",
+    "currentTier": "Current Tier",
+    "points": "Points",
+    "totalSpent": "Total Spent",
+    "nextTier": "Next Tier",
+    "needMore": "Spend {{amount}} more to upgrade",
+    "benefits": {
+      "delivery_discount": "Delivery Discount",
+      "points_earning": "Points Earning",
+      "welcome_bonus": "Welcome Bonus",
+      "priority_support": "Priority Support",
+      "faster_delivery": "Faster Delivery",
+      "monthly_coupon": "Monthly Coupon",
+      "exclusive_deals": "Exclusive Deals",
+      "vip_support": "VIP Support",
+      "premium_coupons": "Premium Coupons",
+      "special_events": "Special Events",
+      "chef_recommendations": "Chef Recommendations",
+      "free_delivery": "Free Delivery",
+      "concierge_service": "Concierge Service",
+      "unlimited_coupons": "Unlimited Coupons",
+      "vip_events": "VIP Events",
+      "custom_menu": "Custom Menu",
+      "priority_booking": "Priority Booking",
+      "bronze": {
+        "delivery_description": "5% off on all orders",
+        "points_description": "Earn 1% points on orders",
+        "welcome_description": "Get 1,000 points instantly"
+      },
+      "silver": {
+        "delivery_description": "10% off on all orders",
+        "points_description": "Earn 2% points on orders",
+        "support_description": "24-hour priority response",
+        "delivery_time_description": "Average 10 minutes faster"
+      },
+      "gold": {
+        "delivery_description": "15% off on all orders",
+        "points_description": "Earn 3% points on orders",
+        "support_description": "Dedicated manager",
+        "coupon_description": "$10 monthly coupon",
+        "deals_description": "Gold member exclusive deals"
+      },
+      "platinum": {
+        "delivery_description": "20% off on all orders",
+        "points_description": "Earn 5% points on orders",
+        "support_description": "1:1 dedicated service",
+        "coupon_description": "$20 monthly coupon",
+        "events_description": "Platinum exclusive event invites",
+        "chef_description": "Celebrity chef recommendations"
+      },
+      "diamond": {
+        "delivery_description": "Free delivery on all orders",
+        "points_description": "Earn 10% points on orders",
+        "concierge_description": "24/7 concierge service",
+        "coupon_description": "Unlimited discount coupons",
+        "events_description": "VIP exclusive events",
+        "menu_description": "Personal custom menu creation",
+        "booking_description": "Priority booking at all stores"
+      }
+    },
+    "viewBenefits": "View Benefits",
+    "pointsHistory": "Points History",
+    "upgrade": "Upgrade Membership",
+    "vietnamSpecial": "Vietnam Special Offers",
+    "tiers": {
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum",
+      "diamond": "Diamond"
+    },
+    "benefits_detail_title": "Membership Benefits Details",
+    "membership_benefits": "Membership Benefits",
+    "current_tier": "Current Tier",
+    "progress_to_next": "Progress to {{tier}}",
+    "points_remaining": "{{points}} points remaining",
+    "current_benefits": "Current Benefits",
+    "upgrade_to": "Upgrade to {{tier}}",
+    "points_needed": "Points Needed",
+    "orders_needed": "Orders Needed",
+    "estimated_time": "Estimated Time",
+    "months": "{{count}} months",
+    "upgrade_now": "Upgrade Now",
+    "max_tier_reached": "Maximum Tier Reached",
+    "max_tier_message": "Congratulations! You've reached the highest membership tier.",
+    "bronze": "Bronze Member",
+    "silver": "Silver Member",
+    "gold": "Gold Member",
+    "platinum": "Platinum Member",
+    "diamond": "Diamond Member",
+    "error": {
+      "title": "Unable to load membership information",
+      "description": "An error occurred while loading membership tier information. Please try again."
+    },
+    "card": "Membership card",
+    "member": "Member",
+    "since": "Member since",
+    "orders": "orders",
+    "until": "until next tier",
+    "moreOrders": "more orders",
+    "currentBenefits": "Current benefits",
+    "myTier": "My Tier"
+  },
+  "statsOld": {
+    "title": "My Delivery Statistics",
+    "totalOrders": "Total Orders",
+    "totalReviews": "Reviews Written",
+    "loyaltyPoints": "Loyalty Points",
+    "favoriteStores": "Favorite Stores",
+    "stores": "stores",
+    "totalSpent": "Total Spent",
+    "orders": "Orders",
+    "points": "Points",
+    "reviews": "Reviews",
+    "favorites": "Favorites",
+    "coupons": "Coupons"
+  },
+  "header": {
+    "defaultName": "User",
+    "noPhone": "No phone number",
+    "verified": "Verified",
+    "pendingVerification": "Pending verification",
+    "memberSince": "Member since:"
+  },
+  "stats": {
+    "title": "Delivery Statistics",
+    "totalOrders": "Total Orders",
+    "totalReviews": "Reviews Written",
+    "loyaltyPoints": "Loyalty Points",
+    "favoriteStores": "Favorite Stores",
+    "stores": "stores",
+    "totalSpent": "Total Spent",
+    "orders": "Orders",
+    "points": "Points",
+    "reviews": "Reviews",
+    "favorites": "Favorites",
+    "coupons": "Coupons",
+    "defaultName": "Customer",
+    "greeting": "!",
+    "activityMessage": "Your activities are gathered here!"
+  },
+  "menu": {
+    "editProfile": "Edit Profile",
+    "orderHistory": "Order History",
+    "addresses": "Address Management",
+    "paymentMethods": "Payment Methods",
+    "chatMessages": "Messages",
+    "language": "Language Settings",
+    "support": "Customer Support",
+    "customerService": "Customer Service Center",
+    "logout": "Logout",
+    "history": "History",
+    "settings": "Settings",
+    "notifications": "Notification Settings",
+    "privacy": "Privacy",
+    "terms": "Terms of Service"
+  },
+  "logout": {
+    "title": "Logout",
+    "message": "Are you sure you want to logout?",
+    "confirm": "Logout",
+    "success": "Logout Successful",
+    "successMessage": "You have been logged out successfully",
+    "error": "Logout Error",
+    "errorMessage": "An error occurred while logging out"
+  },
+  "membershipUpgrade": {
+    "title": "Membership Upgrade",
+    "description": "See remaining orders to reach next tier"
+  },
+  "pointsHistory": {
+    "title": "Points History",
+    "description": "View your points earning and usage history",
+    "loading": "Loading points history...",
+    "error": "Unable to load points history",
+    "retry": "Retry",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "balance": "Balance",
+    "orderNumber": "Order #",
+    "empty": {
+      "title": "No points history",
+      "description": "Place orders to earn loyalty points"
+    },
+    "types": {
+      "earned": "Earned",
+      "spent": "Spent",
+      "expired": "Expired",
+      "adjustment": "Adjustment"
+    },
+    "sources": {
+      "orderCompletion": "Order Completion",
+      "orderPayment": "Order Payment",
+      "signupBonus": "Signup Bonus",
+      "referral": "Referral Bonus",
+      "promotion": "Promotion",
+      "admin": "Admin",
+      "expiration": "Expiration"
+    },
+    "details": {
+      "date": "Date",
+      "type": "Type",
+      "amount": "Points",
+      "balance": "Balance",
+      "description": "Description",
+      "expires": "Expires",
+      "reference": "Reference"
+    },
+    "summary": {
+      "currentBalance": "Current Balance",
+      "totalEarned": "Total Earned",
+      "totalSpent": "Total Spent",
+      "expiringAmount": "Expiring Soon",
+      "expiringDays": "{{count}} points will expire in {{days}} days"
+    },
+    "loadMore": "Load More",
+    "noMore": "No more data",
+    "refresh": "Refresh",
+    "filter": {
+      "all": "All",
+      "earned": "Earned",
+      "spent": "Spent",
+      "expired": "Expired"
+    }
+  },
+  "usePoints": {
+    "title": "Use Points",
+    "description": "Use your points for discounts"
+  },
+  "myReviews": {
+    "title": "My Reviews",
+    "description": "Manage your written reviews"
+  },
+  "activityStats": {
+    "title": "Activity Statistics"
+  },
+  "quickAccess": {
+    "title": "Quick Access"
+  },
+  "appFeatures": {
+    "title": "App Features"
+  },
+  "pointsBox": {
+    "title": "Your Points",
+    "conversion": "1 point = 100 VNĐ",
+    "history": "History"
+  },
+  "membershipStatus": {
+    "title": "Membership Tier",
+    "newMember": "New Member",
+    "bronzeNewMember": "Bronze - New Member",
+    "memberSinceDate": "Member since: {{date}}",
+    "viewBenefits": "View Benefits"
+  },
+  "statsLabels": {
+    "orders": "Orders",
+    "pointsEarned": "Points Earned",
+    "vouchers": "Vouchers",
+    "reviews": "Reviews"
+  },
+  "quickAccessItems": {
+    "orderHistory": {
+      "title": "Order History",
+      "subtitle": "{{count}} orders placed"
+    },
+    "addresses": {
+      "title": "Delivery Addresses",
+      "subtitle": "Manage {{count}} addresses"
+    },
+    "paymentMethods": {
+      "title": "Payment Methods",
+      "subtitle": "Add new card"
+    },
+    "supportMessages": {
+      "title": "Support Messages",
+      "noNewMessages": "No new messages",
+      "newMessages": "{{count}} new messages"
+    },
+    "favorites": {
+      "title": "Favorites",
+      "subtitle": "{{count}} favorite items"
+    },
+    "myReviews": {
+      "title": "My Reviews",
+      "subtitle": "{{count}} reviews written"
+    },
+    "coupons": {
+      "title": "Coupons",
+      "subtitle": "{{count}} coupons available"
+    }
+  },
+  "appFeaturesItems": {
+    "language": {
+      "title": "Language",
+      "subtitle": "English"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "Notification settings"
+    },
+    "customerSupport": {
+      "title": "Customer Support",
+      "subtitle": "Contact us"
+    },
+    "aboutApp": {
+      "title": "About App",
+      "subtitle": "Version 1.0.0"
+    }
+  },
+  "coupons": {
+    "card": "Coupon Card",
+    "title": "Your Coupons",
+    "available": "available",
+    "used": "Used",
+    "expiring": "Expiring Soon",
+    "expiringSoon": "coupons expiring",
+    "featured": "Featured Coupons",
+    "minOrder": "Minimum Order",
+    "viewAll": "View All",
+    "getMore": "Get More Coupons"
+  },
+  "editProfile": {
+    "title": "Edit Profile",
+    "save": "Save",
+    "cancel": "Cancel",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "birthDate": "Birth Date",
+      "gender": "Gender"
+    },
+    "changePhoto": "Change Photo",
+    "removePhoto": "Remove Photo",
+    "photoOptions": {
+      "title": "Profile Photo",
+      "camera": "Take Photo",
+      "gallery": "Choose from Gallery",
+      "remove": "Remove Current Photo"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General Settings",
+    "privacy": "Privacy Settings",
+    "dataSaver": "Data Saver Mode",
+    "dataSaverDesc": "Reduce image quality to save data usage",
+    "autoPlay": "Auto Play",
+    "autoPlayDesc": "Automatically play video content",
+    "shareLocation": "Share Location",
+    "shareLocationDesc": "Share location information to improve delivery service",
+    "analytics": "Usage Analytics",
+    "analyticsDesc": "Collect anonymous usage statistics to improve the app",
+    "about": "About App",
+    "aboutDesc": "View version information and terms of service",
+    "terms": "Terms of Service",
+    "termsDesc": "View service terms and conditions",
+    "privacyPolicy": "Privacy Policy",
+    "privacyPolicyDesc": "View privacy policy and data handling practices",
+    "notifications": "Notification Settings",
+    "accountManagement": "Account Management",
+    "version": "Version",
+    "language": "Language",
+    "cache": {
+      "title": "Cache Management",
+      "clear": "Clear Cache",
+      "size": "Cache Size: {{size}}",
+      "description": "Clearing cache will free up storage space but may increase data loading time on next use.",
+      "confirmMessage": "Do you want to clear cache?",
+      "deleteError": "Failed to clear cache",
+      "refresh": "Refresh",
+      "totalSize": "Total cache size",
+      "calculating": "Calculating...",
+      "calculationError": "Calculation failed",
+      "imageCache": "Image cache",
+      "dataCache": "Data cache",
+      "tempFiles": "Temporary files",
+      "clearImageCache": "Clear image cache",
+      "clearDataCache": "Clear data cache",
+      "clearAll": "Clear all cache",
+      "clearAllWarning": "All cache data will be deleted. Continue?",
+      "clearError": "Failed to clear cache",
+      "imageCacheCleared": "Image cache cleared",
+      "imageCacheClearedDesc": "Stored images have been cleaned up",
+      "dataCacheCleared": "Data cache cleared",
+      "dataCacheClearedDesc": "Temporary data has been cleaned up",
+      "allCacheCleared": "All cache cleared",
+      "allCacheClearedDesc": "Storage space has been freed",
+      "refreshing": "Refreshing cache info"
+    },
+    "messages": {
+      "accountActionProcessing": "Processing...",
+      "accountDeleted": "Account has been deleted",
+      "accountDeleteScheduled": "Account will be completely deleted on {{date}}",
+      "accountSuspended": "Account has been suspended",
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Profile update failed",
+      "imageUpdateSuccess": "Profile image updated successfully",
+      "imageUploadError": "Image upload failed",
+      "fetchError": "Unable to load profile information",
+      "addressUpdateSuccess": "Address updated successfully",
+      "addressUpdateError": "Address update failed",
+      "locationPermissionGranted": "Location access granted",
+      "locationPermissionDenied": "Location access denied",
+      "locationPermissionError": "Error requesting location permission",
+      "noChangesToSync": "No changes to synchronize"
+    },
+    "errors": {
+      "accountActionFailed": "Action failed. Please try again"
+    },
+    "regionSettings": "Region settings",
+    "currentRegion": "Current region",
+    "currency": "Currency",
+    "selectCurrency": "Select currency",
+    "selectLanguage": "Select language",
+    "deliveryInfo": "Delivery information",
+    "deliveryTime": "Delivery time",
+    "deliveryFee": "Delivery fee",
+    "minOrder": "Minimum order",
+    "regionNote": "Region settings note",
+    "regionDescription": "Region settings affect available stores, delivery fees, and payment methods. Some stores may not appear after changes.",
+    "saveSuccess": "Settings saved",
+    "regionUpdated": "Region updated",
+    "saveError": "Failed to save settings",
+    "testNotificationTitle": "Test notification",
+    "testNotificationMessage": "Notifications are working correctly!"
+  },
+  "fields": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "fullName": "Full name",
+    "preferredLanguage": "Preferred language",
+    "promotionNotifications": "Promotion notifications",
+    "marketingNotifications": "Marketing notifications"
+  },
+  "gender": {
+    "select": "Please select",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "avatar": {
+    "change": "Change Profile Photo",
+    "tapToChange": "Tap to change photo",
+    "select": "Select a photo",
+    "selectSource": "Select Image Source",
+    "selectSourceMessage": "Choose your preferred method",
+    "camera": "Take Photo",
+    "gallery": "Choose from Gallery",
+    "delete": "Delete Photo",
+    "profileImage": "Profile Image",
+    "updateSuccess": "Profile photo updated successfully",
+    "updateError": "Failed to update profile photo",
+    "deleteSuccess": "Profile photo deleted successfully",
+    "deleteError": "Failed to delete profile photo",
+    "changePhoto": "Change Profile Photo",
+    "selectMethod": "Choose your preferred method",
+    "defaultAvatar": "Default Avatar",
+    "customAvatar": "Custom Avatar",
+    "tapToChangeDesc": "Tap to change your profile photo",
+    "defaultOptions": "Default Avatar Options"
+  },
+  "validation": {
+    "nameRequired": "Please enter at least 2 characters for name",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email format",
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Please enter a valid phone number format",
+    "phoneInvalidVN": "Please enter a valid Vietnamese phone number",
+    "phoneFormatVN": "Vietnamese phone number format is incorrect",
+    "addressMinLength": "Please enter at least 5 characters for address",
+    "invalidLatitude": "Invalid latitude value",
+    "invalidLongitude": "Invalid longitude value",
+    "checkFields": "Please check your input",
+    "correctErrors": "Please correct errors and try again"
+  },
+  "language": {
+    "title": "Language Settings",
+    "selectNote": "Please select the language for the app",
+    "changeNote": "After changing language, the app will automatically display in the new language. Some content may apply at next startup.",
+    "changeSuccess": "Language changed successfully",
+    "changedTo": "Language changed to {{language}}",
+    "changeError": "Failed to change language",
+    "changeErrorDesc": "Please try again",
+    "changing": "Changing language..."
+  },
+  "deletion": {
+    "deleteAccount": "Delete Account",
+    "confirmTitle": "Confirm Account Deletion",
+    "confirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
+    "continue": "Continue",
+    "processing": "Processing...",
+    "buttonLabel": "Delete Account Button",
+    "buttonHint": "Permanently delete your account",
+    "step1Title": "Select Deletion Reason",
+    "step1Description": "Please let us know why you want to delete your account to help us improve our service.",
+    "step2Title": "Final Confirmation",
+    "step2Description": "After account deletion, all your data will be permanently deleted.",
+    "warningTitle": "⚠️ Important Notice",
+    "warningDescription": "Account deletion will permanently delete order history, points, coupons, favorites and all other information which cannot be recovered.",
+    "confirmationInstruction": "To continue, please type the following phrase exactly:",
+    "confirmationText": "Delete my account",
+    "confirmationPlaceholder": "Please type the phrase above exactly",
+    "nextStep": "Next Step",
+    "finalDelete": "Delete Account",
+    "selectReason": "Please select a deletion reason",
+    "enterCustomReason": "Please enter other reason",
+    "incorrectConfirmation": "Entered phrase does not match: {{text}}",
+    "success": "Account deleted successfully",
+    "failed": "Account deletion failed. Please try again",
+    "customReasonLabel": "Detailed Reason",
+    "customReasonPlaceholder": "Please tell us more about your reason (optional)",
+    "reasons": {
+      "notUsing": "No longer using the app",
+      "privacyConcerns": "Privacy concerns",
+      "tooManyNotifications": "Too many notifications",
+      "poorService": "Poor service quality",
+      "foundAlternative": "Found alternative service",
+      "other": "Other"
+    }
+  },
+  "suspension": {
+    "suspendAccount": "Suspend Account",
+    "confirmTitle": "Confirm Account Suspension",
+    "confirmMessage": "Do you want to temporarily suspend your account? It will be automatically reactivated after the set period.",
+    "continue": "Continue",
+    "processing": "Processing...",
+    "buttonLabel": "Suspend Account Button",
+    "buttonHint": "Temporarily deactivate account for specified period",
+    "modalTitle": "Account Suspension Settings",
+    "description": "When account is suspended, you won't be able to log in and all services including orders and notifications will be stopped. It will be automatically reactivated after the set period.",
+    "selectPeriodTitle": "Select Suspension Period",
+    "selectReasonTitle": "Select Suspension Reason (Optional)",
+    "selectPeriod": "Please select suspension period",
+    "selectReason": "Please select suspension reason",
+    "enterCustomReason": "Please enter other reason",
+    "confirmSuspension": "Suspend Account",
+    "success": "Account suspended for {{period}}",
+    "failed": "Account suspension failed. Please try again",
+    "customReasonLabel": "Detailed Reason",
+    "customReasonPlaceholder": "Please tell us more about your reason (optional)",
+    "infoTitle": "📋 Notice",
+    "infoDescription": "During suspension period, login will be unavailable and ongoing orders will continue to be processed. You can request early recovery through customer service at any time.",
+    "periods": {
+      "oneWeek": "1 Week",
+      "twoWeeks": "2 Weeks",
+      "oneMonth": "1 Month",
+      "threeMonths": "3 Months",
+      "sixMonths": "6 Months"
+    },
+    "reasons": {
+      "needBreak": "Want to take a break from the app",
+      "tooMuchSpending": "To prevent overspending",
+      "privacyConcerns": "Privacy protection",
+      "temporaryIssue": "Due to temporary issues",
+      "other": "Other"
+    }
+  },
+  "placeholders": {
+    "name": "Enter your name",
+    "email": "user@example.com",
+    "phone": "+84 123 456 789",
+    "birthday": "YYYY-MM-DD",
+    "fullName": "Please enter your name"
+  },
+  "cartAccessibilityHint": "Go to cart",
+  "addresses": {
+    "saved": "Saved Addresses",
+    "quickActions": "Quick Actions",
+    "empty": {
+      "title": "No saved addresses",
+      "description": "Add a new delivery address"
+    },
+    "addFirst": "Add First Address",
+    "addNew": "Add New Address",
+    "addHelper": "Add home, office or frequently visited places",
+    "deliveryInfo": {
+      "title": "Delivery Information",
+      "description": "We deliver quickly and accurately to your registered addresses"
+    },
+    "types": {
+      "home": "Home",
+      "work": "Office"
+    },
+    "address": {
+      "title": "Address Management",
+      "default": "Default Address"
+    },
+    "notes": {
+      "frontDoor": "Blue front gate",
+      "reception": "Deliver to reception on 5th floor"
+    },
+    "add": {
+      "coming": "Feature in development",
+      "description": "Will be available in next version"
+    },
+    "sampleAddresses": {
+      "home": "123 Nguyễn Huế, Phường Bến Nghé, Quận 1, TP.HCM",
+      "work": "456 Lê Lợi, Phường Phạm Ngũ Lão, Quận 1, TP.HCM"
+    },
+    "sampleStreets": {
+      "home": "123 Nguyễn Huế",
+      "work": "456 Lê Lợi"
+    },
+    "sampleDistricts": {
+      "district1": "Quận 1"
+    },
+    "sampleWards": {
+      "benNghe": "Phường Bến Nghé",
+      "phamNguLao": "Phường Phạm Ngũ Lão"
+    },
+    "delete": {
+      "confirm": {
+        "title": "Confirm Delete",
+        "message": "Are you sure you want to delete this address?"
+      },
+      "success": "Address deleted",
+      "description": "Address has been removed from the list"
+    },
+    "edit": {
+      "description": "Edit feature will be available in next version",
+      "title": "Edit Profile",
+      "basicInfo": "Basic Information",
+      "additionalInfo": "Additional Information",
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "saveSuccess": "Profile saved successfully",
+      "saveSuccessDesc": "Changes have been applied successfully",
+      "saveError": "Save failed",
+      "unsavedChanges": "You have unsaved changes",
+      "loseChanges": "All changes will be lost. Do you want to continue?",
+      "discard": "Discard changes",
+      "privacyNotice": "Privacy Notice",
+      "privacyDescription": "Your information is securely protected. It is only used to provide services and is not shared with third parties.",
+      "verificationRequired": "Verification required",
+      "verificationDescription": "Verification is required if you change your email or phone number.",
+      "loadingProfile": "Loading profile information...",
+      "loadError": "Failed to load profile information",
+      "retryLoad": "Retry",
+      "networkError": "Please check your network connection",
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Profile update failed",
+      "confirmDiscard": "Do you want to discard changes?",
+      "discardChanges": "Discard",
+      "keepEditing": "Keep editing",
+      "formErrors": "Please check your input",
+      "requiredField": "Required field",
+      "invalidFormat": "Invalid format"
+    },
+    "saved": "Saved addresses",
+    "empty": {
+      "title": "No saved addresses",
+      "description": "Add a new delivery address"
+    },
+    "addFirst": "Add first address",
+    "addNew": "Add new address",
+    "addHelper": "Add home, office, or frequent places",
+    "deliveryInfo": {
+      "title": "Delivery information",
+      "description": "We deliver quickly and accurately to your registered address"
+    },
+    "address": {
+      "title": "Address Management",
+      "default": "Default Address"
+    },
+    "title": "Manage delivery addresses",
+    "quickActions": {
+      "title": "Quick actions",
+      "addNew": "Add new address",
+      "addDescription": "Add home, office, or other places"
+    },
+    "delivery": {
+      "title": "Delivery info",
+      "description": "Currently supporting Seoul and Gyeonggi areas. Delivery time is 20–45 minutes."
+    }
+  },
+  "changePassword": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "enterCurrent": "Enter current password",
+    "enterNew": "Enter new password",
+    "enterConfirm": "Re-enter new password",
+    "securityNotice": "Security Notice",
+    "securityDescription": "Create a strong password to keep your account secure.",
+    "requirements": "Password Requirements",
+    "minLength": "Minimum 6 characters",
+    "noSpaces": "No spaces allowed",
+    "different": "Must be different from current password",
+    "change": "Change Password",
+    "changing": "Changing...",
+    "changeButton": "Change Password Button",
+    "success": "Password changed successfully",
+    "error": "Failed to change password",
+    "errors": {
+      "currentRequired": "Please enter current password",
+      "newRequired": "Please enter new password",
+      "confirmRequired": "Please confirm password",
+      "tooShort": "Password must be at least 6 characters",
+      "passwordMismatch": "Passwords do not match",
+      "samePassword": "New password must be different from current password"
+    }
+  },
+  "privacySettings": "Privacy Settings",
+  "edit": {
+    "title": "Edit Profile",
+    "saving": "Saving changes...",
+    "saveSuccess": "Profile updated successfully",
+    "saveError": "Failed to update profile. Please try again",
+    "loadError": "Failed to load profile information",
+    "networkError": "Network error. Please check your connection",
+    "retryLoad": "Retry",
+    "loadingProfile": "Loading profile...",
+    "confirmDiscard": "Discard Changes?",
+    "loseChanges": "You have unsaved changes that will be lost",
+    "keepEditing": "Keep Editing",
+    "discardChanges": "Discard Changes",
+    "privacyNotice": "Privacy Protection",
+    "privacyDescription": "Your information is encrypted and securely protected according to international standards",
+    "personalInformation": "Personal Information",
+    "basicInfo": "Basic Information",
+    "additionalInfo": "Additional Information",
+    "preferences": "Preferences",
+    "notifications": "Notification Settings",
+    "saveChanges": "Save changes",
+    "saveSuccessDesc": "Changes have been applied successfully",
+    "unsavedChanges": "You have unsaved changes",
+    "discard": "Discard changes",
+    "verificationRequired": "Verification required",
+    "verificationDescription": "Verification is required if you changed your email or phone number.",
+    "updateSuccess": "Profile updated",
+    "updateError": "Failed to update profile",
+    "formErrors": "Please check your input",
+    "requiredField": "This field is required",
+    "invalidFormat": "Invalid format"
+  },
+  "preferences": "Preferences",
+  "notificationSettings": "Notification Settings",
+  "points": {
+    "earned": "Earned",
+    "redeemed": "Redeemed",
+    "expired": "Expired",
+    "adjustment": "Adjustment",
+    "noTransactions": "No point transactions",
+    "earnPointsByOrdering": "Earn points by placing orders",
+    "currentBalance": "Current balance",
+    "totalEarned": "Total earned",
+    "totalRedeemed": "Total redeemed"
+  },
+  "descriptions": {
+    "promotionNotifications": "Receive discount and promotion updates",
+    "marketingNotifications": "Receive personalized marketing updates"
+  },
+  "selectBirthdate": "Select birthdate",
+  "birthdate": "Birthdate",
+  "fullName": "Full name",
+  "enterFullName": "Enter your full name",
+  "enterEmail": "Enter your email",
+  "enterPhone": "Enter your phone number",
+  "phoneNumber": "Phone number",
+  "bio": "Bio",
+  "enterBio": "Enter a short bio",
+  "personalInformation": "Personal information",
+  "changePhoto": "Change photo",
+  "tapToChangePhoto": "Tap to change photo",
+  "selectPhotoSource": "Select photo source",
+  "takePhoto": "Take photo",
+  "chooseFromGallery": "Choose from gallery",
+  "profileImage": "Profile image",
+  "notifications": {
+    "orderUpdates": "Order updates",
+    "orderUpdatesDesc": "Notifications about order status changes",
+    "promotions": "Promotions",
+    "promotionsDesc": "Discount and event notifications"
+  },
+  "history": {
+    "thisMontSummary": "This month's summary",
+    "noHistoryYet": "No history yet",
+    "startUsingApp": "Use the app to place orders and earn points"
+  },
+  "regions": {
+    "north": "North",
+    "central": "Central",
+    "south": "South"
+  },
+  "customerService": {
+    "workingHoursText": "08:00 - 22:00 (Every day)",
+    "emergencyHours": "24/7",
+    "title": "Customer Support Center",
+    "subtitle": "We are always ready to help",
+    "hours": "Working hours",
+    "quickContact": "Quick contact",
+    "actions": {
+      "liveChat": "Live chat",
+      "liveChatDesc": "Get instant responses",
+      "call": "Phone consultation",
+      "email": "Send inquiry email"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "order": "About orders",
+      "orderCancel": "I want to cancel an order",
+      "orderCancelAnswer": "You can cancel from order history, only before preparation starts.",
+      "orderDelay": "Order delayed",
+      "orderDelayAnswer": "Please check real-time tracking or contact the store directly.",
+      "payment": "About payments",
+      "paymentFailed": "Payment failed",
+      "paymentFailedAnswer": "Please check your payment method or try a different one.",
+      "refund": "When will I get a refund?",
+      "refundAnswer": "Refunds are processed within 3–5 business days after cancellation.",
+      "delivery": "About delivery",
+      "deliveryArea": "Delivery area",
+      "deliveryAreaAnswer": "We deliver within a 5 km radius of Ho Chi Minh City center.",
+      "account": "About account",
+      "passwordReset": "I forgot my password",
+      "passwordResetAnswer": "Please use the 'Forgot Password' feature on the login screen."
+    },
+    "info": {
+      "title": "Service information",
+      "description": "For detailed assistance, please contact our customer support center. Our professional team will be happy to help."
+    }
+  }
+}

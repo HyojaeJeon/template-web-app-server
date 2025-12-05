@@ -1,0 +1,119 @@
+{
+  "title": "스마트 날씨",
+  "systemDescription": "날씨 기반 지능형 배달 시스템",
+  "smartDeliverySystem": "스마트 배달 시스템",
+  "optimizedForVietnam": "Local 날씨 조건에 최적화",
+  "weatherStatus": "날씨 상태",
+  "weatherCardsSection": "날씨 정보 섹션",
+  "operational": "정상 운영",
+  "delayed": "지연",
+  "suspended": "중단",
+  "unknown": "알 수 없음",
+  "available": "이용 가능",
+  "unavailable": "이용 불가",
+  "delayedStatus": "배달 지연됨",
+  "suspendedStatus": "배달 중단됨",
+  "deliveryTime": {
+    "sunny": "25-35분",
+    "cloudy": "30-40분",
+    "rain": "40-60분",
+    "heavyRain": "60-90분",
+    "storm": "중단",
+    "flood": "중단"
+  },
+  "currentStatus": "현재 상태",
+  "currentLocation": "현재 위치",
+  "currentDelay": "현재 날씨로 인한 지연",
+  "realTimeStatus": "실시간 상태",
+  "selectWeatherHint": "이 날씨 조건을 선택하세요",
+  "selectedIndicator": "선택됨",
+  "deliveryNotification": "배달 알림",
+  "realTimeUpdate": "실시간 업데이트",
+  "deliveryUpdates": "배달 현황",
+  "normalWeatherDelivery": "정상 날씨 - 정시 배달",
+  "lightRainDelivery": "가벼운 비 - 10-15분 지연 가능",
+  "heavyRainDelivery": "폭우 - 20-30분 지연",
+  "stormFloodDelivery": "폭풍/홍수 - 서비스 중단",
+  "orderingTips": "주문 팁",
+  "tipsSection": "팁 섹션",
+  "rainySeason": "우기",
+  "hotWeather": "더운 날씨",
+  "stormyWeather": "폭풍 날씨",
+  "rainySeasonTip": "비로 인한 지연을 피하려면 30분 일찍 주문하세요",
+  "hotWeatherTip": "시원한 음료와 신선한 음식이 우선 배달됩니다",
+  "stormyWeatherTip": "날씨 경보를 확인하세요. 서비스가 중단될 수 있습니다",
+  "seasonalOffers": "계절 특가",
+  "seasonalPromoSection": "계절 프로모션 섹션",
+  "rainySeasonPromo": "우기 프로모션",
+  "deliveryDiscount20": "배달비 20% 할인",
+  "promoCondition": "{{amount}} 이상 주문 시 적용",
+  "copyPromoCode": "프로모션 코드 {{code}} 복사",
+  "copyPromoCodeHint": "탭해서 프로모션 코드 복사",
+  "headerAccessibilityLabel": "스마트 날씨 시스템 헤더",
+  "tabAccessibilityLabel": "날씨 및 배달 조건 탭",
+  "deliveryNotificationSection": "배달 상태 알림 섹션",
+  "currentStatusSection": "현재 배달 서비스 상태 섹션",
+  "smartWeatherTitle": "스마트 날씨",
+  "smartWeatherDescription": "날씨 최적화 배달 시스템",
+  "selectWeatherPrompt": "정확한 배달 예측을 위해 현재 날씨 조건을 선택하세요",
+  "sunny": "맑음",
+  "cloudy": "흐림",
+  "rain": "가벼운 비",
+  "heavyRain": "폭우",
+  "storm": "폭풍",
+  "flood": "홍수",
+  "description": {
+    "sunny": "완벽한 날씨, 원활한 도로 접근으로 이상적인 배달 조건",
+    "cloudy": "안정된 날씨, 영향받지 않는 정상 배달 운영",
+    "rain": "가벼운 비로 교통 체증과 조심스러운 운전으로 지연 가능",
+    "heavyRain": "폭우가 교통에 상당한 영향을 미쳐 배달 시간 증가",
+    "storm": "위험한 날씨, 안전을 위해 배달 서비스 중단",
+    "flood": "심각한 홍수, 피해 지역 배달 불가능"
+  },
+  "status": {
+    "normal": "정상",
+    "delayed": "지연",
+    "unavailable": "중단"
+  },
+  "alert": {
+    "rain": "참고: 비로 인해 배달 시간이 연장될 수 있습니다",
+    "heavyRain": "경고: 폭우로 인한 심각한 지연 가능",
+    "storm": "위험: 폭풍으로 인한 배달 중단",
+    "flood": "긴급: 홍수로 인한 서비스 불가"
+  },
+  "delivery": {
+    "normal": "정시 배달",
+    "delayed": "지연 가능",
+    "suspended": "배달 중단"
+  },
+  "tips": {
+    "sunny": {
+      "orderEarly": "피크 시간을 피해 일찍 주문하세요",
+      "coldItems": "차가운 음료 주문하기 좋은 시간"
+    },
+    "cloudy": {
+      "normalService": "정상 서비스 운영 중"
+    },
+    "rain": {
+      "orderEarly": "지연을 고려해 30분 일찍 주문하세요",
+      "bePrepared": "주문 받을 때 우산을 준비하세요",
+      "contactDriver": "도움이 필요하면 배달원에게 연락하세요"
+    },
+    "heavyRain": {
+      "significantDelay": "상당한 지연이 있을 수 있으니 양해 부탁드립니다",
+      "safetyFirst": "안전이 최우선입니다",
+      "considerPostponing": "급하지 않다면 주문 연기를 고려해보세요"
+    },
+    "storm": {
+      "suspended": "안전상의 이유로 서비스 중단"
+    },
+    "flood": {
+      "suspended": "홍수 지역 배달 불가"
+    }
+  },
+  "estimatedTime": "예상 시간",
+  "selected": "선택됨",
+  "cardAccessibilityLabel": "날씨 카드 {{weather}}, 상태 {{status}}, 배달 시간 {{time}}",
+  "cardAccessibilityHint": "이 날씨 조건을 선택하려면 탭하세요",
+  "weatherListAccessibilityLabel": "선택 가능한 날씨 조건 목록"
+}

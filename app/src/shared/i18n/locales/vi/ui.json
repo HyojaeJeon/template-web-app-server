@@ -1,0 +1,524 @@
+{
+  "buttons": {
+    "title": "Hệ thống nút",
+    "subtitle": "Các kiểu nút khác nhau và tương tác",
+    "systemTitle": "Hệ thống thành phần nút",
+    "systemDescription": "Hệ thống thiết kế nút tích hợp cho ứng dụng giao đồ ăn Việt Nam, cung cấp các kiểu nút đa dạng có tính đến khả năng sử dụng và khả năng tiếp cận.",
+    "primary": {
+      "label": "Nút chính",
+      "description": "Primary Button (Mint)"
+    },
+    "secondary": {
+      "label": "Nút phụ",
+      "description": "Secondary Button (Success)"
+    },
+    "warning": {
+      "label": "Nút cảnh báo",
+      "description": "Warning Button"
+    },
+    "danger": {
+      "label": "Nút nguy hiểm",
+      "description": "Danger Button"
+    },
+    "disabled": {
+      "label": "Nút bị vô hiệu hóa",
+      "description": "Disabled Button"
+    },
+    "primaryButtons": {
+      "title": "Nút chính",
+      "description": "Kiểu nút cơ bản cho các hành động chính"
+    },
+    "secondaryButtons": {
+      "title": "Nút phụ",
+      "description": "Kiểu nút thứ cấp cho các hành động phụ",
+      "secondary": "Nút Phụ",
+      "outlined": "Nút Viền",
+      "text": "Nút Văn Bản"
+    },
+    "buttonSizes": {
+      "title": "Kích thước nút",
+      "description": "Các tùy chọn kích thước nút khác nhau",
+      "small": "Nút nhỏ",
+      "medium": "Nút vừa",
+      "large": "Nút lớn",
+      "fullWidth": "Toàn bộ chiều rộng"
+    },
+    "iconButtons": {
+      "title": "Nút biểu tượng",
+      "description": "Nút được sử dụng với biểu tượng",
+      "addToCart": "Thêm vào giỏ",
+      "orderComplete": "Hoàn thành đơn",
+      "favorite": "Yêu thích",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa"
+    },
+    "floatingButtons": {
+      "title": "Nút hành động nổi",
+      "description": "Nút hành động nổi trên màn hình"
+    },
+    "socialLogin": {
+      "title": "Đăng ký nhanh",
+      "description": "Bắt đầu nhanh chóng với nền tảng yêu thích",
+      "google": {
+        "title": "Bắt đầu với Google",
+        "description": "Đăng nhập Google nhanh và bảo mật"
+      },
+      "facebook": {
+        "title": "Bắt đầu với Facebook",
+        "description": "Đăng nhập dễ dàng với tài khoản Facebook"
+      },
+      "apple": {
+        "title": "Bắt đầu với Apple",
+        "description": "Đăng nhập Apple ưu tiên bảo mật"
+      },
+      "kakao": {
+        "title": "Bắt đầu với Kakao",
+        "description": "Dễ dàng và nhanh chóng với KakaoTalk"
+      },
+      "zalo": {
+        "title": "Bắt đầu với Zalo",
+        "description": "Thuận tiện với messenger phổ biến VN"
+      }
+    },
+    "specialButtons": {
+      "title": "Nút đặc biệt",
+      "description": "Nút đăng nhập mạng xã hội và chức năng đặc biệt"
+    },
+    "buttonStates": {
+      "title": "Trạng thái nút",
+      "description": "Xác nhận trực quan các trạng thái khác nhau của nút",
+      "currentState": "Trạng thái hiện tại",
+      "buttonPressed": "nút đã được nhấn",
+      "default": "Mặc định",
+      "pressed": "Đã nhấn",
+      "disabled": "Vô hiệu hóa",
+      "button": "Nút"
+    },
+    "delivery": {
+      "addToCart": "Thêm vào giỏ",
+      "orderNow": "Đặt ngay",
+      "reorder": "Đặt lại",
+      "favorite": "Yêu thích",
+      "unfavorite": "Bỏ yêu thích",
+      "share": "Chia sẻ",
+      "review": "Viết đánh giá",
+      "trackOrder": "Theo dõi đơn hàng",
+      "callDriver": "Gọi tài xế",
+      "pickupReady": "Sẵn sàng lấy hàng",
+      "notifications": "Thông báo",
+      "locationServices": "Dịch vụ định vị"
+    },
+    "deliveryButtons": {
+      "title": "🍜 Nút ứng dụng giao đồ ăn Việt Nam",
+      "description": "Các nút liên quan đến đặt hàng, thanh toán và giao hàng được sử dụng trong ứng dụng giao đồ ăn thực tế"
+    },
+    "designGuide": {
+      "title": "📐 Hướng dẫn thiết kế nút",
+      "description": "Cách sử dụng nút theo kích thước, trạng thái và màu sắc cũng như các phương án cải thiện khả năng hiển thị"
+    }
+  },
+  "gallery": {
+    "capture": "Chụp ảnh",
+    "loadingPhotos": "Đang tải ảnh...",
+    "noPhotos": "Không có ảnh",
+    "noPhotosDescription": "Không có ảnh nào được lưu trong thiết bị."
+  },
+  "cards": {
+    "title": "Thẻ",
+    "subtitle": "Thành phần thẻ thể hiện thông tin đa dạng",
+    "systemTitle": "Hệ thống thẻ ứng dụng giao đồ ăn Việt Nam",
+    "systemDescription": "Khám phá các thiết kế thẻ đa dạng và thẻ hiển thị thông tin thời gian thực giúp cải thiện trải nghiệm người dùng",
+    "deliveryTracker": {
+      "title": "🚚 Theo dõi giao hàng thời gian thực",
+      "description": "Kiểm tra tình trạng giao hàng thời gian thực của đồ ăn đã đặt"
+    },
+    "weatherFood": {
+      "title": "🌤️ Gợi ý phù hợp theo thời tiết",
+      "description": "AI gợi ý những món ăn hoàn hảo cho thời tiết hôm nay"
+    },
+    "aiRecommendation": {
+      "title": "🤖 Gợi ý cá nhân hóa bằng AI",
+      "description": "Phân tích sở thích của bạn để tìm ra cửa hàng hoàn hảo"
+    },
+    "paymentMethods": {
+      "title": "💳 Hệ thống thanh toán Việt Nam",
+      "description": "Dễ dàng với các phương thức thanh toán địa phương như MoMo, ZaloPay"
+    },
+    "couponCard": {
+      "title": "🎫 Phiếu giảm giá đặc biệt",
+      "description": "Phiếu giảm giá và khuyến mãi chuyên về đồ ăn Việt Nam"
+    },
+    "reviewSystem": {
+      "title": "⭐ Đánh giá & Xếp hạng",
+      "description": "Nhận xét chân thành và đánh giá sao từ các khách hàng khác"
+    },
+    "storeCard": {
+      "title": "Thẻ cửa hàng",
+      "description": "Thẻ thông tin cửa hàng với hình ảnh và hành động",
+      "defaultName": "Hải sản tươi - Pado",
+      "discount": "Giảm 30%",
+      "deliveryTime": "25-35 phút",
+      "deliveryFee": "Phí giao hàng",
+      "orderNow": "Đặt hàng",
+      "addFavorite": "Thêm vào yêu thích",
+      "removeFavorite": "Bỏ khỏi yêu thích",
+      "storeInfo": "Cửa hàng {{name}}, điểm {{rating}}, thời gian giao {{deliveryTime}}",
+      "orderFrom": "Đặt hàng từ {{name}}"
+    },
+    "menuCard": {
+      "title": "Thẻ món ăn",
+      "description": "Hiển thị món ăn với giá và nút thêm"
+    },
+    "orderCard": {
+      "title": "Thẻ đơn hàng",
+      "description": "Thẻ lịch sử đặt hàng với trạng thái và hành động"
+    },
+    "promoCard": {
+      "title": "Thẻ khuyến mãi",
+      "description": "Thẻ ưu đãi và giảm giá đặc biệt",
+      "data": {
+        "title": "Giảm 50% đơn đầu tiên",
+        "subtitle": "Giảm tối đa 200,000₫",
+        "badge": "Ưu đãi khách hàng mới",
+        "period": "Đến 31/12",
+        "buttonText": "Nhận mã giảm giá"
+      }
+    },
+    "vietnamCard": {
+      "title": "Thẻ đặc biệt Việt Nam",
+      "description": "Thẻ đặc biệt theo chủ đề Việt Nam",
+      "data": {
+        "title": "Món ăn truyền thống Việt Nam",
+        "subtitle": "Trải nghiệm ẩm thực Việt Nam chính gốc",
+        "recommendation": {
+          "label": "Gợi ý hôm nay",
+          "dish": "Phở Bò",
+          "emoji": "🍜"
+        }
+      }
+    },
+    "menuItemCard": {
+      "defaultName": "Sashimi cá ngừ đặc biệt",
+      "defaultDescription": "Sashimi cá ngừ tươi phục vụ với sốt đặc biệt và rau củ theo mùa",
+      "addButton": "Thêm"
+    },
+    "orderData": {
+      "date": "24/08/2024 14:30",
+      "status": "Giao hàng hoàn tất",
+      "storeName": "Hải sản Pado",
+      "items": "Sashimi cá ngừ + 2 món",
+      "totalPrice": "550,000₫"
+    },
+    "buttons": {
+      "reorder": "Đặt lại",
+      "writeReview": "Viết đánh giá"
+    }
+  },
+  "modals": {
+    "titles": {
+      "basic": "Modal cơ bản",
+      "success": "Modal thành công",
+      "warning": "Modal cảnh báo",
+      "orderConfirm": "Xác nhận đơn hàng",
+      "addressInput": "Nhập địa chỉ",
+      "paymentMethod": "Phương thức thanh toán"
+    },
+    "actions": {
+      "confirm": "Xác nhận",
+      "cancel": "Hủy",
+      "placeOrder": "Đặt hàng",
+      "continueOrder": "Tiếp tục đặt hàng",
+      "viewOrderStatus": "Xem trạng thái đơn hàng"
+    }
+  },
+  "badges": {
+    "status": {
+      "open": "Mở cửa",
+      "preparing": "Đang chuẩn bị",
+      "closed": "Đã đóng cửa",
+      "dayOff": "Nghỉ",
+      "new": "MỚI",
+      "popular": "Phổ biến",
+      "inactive": "Không hoạt động"
+    },
+    "discount": {
+      "discount10": "-10%",
+      "discount20": "-20%",
+      "discount50": "-50%",
+      "onePlusOne": "1+1",
+      "freeDelivery": "Miễn phí giao hàng",
+      "flashDelivery": "Giao hàng nhanh"
+    },
+    "categories": {
+      "vietnamese": "🇻🇳 Việt Nam",
+      "korean": "🇰🇷 Hàn Quốc",
+      "chinese": "🇨🇳 Trung Quốc",
+      "japanese": "🇯🇵 Nhật Bản",
+      "western": "🇺🇸 Âu Mỹ",
+      "fastfood": "🍕 Đồ ăn nhanh",
+      "cafe": "☕ Cafe",
+      "dessert": "🧁 Tráng miệng"
+    },
+    "promoted": "Khuyến mãi",
+    "koreanOwned": "Chủ người Hàn Quốc",
+    "open24Hours": "24 giờ",
+    "cardPayment": "Thanh toán thẻ",
+    "freeDelivery": "Giao hàng miễn phí",
+    "featured": "Đề xuất"
+  },
+  "services": {
+    "minOrder": "Tối thiểu {{amount}}K₫"
+  },
+  "banners": {
+    "promotion": {
+      "title": "Giảm giá đặc biệt",
+      "subtitle": "Đặt hàng ngay và tiết kiệm 30%!",
+      "description": "Đừng bỏ lỡ ưu đãi giảm giá tới 30% cùng miễn phí giao hàng cho đơn đầu tiên.",
+      "actionText": "Đặt hàng"
+    },
+    "delivery": {
+      "title": "Giao hàng nhanh",
+      "subtitle": "Đảm bảo giao trong 30 phút",
+      "description": "Nhận thức ăn nhanh hơn với dịch vụ giao hàng premium của chúng tôi.",
+      "actionText": "Bắt đầu"
+    },
+    "newStore": {
+      "title": "Cửa hàng mới",
+      "subtitle": "Khám phá những cửa hàng mới",
+      "description": "Gặp gỡ những cửa hàng hot mới mở trong khu vực của bạn.",
+      "actionText": "Khám phá"
+    },
+    "loyalty": {
+      "title": "Ưu đãi tích điểm",
+      "subtitle": "Tích điểm mỗi khi đặt hàng",
+      "description": "Đặt hàng và tích điểm để được giảm giá cho những đơn hàng tiếp theo.",
+      "actionText": "Chi tiết"
+    }
+  },
+  "weather": {
+    "card": {
+      "feelsLike": "Cảm giác như",
+      "humidity": "Độ ẩm",
+      "currentTime": {
+        "morning": "sáng",
+        "lunch": "trưa",
+        "evening": "chiều",
+        "night": "đêm",
+        "nowIs": "Bây giờ là",
+        "timeText": "rồi!",
+        "weatherSuggestion": "Thời tiết này thì",
+        "howAbout": "thì sao?",
+        "suggestions": {
+          "morning": "bữa sáng nhẹ nhàng",
+          "lunch": "bữa trưa thịnh soạn",
+          "evening": "bữa tối ngon lành",
+          "night": "ăn vặt nhẹ nhàng"
+        }
+      },
+      "recommendations": {
+        "title": "Gợi ý theo thời tiết",
+        "orderButton": "Đặt hàng"
+      },
+      "tips": {
+        "title": "Mẹo hay về thời tiết hôm nay!",
+        "sunny": "Thời tiết nóng, việc bổ sung đủ nước rất quan trọng. Chúng tôi đề xuất thức ăn nhẹ cùng đồ uống mát lạnh!",
+        "rainy": "Ngày mưa thì món canh nóng là tuyệt nhất! Hãy thư giãn ở nhà và thưởng thức đồ ăn giao hàng.",
+        "cloudy": "Thời tiết âm u thì một chút tráng miệng ngọt ngào hoặc trà nóng sẽ làm bạn vui hơn đó!",
+        "hot": "Trời quá nóng! Kem hoặc chè đá sẽ giúp bạn giải nhiệt tuyệt vời.",
+        "humid": "Thời tiết ẩm ướt thì thức ăn cay nóng sẽ giúp xả hết độ ẩm trong người!"
+      },
+      "actions": {
+        "viewWeatherMenu": "Xem thực đơn theo thời tiết",
+        "refresh": "Làm mới"
+      },
+      "defaultData": {
+        "location": "Thành phố Hồ Chí Minh",
+        "description": "Thời tiết nắng và nóng",
+        "categories": {
+          "coldDrinks": "Nước uống mát lạnh",
+          "coldNoodles": "Mì lạnh",
+          "tropicalFruits": "Trái cây nhiệt đới"
+        },
+        "reasons": {
+          "hotWeatherCool": "Mát lạnh cho thời tiết nóng",
+          "coolDownHeat": "Giải nhiệt hiệu quả",
+          "perfectThirstQuench": "Hoàn hảo cho giải khát"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "subtitle": "Các giao diện đa dạng cho nhập liệu người dùng",
+    "description": "Được tối ưu hóa cho ứng dụng giao hàng Việt Nam",
+    "component": "thành phần nhập liệu",
+    "modernDesign": "Thiết kế giao diện hiện đại với tính dễ sử dụng và tiếp cận",
+    "states": {
+      "default": {
+        "label": "Nhập cơ bản",
+        "placeholder": "Vui lòng nhập văn bản"
+      },
+      "focused": {
+        "label": "Trạng thái tập trung",
+        "placeholder": "Trường nhập đang tập trung",
+        "value": "Văn bản đã nhập"
+      },
+      "error": {
+        "label": "Trạng thái lỗi",
+        "placeholder": "Trường nhập có lỗi",
+        "value": "Nhập liệu không hợp lệ",
+        "message": "Định dạng không chính xác"
+      },
+      "success": {
+        "label": "Trạng thái thành công",
+        "placeholder": "Trường nhập thành công",
+        "value": "Nhập liệu chính xác",
+        "message": "Có thể sử dụng"
+      },
+      "disabled": {
+        "label": "Trạng thái vô hiệu hóa",
+        "placeholder": "Trường nhập bị vô hiệu hóa"
+      }
+    },
+    "types": {
+      "search": {
+        "placeholder": "Tìm món ăn, cửa hàng..."
+      },
+      "phone": {
+        "label": "Số điện thoại",
+        "placeholder": "90 123 4567"
+      },
+      "password": {
+        "label": "Mật khẩu",
+        "placeholder": "Vui lòng nhập mật khẩu"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "example@email.com",
+        "helperText": "Vui lòng nhập địa chỉ email để nhận email xác nhận đơn hàng",
+        "optional": "Tùy chọn"
+      },
+      "textarea": {
+        "label": "Yêu cầu đặc biệt",
+        "placeholder": "Vui lòng nhập yêu cầu giao hàng\n(Ví dụ: Để trước cửa)"
+      },
+      "otp": {
+        "label": "Nhập mã xác thực",
+        "helperText": "Vui lòng nhập mã xác thực 6 số được gửi qua SMS"
+      },
+      "creditCard": {
+        "label": "Số thẻ",
+        "placeholder": "1234 5678 9012 3456"
+      },
+      "quantity": {
+        "label": "Chọn số lượng"
+      },
+      "address": {
+        "label": "Địa chỉ giao hàng",
+        "placeholder": "Quận 7, Thành phố Hồ Chí Minh"
+      },
+      "currency": {
+        "label": "Nhập số tiền",
+        "placeholder": "285,000"
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Trường nhập cơ bản",
+        "description": "Các trường nhập văn bản với trạng thái khác nhau"
+      },
+      "search": {
+        "title": "Nhập tìm kiếm",
+        "description": "Trường tìm kiếm sử dụng cùng biểu tượng"
+      },
+      "phone": {
+        "title": "Nhập số điện thoại",
+        "description": "Trường số điện thoại sử dụng cùng mã quốc gia"
+      },
+      "password": {
+        "title": "Nhập mật khẩu",
+        "description": "Nhập văn bản bảo mật và nút chuyển đổi hiển thị"
+      },
+      "textarea": {
+        "title": "Vùng văn bản",
+        "description": "Vùng văn bản cho phép nhập nhiều dòng"
+      },
+      "labeled": {
+        "title": "Nhãn và hướng dẫn",
+        "description": "Trường nhập bao gồm nhãn và văn bản hướng dẫn"
+      },
+      "groups": {
+        "title": "Nhóm nhập liệu",
+        "description": "Các trường nhập dạng đặc biệt"
+      },
+      "vietnam": {
+        "title": "Nhập liệu chuyên biệt Việt Nam",
+        "description": "Các trường nhập đặc biệt được bản địa hóa Việt Nam"
+      }
+    },
+    "validation": {
+      "required": "Trường này là bắt buộc",
+      "invalidFormat": "Định dạng không chính xác",
+      "email": "Vui lòng nhập địa chỉ email hợp lệ",
+      "phone": "Định dạng số điện thoại không hợp lệ",
+      "password": "Tối thiểu 8 ký tự, chữ hoa, chữ thường và số",
+      "otp": "Vui lòng nhập 6 chữ số",
+      "creditCard": "Định dạng số thẻ không hợp lệ",
+      "success": "Có thể sử dụng"
+    },
+    "input": {
+      "phone": {
+        "label": "Số điện thoại",
+        "placeholder": "Nhập số điện thoại của bạn"
+      },
+      "password": {
+        "label": "Mật khẩu",
+        "placeholder": "Nhập mật khẩu của bạn"
+      },
+      "confirmPassword": {
+        "label": "Xác nhận mật khẩu",
+        "placeholder": "Nhập lại mật khẩu của bạn"
+      },
+      "name": {
+        "label": "Tên",
+        "placeholder": "Nhập tên của bạn"
+      },
+      "search": {
+        "placeholder": "Tìm kiếm cửa hàng, món ăn..."
+      },
+      "message": {
+        "placeholder": "Nhập tin nhắn của bạn...",
+        "accessibilityLabel": "Trường nhập tin nhắn",
+        "accessibilityHint": "Nhập tin nhắn và nhấn nút gửi để gửi"
+      }
+    }
+  },
+  "input": {
+    "phone": {
+      "label": "Số điện thoại",
+      "placeholder": "Nhập số điện thoại"
+    },
+    "password": {
+      "label": "Mật khẩu",
+      "placeholder": "Nhập mật khẩu"
+    },
+    "confirmPassword": {
+      "label": "Xác nhận mật khẩu",
+      "placeholder": "Nhập lại mật khẩu"
+    },
+    "name": {
+      "label": "Tên",
+      "placeholder": "Nhập tên của bạn"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm cửa hàng, thực đơn..."
+    },
+    "message": {
+      "placeholder": "Nhập tin nhắn...",
+      "accessibilityLabel": "Trường nhập tin nhắn",
+      "accessibilityHint": "Nhập tin nhắn và nhấn nút gửi để gửi"
+    }
+  },
+  "validation": {
+    "invalidPhoneNumber": "Vui lòng nhập số điện thoại hợp lệ"
+  }
+}

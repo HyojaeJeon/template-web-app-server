@@ -1,0 +1,252 @@
+{
+  "title": "Cài đặt",
+  "sections": {
+    "notifications": "Thông báo",
+    "general": "Cài đặt chung",
+    "privacy": "Quyền riêng tư",
+    "cache": "Quản lý bộ nhớ đệm",
+    "other": "Khác"
+  },
+  "notifications": {
+    "title": "Cài đặt thông báo",
+    "orderUpdates": "Thông báo đơn hàng",
+    "orderUpdatesDesc": "Nhận thông báo trực tiếp từ khi tiếp nhận đến hoàn thành giao hàng",
+    "promotions": "Thông báo khuyến mãi",
+    "promotionsDesc": "Nhận thông tin về các ưu đãi đặc biệt và sự kiện",
+    "chat": "Thông báo chat",
+    "chatDesc": "Nhận thông báo tin nhắn từ cửa hàng"
+  },
+  "general": {
+    "title": "Cài đặt chung",
+    "language": "Ngôn ngữ",
+    "languageDesc": "Chọn ngôn ngữ sử dụng trong ứng dụng",
+    "theme": "Giao diện",
+    "themeDesc": "Chọn giao diện sáng hoặc tối"
+  },
+  "theme": {
+    "title": "Giao diện",
+    "description": "Chọn kiểu hiển thị của ứng dụng",
+    "light": "Sáng",
+    "lightDesc": "Giao diện sáng và rõ ràng",
+    "dark": "Tối",
+    "darkDesc": "Dễ chịu cho mắt, tiết kiệm pin",
+    "system": "Hệ thống",
+    "systemDesc": "Theo cài đặt thiết bị",
+    "current": "Giao diện hiện tại",
+    "changed": "Đã thay đổi giao diện thành công"
+  },
+  "privacy": {
+    "title": "Quyền riêng tư",
+    "locationSharing": "Chia sẻ vị trí",
+    "locationSharingDesc": "Cho phép chia sẻ thông tin vị trí để cải thiện dịch vụ giao hàng",
+    "analytics": "Phân tích sử dụng",
+    "analyticsDesc": "Cho phép thu thập dữ liệu ẩn danh để cải thiện ứng dụng",
+    "description": "Xem chính sách thu thập, sử dụng và lưu trữ dữ liệu cá nhân của DeliveryVN.",
+    "lastUpdated": "Cập nhật lần cuối",
+    "sections": {
+      "overview": {
+        "title": "1. Tổng quan",
+        "content": "DeliveryVN tôn trọng dữ liệu cá nhân và xử lý an toàn theo quy định pháp luật."
+      },
+      "collection": {
+        "title": "2. Dữ liệu thu thập",
+        "content": "Chúng tôi thu thập họ tên, số điện thoại, địa chỉ, email và có thể thu thập thêm thông tin khi thanh toán."
+      },
+      "usage": {
+        "title": "3. Mục đích sử dụng",
+        "content": "Dữ liệu được dùng để cung cấp dịch vụ, xử lý đơn hàng, hỗ trợ khách hàng và cải thiện chất lượng."
+      },
+      "sharing": {
+        "title": "4. Chia sẻ dữ liệu",
+        "content": "Chúng tôi không chia sẻ dữ liệu cá nhân ra bên ngoài, trừ thông tin tối thiểu cần thiết cho đối tác giao hàng."
+      },
+      "storage": {
+        "title": "5. Lưu trữ dữ liệu",
+        "content": "Dữ liệu được lưu trong thời gian sử dụng dịch vụ và xóa khi hủy tài khoản, trừ khi pháp luật yêu cầu lưu trữ."
+      },
+      "security": {
+        "title": "6. Bảo mật",
+        "content": "Áp dụng mã hóa, hạn chế truy cập và các biện pháp kỹ thuật/quản trị để bảo vệ dữ liệu."
+      },
+      "rights": {
+        "title": "7. Quyền của bạn",
+        "content": "Bạn có thể yêu cầu truy cập, chỉnh sửa, xóa, hạn chế xử lý và rút lại sự đồng ý bất cứ lúc nào."
+      },
+      "cookies": {
+        "title": "8. Cookie và theo dõi",
+        "content": "Có thể sử dụng cookie/công nghệ tương tự để cải thiện dịch vụ; bạn có thể kiểm soát trong trình duyệt."
+      },
+      "location": {
+        "title": "9. Vị trí",
+        "content": "Thu thập/sử dụng vị trí để cung cấp dịch vụ giao hàng khi bạn đồng ý."
+      },
+      "children": {
+        "title": "10. Trẻ em",
+        "content": "Khi thu thập dữ liệu trẻ dưới 14 tuổi, cần sự đồng ý của người giám hộ và áp dụng biện pháp bảo vệ bổ sung."
+      },
+      "changes": {
+        "title": "11. Thay đổi chính sách",
+        "content": "Chúng tôi sẽ thông báo lý do và nội dung trước khi thay đổi; thay đổi quan trọng có thể cần thêm sự đồng ý."
+      }
+    },
+    "contact": {
+      "title": "Liên hệ về quyền riêng tư",
+      "description": "Nếu bạn có thắc mắc về chính sách hoặc muốn thực hiện quyền của mình, vui lòng liên hệ:",
+      "address": "123 Đường Đồng Khởi, Quận 1, TP. HCM"
+    },
+    "gdpr": {
+      "title": "Tuân thủ GDPR",
+      "description": "Cư dân EU có thể thực hiện thêm các quyền theo GDPR."
+    }
+  },
+  "cache": {
+    "title": "Quản lý bộ nhớ đệm",
+    "appCache": "Bộ nhớ đệm ứng dụng",
+    "appCacheDesc": "Xóa các tệp tạm thời và dữ liệu để giải phóng dung lượng lưu trữ",
+    "imageCache": "Bộ nhớ đệm hình ảnh",
+    "imageCacheDesc": "Xóa hình ảnh đã lưu để tiết kiệm dung lượng",
+    "size": "Đang sử dụng {{size}}MB",
+    "clear": "Xóa bộ nhớ đệm",
+    "clearAll": "Xóa tất cả bộ nhớ đệm",
+    "confirmTitle": "Xác nhận xóa bộ nhớ đệm",
+    "confirmMessage": "Bạn có muốn xóa bộ nhớ đệm {{type}} không? Thao tác này không thể hoàn tác.",
+    "clearSuccess": "Đã xóa bộ nhớ đệm thành công",
+    "clearSuccessDesc": "Đã giải phóng {{size}}MB dung lượng",
+    "overview": {
+      "title": "Dung lượng bộ nhớ đệm",
+      "totalSize": "Tổng dung lượng bộ nhớ đệm",
+      "storageUsed": "Tỷ lệ sử dụng bộ nhớ"
+    },
+    "types": {
+      "title": "Quản lý theo loại bộ nhớ đệm"
+    },
+    "itemCount": "{{count}} mục",
+    "advanced": {
+      "title": "Cài đặt nâng cao"
+    },
+    "clearAllDesc": "Xóa tất cả bộ nhớ đệm có thể yêu cầu khởi động lại ứng dụng. Tất cả tệp tạm thời và dữ liệu đã lưu sẽ bị xóa.",
+    "help": {
+      "title": "Trợ giúp",
+      "description": "Bộ nhớ đệm là dữ liệu được lưu tạm thời để cải thiện hiệu suất ứng dụng. Xóa định kỳ có thể tiết kiệm dung lượng lưu trữ."
+    }
+  },
+  "other": {
+    "title": "Khác",
+    "about": "Thông tin ứng dụng",
+    "aboutDesc": "Xem phiên bản và thông tin ứng dụng",
+    "terms": "Điều khoản sử dụng",
+    "termsDesc": "Xem điều khoản sử dụng dịch vụ",
+    "privacy": "Chính sách quyền riêng tư",
+    "privacyDesc": "Xem chính sách bảo vệ thông tin cá nhân",
+    "support": "Hỗ trợ khách hàng",
+    "supportDesc": "Liên hệ nếu bạn có câu hỏi hay cần hỗ trợ"
+  },
+  "account": {
+    "title": "Quản lý tài khoản",
+    "suspend": "Tạm ngưng tài khoản",
+    "suspendDesc": "Tạm thời vô hiệu hóa tài khoản. Bạn có thể kích hoạt lại bất cứ lúc nào",
+    "delete": "Xóa tài khoản",
+    "deleteDesc": "Tài khoản và tất cả dữ liệu sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác",
+    "confirmSuspend": "Bạn có muốn tạm ngưng tài khoản không?",
+    "confirmDelete": "Bạn có chắc chắn muốn xóa tài khoản? Hành động này không thể hoàn tác."
+  },
+  "messages": {
+    "notificationUpdated": "Cài đặt thông báo đã được cập nhật",
+    "languageChanged": "Ngôn ngữ đã được thay đổi",
+    "themeChanged": "Giao diện đã được thay đổi",
+    "cacheCleared": "Bộ nhớ đệm đã được xóa",
+    "accountSuspended": "Tài khoản đã được tạm ngưng",
+    "accountDeleted": "Tài khoản đã được xóa",
+    "accountActionProcessing": "Đang xử lý thao tác tài khoản...",
+    "accountDeleteScheduled": "Sẽ bị xóa vĩnh viễn vào {{date}}"
+  },
+  "errors": {
+    "updateFailed": "Cập nhật cài đặt thất bại",
+    "cacheClearFailed": "Xóa bộ nhớ đệm thất bại",
+    "accountActionFailed": "Thao tác tài khoản thất bại",
+    "linkNotSupported": "Liên kết không được hỗ trợ",
+    "linkOpenFailed": "Không thể mở liên kết"
+  },
+  "testNotification": {
+    "title": "Thông báo thử nghiệm",
+    "message": "Thông báo đang hoạt động bình thường!"
+  },
+  "appDescription": "Dịch vụ giao đồ ăn tốt nhất tại Việt Nam",
+  "appInfo": {
+    "title": "Thông tin ứng dụng",
+    "version": "Phiên bản",
+    "buildNumber": "Số bản dựng",
+    "lastUpdate": "Cập nhật lần cuối",
+    "lastUpdateDate": "1 Thg 9, 2024"
+  },
+  "developer": {
+    "title": "Nhà phát triển",
+    "company": "Công ty",
+    "companyName": "LN Partners",
+    "contact": "Liên hệ",
+    "email": "support@deliveryvn.com",
+    "website": "Trang web",
+    "websiteUrl": "deliveryvn.com"
+  },
+  "legal": {
+    "title": "Pháp lý",
+    "copyright": "Bản quyền",
+    "copyrightText": "© 2024 LN Partners. All rights reserved."
+  },
+  "social": {
+    "title": "Mạng xã hội",
+    "facebook": "Facebook",
+    "instagram": "Instagram"
+  },
+  "terms": {
+    "title": "Điều khoản dịch vụ",
+    "description": "Đọc điều khoản sử dụng dịch vụ của DeliveryVN.",
+    "lastUpdated": "Cập nhật lần cuối",
+    "sections": {
+      "general": {
+        "title": "1. Điều khoản chung",
+        "content": "Điều khoản này quy định quyền, nghĩa vụ và trách nhiệm giữa công ty và người dùng đối với dịch vụ giao đồ ăn của DeliveryVN."
+      },
+      "service": {
+        "title": "2. Cung cấp dịch vụ",
+        "content": "Chúng tôi cung cấp dịch vụ đặt món trực tuyến và trung gian giao hàng, luôn nỗ lực nâng cao chất lượng."
+      },
+      "user": {
+        "title": "3. Nghĩa vụ người dùng",
+        "content": "Người dùng phải tuân thủ điều khoản, cung cấp thông tin chính xác và sử dụng dịch vụ vì mục đích hợp pháp."
+      },
+      "order": {
+        "title": "4. Đơn hàng và thanh toán",
+        "content": "Đơn hàng được xác nhận khi thanh toán hoàn tất. Hủy/hoàn tiền theo chính sách của từng cửa hàng."
+      },
+      "payment": {
+        "title": "5. Thanh toán và phí",
+        "content": "Thanh toán qua hệ thống an toàn; có thể áp dụng phí giao hàng và phí dịch vụ."
+      },
+      "delivery": {
+        "title": "6. Giao hàng",
+        "content": "Thời gian giao hàng phụ thuộc vào cửa hàng và có thể chậm do thời tiết."
+      },
+      "liability": {
+        "title": "7. Giới hạn trách nhiệm",
+        "content": "Chúng tôi không chịu trách nhiệm trực tiếp về chất lượng món ăn hoặc dịch vụ của cửa hàng, chỉ chịu trách nhiệm trung gian."
+      },
+      "intellectual": {
+        "title": "8. Sở hữu trí tuệ",
+        "content": "Mọi quyền sở hữu trí tuệ của nội dung trong dịch vụ thuộc về công ty hoặc chủ sở hữu liên quan."
+      },
+      "termination": {
+        "title": "9. Giới hạn sử dụng",
+        "content": "Chúng tôi có thể hạn chế sử dụng dịch vụ hoặc khóa tài khoản khi vi phạm điều khoản mà không cần thông báo trước."
+      },
+      "changes": {
+        "title": "10. Thay đổi điều khoản",
+        "content": "Điều khoản có thể thay đổi theo luật/pháp chính sách; chúng tôi sẽ thông báo trước khi áp dụng."
+      }
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "description": "Nếu bạn có câu hỏi về điều khoản, vui lòng liên hệ:"
+    }
+  }
+}

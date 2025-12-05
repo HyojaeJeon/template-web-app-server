@@ -1,0 +1,122 @@
+{
+  "connection": {
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "reconnecting": "Reconnecting...",
+    "error": "Connection error",
+    "retry": "Retry connection",
+    "retrying": "Retrying connection ({{attempt}}/{{max}})",
+    "offline": "Offline",
+    "online": "Online",
+    "poor_connection": "Poor connection quality"
+  },
+  "chat": {
+    "typing": "{{name}} is typing...",
+    "multiple_typing": "{{count}} people are typing...",
+    "message_sent": "Message sent",
+    "message_failed": "Message failed to send",
+    "message_delivered": "Delivered",
+    "message_read": "Read",
+    "new_message": "New message",
+    "unread_messages": "{{count}} unread messages",
+    "chat_unavailable": "Chat unavailable",
+    "reconnect_to_chat": "Tap to reconnect to chat",
+    "message_too_long": "Message too long",
+    "store_offline": "Store is offline",
+    "store_online": "Store is online"
+  },
+  "orders": {
+    "status_updated": "Order status has been updated",
+    "order_confirmed": "Order has been confirmed",
+    "preparing": "Preparing your food",
+    "ready_for_pickup": "Ready for pickup",
+    "out_for_delivery": "Out for delivery",
+    "delivered": "Delivered successfully",
+    "cancelled": "Order cancelled",
+    "driver_assigned": "Driver has been assigned",
+    "driver_arrived": "Driver has arrived",
+    "estimated_time": "Estimated time: {{time}} minutes",
+    "order_delayed": "Order is delayed",
+    "tracking_unavailable": "Real-time tracking unavailable"
+  },
+  "delivery": {
+    "driver_location_updated": "Driver location updated",
+    "eta_updated": "Estimated arrival: {{eta}}",
+    "driver_nearby": "Driver is nearby",
+    "driver_calling": "Driver is calling you",
+    "delivery_instructions": "Delivery instructions",
+    "unable_to_locate": "Unable to locate",
+    "gps_disabled": "GPS is disabled",
+    "location_permission_denied": "Location permission denied"
+  },
+  "notifications": {
+    "new_notification": "New notification",
+    "order_update": "Order update",
+    "promotion": "Promotion",
+    "system": "System notification",
+    "payment": "Payment notification",
+    "delivery": "Delivery notification",
+    "store_news": "Store news",
+    "mark_all_read": "Mark all as read",
+    "no_notifications": "No notifications",
+    "notification_permission_denied": "Notification permission denied",
+    "enable_notifications": "Enable notifications"
+  },
+  "store": {
+    "status_changed": "Store status has changed",
+    "now_open": "Store is now open",
+    "now_closed": "Store is now closed",
+    "busy": "Store is busy",
+    "menu_updated": "Menu has been updated",
+    "new_promotion": "New promotion available",
+    "out_of_stock": "Out of stock",
+    "back_in_stock": "Back in stock",
+    "price_changed": "Price has changed",
+    "temporarily_unavailable": "Temporarily unavailable"
+  },
+  "errors": {
+    "connection_lost": "Connection lost",
+    "reconnection_failed": "Reconnection failed",
+    "server_error": "Server error occurred",
+    "network_error": "Network error",
+    "timeout": "Timeout",
+    "unknown_error": "Unknown error occurred",
+    "feature_unavailable": "Feature unavailable",
+    "try_again_later": "Please try again later"
+  },
+  "status": {
+    "loading": "Loading...",
+    "syncing": "Syncing...",
+    "updating": "Updating...",
+    "updated": "Updated",
+    "refreshing": "Refreshing...",
+    "processing": "Processing...",
+    "completed": "Completed",
+    "failed": "Failed",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "in_progress": "In progress"
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "dismiss": "Dismiss",
+    "view_details": "View details",
+    "mark_read": "Mark as read",
+    "clear_all": "Clear all",
+    "enable": "Enable",
+    "disable": "Disable",
+    "settings": "Settings"
+  },
+  "performance": {
+    "high_latency": "High network latency",
+    "low_latency": "Good network connection",
+    "connection_quality": "Connection quality: {{quality}}",
+    "ping": "Ping: {{ms}}ms",
+    "reconnect_attempts": "Reconnect attempts: {{count}}",
+    "data_usage_high": "High data usage",
+    "battery_optimization": "Battery saver mode"
+  }
+}

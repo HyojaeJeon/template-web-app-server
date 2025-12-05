@@ -1,0 +1,137 @@
+{
+  "title": "Thực đơn",
+  "categories": {
+    "all": "Tất cả",
+    "appetizers": "Khai vị",
+    "mains": "Món chính",
+    "desserts": "Tráng miệng",
+    "drinks": "Đồ uống",
+    "combos": "Combo",
+    "popular": "Phổ biến",
+    "vegetarian": "Chay",
+    "spicy": "Cay"
+  },
+  "item": {
+    "price": "Giá",
+    "originalPrice": "Giá gốc",
+    "discount": "Giảm {percent}%",
+    "popular": "Phổ biến",
+    "new": "Mới",
+    "spicy": "Cay",
+    "vegetarian": "Chay",
+    "vegan": "Thuần chay",
+    "glutenFree": "Không gluten",
+    "available": "Còn hàng",
+    "unavailable": "Hết hàng",
+    "limitedQuantity": "Số lượng có hạn",
+    "prepTime": "Thời gian chuẩn bị: {time} phút",
+    "calories": "{calories} kcal",
+    "description": "Mô tả",
+    "ingredients": "Nguyên liệu",
+    "allergens": "Thông tin dị ứng",
+    "nutritionInfo": "Thông tin dinh dưỡng",
+    "customizable": "Có thể tùy chỉnh"
+  },
+  "unavailableReason": {
+    "outOfStock": "Hết hàng",
+    "temporaryUnavailable": "Tạm thời không có",
+    "prepareTime": "Thời gian chuẩn bị quá lâu",
+    "ingredientUnavailable": "Thiếu nguyên liệu"
+  },
+  "options": {
+    "title": "Tùy chọn",
+    "required": "Bắt buộc",
+    "optional": "Tùy chọn",
+    "selectOne": "Chọn một",
+    "selectMultiple": "Chọn nhiều",
+    "selectUpTo": "Chọn tối đa {max}",
+    "selectAtLeast": "Chọn ít nhất {min}",
+    "selectPrompt": "Vui lòng chọn tùy chọn",
+    "addPrice": "+ {price}₫",
+    "free": "Miễn phí",
+    "size": "Kích cỡ",
+    "extra": "Thêm",
+    "remove": "Bỏ",
+    "customize": "Tùy chỉnh"
+  },
+  "quantity": {
+    "title": "Số lượng",
+    "min": "Tối thiểu {min}",
+    "max": "Tối đa {max}",
+    "increment": "Tăng số lượng",
+    "decrement": "Giảm số lượng",
+    "outOfStock": "Hết hàng",
+    "limitReached": "Đã đạt giới hạn"
+  },
+  "cart": {
+    "addToCart": "Thêm vào giỏ hàng",
+    "addedToCart": "Đã thêm vào giỏ hàng",
+    "updateCart": "Cập nhật giỏ hàng",
+    "removeFromCart": "Xóa khỏi giỏ hàng",
+    "itemTotal": "Tổng: {total}₫",
+    "specialRequest": "Yêu cầu đặc biệt",
+    "specialRequestPlaceholder": "Ghi chú thêm cho món ăn này..."
+  },
+  "search": {
+    "placeholder": "Tìm kiếm món ăn...",
+    "popular": "Tìm kiếm phổ biến",
+    "noResults": "Không tìm thấy món ăn nào",
+    "suggestions": "Gợi ý tìm kiếm"
+  },
+  "filters": {
+    "price": "Mức giá",
+    "under50k": "Dưới 50.000₫",
+    "50kto100k": "50.000₫ - 100.000₫",
+    "100kto200k": "100.000₫ - 200.000₫",
+    "over200k": "Trên 200.000₫",
+    "dietary": "Chế độ ăn",
+    "preparation": "Cách chế biến",
+    "spicyLevel": "Độ cay",
+    "mild": "Nhẹ",
+    "medium": "Vừa",
+    "hot": "Cay",
+    "veryHot": "Rất cay"
+  },
+  "modal": {
+    "title": "Chi tiết món ăn",
+    "close": "Đóng",
+    "images": "Hình ảnh",
+    "relatedItems": "Món liên quan",
+    "reviews": "Đánh giá",
+    "ingredients": "Nguyên liệu chính"
+  },
+  "loading": {
+    "menu": "Đang tải thực đơn...",
+    "categories": "Đang tải danh mục...",
+    "item": "Đang tải thông tin món ăn...",
+    "addingToCart": "Đang thêm vào giỏ hàng..."
+  },
+  "errors": {
+    "loadFailed": "Không thể tải thực đơn",
+    "itemUnavailable": "Món ăn này hiện không có",
+    "addToCartFailed": "Không thể thêm vào giỏ hàng",
+    "optionRequired": "Vui lòng chọn {option}",
+    "quantityRequired": "Vui lòng chọn số lượng",
+    "tryAgain": "Thử lại"
+  },
+  "empty": {
+    "noItems": {
+      "title": "Không có món ăn",
+      "message": "Cửa hàng này hiện chưa có món ăn nào.",
+      "action": "Quay lại danh sách cửa hàng"
+    },
+    "categoryEmpty": {
+      "title": "Danh mục trống",
+      "message": "Không có món ăn nào trong danh mục này.",
+      "action": "Xem danh mục khác"
+    },
+    "searchEmpty": {
+      "title": "Không tìm thấy",
+      "message": "Không có món ăn nào phù hợp với từ khóa tìm kiếm.",
+      "action": "Thử từ khóa khác"
+    }
+  },
+  "section": {
+    "someSoldOut": "Một số món hiện đã hết"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Smart Weather",
+  "systemDescription": "Weather-based intelligent delivery system",
+  "smartDeliverySystem": "Smart Delivery System",
+  "optimizedForVietnam": "Optimized for Vietnam's weather conditions",
+  "weatherStatus": "Weather Status",
+  "weatherCardsSection": "Weather information section",
+  "operational": "Operational",
+  "delayed": "Delayed",
+  "suspended": "Suspended",
+  "unknown": "Unknown",
+  "available": "Available",
+  "unavailable": "Unavailable",
+  "delayedStatus": "Delivery delayed",
+  "suspendedStatus": "Delivery suspended",
+  "deliveryTime": {
+    "sunny": "25-35 minutes",
+    "cloudy": "30-40 minutes",
+    "rain": "40-60 minutes",
+    "heavyRain": "60-90 minutes",
+    "storm": "Suspended",
+    "flood": "Suspended"
+  },
+  "currentStatus": "Current Status",
+  "currentLocation": "Current Location",
+  "currentDelay": "Current weather delay",
+  "realTimeStatus": "Real-time Status",
+  "selectWeatherHint": "Select this weather condition",
+  "selectedIndicator": "Selected",
+  "deliveryNotification": "Delivery Notification",
+  "realTimeUpdate": "Real-time updates",
+  "deliveryUpdates": "Delivery Updates",
+  "normalWeatherDelivery": "Normal weather - On-time delivery",
+  "lightRainDelivery": "Light rain - May delay 10-15 minutes",
+  "heavyRainDelivery": "Heavy rain - Delay 20-30 minutes",
+  "stormFloodDelivery": "Storm/Flood - Service suspended",
+  "orderingTips": "Ordering Tips",
+  "tipsSection": "Tips section",
+  "rainySeason": "Rainy Season",
+  "hotWeather": "Hot Weather",
+  "stormyWeather": "Stormy Weather",
+  "rainySeasonTip": "Order 30 minutes earlier to avoid rain delays",
+  "hotWeatherTip": "Cold drinks and fresh food will be prioritized",
+  "stormyWeatherTip": "Monitor weather alerts, service may be suspended",
+  "seasonalOffers": "Seasonal Offers",
+  "seasonalPromoSection": "Seasonal promotion section",
+  "rainySeasonPromo": "Rainy Season Promotion",
+  "deliveryDiscount20": "20% off delivery fee",
+  "promoCondition": "Valid for orders from {{amount}} and above",
+  "copyPromoCode": "Copy promo code {{code}}",
+  "copyPromoCodeHint": "Tap to copy promo code",
+  "headerAccessibilityLabel": "Smart weather system header",
+  "tabAccessibilityLabel": "Weather and delivery conditions tab",
+  "deliveryNotificationSection": "Delivery status notification section",
+  "currentStatusSection": "Current delivery service status section",
+  "smartWeatherTitle": "Smart Weather",
+  "smartWeatherDescription": "Weather-optimized delivery system",
+  "selectWeatherPrompt": "Select current weather conditions for accurate delivery predictions",
+  "sunny": "Sunny",
+  "cloudy": "Cloudy",
+  "rain": "Light Rain",
+  "heavyRain": "Heavy Rain",
+  "storm": "Storm",
+  "flood": "Flood",
+  "description": {
+    "sunny": "Perfect weather, ideal delivery conditions with smooth road access",
+    "cloudy": "Stable weather, normal delivery operations unaffected",
+    "rain": "Light rain may cause delays due to traffic and careful driving",
+    "heavyRain": "Heavy rain significantly affects traffic, increasing delivery time",
+    "storm": "Dangerous weather, delivery service suspended for safety",
+    "flood": "Severe flooding, unable to deliver in affected areas"
+  },
+  "status": {
+    "normal": "Normal",
+    "delayed": "Delayed",
+    "unavailable": "Suspended"
+  },
+  "alert": {
+    "rain": "Note: Delivery time may be extended due to rain",
+    "heavyRain": "Warning: Heavy rain may cause serious delays",
+    "storm": "Danger: Delivery suspended due to storm",
+    "flood": "Emergency: Service unavailable due to flooding"
+  },
+  "delivery": {
+    "normal": "On-time delivery",
+    "delayed": "May be delayed",
+    "suspended": "Delivery suspended"
+  },
+  "tips": {
+    "sunny": {
+      "orderEarly": "Order early to avoid peak hours",
+      "coldItems": "Great time to order cold drinks"
+    },
+    "cloudy": {
+      "normalService": "Service operating normally"
+    },
+    "rain": {
+      "orderEarly": "Order 30 minutes early to account for delays",
+      "bePrepared": "Prepare umbrella when receiving order",
+      "contactDriver": "Contact driver if assistance needed"
+    },
+    "heavyRain": {
+      "significantDelay": "May be significantly delayed, please be patient",
+      "safetyFirst": "Safety is our top priority",
+      "considerPostponing": "Consider postponing order if not urgent"
+    },
+    "storm": {
+      "suspended": "Service suspended for safety reasons"
+    },
+    "flood": {
+      "suspended": "Unable to deliver in flooded areas"
+    }
+  },
+  "estimatedTime": "Estimated Time",
+  "selected": "Selected",
+  "cardAccessibilityLabel": "Weather card {{weather}}, status {{status}}, delivery time {{time}}",
+  "cardAccessibilityHint": "Tap to select this weather condition",
+  "weatherListAccessibilityLabel": "List of selectable weather conditions"
+}

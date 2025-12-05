@@ -1,0 +1,121 @@
+{
+  "required": {
+    "email": "Please enter email address",
+    "password": "Please enter password",
+    "confirmPassword": "Please confirm password",
+    "name": "Please enter name",
+    "phone": "Please enter phone number",
+    "businessName": "Please enter business name",
+    "address": "Please enter address",
+    "city": "Please select city",
+    "district": "Please select district",
+    "ward": "Please select ward",
+    "agreeTerms": "Please agree to terms of service",
+    "agreePrivacy": "Please agree to privacy policy"
+  },
+  "invalid": {
+    "email": "Please enter a valid email format",
+    "password": "Password must be at least 8 characters",
+    "confirmPassword": "Password confirmation does not match",
+    "phone": "Please enter a valid phone number format",
+    "phoneFormat": "Phone number format does not match selected country"
+  },
+  "step": {
+    "account": "Please enter correct account information",
+    "business": "Please enter correct business information",
+    "address": "Please enter correct address information",
+    "terms": "Please agree to the terms and conditions"
+  },
+  "email": {
+    "required": "Email address is required",
+    "invalidFormat": "Please enter a valid email format",
+    "localPartTooLong": "Local part of email is too long (max 64 characters)",
+    "domainTooLong": "Email domain is too long (max 255 characters)",
+    "consecutiveDots": "Email cannot contain consecutive dots",
+    "invalidLocalPart": "Invalid email format - local part cannot start or end with a dot",
+    "disposableNotAllowed": "Disposable email addresses are not allowed",
+    "didYouMean": "Did you mean",
+    "valid": "Valid email address"
+  },
+  "website": {
+    "required": "Website URL is required",
+    "invalidFormat": "Please enter a valid website URL",
+    "noSpacesAllowed": "URL cannot contain spaces",
+    "protocolRequired": "URL must start with http:// or https://",
+    "httpsRequired": "URL must use https://",
+    "ipNotAllowed": "IP addresses are not allowed as website URL",
+    "invalidIP": "Invalid IP address format",
+    "invalidDomain": "Invalid domain name",
+    "domainTooLong": "Domain name is too long",
+    "invalidDomainLabel": "Invalid domain format",
+    "invalidCharacters": "Domain contains invalid characters",
+    "invalidTLD": "Invalid top-level domain",
+    "consecutiveDots": "Domain cannot contain consecutive dots",
+    "valid": "Valid website URL"
+  },
+  "businessReg": {
+    "required": "Business registration number is required",
+    "searchCountry": "Search country...",
+    "noCountryFound": "No country found",
+    "formatHint": "Format",
+    "unsupportedCountry": "Unsupported country for business registration validation",
+    "valid": "Valid business registration number",
+    "vietnam": {
+      "invalidLength": "Vietnam business registration must be 10 or 13 digits",
+      "invalidProvinceCode": "Invalid province code in registration number",
+      "invalidChecksum": "Invalid business registration number - please verify",
+      "invalidSubsidiaryCode": "Invalid subsidiary code (must be 001-999)"
+    },
+    "korea": {
+      "invalidLength": "Korea business registration number must be 10 digits",
+      "invalidChecksum": "Invalid business registration number - please verify"
+    },
+    "us": {
+      "invalidLength": "US EIN must be 9 digits",
+      "invalidPrefix": "Invalid EIN prefix"
+    },
+    "japan": {
+      "invalidLength": "Japan Corporate Number must be 13 digits",
+      "invalidChecksum": "Invalid corporate number checksum"
+    },
+    "singapore": {
+      "invalidFormat": "Invalid Singapore UEN format"
+    }
+  },
+  "taxId": {
+    "required": "Tax ID is required",
+    "searchCountry": "Search country...",
+    "noCountryFound": "No country found",
+    "formatHint": "Format",
+    "unsupportedCountry": "Unsupported country for tax ID validation",
+    "valid": "Valid tax ID",
+    "vietnam": {
+      "invalidLength": "Vietnam MST must be 10 or 13 digits",
+      "invalidProvinceCode": "Invalid province code in MST",
+      "invalidChecksum": "Invalid MST checksum - please verify your tax ID",
+      "invalidSubsidiaryCode": "Invalid subsidiary code (must be 001-999)"
+    },
+    "korea": {
+      "invalidLength": "Korea Business Registration Number must be 10 digits",
+      "invalidChecksum": "Invalid business registration number - please verify"
+    },
+    "us": {
+      "invalidLength": "US EIN must be 9 digits",
+      "invalidPrefix": "Invalid EIN prefix"
+    },
+    "japan": {
+      "invalidLength": "Japan Corporate Number must be 13 digits",
+      "invalidChecksum": "Invalid corporate number checksum"
+    },
+    "singapore": {
+      "invalidFormat": "Invalid Singapore UEN format"
+    }
+  },
+  "countries": {
+    "VN": "Vietnam",
+    "KR": "South Korea",
+    "US": "United States",
+    "JP": "Japan",
+    "SG": "Singapore"
+  }
+}

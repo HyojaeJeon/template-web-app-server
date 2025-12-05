@@ -1,0 +1,273 @@
+{
+  "title": "매장",
+  "search": {
+    "placeholder": "매장 검색...",
+    "popular": "인기 검색어",
+    "recent": "최근 검색어",
+    "suggestions": "제안",
+    "noResults": "매장을 찾을 수 없습니다",
+    "tryDifferentKeyword": "다른 키워드로 시도"
+  },
+  "filters": {
+    "title": "매장 필터",
+    "category": "카테고리",
+    "service": "서비스",
+    "all": "전체",
+    "deliveryFee": "배달비",
+    "freeDelivery": "무료 배달",
+    "minOrder": "최소 주문금액",
+    "rating": "평점",
+    "distance": "거리",
+    "openNow": "현재 영업중",
+    "apply": "적용",
+    "clear": "필터 초기화"
+  },
+  "sort": {
+    "title": "정렬",
+    "distance": "거리순",
+    "rating": "평점순",
+    "deliveryTime": "배달시간순",
+    "popularity": "인기순",
+    "newest": "최신순"
+  },
+  "status": {
+    "open": "영업중",
+    "closed": "영업종료",
+    "busy": "주문 폭주",
+    "temporarilyClosed": "임시 휴업",
+    "cannotOrder": "주문 불가",
+    "system": "시스템",
+    "connected": "연결됨",
+    "disconnected": "연결안됨"
+  },
+  "delivery": {
+    "free": "무료 배달",
+    "fee": "배달비: {fee}원",
+    "time": "{time}분",
+    "minOrder": "최소 주문: {amount}원",
+    "notAvailable": "이 지역 배달 불가",
+    "calculating": "계산 중..."
+  },
+  "rating": {
+    "stars": "{rating}점",
+    "reviews": "{count}개 후기",
+    "noReviews": "후기 없음"
+  },
+  "distance": {
+    "km": "{distance} km",
+    "m": "{distance} m",
+    "calculating": "거리 계산 중..."
+  },
+  "tags": {
+    "new": "신규",
+    "popular": "인기",
+    "premium": "프리미엄",
+    "verified": "인증됨",
+    "promotion": "프로모션",
+    "fastDelivery": "빠른 배달"
+  },
+  "empty": {
+    "noStores": {
+      "title": "매장이 없습니다",
+      "message": "현재 이 지역에는 매장이 없습니다.",
+      "action": "다른 지역에서 찾아보기"
+    },
+    "noResults": {
+      "title": "검색 결과 없음",
+      "message": "검색 조건에 맞는 매장이 없습니다.",
+      "action": "필터를 변경해보세요"
+    },
+    "networkError": {
+      "title": "연결 오류",
+      "message": "매장 목록을 불러올 수 없습니다. 인터넷 연결을 확인해주세요.",
+      "action": "다시 시도"
+    },
+    "offline": {
+      "title": "오프라인 모드",
+      "message": "저장된 데이터를 표시합니다. 인터넷에 연결하여 업데이트하세요.",
+      "action": "다시 연결"
+    }
+  },
+  "actions": {
+    "viewMenu": "메뉴 보기",
+    "viewDetails": "상세 정보",
+    "addToFavorites": "즐겨찾기 추가",
+    "removeFromFavorites": "즐겨찾기 제거",
+    "share": "공유",
+    "call": "전화",
+    "directions": "길찾기",
+    "order": "주문하기",
+    "viewCart": "장바구니 보기"
+  },
+  "detail": {
+    "tabs": {
+      "menu": "메뉴",
+      "info": "정보",
+      "reviews": "리뷰",
+      "gallery": "갤러리"
+    },
+    "header": {
+      "featured": "추천",
+      "new": "신규",
+      "verified": "인증됨"
+    },
+    "info": {
+      "about": "매장 소개",
+      "contact": "연락처",
+      "hours": "운영시간",
+      "location": "위치",
+      "payment": "결제수단",
+      "policies": "정책"
+    },
+    "stats": {
+      "rating": "평점",
+      "reviews": "리뷰",
+      "deliveryTime": "배달시간",
+      "orders": "주문수",
+      "minOrder": "최소주문",
+      "deliveryFee": "배달비",
+      "distance": "거리"
+    },
+    "hours": {
+      "today": "오늘",
+      "tomorrow": "내일",
+      "monday": "월요일",
+      "tuesday": "화요일",
+      "wednesday": "수요일",
+      "thursday": "목요일",
+      "friday": "금요일",
+      "saturday": "토요일",
+      "sunday": "일요일",
+      "closed": "휴무",
+      "open24h": "24시간 영업",
+      "openUntil": "{time}까지 영업",
+      "opensAt": "{time}에 영업시작",
+      "allDay": "종일"
+    },
+    "contact": {
+      "phone": "전화번호",
+      "email": "이메일",
+      "website": "웹사이트",
+      "address": "주소",
+      "directions": "길찾기",
+      "call": "전화걸기"
+    },
+    "payment": {
+      "title": "결제수단",
+      "cash": "현금결제",
+      "momo": "MoMo 지갑",
+      "zaloPay": "ZaloPay",
+      "vnPay": "VNPay",
+      "napasQR": "NAPAS QR",
+      "creditCard": "신용카드",
+      "bankTransfer": "계좌이체"
+    },
+    "gallery": {
+      "photos": "사진",
+      "menu": "메뉴",
+      "interior": "인테리어",
+      "food": "음식",
+      "viewAll": "전체보기"
+    },
+    "business": {
+      "businessHours": "영업시간",
+      "businessInfo": "사업자 정보",
+      "registrationNumber": "사업자등록번호",
+      "taxId": "세금 ID",
+      "companyName": "회사명",
+      "bankInfo": "은행 정보"
+    },
+    "loading": "매장 정보 로딩 중...",
+    "title": "매장 상세",
+    "errorTitle": "매장 정보를 불러올 수 없습니다",
+    "networkError": "네트워크 연결 오류가 발생했습니다. 인터넷 연결을 확인해주세요.",
+    "unknownError": "알 수 없는 오류가 발생했습니다. 잠시 후 다시 시도해주세요.",
+    "storeNotFound": "매장을 찾을 수 없습니다",
+    "menu": "메뉴",
+    "moreNeeded": "더 담아주세요",
+    "minOrder": "최소 주문 금액",
+    "error": {
+      "title": "정보를 불러올 수 없습니다",
+      "message": "매장 정보를 불러오는 중 오류가 발생했습니다. 다시 시도해주세요.",
+      "retry": "다시 시도"
+    },
+    "notFound": {
+      "title": "매장을 찾을 수 없습니다",
+      "message": "이 매장은 폐점했거나 더 이상 운영하지 않습니다."
+    }
+  },
+  "map": {
+    "toggle": {
+      "list": "목록",
+      "map": "지도"
+    },
+    "legend": {
+      "store": "매장",
+      "myLocation": "내 위치"
+    },
+    "userLocation": "내 위치",
+    "storeLocation": "매장 위치",
+    "deliveryRadius": "배달 반경"
+  },
+  "loading": {
+    "stores": "매장 로딩 중...",
+    "location": "위치 확인 중...",
+    "more": "더 불러오는 중..."
+  },
+  "errors": {
+    "loadFailed": "매장 목록을 불러올 수 없습니다",
+    "locationFailed": "위치를 확인할 수 없습니다",
+    "networkError": "네트워크 연결 오류",
+    "tryAgain": "다시 시도"
+  },
+  "store": {
+    "featured": "추천 매장",
+    "about": "매장 소개",
+    "businessNumber": "사업자등록번호",
+    "companyName": "회사명",
+    "joinedDate": "가입일",
+    "contactInfo": "연락처 정보",
+    "operatingHours": "운영시간",
+    "statistics": "매장 통계",
+    "tab": {
+      "menu": "메뉴",
+      "info": "정보",
+      "reviews": "리뷰",
+      "gallery": "갤러리"
+    },
+    "stats": {
+      "rating": "평점",
+      "reviews": "리뷰수",
+      "orders": "주문수",
+      "totalRatings": "총평가"
+    }
+  },
+  "days": {
+    "monday": "월요일",
+    "tuesday": "화요일",
+    "wednesday": "수요일",
+    "thursday": "목요일",
+    "friday": "금요일",
+    "saturday": "토요일",
+    "sunday": "일요일"
+  },
+  "payment": {
+    "acceptedMethods": "결제수단",
+    "cod": "현금결제",
+    "creditCard": "신용카드",
+    "bankTransfer": "계좌이체"
+  },
+  "gallery": {
+    "empty": {
+      "title": "갤러리가 비어있습니다",
+      "description": "이 매장에는 등록된 이미지가 없습니다."
+    }
+  }
+  ,
+  "nearby": {
+    "title": "주변 매장",
+    "radius": "반경:",
+    "searching": "매장 검색 중...",
+    "find": "주변 매장 찾기"
+  }
+}

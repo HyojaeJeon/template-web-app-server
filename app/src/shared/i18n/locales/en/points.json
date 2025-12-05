@@ -1,0 +1,58 @@
+{
+  "title": "Points",
+  "myPoints": "My Points",
+  "pointBalance": "Point Balance",
+  "availablePoints": "Available {{points}}P",
+  "usePoints": "Use Points",
+  "pointHistory": "Point History",
+  "earnedThisMonth": "Earned This Month",
+  "usedThisMonth": "Used This Month",
+  "nextTier": "To Next Tier",
+  "tier": {
+    "bronze": "Bronze",
+    "silver": "Silver",
+    "gold": "Gold",
+    "platinum": "Platinum"
+  },
+  "transactionTypes": {
+    "earn_order": "Order Earned",
+    "earn_review": "Review Earned",
+    "earn_referral": "Referral Earned",
+    "earn_signup": "Signup Earned",
+    "earn_event": "Event Earned",
+    "use_order": "Order Used",
+    "expire": "Points Expired",
+    "cancel": "Cancelled/Refunded"
+  },
+  "filters": {
+    "all": "All",
+    "earned": "Earned",
+    "used": "Used",
+    "week": "Last Week",
+    "month": "Last Month",
+    "year": "Last Year"
+  },
+  "expiringWarning": "{{points}}P will expire in {{days}} days",
+  "pointsEarned": "+{{points}}P Earned",
+  "pointsUsed": "-{{points}}P Used",
+  "pointsExpired": "{{points}}P Expired",
+  "insufficientPoints": "Insufficient points",
+  "maxUsablePoints": "Maximum {{points}}P can be used",
+  "pointsToEarn": "To be earned: {{points}}P",
+  "empty": {
+    "title": "No point history",
+    "description": "Order and earn points"
+  },
+  "error": {
+    "loadFailed": "Failed to load point history",
+    "useFailed": "Failed to use points",
+    "insufficientBalance": "Insufficient available points"
+  },
+  "success": {
+    "pointsUsed": "{{points}}P has been used",
+    "pointsEarned": "{{points}}P has been earned"
+  },
+  "emptyHistory": "No point history",
+  "emptyHistoryDesc": "Order and earn points",
+  "startOrdering": "Start Ordering"
+}

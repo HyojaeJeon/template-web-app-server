@@ -1,0 +1,213 @@
+{
+  "title": "Địa chỉ giao hàng",
+  "add": "Thêm địa chỉ",
+  "edit": "Sửa địa chỉ",
+  "addNew": "Thêm địa chỉ mới",
+  "empty": {
+    "title": "Không có địa chỉ giao hàng",
+    "description": "Thêm địa chỉ giao hàng thường dùng của bạn",
+    "helper": "Thêm địa chỉ nhà, văn phòng hoặc các địa điểm khác"
+  },
+  "error": {
+    "title": "Lỗi",
+    "message": "Không thể tải danh sách địa chỉ",
+    "loadFailed": "Không thể tải danh sách địa chỉ",
+    "deleteFailed": "Xóa địa chỉ thất bại",
+    "defaultFailed": "Cài đặt địa chỉ mặc định thất bại"
+  },
+  "delete": {
+    "title": "Xóa địa chỉ",
+    "message": "Bạn có muốn xóa địa chỉ này không?",
+    "confirm": "Xóa",
+    "successTitle": "Xóa thành công",
+    "successMessage": "Địa chỉ đã được xóa"
+  },
+  "default": {
+    "successTitle": "Cài đặt thành công",
+    "successMessage": "Đã được cài đặt làm địa chỉ mặc định"
+  },
+  "management": {
+    "title": "Quản lý địa chỉ",
+    "count": "{{count}} địa chỉ"
+  },
+  "loading": "Đang tải địa chỉ...",
+  "labels": {
+    "default": "Mặc định",
+    "recipient": "Người nhận",
+    "phone": "Số điện thoại",
+    "district": "Quận/Huyện",
+    "ward": "Phường/Xã",
+    "street": "Đường",
+    "detail": "Địa chỉ chi tiết",
+    "alias": "Tên địa chỉ",
+    "instructions": "Hướng dẫn giao hàng",
+    "lastUsed": "Sử dụng lần cuối",
+    "deliveryInfo": "Thông tin giao hàng",
+    "deliveryInfoDesc": "Chúng tôi hiện giao hàng tại TP.HCM và các khu vực lân cận. Thời gian giao hàng là 20-45 phút.",
+    "quickActions": "Thao tác nhanh",
+    "hoChiMinh": "TP. Hồ Chí Minh",
+    "label": "Nhãn địa chỉ",
+    "recipientName": "Tên người nhận",
+    "recipientPhone": "Số điện thoại người nhận",
+    "address": "Địa chỉ",
+    "addressDetail": "Địa chỉ chi tiết",
+    "deliveryNote": "Ghi chú giao hàng"
+  },
+  "sections": {
+    "basicInfo": "Thông tin cơ bản",
+    "addressInfo": "Địa chỉ",
+    "deliveryInfo": "Thông tin giao hàng"
+  },
+  "enterDeliveryAddress": "Nhập địa chỉ giao hàng",
+  "deliveryTime": {
+    "ASAP": "Giao ngay (15-30 phút)",
+    "SCHEDULED": "Đặt lịch giao hàng"
+  },
+  "contactless": {
+    "title": "Giao hàng không tiếp xúc",
+    "description": "Shipper sẽ để ở cửa và gọi điện"
+  },
+  "types": {
+    "home": "Nhà",
+    "office": "Văn phòng",
+    "other": "Khác",
+    "store": "Cửa hàng",
+    "hotel": "Khách sạn"
+  },
+  "actions": {
+    "add": "Thêm địa chỉ",
+    "addFirst": "Thêm địa chỉ đầu tiên",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "setDefault": "Đặt làm mặc định",
+    "confirmDelete": "Xóa địa chỉ này?",
+    "selectLocation": "Chọn trên bản đồ",
+    "getCurrentLocation": "Sử dụng vị trí hiện tại",
+    "searchAddress": "Tìm kiếm địa chỉ"
+  },
+  "form": {
+    "title": "Thêm địa chỉ",
+    "name": "Tên địa chỉ",
+    "namePlaceholder": "Ví dụ: Nhà, Văn phòng",
+    "recipientPlaceholder": "Nhập tên người nhận",
+    "phonePlaceholder": "+84901234567",
+    "labelPlaceholder": "Ví dụ: Nhà, Văn phòng, Trường học",
+    "aliasPlaceholder": "Tên địa chỉ (Ví dụ: Nhà, Văn phòng)",
+    "street": "Địa chỉ đường",
+    "streetPlaceholder": "Nhập địa chỉ đường",
+    "addressPlaceholder": "Địa chỉ đầy đủ (Quận, Phường, Đường)",
+    "detailPlaceholder": "Căn hộ, tầng, v.v.",
+    "instructionsPlaceholder": "Ghi chú giao hàng",
+    "ward": "Phường/Xã",
+    "wardPlaceholder": "Nhập phường/xã",
+    "district": "Quận/Huyện",
+    "districtPlaceholder": "Nhập quận/huyện",
+    "city": "Thành phố",
+    "save": "Lưu",
+    "setAsDefault": "Đặt làm địa chỉ mặc định",
+    "defaultDescription": "Đặt địa chỉ này làm địa chỉ mặc định"
+  },
+  "validation": {
+    "labelRequired": "Vui lòng nhập nhãn địa chỉ",
+    "addressRequired": "Vui lòng nhập địa chỉ",
+    "recipientRequired": "Vui lòng nhập tên người nhận",
+    "phoneRequired": "Vui lòng nhập số điện thoại",
+    "phoneInvalid": "Số điện thoại không hợp lệ",
+    "aliasRequired": "Vui lòng nhập tên địa chỉ",
+    "districtRequired": "Vui lòng chọn quận/huyện",
+    "wardRequired": "Vui lòng chọn phường/xã",
+    "streetRequired": "Vui lòng nhập địa chỉ đường"
+  },
+  "messages": {
+    "saveSuccess": "Đã lưu địa chỉ thành công",
+    "updateSuccess": "Đã cập nhật địa chỉ thành công",
+    "deleteSuccess": "Đã xóa địa chỉ thành công",
+    "defaultSet": "Đã đặt làm địa chỉ mặc định"
+  },
+  "errors": {
+    "loadFailed": "Không thể tải danh sách địa chỉ",
+    "saveFailed": "Không thể lưu địa chỉ",
+    "updateFailed": "Không thể cập nhật địa chỉ",
+    "deleteFailed": "Không thể xóa địa chỉ",
+    "defaultFailed": "Không thể đặt địa chỉ mặc định",
+    "locationNotFound": "Không tìm thấy vị trí",
+    "permissionDenied": "Quyền truy cập vị trí bị từ chối"
+  },
+  "map": {
+    "searchPlaceholder": "Tìm kiếm địa chỉ",
+    "currentLocation": "Vị trí hiện tại",
+    "selectThisLocation": "Chọn vị trí này",
+    "movePinToSelectLocation": "Di chuyển ghim để chọn vị trí",
+    "locationSelected": "Đã chọn vị trí",
+    "selectLocation": "Chọn vị trí",
+    "selectedLocation": "Vị trí đã chọn",
+    "selectedAddress": "Địa chỉ đã chọn",
+    "unknownStreet": "Đang lấy thông tin địa chỉ...",
+    "getCurrentLocation": "Vị trí hiện tại",
+    "currentLocationFound": "Đã tìm thấy vị trí hiện tại",
+    "locationError": "Không thể lấy vị trí",
+    "locationErrorDesc": "Vui lòng kiểm tra GPS và thử lại",
+    "selectLocationFirst": "Vui lòng chọn vị trí trên bản đồ trước",
+    "mapView": "Xem bản đồ",
+    "tapToSelectHint": "Nhấn vào bản đồ để chọn vị trí chính xác",
+    "latitude": "Vĩ độ",
+    "longitude": "Kinh độ",
+    "accuracy": "Độ chính xác",
+    "getCurrentLocationAction": "Lấy vị trí hiện tại"
+  },
+  "availability": {
+    "available": "Có thể giao hàng",
+    "unavailable": "Không thể giao hàng"
+  },
+  "deliveryCheck": {
+    "title": "Kiểm tra khu vực giao hàng",
+    "checking": "Đang kiểm tra khả năng giao hàng...",
+    "available": "Có thể giao hàng",
+    "unavailable": "Không thể giao hàng",
+    "estimatedTimeLabel": "Thời gian dự kiến",
+    "feeLabel": "Phí giao hàng",
+    "distanceLabel": "Khoảng cách",
+    "checkButton": "Kiểm tra khả năng giao hàng"
+  },
+  "tracking": {
+    "title": "Theo dõi vị trí",
+    "status": "Trạng thái theo dõi",
+    "active": "Đang theo dõi",
+    "inactive": "Dừng theo dõi",
+    "lastUpdate": "Cập nhật lần cuối",
+    "start": "Bắt đầu theo dõi",
+    "stop": "Dừng theo dõi"
+  },
+  "regions": {
+    "region": "Khu vực",
+    "selectRegion": "Chọn khu vực",
+    "hoChiMinh": "TP. Hồ Chí Minh",
+    "hanoi": "Hà Nội",
+    "daNang": "Đà Nẵng",
+    "canTho": "Cần Thơ",
+    "haiPhong": "Hải Phòng",
+    "bienHoa": "Biên Hòa",
+    "hue": "Huế",
+    "nhaTrang": "Nha Trang"
+  },
+  "emptyTitle": "Không có địa chỉ đã lưu",
+  "emptyDescription": "Vui lòng thêm địa chỉ giao hàng",
+  "addAddress": "Thêm địa chỉ",
+  "requiredFieldsError": "Vui lòng nhập đầy đủ các trường bắt buộc",
+  "addressSaved": "Đã lưu địa chỉ",
+  "addressSaveError": "Lưu địa chỉ thất bại. Vui lòng thử lại",
+  "fields": {
+    "city": "Tỉnh/Thành phố",
+    "district": "Quận/Huyện",
+    "ward": "Phường/Xã/Thôn",
+    "street": "Đường/Số nhà",
+    "detail": "Địa chỉ chi tiết (tùy chọn)",
+    "note": "Ghi chú giao hàng (tùy chọn)"
+  },
+  "inputTitle": "Nhập địa chỉ thủ công",
+  "inputDescription": "Vui lòng nhập địa chỉ giao hàng chính xác",
+  "guide": {
+    "title": "Hướng dẫn nhập địa chỉ Việt Nam",
+    "description": "• Tỉnh/Thành phố: Ho Chi Minh City, Hanoi, Da Nang...\n• Quận/Huyện: Quận 1, Quận 3, Huyện Bình Chánh...\n• Phường/Xã: Phường Bến Nghé, Xã Tân Kiên..."
+  }
+}

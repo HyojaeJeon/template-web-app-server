@@ -1,0 +1,273 @@
+{
+  "title": "Stores",
+  "search": {
+    "placeholder": "Search stores...",
+    "popular": "Popular searches",
+    "recent": "Recent searches",
+    "suggestions": "Suggestions",
+    "noResults": "No stores found",
+    "tryDifferentKeyword": "Try different keywords"
+  },
+  "filters": {
+    "title": "Filter stores",
+    "category": "Category",
+    "service": "Service",
+    "all": "All",
+    "deliveryFee": "Delivery fee",
+    "freeDelivery": "Free delivery",
+    "minOrder": "Minimum order",
+    "rating": "Rating",
+    "distance": "Distance",
+    "openNow": "Open now",
+    "apply": "Apply",
+    "clear": "Clear filters"
+  },
+  "sort": {
+    "title": "Sort by",
+    "distance": "Distance",
+    "rating": "Rating",
+    "deliveryTime": "Delivery time",
+    "popularity": "Popularity",
+    "newest": "Newest"
+  },
+  "status": {
+    "open": "Open",
+    "closed": "Closed",
+    "busy": "Busy",
+    "temporarilyClosed": "Temporarily closed",
+    "cannotOrder": "Cannot order",
+    "system": "System",
+    "connected": "Connected",
+    "disconnected": "Disconnected"
+  },
+  "delivery": {
+    "free": "Free delivery",
+    "fee": "Delivery fee: ${fee}",
+    "time": "{time} minutes",
+    "minOrder": "Min order: ${amount}",
+    "notAvailable": "Does not deliver to this area",
+    "calculating": "Calculating..."
+  },
+  "rating": {
+    "stars": "{rating} stars",
+    "reviews": "{count} reviews",
+    "noReviews": "No reviews yet"
+  },
+  "distance": {
+    "km": "{distance} km",
+    "m": "{distance} m",
+    "calculating": "Calculating distance..."
+  },
+  "tags": {
+    "new": "New",
+    "popular": "Popular",
+    "premium": "Premium",
+    "verified": "Verified",
+    "promotion": "Promotion",
+    "fastDelivery": "Fast Delivery"
+  },
+  "empty": {
+    "noStores": {
+      "title": "No stores available",
+      "message": "There are currently no stores in your area.",
+      "action": "Try searching in another area"
+    },
+    "noResults": {
+      "title": "No results found",
+      "message": "No stores match your search criteria.",
+      "action": "Try changing your filters"
+    },
+    "networkError": {
+      "title": "Connection error",
+      "message": "Unable to load store list. Please check your internet connection.",
+      "action": "Try again"
+    },
+    "offline": {
+      "title": "Offline mode",
+      "message": "Showing cached data. Connect to internet to update.",
+      "action": "Reconnect"
+    }
+  },
+  "actions": {
+    "viewMenu": "View Menu",
+    "viewDetails": "Details",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "share": "Share",
+    "call": "Call",
+    "directions": "Directions",
+    "order": "Order",
+    "viewCart": "View Cart"
+  },
+  "detail": {
+    "tabs": {
+      "menu": "Menu",
+      "info": "Info",
+      "reviews": "Reviews",
+      "gallery": "Gallery"
+    },
+    "header": {
+      "featured": "Featured",
+      "new": "New",
+      "verified": "Verified"
+    },
+    "info": {
+      "about": "About Store",
+      "contact": "Contact",
+      "hours": "Hours",
+      "location": "Location",
+      "payment": "Payment",
+      "policies": "Policies"
+    },
+    "stats": {
+      "rating": "Rating",
+      "reviews": "Reviews",
+      "deliveryTime": "Delivery Time",
+      "orders": "Orders",
+      "minOrder": "Min Order",
+      "deliveryFee": "Delivery Fee",
+      "distance": "Distance"
+    },
+    "hours": {
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "closed": "Closed",
+      "open24h": "Open 24h",
+      "openUntil": "Open until {time}",
+      "opensAt": "Opens at {time}",
+      "allDay": "All day"
+    },
+    "contact": {
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website",
+      "address": "Address",
+      "directions": "Directions",
+      "call": "Call now"
+    },
+    "payment": {
+      "title": "Payment Methods",
+      "cash": "Cash on Delivery",
+      "momo": "MoMo Wallet",
+      "zaloPay": "ZaloPay",
+      "vnPay": "VNPay",
+      "napasQR": "NAPAS QR",
+      "creditCard": "Credit Card",
+      "bankTransfer": "Bank Transfer"
+    },
+    "gallery": {
+      "photos": "Photos",
+      "menu": "Menu",
+      "interior": "Interior",
+      "food": "Food",
+      "viewAll": "View All"
+    },
+    "business": {
+      "businessHours": "Business Hours",
+      "businessInfo": "Business Information",
+      "registrationNumber": "Business Registration Number",
+      "taxId": "Tax ID",
+      "companyName": "Company Name",
+      "bankInfo": "Bank Information"
+    },
+    "loading": "Loading store information...",
+    "error": {
+      "title": "Unable to load information",
+      "message": "An error occurred while loading store information. Please try again.",
+      "retry": "Try Again"
+    },
+    "notFound": {
+      "title": "Store not found",
+      "message": "This store may be closed or no longer operating."
+    },
+    "title": "Store Detail",
+    "errorTitle": "Unable to load store information",
+    "networkError": "A network error occurred. Please check your internet connection.",
+    "unknownError": "An unknown error occurred. Please try again later.",
+    "storeNotFound": "Store not found",
+    "menu": "Menu",
+    "moreNeeded": "Add more items",
+    "minOrder": "Minimum order amount"
+  },
+  "map": {
+    "toggle": {
+      "list": "List",
+      "map": "Map"
+    },
+    "legend": {
+      "store": "Store",
+      "myLocation": "My location"
+    },
+    "userLocation": "Your location",
+    "storeLocation": "Store location",
+    "deliveryRadius": "Delivery radius"
+  },
+  "loading": {
+    "stores": "Loading stores...",
+    "location": "Determining location...",
+    "more": "Loading more..."
+  },
+  "errors": {
+    "loadFailed": "Failed to load store list",
+    "locationFailed": "Unable to determine your location",
+    "networkError": "Network connection error",
+    "tryAgain": "Try again"
+  },
+  "store": {
+    "featured": "Featured Store",
+    "about": "About Store",
+    "businessNumber": "Business Registration Number",
+    "companyName": "Company Name",
+    "joinedDate": "Joined Date",
+    "contactInfo": "Contact Information",
+    "operatingHours": "Operating Hours",
+    "statistics": "Store Statistics",
+    "tab": {
+      "menu": "Menu",
+      "info": "Info",
+      "reviews": "Reviews",
+      "gallery": "Gallery"
+    },
+    "stats": {
+      "rating": "Rating",
+      "reviews": "Reviews",
+      "orders": "Orders",
+      "totalRatings": "Total Ratings"
+    }
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "payment": {
+    "acceptedMethods": "Accepted Payment Methods",
+    "cod": "Cash on Delivery",
+    "creditCard": "Credit Card",
+    "bankTransfer": "Bank Transfer"
+  },
+  "gallery": {
+    "empty": {
+      "title": "Gallery is empty",
+      "description": "This store has no images registered."
+    }
+  }
+  ,
+  "nearby": {
+    "title": "Nearby Stores",
+    "radius": "Radius:",
+    "searching": "Searching stores...",
+    "find": "Find nearby stores"
+  }
+}

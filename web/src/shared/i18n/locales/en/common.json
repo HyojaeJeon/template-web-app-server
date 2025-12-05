@@ -1,0 +1,676 @@
+{
+  "all": "All",
+  "category": "Category",
+  "delete": "Delete",
+  "edit": "Edit",
+  "never": "Never",
+  "filter": "Filter",
+  "refresh": "Refresh",
+  "reset": "Reset",
+  "retry": "Retry",
+  "or": "or",
+  "yes": "Yes",
+  "no": "No",
+  "confirm": "Confirm",
+  "priority": "Priority",
+  "untitled": "Untitled",
+  "processing": "Processing...",
+
+  "language": "en",
+
+  "languages": {
+    "vietnamese": "Vietnamese",
+    "korean": "Korean",
+    "english": "English"
+  },
+
+  "unknown": "Unknown",
+  "items": "items",
+  
+  "back": "Back",
+  "add": "Add",
+  "cancel": "Cancel",
+  "save": "Save",
+
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "add": "Add",
+    "delete": "Delete",
+    "save": "Save",
+    "saved": "Saved",
+    "saving": "Saving...",
+    "edit": "Edit",
+    "never": "Never"
+  },
+
+  "initializing": "Initializing...",
+
+  "selectAll": "Select All",
+  "deselectAll": "Deselect All",
+  "more": "More",
+
+  "breadcrumb": {
+    "dashboard": "Dashboard"
+  },
+
+  "actions": {
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "confirm": "Confirm",
+    "back": "Back",
+    "goBack": "Go Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "open": "Open",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "submit": "Submit",
+    "reset": "Reset",
+    "clear": "Clear All",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "print": "Print",
+    "share": "Share",
+    "copy": "Copy",
+    "paste": "Paste",
+    "select": "Select",
+    "selectAll": "Select All",
+    "deselect": "Deselect",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "retry": "Retry",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "viewCustomerDetail": "Customer Details",
+    "viewOrderDetail": "View Order Details",
+    "attachImage": "Attach Image",
+    "sendMessage": "Send Message",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down"
+  },
+
+  "navigation": {
+    "dashboard": "Dashboard"
+  },
+
+
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "processing": "Processing",
+    "failed": "Failed",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "loading": "Loading",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "online": "Online",
+    "offline": "Offline",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "ACTIVE": "Active",
+    "CONFIRMED": "Confirmed",
+    "unknown": "Unknown",
+    "deleting": "Deleting..."
+  },
+
+  "modal": {
+    "confirm": {
+      "title": "Confirm",
+      "dangerTitle": "Warning",
+      "infoTitle": "Information",
+      "successTitle": "Success",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "ok": "OK",
+      "close": "Close",
+      "processing": "Processing...",
+      "logout": {
+        "title": "Logout",
+        "message": "Are you sure you want to logout?",
+        "confirm": "Logout"
+      },
+      "unsavedChanges": {
+        "title": "Leave this page?",
+        "message": "You have unsaved changes. If you leave now, your changes will be lost.",
+        "confirm": "Leave",
+        "cancel": "Stay"
+      }
+    }
+  },
+
+  "selectInput": {
+    "placeholder": "Please select",
+    "searchPlaceholder": "Search...",
+    "searchLabel": "Search items",
+    "noOptions": "No options available",
+    "noSearchResults": "No search results",
+    "loading": "Loading...",
+    "allItemsLoaded": "All items loaded",
+    "itemsSelected": "{{count}} items selected",
+    "required": "Required",
+    "clear": "Clear"
+  },
+
+  "time": {
+    "now": "Now",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This Week",
+    "lastWeek": "Last Week",
+    "nextWeek": "Next Week",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "nextMonth": "Next Month",
+    "thisYear": "This Year",
+    "lastYear": "Last Year",
+    "nextYear": "Next Year",
+    "second": "second",
+    "seconds": "seconds",
+    "minute": "minute",
+    "minutes": "minutes",
+    "hour": "hour",
+    "hours": "hours",
+    "day": "day",
+    "days": "days",
+    "week": "week",
+    "weeks": "weeks",
+    "month": "month",
+    "months": "months",
+    "year": "year",
+    "years": "years",
+    "ago": "ago",
+    "in": "in"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "menu": "Menu Management",
+    "orders": "Order Management",
+    "customers": "Customer Management",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "pos": "POS System",
+    "delivery": "Delivery Management",
+    "promotions": "Promotions",
+    "staff": "Staff Management",
+    "chat": "Chat",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "profile": "Profile",
+    "account": "Account",
+    "help": "Help",
+    "support": "Support",
+    "about": "About",
+    "contact": "Contact",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "liveOrders": "Live Orders",
+    "newOrder": "New Order",
+    "revenueAnalytics": "Revenue Analytics",
+    "orderAnalytics": "Order Analytics",
+    "customerAnalytics": "Customer Analytics",
+    "menuAnalytics": "Menu Analytics",
+    "performanceAnalytics": "Performance Analytics",
+    "deliveryZones": "Delivery Zones",
+    "posSetup": "POS Setup",
+    "paymentMethods": "Payment Methods",
+    "payments": "Payment Management",
+    "profileSettings": "Profile Settings",
+    "chatSettings": "Chat Settings",
+    "back": "Back",
+    "forward": "Forward",
+    "skipToMainContent": "Skip to main content",
+    "breadcrumb": "Breadcrumb",
+    "pagination": "Pagination",
+    "page": "Page",
+    "of": "of",
+    "first": "First",
+    "last": "Last",
+    "goToPage": "Go to page {{page}}",
+    "noResults": "No results",
+    "currentPage": "Current page",
+    "showingResults": "{{start}}-{{end}} of {{total}}"
+  },
+
+  "totalCount": "Total {{count}}",
+  "count": "",
+
+  "form": {
+    "required": "Required",
+    "optional": "Optional",
+    "invalid": "Invalid",
+    "valid": "Valid",
+    "pleaseEnter": "Please enter",
+    "pleaseSelect": "Please select",
+    "fieldRequired": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number",
+    "passwordTooShort": "Password is too short",
+    "passwordsDontMatch": "Passwords do not match",
+    "maxLength": "Maximum {{max}} characters",
+    "minLength": "Minimum {{min}} characters",
+    "maxValue": "Maximum value {{max}}",
+    "minValue": "Minimum value {{min}}",
+    "login_success": "Login successful!",
+    "logging_in": "Logging in...",
+    "login_button": "Login",
+    "forgot_password": "Forgot password?"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "system": "System Setting",
+    "toggle": "Toggle Theme",
+    "lightDesc": "Light color theme",
+    "darkDesc": "Dark color theme",
+    "systemDesc": "Follow system setting"
+  },
+
+  "notifications": {
+    "title": "Notifications",
+    "newOrder": "New Order",
+    "paymentReceived": "Payment Received",
+    "reviewPosted": "New Review",
+    "empty": "No new notifications",
+    "markAllRead": "Mark all as read",
+    "viewAll": "View all notifications"
+  },
+
+  "user": {
+    "menu": "User Menu",
+    "storeOwner": "Store Owner",
+    "demoAdmin": "Demo Admin",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+
+  "header": {
+    "toggleMenu": "Toggle Menu",
+    "expandSidebar": "Expand Sidebar",
+    "collapseSidebar": "Collapse Sidebar",
+    "searchPlaceholder": "Search...",
+    "changeLanguage": "Change Language",
+    "validation": {
+      "required": "This field is required",
+      "invalid": "Invalid format",
+      "tooShort": "Too short",
+      "tooLong": "Too long",
+      "invalidEmail": "Invalid email address",
+      "invalidPhone": "Invalid phone number",
+      "passwordMismatch": "Passwords do not match",
+      "weakPassword": "Password is too weak",
+      "invalidDate": "Invalid date",
+      "invalidNumber": "Invalid number",
+      "minValue": "Below minimum value",
+      "maxValue": "Above maximum value",
+      "validationFailed": "Validation failed"
+    }
+  },
+
+  "conditional": "Conditional",
+  "optional": "Optional",
+  "free": "Free",
+  "unlimited": "Unlimited",
+  "selectSubOption": "Select sub-option",
+
+  "accessibility": {
+    "closeDialog": "Close dialog",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleMenu": "Toggle menu",
+    "searchResults": "Search results",
+    "loading": "Loading content",
+    "error": "An error occurred",
+    "sortBy": "Sort by",
+    "filterBy": "Filter by",
+    "selectedItem": "Selected item",
+    "noResultsFound": "No results found",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "selectLanguage": "Select language",
+    "languageOptions": "Language options",
+    "currentLanguage": "Current language",
+    "clickToChange": "Click to change",
+    "switchTo": "Switch to",
+    "languageChanged": "Language changed to {{language}}"
+  },
+  "currency": {
+    "vnd": "VND",
+    "krw": "KRW",
+    "usd": "USD",
+    "dong": "dong",
+    "won": "won",
+    "dollar": "dollar",
+    "free": "Free"
+  },
+  "units": {
+    "piece": "piece",
+    "pieces": "pieces",
+    "item": "item",
+    "items": "items",
+    "serving": "serving",
+    "servings": "servings",
+    "portion": "portion",
+    "portions": "portions",
+    "kilogram": "kg",
+    "gram": "g",
+    "liter": "liter",
+    "milliliter": "ml",
+    "minutes": "min"
+  },
+
+  "paidAt": "Paid At",
+
+  "titles": {
+    "orders": "Orders",
+    "customers": "Customers",
+    "settings": "Settings"
+  },
+
+  "errors": {
+    "loadingError": "An error occurred while loading data",
+    "networkError": "Network connection problem",
+    "serverError": "A server error occurred",
+    "unknownError": "An unknown error occurred",
+    "tryAgain": "Please try again",
+    "pageNotFound": "Page not found",
+    "accessDenied": "Access denied",
+    "storeNotFound": "Store not found",
+    "storeNotFoundDescription": "The requested store information could not be found. Please check the store ID.",
+    "loadFailed": "Failed to load data"
+  },
+
+  "loading": {
+    "profile": "Loading profile information...",
+    "userInfo": "Loading user information..."
+  },
+
+  "filters": {
+    "allRoles": "All Roles",
+    "allStatuses": "All Statuses",
+    "selectRole": "Select Role",
+    "selectStatus": "Select Status",
+    "yesterday": "Yesterday",
+    "last7Days": "Last 7 Days",
+    "last30Days": "Last 30 Days",
+    "customRange": "Custom Range",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "loading": "Loading...",
+    "unauthorized": "Unauthorized",
+    "tokenExpired": "Token Expired",
+    "loginSuccess": "Successfully logged in",
+    "loginFailed": "Login failed",
+    "logoutSuccess": "Successfully logged out",
+    "logoutFailed": "Logout failed",
+    "registerSuccess": "Registration completed successfully",
+    "registerFailed": "Registration failed",
+    "invalidCredentials": "Invalid login credentials",
+    "networkError": "Please check your network connection",
+    "sessionExpired": "Session expired. Please log in again"
+  },
+
+  "modal": {
+    "confirm": {
+      "title": "Confirm",
+      "dangerTitle": "Warning",
+      "infoTitle": "Information",
+      "successTitle": "Success",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "ok": "OK",
+      "close": "Close",
+      "processing": "Processing...",
+      "logout": {
+        "title": "Logout",
+        "message": "Are you sure you want to logout?",
+        "confirm": "Logout"
+      }
+    }
+  },
+
+
+
+  "pagination": {
+    "showing": "Showing {{start}}-{{end}} of {{total}} items",
+    "previous": "Previous",
+    "next": "Next",
+    "first": "First",
+    "last": "Last",
+    "navigation": "Page navigation",
+    "goToPage": "Go to page {{page}}",
+    "pageTitle": "Page {{page}}",
+    "pageInfo": "Page {{current}} / Total {{total}} pages"
+  },
+
+  "messages": {
+    "saveSuccess": "Successfully saved",
+    "updateSuccess": "Successfully updated",
+    "deleteSuccess": "Successfully deleted",
+    "createSuccess": "Successfully created",
+    "operationSuccess": "Operation completed successfully",
+    "generalError": "An error occurred",
+    "validationError": "Please check your input",
+    "MENU_AVAILABILITY_UPDATED": "Menu availability updated",
+    "MENU_BULK_UPDATED": "Menu bulk updated",
+    "MENU_AVAILABILITY_UPDATE_FAILED": "Menu availability update failed",
+    "MENU_BULK_UPDATE_FAILED": "Menu bulk update failed",
+    "REVIEW_REPLY_SUCCESS": "Review reply posted successfully",
+    "REVIEW_REPLY_UPDATED": "Review reply updated successfully",
+    "REVIEW_REPLY_DELETED": "Review reply deleted",
+    "REVIEW_REPORT_HANDLED": "Review report handled successfully",
+    "REVIEW_REPLY_FAILED": "An error occurred while replying to the review",
+    "REVIEW_REPLY_UPDATE_FAILED": "An error occurred while updating the review reply",
+    "REVIEW_REPLY_DELETE_FAILED": "An error occurred while deleting the review reply",
+    "REVIEW_REPORT_HANDLE_FAILED": "An error occurred while handling the review report"
+  },
+
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+
+  "websocket": {
+    "connection": {
+      "connected": "Real-time connection established",
+      "disconnected": "Real-time connection closed",
+      "reconnected": "Real-time connection restored",
+      "failed": "Real-time connection failed",
+      "connecting": "Connecting to real-time service..."
+    },
+    "errors": {
+      "networkError": "Network connection problem occurred",
+      "connectionTimeout": "Connection timeout - please try again",
+      "reconnecting": "Attempting to reconnect..."
+    }
+  },
+
+  "connection": {
+    "connected": "Connected"
+  },
+
+  "tier": {
+    "BRONZE": "Bronze"
+  },
+
+  "payment": {
+    "COD": "Cash on Delivery",
+    "BANK_TRANSFER": "Bank Transfer"
+  },
+
+  "labels": {
+    "popular": "Popular"
+  },
+
+  "fields": {
+    "description": "Description"
+  },
+
+  "wizard": {
+    "previous": "Previous",
+    "next": "Next",
+    "complete": "Complete",
+    "processing": "Processing...",
+    "updateStep": "Update {{stepTitle}}",
+    "stepOf": "Step {{current}} / {{total}}",
+    "progressComplete": "{{percent}}% Complete"
+  },
+
+  "selectInput": {
+    "placeholder": "Please select",
+    "searchPlaceholder": "Search...",
+    "searchLabel": "Search",
+    "noOptions": "No options",
+    "loading": "Loading...",
+    "loadMore": "Load more",
+    "allItemsLoaded": "All items loaded",
+    "itemsSelected": "{{count}} selected",
+    "required": "Required"
+  },
+
+  "websocket": {
+    "connection": {
+      "connected": "Real-time connection successful",
+      "disconnected": "Real-time connection lost",
+      "reconnected": "Real-time connection restored",
+      "failed": "Real-time connection failed"
+    },
+    "errors": {
+      "networkError": "Network connection problem occurred",
+      "unauthorized": "Authentication failed. Please log in again",
+      "connectionError": "Real-time connection error occurred",
+      "maxReconnectFailed": "Failed to connect to server. Please refresh the page in a moment"
+    },
+    "orders": {
+      "newOrder": "New order received! #{{orderId}}"
+    },
+    "notifications": {
+      "newMessage": "New customer message: {{customerName}}"
+    }
+  },
+  "datePicker": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "7daysAgo": "7 days ago",
+    "30daysAgo": "30 days ago",
+    "selectDate": "Select date",
+    "endDateAfterStart": "End date must be after start date",
+    "endDateBeforeStartDate": "End date cannot be before start date"
+  },
+  "date": "Date",
+  "timeLabel": "Time",
+  "categories": "Categories",
+  "deliveryFee": "Delivery Fee",
+  "discount": "Discount",
+
+  "reviews": {
+    "title": "Review Management",
+    "subtitle": "Manage and respond to customer reviews",
+    "filters": {
+      "searchPlaceholder": "Search reviews...",
+      "rating": {
+        "all": "All Ratings",
+        "5star": "5 Stars",
+        "4star": "4 Stars",
+        "3star": "3 Stars",
+        "2star": "2 Stars",
+        "1star": "1 Star"
+      },
+      "status": {
+        "all": "All Status",
+        "pending": "Pending",
+        "responded": "Responded",
+        "flagged": "Flagged"
+      },
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "ratingHigh": "Highest Rating",
+        "ratingLow": "Lowest Rating",
+        "helpful": "Most Helpful"
+      }
+    },
+    "empty": {
+      "title": "No Reviews Yet",
+      "description": "Customer reviews will appear here",
+      "noResults": "No reviews found matching your criteria"
+    },
+    "reply": {
+      "placeholder": "Write your reply...",
+      "submit": "Submit Reply",
+      "edit": "Edit Reply",
+      "delete": "Delete Reply",
+      "cancel": "Cancel",
+      "save": "Save",
+      "confirmDelete": "Are you sure you want to delete this reply?"
+    },
+    "report": {
+      "title": "Report Review",
+      "reason": "Report Reason",
+      "inappropriate": "Inappropriate Content",
+      "spam": "Spam",
+      "fake": "Fake Review",
+      "other": "Other",
+      "submit": "Submit Report",
+      "success": "Report submitted successfully"
+    },
+    "stats": {
+      "totalReviews": "Total Reviews",
+      "averageRating": "Average Rating",
+      "responseRate": "Response Rate",
+      "pendingReplies": "Pending Replies"
+    },
+    "detail": {
+      "orderInfo": "Order Information",
+      "customerInfo": "Customer Information",
+      "reviewDate": "Review Date",
+      "helpfulCount": "Helpful"
+    }
+  }
+}

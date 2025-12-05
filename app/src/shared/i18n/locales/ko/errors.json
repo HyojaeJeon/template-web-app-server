@@ -1,0 +1,43 @@
+{
+  "general": {
+    "title": "문제가 발생했습니다",
+    "description": "애플리케이션에서 예상치 못한 오류가 발생했습니다. 잠시 후 다시 시도해 주세요."
+  },
+  "errorModal": {
+    "title": "오류 발생",
+    "temporaryError": "일시적인 오류가 발생했습니다",
+    "appProblem": "앱에 문제가 발생했습니다",
+    "restartRequired": "계속해서 문제가 발생하면 앱을 재시작해 주세요.",
+    "tryAgainLater": "잠시 후 다시 시도해 주세요.",
+    "code": "코드",
+    "category": "카테고리",
+    "details": "상세 정보"
+  },
+  "technicalDetails": "기술적 세부사항",
+  "retry": "다시 시도",
+  "retrying": "재시도 중...",
+  "goBack": "이전으로",
+  "contactSupport": "고객지원팀 문의하기",
+  "persistentIssue": "문제가 계속 발생하시나요?",
+  "errors": {
+    "menu": {
+      "connectionFailed": "연결 실패",
+      "notConnected": "서버에 연결되지 않음",
+      "refreshFailed": "메뉴 정보 새로고침 실패"
+    },
+    "promotion": {
+      "fetchFailed": "프로모션 로드 실패",
+      "notFound": "프로모션을 찾을 수 없습니다",
+      "detailsFetchFailed": "프로모션 상세 정보 로드 실패",
+      "notFoundOrInactive": "프로모션을 찾을 수 없거나 비활성 상태입니다",
+      "expired": "프로모션이 만료되었습니다",
+      "minOrderAmount": "최소 주문 금액은 {{amount}}입니다",
+      "newUsersOnly": "이 프로모션은 신규 고객만 사용 가능합니다",
+      "vipMembersOnly": "이 프로모션은 VIP 회원만 사용 가능합니다",
+      "locationNotAvailable": "이 지역에서는 사용할 수 없는 프로모션입니다",
+      "flashSaleSoldOut": "플래시 세일이 품절되었습니다",
+      "eligibilityCheckFailed": "프로모션 자격 확인 실패",
+      "applyFailed": "프로모션 적용 실패"
+    }
+  }
+}

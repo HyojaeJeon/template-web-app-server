@@ -1,0 +1,51 @@
+{
+  "status": {
+    "connected": "온라인 연결됨",
+    "disconnected": "인터넷 연결 없음",
+    "limitedMode": "제한된 기능 사용 중",
+    "workingOffline": "오프라인 모드"
+  },
+  "sync": "동기화",
+  "syncing": "동기화 중...",
+  "syncSuccess": "동기화 완료",
+  "syncFailed": "동기화 실패",
+  "pendingActions": "{{count}}개의 대기 중인 작업",
+  "cache": {
+    "justNow": "방금 전",
+    "minutesAgo": "{{minutes}}분 전",
+    "lastUpdated": "마지막 업데이트: {{age}}",
+    "expired": "만료됨 ({{age}})",
+    "loading": "캐시 로드 중..."
+  },
+  "warning": {
+    "cachedData": "오프라인 상태입니다. 저장된 데이터를 표시합니다.",
+    "dataOutdated": "표시된 정보가 최신이 아닐 수 있습니다.",
+    "limitedFunctionality": "일부 기능이 제한됩니다."
+  },
+  "error": {
+    "noConnection": "인터넷 연결을 확인해주세요",
+    "loadFailed": "데이터를 불러올 수 없습니다",
+    "refreshFailed": "새로고침에 실패했습니다",
+    "syncFailed": "동기화에 실패했습니다",
+    "checkConnection": "네트워크 연결을 확인해주세요",
+    "tryAgain": "다시 시도해주세요"
+  },
+  "empty": {
+    "noData": "저장된 데이터가 없습니다",
+    "connectToRefresh": "인터넷에 연결하여 새로고침하세요",
+    "pullToRefresh": "아래로 당겨서 새로고침하세요"
+  },
+  "actions": {
+    "retry": "다시 시도",
+    "refresh": "새로고침",
+    "viewCached": "저장된 데이터 보기",
+    "clearCache": "캐시 삭제"
+  },
+  "settings": {
+    "title": "오프라인 설정",
+    "cacheEnabled": "오프라인 캐시 활성화",
+    "cacheSize": "캐시 크기",
+    "autoSync": "자동 동기화",
+    "syncOnConnection": "연결 시 자동 동기화"
+  }
+}

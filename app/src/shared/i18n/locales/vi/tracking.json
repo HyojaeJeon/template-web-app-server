@@ -1,0 +1,76 @@
+{
+  "title": "Theo dõi giao hàng",
+  "realTimeTracking": "Theo dõi thời gian thực",
+  "orderProgress": "Tiến trình đơn hàng",
+  "deliveryInfo": "Thông tin giao hàng",
+  "contact": {
+    "call_store": "Gọi cửa hàng",
+    "call_driver": "Gọi tài xế"
+  },
+  "estimatedTime": "Thời gian dự kiến",
+  "orderTime": "Thời gian đặt",
+  "callStore": "Gọi cửa hàng",
+  "callCustomerService": "Gọi chăm sóc khách hàng",
+  "customerServiceAvailable": "Hỗ trợ 24/7",
+  "inquiry": "Tư vấn",
+  "callAction": "Gọi điện",
+  "loading": "Đang tải thông tin giao hàng...",
+  "loadingWait": "Vui lòng đợi",
+  "retry": "Thử lại",
+  "backToHome": "Về trang chủ",
+  "orderNotFound": "Không tìm thấy thông tin đơn hàng",
+  "orderNotFoundDesc": "Vui lòng truy cập lại với mã đơn hàng đúng",
+  "loadError": "Không thể tải thông tin",
+  "refreshToRetry": "Kéo để làm mới",
+  "status": {
+    "received": {
+      "title": "Đã tiếp nhận đơn hàng",
+      "description": "Đơn hàng đã được tiếp nhận và đang xác nhận tại cửa hàng"
+    },
+    "preparing": {
+      "title": "Đang chuẩn bị món ăn",
+      "description": "Bếp trưởng đang chuẩn bị món ăn một cách tỉ mỉ"
+    },
+    "delivering": {
+      "title": "Đang giao hàng",
+      "description": "Nhân viên giao hàng đang trên đường đến chỗ quý khách"
+    },
+    "completed": {
+      "title": "Giao hàng hoàn tất",
+      "description": "Chúc ngon miệng! Vui lòng đánh giá cho chúng tôi"
+    }
+  },
+  "timeline": {
+    "completed": "Hoàn thành",
+    "estimated": "Dự kiến",
+    "waiting": "Đang chờ"
+  },
+  "toast": {
+    "realTimeComingSoon": "Theo dõi thời gian thực sẽ có trong bản cập nhật tiếp theo",
+    "mvpNotice": "Phiên bản MVP chỉ cung cấp theo dõi trạng thái cơ bản",
+    "contactFeatureComingSoon": "Tính năng liên hệ sẽ sớm được kích hoạt",
+    "storeContactMissing": "Không có thông tin liên hệ cửa hàng",
+    "customerServiceMissing": "Không có thông tin liên hệ chăm sóc khách hàng",
+    "loadError": "Tải thông tin giao hàng thất bại",
+    "loadErrorDesc": "Vui lòng thử lại sau",
+    "connecting": "Đang kết nối...",
+    "customerServiceConnecting": "Đang kết nối chăm sóc khách hàng..."
+  },
+  "dialog": {
+    "callStore": {
+      "title": "Liên hệ cửa hàng",
+      "message": "Bạn có muốn gọi cho {{storeName}}?\n{{phone}}",
+      "cancel": "Hủy",
+      "call": "Gọi điện"
+    },
+    "callCustomerService": {
+      "title": "Liên hệ chăm sóc khách hàng",
+      "message": "Bạn có muốn gọi chăm sóc khách hàng?\n{{phone}}",
+      "cancel": "Hủy",
+      "call": "Gọi điện"
+    }
+  },
+  "map": {
+    "imageLabel": "IMG"
+  }
+}

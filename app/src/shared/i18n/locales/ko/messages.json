@@ -1,0 +1,26 @@
+{
+  "messages": {
+    "promotion": {
+      "applied": "프로모션이 적용되었습니다"
+    }
+  },
+  "toastMessages": {
+    "ACCOUNT_SUSPENSION_SUCCESS": "계정이 정지되었습니다",
+    "ADDRESS_DELETE_SUCCESS": "주소가 삭제되었습니다",
+    "ADDRESS_SET_DEFAULT_SUCCESS": "기본 주소로 설정되었습니다",
+    "COUPON_APPLIED_SUCCESS": "쿠폰이 적용되었습니다",
+    "MESSAGE_DELETED_SUCCESS": "메시지가 삭제되었습니다",
+    "OPERATION_FAILED": "작업에 실패했습니다",
+    "OPERATION_SUCCESS": "작업이 성공했습니다",
+    "PHONE_CALL_ERROR": "전화 연결에 실패했습니다",
+    "PROFILE_AVATAR_UPDATE_FAILED": "프로필 사진 업데이트에 실패했습니다",
+    "PROFILE_AVATAR_UPDATE_SUCCESS": "프로필 사진이 업데이트되었습니다",
+    "PROFILE_EDIT_VALIDATION_ERROR": "프로필 수정 입력값에 오류가 있습니다",
+    "REVIEW_DELETED_SUCCESS": "리뷰가 삭제되었습니다",
+    "REVIEW_DELETE_FAILED": "리뷰 삭제에 실패했습니다",
+    "REVIEW_HELPFUL_VOTE_SUCCESS": "도움이 되는 리뷰로 투표했습니다",
+    "REVIEW_PHOTO_ERROR": "리뷰 사진 업로드에 실패했습니다",
+    "SERVER_ERROR": "서버 오류가 발생했습니다",
+    "SETTINGS_SAVE_FAILED": "설정 저장에 실패했습니다"
+  }
+}

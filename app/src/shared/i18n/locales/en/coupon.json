@@ -1,0 +1,182 @@
+{
+  "title": "Coupon",
+  "availableCoupons": "Available Coupons",
+  "myCoupons": "My Coupons",
+  "applyCoupon": "Apply Coupon",
+  "enterCouponCode": "Enter Coupon Code",
+  "couponCode": "Coupon Code",
+  "use": "Use",
+  "applied": "Applied",
+  "expired": "Expired",
+  "used": "Used",
+  "expiringSoon": "Expiring Soon",
+  "available": "Available",
+  "off": "off",
+  "freeDelivery": "Free Delivery",
+  "discount": "Discount",
+  "minOrder": "For orders over {{amount}}",
+  "validUntil": "Valid until {{date}}",
+  "expiresSoon": "Expires in {{days}} days",
+  "usedUp": "Used up",
+  "lastUse": "Last use opportunity",
+  "usesRemaining": "{{count}} uses remaining",
+  "categories": {
+    "all": "All",
+    "percentage": "Percentage Discount",
+    "fixed_amount": "Fixed Amount Discount",
+    "free_delivery": "Free Delivery"
+  },
+  "empty": {
+    "title": "No available coupons",
+    "description": "We'll notify you when new coupons are available",
+    "actionText": "Explore restaurants"
+  },
+  "error": {
+    "loadFailed": "Failed to load coupons",
+    "applyFailed": "Failed to apply coupon",
+    "invalidCode": "Invalid coupon code",
+    "expired": "Coupon has expired",
+    "minOrderNotMet": "Minimum order amount not met",
+    "alreadyUsed": "Coupon already used"
+  },
+  "success": {
+    "applied": "Coupon applied successfully",
+    "removed": "Coupon removed successfully"
+  },
+  "center": {
+    "title": "Coupon Center",
+    "description": "Get various discount coupons",
+    "subtitle": "Save more on every order"
+  },
+  "status": {
+    "available": "Available",
+    "used": "Used",
+    "expired": "Expired",
+    "comingSoon": "Coming Soon"
+  },
+  "filter": {
+    "all": "All",
+    "available": "Available",
+    "used": "Used",
+    "expired": "Expired"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "copyCode": "Copy Code",
+    "shareCode": "Share Code",
+    "useNow": "Use Now"
+  },
+  "details": {
+    "terms": "Terms & Conditions",
+    "validFrom": "Valid From",
+    "validTo": "Valid To",
+    "usageLimit": "Usage Limit",
+    "minOrderAmount": "Minimum Order Amount"
+  },
+  "tabs": {
+    "my": "My Coupons",
+    "available": "Available",
+    "myWithCount": "My Coupons ({{count}})",
+    "availableWithCount": "Available ({{count}})"
+  },
+  "chips": {
+    "all": "All",
+    "available": "Available",
+    "used": "Used",
+    "expired": "Expired",
+    "expiring": "Expiring Soon"
+  },
+  "states": {
+    "loading": "Loading coupons...",
+    "refreshing": "Refreshing...",
+    "loadingMore": "Loading more..."
+  },
+  "accessibility": {
+    "tabSelected": "{{tab}} tab selected",
+    "filterSelected": "{{filter}} filter selected",
+    "couponCard": "{{name}} coupon, {{discount}} discount, {{status}} status",
+    "useButton": "Use {{name}} coupon",
+    "viewButton": "View {{name}} coupon details",
+    "refreshList": "Refresh coupon list",
+    "emptyStateIcon": "No coupons available",
+    "errorStateIcon": "Data loading error",
+    "retryButton": "Retry loading coupons",
+    "tabList": "Tab navigation",
+    "filterGroup": "Filter options",
+    "couponList": "{{tab}} coupon list",
+    "emptyState": "Empty state information",
+    "errorState": "Error information",
+    "emptyStateAction": "Perform the suggested action",
+    "retryHint": "Tap to retry loading the content"
+  },
+  "emptyStates": {
+    "myEmpty": {
+      "title": "No coupons yet",
+      "description": "You don't have any coupons. Explore exciting discounts!",
+      "actionText": "Browse Coupons"
+    },
+    "availableEmpty": {
+      "title": "No promotions available",
+      "description": "No coupons available right now. We'll notify you when new deals arrive!",
+      "actionText": "Go Back"
+    },
+    "filteredEmpty": {
+      "title": "No matching coupons",
+      "description": "Try changing the filter to see other coupons",
+      "actionText": "Clear Filter"
+    }
+  },
+  "errorStates": {
+    "networkError": {
+      "title": "Connection Failed",
+      "description": "Please check your internet connection and try again",
+      "actionText": "Retry"
+    },
+    "serverError": {
+      "title": "Server Error",
+      "description": "Something went wrong. Please try again later",
+      "actionText": "Retry"
+    },
+    "unexpectedError": {
+      "title": "Something went wrong",
+      "description": "Please restart the app",
+      "actionText": "Retry"
+    }
+  },
+  "promotions": "Promotions",
+  "vietnamFestivals": "Vietnam Festivals",
+  "traditionalEvents": "Traditional Events",
+  "promotionCategories": "Promotion Categories",
+  "dailyDeals": "Daily Deals",
+  "vndSpecial": "VND Specials",
+  "availableOffers": "Available Offers",
+  "getCoupon": "Get Coupon",
+  "noDailyDeals": "No daily deals available",
+  "noVndOffers": "No VND offers available",
+  "checkBackLater": "Please check back later",
+  "expiresInDay": "Expires in 1 day",
+  "expiresInDays": "Expires in {{days}} days",
+  "tetSpecial": "Tet Holiday Special",
+  "weatherBased": "Weather-based Promotions",
+  "regional": "Regional Offers",
+  "festivals": {
+    "tet": {
+      "name": "Tet Holiday",
+      "period": "Late January - Early February",
+      "discount": "Up to 30% off",
+      "description": "Special discount for Vietnam's biggest holiday"
+    },
+    "midAutumn": {
+      "name": "Mid-Autumn Festival",
+      "period": "September",
+      "discount": "Up to 25% off",
+      "description": "Special offer for the Full Moon festival"
+    },
+    "nationalDay": {
+      "name": "National Day",
+      "period": "September 2",
+      "discount": "Up to 20% off",
+      "description": "Celebrating Vietnam's Independence Day"
+    }
+  }
+}

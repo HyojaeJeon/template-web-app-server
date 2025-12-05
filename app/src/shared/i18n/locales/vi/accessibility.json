@@ -1,0 +1,229 @@
+{
+  "image": "Hình ảnh",
+  "actions": {
+    "activate": "Kích hoạt",
+    "longPress": "Nhấn giữ",
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn",
+    "select": "Chọn",
+    "open": "Mở",
+    "close": "Đóng",
+    "next": "Tiếp theo",
+    "previous": "Trước đó"
+  },
+  "alert": {
+    "info": "Thông tin",
+    "warning": "Cảnh báo",
+    "error": "Lỗi",
+    "success": "Thành công"
+  },
+  "settings": {
+    "title": "Cài đặt trợ năng",
+    "fontSize": {
+      "title": "Kích thước chữ",
+      "label": "Điều chỉnh kích thước chữ",
+      "small": "Nhỏ",
+      "large": "Lớn",
+      "preview": "Đây là văn bản xem trước.",
+      "changed": "Kích thước chữ đã thay đổi thành {{value}}"
+    },
+    "visual": {
+      "title": "Cài đặt hình ảnh"
+    },
+    "highContrast": {
+      "title": "Chế độ tương phản cao",
+      "label": "Bật/tắt chế độ tương phản cao",
+      "description": "Tăng độ tương phản giữa chữ và nền để cải thiện khả năng đọc",
+      "changed": "Chế độ tương phản cao đã {{value}}"
+    },
+    "colorInversion": {
+      "title": "Đảo ngược màu sắc",
+      "label": "Bật/tắt đảo ngược màu sắc",
+      "description": "Đảo ngược màu sắc màn hình",
+      "changed": "Đảo ngược màu sắc đã {{value}}"
+    },
+    "reduceMotion": {
+      "title": "Giảm chuyển động",
+      "label": "Bật/tắt giảm chuyển động",
+      "description": "Giảm hiệu ứng chuyển cảnh và hoạt hình",
+      "changed": "Giảm chuyển động đã {{value}}"
+    },
+    "interaction": {
+      "title": "Cài đặt tương tác"
+    },
+    "voiceGuidance": {
+      "title": "Hướng dẫn bằng giọng nói",
+      "label": "Bật/tắt hướng dẫn giọng nói",
+      "description": "Cung cấp hướng dẫn bằng giọng nói cho nội dung và tương tác màn hình",
+      "changed": "Hướng dẫn giọng nói đã {{value}}"
+    },
+    "hapticFeedback": {
+      "title": "Phản hồi rung",
+      "label": "Bật/tắt phản hồi rung",
+      "description": "Cung cấp phản hồi rung khi chạm",
+      "changed": "Phản hồi rung đã {{value}}"
+    },
+    "system": {
+      "title": "Thông tin hệ thống",
+      "screenReader": "Trình đọc màn hình",
+      "checkServices": "Kiểm tra dịch vụ trợ năng",
+      "refresh": "Làm mới"
+    },
+    "reset": {
+      "title": "Đặt lại cài đặt",
+      "message": "Đặt lại tất cả cài đặt trợ năng về mặc định?",
+      "button": "Đặt lại về mặc định",
+      "confirm": "Đặt lại",
+      "success": "Cài đặt trợ năng đã được đặt lại"
+    },
+    "saveError": {
+      "title": "Lỗi lưu",
+      "message": "Có lỗi xảy ra khi lưu cài đặt"
+    },
+    "announceConnection": "Thông báo trạng thái kết nối",
+    "announceConnectionDesc": "Nhận thông báo khi trạng thái kết nối thay đổi",
+    "announceNewMessages": "Thông báo tin nhắn mới",
+    "announceNewMessagesDesc": "Nhận thông báo khi có tin nhắn mới"
+  },
+  "navigation": {
+    "menu": "Menu",
+    "home": "Trang chủ",
+    "back": "Quay lại",
+    "forward": "Tiến về phía trước",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "more": "Xem thêm"
+  },
+  "content": {
+    "heading": "Tiêu đề",
+    "subheading": "Tiêu đề phụ",
+    "paragraph": "Đoạn văn",
+    "list": "Danh sách",
+    "listItem": "Mục danh sách",
+    "image": "Hình ảnh",
+    "button": "Nút",
+    "link": "Liên kết",
+    "form": "Biểu mẫu",
+    "textInput": "Nhập văn bản",
+    "checkbox": "Hộp kiểm",
+    "radio": "Nút radio",
+    "slider": "Thanh trượt",
+    "switch": "Công tắc"
+  },
+  "feedback": {
+    "loading": "Đang tải",
+    "success": "Thành công",
+    "error": "Có lỗi xảy ra",
+    "required": "Trường bắt buộc",
+    "invalid": "Đầu vào không hợp lệ",
+    "saved": "Đã lưu",
+    "deleted": "Đã xóa",
+    "updated": "Đã cập nhật"
+  },
+  "instructions": {
+    "swipeLeft": "Vuốt sang trái",
+    "swipeRight": "Vuốt sang phải",
+    "swipeUp": "Vuốt lên",
+    "swipeDown": "Vuốt xuống",
+    "doubleTap": "Nhấn đôi",
+    "longPress": "Nhấn giữ",
+    "pinchZoom": "Chụm để phóng to/thu nhỏ"
+  },
+  "order": {
+    "tracker": "Theo dõi đơn hàng",
+    "help": "Sử dụng cử chỉ vuốt để điều hướng các bước theo dõi đơn hàng",
+    "pending": "Đang chờ xác nhận",
+    "pendingHint": "Đang chờ cửa hàng xác nhận đơn hàng",
+    "confirmed": "Đơn hàng đã xác nhận",
+    "confirmedHint": "Cửa hàng đã xác nhận đơn hàng của bạn",
+    "preparing": "Đang chuẩn bị",
+    "preparingHint": "Cửa hàng đang chuẩn bị thức ăn của bạn",
+    "ready": "Sẵn sàng lấy hàng",
+    "readyHint": "Thức ăn đã sẵn sàng và đang chờ giao hàng",
+    "outForDelivery": "Đang giao hàng",
+    "outForDeliveryHint": "Tài xế giao hàng đang trên đường đến chỗ bạn",
+    "delivered": "Đã giao hàng",
+    "deliveredHint": "Đơn hàng của bạn đã được giao thành công",
+    "cancelled": "Đơn hàng đã hủy",
+    "cancelledHint": "Đơn hàng của bạn đã bị hủy",
+    "stepProgress": "Bước {current} trong {total}",
+    "percentProgress": "{percent} phần trăm hoàn thành",
+    "inProgress": "Đang tiến hành",
+    "estimatedTimeString": "Thời gian ước tính: {time}",
+    "estimatedMinutes": "Sẽ đến trong {minutes} phút",
+    "estimatedTime": "Sẽ đến trong {hours} giờ {minutes} phút",
+    "arrivingSoon": "Sắp đến"
+  },
+  "map": {
+    "title": "Bản đồ theo dõi giao hàng",
+    "store": "Vị trí cửa hàng",
+    "delivery": "Địa chỉ giao hàng",
+    "driver": "Vị trí tài xế",
+    "route": "Tuyến đường giao hàng",
+    "zoomIn": "Phóng to bản đồ",
+    "zoomOut": "Thu nhỏ bản đồ",
+    "centerMap": "Căn giữa bản đồ",
+    "toggleView": "Chuyển đổi chế độ xem bản đồ"
+  },
+  "tracking": {
+    "orderUpdate": "Cập nhật trạng thái đơn hàng",
+    "newMessage": "Tin nhắn mới từ tài xế",
+    "arrivalNotice": "Thông báo đến",
+    "deliveryComplete": "Giao hàng hoàn tất",
+    "callStore": "Gọi cửa hàng",
+    "callDriver": "Gọi tài xế"
+  },
+  "common": {
+    "connected": "Đã kết nối",
+    "disconnected": "Mất kết nối",
+    "loaded": "Đã tải",
+    "loading": "Đang tải"
+  },
+  "chat": {
+    "chatContainer": "Vùng chứa chat",
+    "chatContainerHint": "Nhấn để xem tin nhắn chat",
+    "chatContainerWithRoom": "Phòng chat {{room}}",
+    "chatRoomHint": "Nhấn để vào phòng chat",
+    "chatRoomLabel": "Phòng chat",
+    "connected": "Chat đã kết nối",
+    "connectionChanged": "Trạng thái kết nối đã thay đổi",
+    "connectionLost": "Mất kết nối",
+    "connectionStatus": "Trạng thái kết nối",
+    "currentlyTyping": "Đang nhập",
+    "disconnected": "Chat đã ngắt kết nối",
+    "fileMessageLabel": "Tin nhắn tệp",
+    "imageMessageLabel": "Tin nhắn hình ảnh",
+    "messageHint": "Nhấn để xem tin nhắn",
+    "messageInput": "Nhập tin nhắn",
+    "messageInputHint": "Nhập tin nhắn của bạn",
+    "messageLabel": "Tin nhắn",
+    "messageList": "Danh sách tin nhắn",
+    "messageListHint": "Cuộn qua các tin nhắn",
+    "messageSent": "Tin nhắn đã gửi",
+    "newFileMessage": "Tin nhắn tệp mới",
+    "newImageMessage": "Tin nhắn hình ảnh mới",
+    "newMessage": "Tin nhắn mới",
+    "newMessagesAvailable": "Có tin nhắn mới",
+    "newTextMessage": "Tin nhắn văn bản mới",
+    "newVoiceMessage": "Tin nhắn thoại mới",
+    "noMessages": "Không có tin nhắn",
+    "reconnecting": "Đang kết nối lại",
+    "roomChanged": "Phòng chat đã thay đổi",
+    "roomChangedWithUnread": "Phòng chat có tin nhắn chưa đọc",
+    "roomInfo": "Thông tin phòng chat",
+    "selected": "Đã chọn",
+    "status": {
+      "away": "Vắng mặt",
+      "offline": "Ngoại tuyến",
+      "online": "Trực tuyến",
+      "typing": "Đang nhập"
+    },
+    "textMessageLabel": "Tin nhắn văn bản",
+    "unknownFile": "Tệp không xác định",
+    "userStoppedTyping": "Người dùng đã ngừng nhập",
+    "userTyping": "{{user}} đang nhập",
+    "voiceMessageLabel": "Tin nhắn thoại",
+    "you": "Bạn"
+  }
+}

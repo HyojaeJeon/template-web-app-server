@@ -1,0 +1,9 @@
+{
+  "removeFromFavorites": "즐겨찾기에서 제거",
+  "addToFavorites": "즐겨찾기에 추가",
+  "price": "가격",
+  "rating": "평점",
+  "favoriteHint": "상품을 즐겨찾기에 추가하거나 제거합니다",
+  "addToCart": "장바구니에 담기",
+  "addToCartHint": "상품을 장바구니에 추가합니다"
+}

@@ -1,0 +1,131 @@
+{
+  "emptyStates": {
+    "title": "Empty States",
+    "subtitle": "States shown when there's no data",
+    "systemTitle": "Vietnamese Food Delivery App Empty State System",
+    "systemDescription": "Empty state designs that provide clear guidance and next actions to users",
+    "noOrders": {
+      "title": "No order history yet",
+      "description": "Place your first order and enjoy delicious food!",
+      "action": "Explore stores"
+    },
+    "noFavorites": {
+      "title": "No favorite stores",
+      "description": "Favorite stores you like",
+      "action": "Find stores"
+    },
+    "noSearchResults": {
+      "title": "No search results",
+      "description": "Try searching with different keywords",
+      "action": "Change keywords"
+    },
+    "noNetwork": {
+      "title": "Please check your internet connection",
+      "description": "Connect to network and try again",
+      "action": "Try again"
+    },
+    "maintenance": {
+      "title": "System under maintenance",
+      "description": "We're temporarily maintaining to improve service",
+      "expectedTime": "Expected completion: In 30 minutes"
+    }
+  },
+  "loaders": {
+    "title": "Loaders",
+    "subtitle": "Components displaying loading state",
+    "systemTitle": "Vietnamese Food Delivery App Loader System",
+    "systemDescription": "Smooth and intuitive loading animations and progress indicators",
+    "spinLoader": {
+      "title": "Spin Loader",
+      "description": "Basic spinning loading animation"
+    },
+    "progressLoader": {
+      "title": "Progress Loader",
+      "description": "Loader displaying progress"
+    },
+    "skeletonLoader": {
+      "title": "Skeleton Loader",
+      "description": "Loader showing content structure beforehand"
+    },
+    "pulseLoader": {
+      "title": "Pulse Loader",
+      "description": "Loader blinking like a pulse"
+    },
+    "messages": {
+      "loading": "Loading...",
+      "fetchingData": "Fetching data...",
+      "processingOrder": "Processing order...",
+      "searchingStores": "Searching stores...",
+      "processingPayment": "Processing payment..."
+    }
+  },
+  "toasts": {
+    "title": "Toasts",
+    "subtitle": "Simple notification messages",
+    "systemTitle": "Vietnamese Food Delivery App Toast System",
+    "systemDescription": "Notification system providing immediate feedback to users",
+    "success": {
+      "title": "Success Toast",
+      "description": "Task completion notification"
+    },
+    "error": {
+      "title": "Error Toast",
+      "description": "Error occurrence notification"
+    },
+    "warning": {
+      "title": "Warning Toast",
+      "description": "Situation requiring attention notification"
+    },
+    "info": {
+      "title": "Info Toast",
+      "description": "General information delivery"
+    },
+    "messages": {
+      "orderPlaced": "Order has been successfully placed!",
+      "itemAdded": "Added to cart",
+      "paymentSuccess": "Payment completed",
+      "orderCancelled": "Order has been cancelled",
+      "networkError": "Network error occurred",
+      "lowBattery": "Battery low"
+    }
+  },
+  "banners": {
+    "title": "Banners",
+    "subtitle": "Promotion and announcement banners",
+    "systemTitle": "Vietnamese Food Delivery App Banner System",
+    "systemDescription": "Eye-catching banner designs that deliver promotions and important information",
+    "promotional": {
+      "title": "Promotional Banner",
+      "description": "Discount and special offer information"
+    },
+    "informational": {
+      "title": "Informational Banner",
+      "description": "Important announcement delivery"
+    },
+    "seasonal": {
+      "title": "Seasonal Banner",
+      "description": "Special seasonal events"
+    },
+    "urgentNews": {
+      "title": "Urgent Notice",
+      "description": "Information requiring immediate confirmation"
+    },
+    "examples": {
+      "firstOrder": {
+        "title": "50% OFF First Order",
+        "subtitle": "Sign up now and get special benefits!",
+        "action": "Order Now"
+      },
+      "freeDelivery": {
+        "title": "Free Delivery",
+        "subtitle": "Free shipping for orders over 30,000₫!",
+        "action": "View Menu"
+      },
+      "newStore": {
+        "title": "New Store Open",
+        "subtitle": "New delicious store has come to our area",
+        "action": "Explore"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Yêu thích",
+  "tabs": {
+    "stores": "Cửa hàng",
+    "menus": "Món ăn"
+  },
+  "stores": "Cửa hàng",
+  "menus": {
+    "title": "Món ăn yêu thích",
+    "count": "{{count}} món",
+    "addToCart": "Thêm vào giỏ",
+    "from": "từ {{storeName}}"
+  },
+  "noStores": "Chưa có cửa hàng yêu thích",
+  "noStoresDesc": "Hãy khám phá và thêm những cửa hàng bạn yêu thích",
+  "noMenus": "Chưa có món ăn yêu thích",
+  "noMenusDesc": "Hãy thử những món ngon và lưu lại những món bạn yêu thích",
+  "storeInfo": {
+    "title": "Cửa hàng yêu thích",
+    "count": "{{count}} cửa hàng",
+    "orderCount": "{{count}} đơn hàng",
+    "totalSpent": "Tổng {{amount}}đ",
+    "lastOrdered": "Đặt lần cuối: {{date}}",
+    "orderNow": "Đặt hàng ngay"
+  },
+  "empty": {
+    "stores": {
+      "title": "Chưa có cửa hàng yêu thích",
+      "subtitle": "Hãy khám phá và thêm những cửa hàng bạn yêu thích để dễ dàng đặt hàng lần sau",
+      "button": "Khám phá cửa hàng"
+    },
+    "menus": {
+      "title": "Chưa có món ăn yêu thích",
+      "subtitle": "Hãy thử những món ngon và lưu lại những món bạn yêu thích",
+      "button": "Xem menu"
+    }
+  },
+  "actions": {
+    "remove": "Xóa khỏi yêu thích",
+    "removeConfirm": "Bạn có chắc muốn xóa khỏi danh sách yêu thích?",
+    "removeSuccess": "Đã xóa khỏi yêu thích",
+    "addSuccess": "Đã thêm vào yêu thích",
+    "viewStore": "Xem cửa hàng",
+    "orderAgain": "Đặt lại"
+  },
+  "filters": {
+    "all": "Tất cả",
+    "recentlyOrdered": "Đặt gần đây",
+    "highRated": "Đánh giá cao",
+    "nearBy": "Gần đây"
+  },
+  "sorting": {
+    "title": "Sắp xếp theo",
+    "newest": "Mới nhất",
+    "oldest": "Cũ nhất",
+    "mostOrdered": "Đặt nhiều nhất",
+    "alphabetical": "Theo tên"
+  }
+}

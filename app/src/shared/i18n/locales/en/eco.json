@@ -1,0 +1,16 @@
+{
+  "score": "Eco Score",
+  "level": {
+    "excellent": "Excellent",
+    "good": "Good",
+    "moderate": "Moderate",
+    "basic": "Basic"
+  },
+  "sustainablePackaging": "Sustainable Packaging",
+  "plasticFree": "Plastic Free",
+  "biodegradable": "Biodegradable Containers",
+  "reusableContainers": "Reusable Containers",
+  "carbonNeutral": "Carbon Neutral",
+  "localSourcing": "Local Sourcing",
+  "certifications": "Environmental Certifications"
+}

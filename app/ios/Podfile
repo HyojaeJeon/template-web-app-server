@@ -1,0 +1,121 @@
+# Transform this into a `node_require` generic function:
+def node_require(script)
+  # Resolve script with node to allow for hoisting
+  require Pod::Executable.execute_command('node', ['-p',
+    "require.resolve(
+      '#{script}',
+      {paths: [process.argv[1]]},
+    )", __dir__]).strip
+end
+
+# Use it to require both react-native's and this package's scripts:
+node_require('react-native/scripts/react_native_pods.rb')
+node_require('react-native-permissions/scripts/setup.rb')
+
+platform :ios, min_ios_version_supported
+prepare_react_native_project!
+
+# ⬇️ uncomment the permissions you need
+setup_permissions([
+  'Camera',
+  'PhotoLibrary',
+])
+
+linkage = ENV['USE_FRAMEWORKS']
+if linkage != nil
+  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
+  use_frameworks! :linkage => linkage.to_sym
+end
+
+target 'DeliveryApp' do
+  config = use_native_modules!
+
+  # Firebase requires use_frameworks
+  use_frameworks! :linkage => :static
+  $RNFirebaseAsStaticFramework = true
+
+  # Manual linking for packages that need special configuration
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+  pod 'RNReactNativeHapticFeedback', :path => '../node_modules/react-native-haptic-feedback'
+
+  # Google Maps SDK for iOS (react-native-maps dependency)
+  pod 'GoogleMaps', '~> 9.2.0'
+  pod 'Google-Maps-iOS-Utils', '~> 6.0.0'
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
+    # Disable New Architecture for stability with react-native-reanimated
+    :fabric_enabled => false,
+    :new_arch_enabled => false,
+    :hermes_enabled => true
+    # Flipper 완전 비활성화 (환경변수로 제어)
+  )
+
+
+  post_install do |installer|
+    # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false,
+      # :ccache_enabled => true
+    )
+
+    # Enable Google Maps support for react-native-maps
+    installer.pods_project.targets.each do |target|
+      if target.name == 'react-native-maps'
+        target.build_configurations.each do |config|
+          config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
+          config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'HAVE_GOOGLE_MAPS=1'
+        end
+      end
+    end
+    
+    # Fix for 'ReactCommon/RuntimeExecutor.h' file not found in RN 0.81 + use_frameworks!
+    # RN 0.81에서 Runtime 프레임워크들이 분리되면서 헤더 경로가 자동 노출되지 않는 이슈 해결
+    extra_runtime_headers = [
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-RuntimeApple/React_RuntimeApple.framework/Headers",
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-RuntimeCore/React_RuntimeCore.framework/Headers", 
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-jserrorhandler/React_jserrorhandler.framework/Headers",
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector_modern.framework/Headers",
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-runtimescheduler/React_runtimescheduler.framework/Headers",
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-performancetimeline/React_performancetimeline.framework/Headers",
+      "${PODS_CONFIGURATION_BUILD_DIR}/React-rendererconsistency/React_rendererconsistency.framework/Headers"
+    ]
+
+    # Apply client project build settings for compatibility
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        # iOS deployment target consistency (React Native 0.81.0 requirements)
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
+
+        # Explicitly disable New Architecture
+        config.build_settings['RCT_NEW_ARCH_ENABLED'] = 'NO'
+
+        # C++ standard setting (React Native 0.81.0 requires c++20 even in Legacy mode)
+        config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++20'
+        config.build_settings['GCC_C_LANGUAGE_STANDARD'] = 'gnu11'
+
+        # Compilation error prevention settings
+        config.build_settings['GCC_TREAT_WARNINGS_AS_ERRORS'] = 'NO'
+        config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'NO'
+
+        # C++20 support for New Architecture modules
+        config.build_settings['CLANG_CXX_LIBRARY'] = 'libc++'
+        config.build_settings['CLANG_ENABLE_MODULES'] = 'YES'
+
+        # Bitcode disable (React Native requirement)
+        config.build_settings['ENABLE_BITCODE'] = 'NO'
+
+        # Flipper 비활성화됨 - Flipper 관련 설정 제거
+
+        # Runtime frameworks header search paths for RN 0.81 + use_frameworks! compatibility
+        config.build_settings['HEADER_SEARCH_PATHS'] ||= '$(inherited)'
+        config.build_settings['HEADER_SEARCH_PATHS'] << " #{extra_runtime_headers.join(' ')}"
+      end
+    end
+  end
+end

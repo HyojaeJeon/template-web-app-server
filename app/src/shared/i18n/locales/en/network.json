@@ -1,0 +1,37 @@
+{
+  "offline": "Offline",
+  "offlineDesc": "Showing cached data",
+  "online": "Online",
+  "connected": "Connected",
+  "connectedDesc": "Internet connection restored",
+  "restored": "Connection restored",
+  "restoredDesc": "Data is being updated...",
+  "stillOffline": "Still offline",
+  "checkConnection": "Please check your internet connection",
+  "retry": "Retry",
+  "tapToRetry": "Tap to retry",
+  "autoReconnecting": "Automatically attempting to reconnect",
+  "slowConnection": "Slow connection",
+  "slowConnectionDesc": "Your internet connection is slow",
+  "cache": {
+    "availableData": "Available data",
+    "stores": "{count} stores",
+    "menus": "{count} menus",
+    "images": "{size}",
+    "lastUpdate": "Last updated",
+    "expired": "Data expired",
+    "refreshNeeded": "Connection needed to update"
+  },
+  "location": {
+    "permission": {
+      "title": "Location permission",
+      "message": "App needs location permission to show nearby stores"
+    },
+    "permissionDenied": "Location permission denied",
+    "permissionDeniedDesc": "Please grant location permission in settings",
+    "error": "Location error",
+    "errorDesc": "Unable to determine your location",
+    "myLocation": "My location",
+    "calculating": "Determining location..."
+  }
+}

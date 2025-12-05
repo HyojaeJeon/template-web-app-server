@@ -1,0 +1,9 @@
+{
+  "removeFromFavorites": "Remove from favorites",
+  "addToFavorites": "Add to favorites",
+  "price": "Price",
+  "rating": "Rating",
+  "favoriteHint": "Add or remove this item from favorites",
+  "addToCart": "Add to cart",
+  "addToCartHint": "Add this item to cart"
+}

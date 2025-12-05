@@ -1,0 +1,134 @@
+{
+  "selectedLocation": "Vị trí đã chọn",
+  "selectLocation": "Chọn địa chỉ giao hàng",
+  "gettingAddress": "Đang lấy địa chỉ...",
+  "map": {
+    "tapToSelect": "Vui lòng chọn vị trí",
+    "tapToSelectDesc": "Nhấn hoặc kéo trên bản đồ để chọn vị trí giao hàng",
+    "selectedLocation": "Vị trí đã chọn",
+    "searchPlaceholder": "Tìm kiếm địa chỉ..."
+  },
+  "screens": {
+    "mapPicker": {
+      "title": "Chọn vị trí giao hàng",
+      "confirm": "Chọn vị trí này"
+    }
+  },
+  "recent": "Gần đây",
+  "popularAreas": "Khu vực phổ biến",
+  "detectWithGPS": "GPS sẽ tìm vị trí hiện tại chính xác của bạn",
+  "enterAddressManually": "Nhập địa chỉ trực tiếp",
+  "enterDetailedAddress": "Hãy nhập địa chỉ chi tiết trực tiếp",
+  "searchPlaceholder": "Tìm kiếm địa chỉ tại Việt Nam...",
+  "location": {
+    "selectLocation": "Chọn địa chỉ giao hàng",
+    "notSelected": "Chưa chọn vị trí",
+    "accuracy": "Độ chính xác",
+    "gettingLocation": "Đang xác định vị trí...",
+    "useCurrentLocation": "Sử dụng vị trí hiện tại",
+    "enterManually": "Nhập địa chỉ thủ công",
+    "permission": {
+      "title": "Cần quyền truy cập vị trí",
+      "message": "Ứng dụng cần quyền truy cập vị trí để cung cấp dịch vụ giao hàng",
+      "askLater": "Hỏi lại sau"
+    },
+    "error": {
+      "title": "Lỗi vị trí",
+      "failed": "Không thể lấy vị trí hiện tại",
+      "noAddressFound": "Không tìm thấy địa chỉ cho vị trí này"
+    },
+    "delivery": {
+      "available": "Khu vực có giao hàng",
+      "unavailable": "Khu vực không giao hàng",
+      "checking": "Đang kiểm tra khả năng giao hàng...",
+      "checkZone": "Kiểm tra khu vực giao hàng",
+      "checkError": "Không thể kiểm tra khu vực giao hàng",
+      "estimatedTime": "Thời gian giao hàng dự kiến",
+      "fee": "Phí giao hàng",
+      "free": "Miễn phí",
+      "suggestedZones": "Khu vực có giao hàng",
+      "lastChecked": "Kiểm tra lần cuối"
+    }
+  },
+  "tabs": {
+    "map": "Bản đồ",
+    "search": "Tìm kiếm",
+    "saved": "Đã lưu"
+  },
+  "mapTab": {
+    "current": "Hiện tại",
+    "detailAddressPlaceholder": "Nhập địa chỉ chi tiết (tùy chọn)",
+    "distanceUnit": "mét",
+    "currentLocationGPS": "Vị trí hiện tại từ GPS"
+  },
+  "searchTab": {
+    "searching": "Đang tìm kiếm...",
+    "searchError": "Lỗi tìm kiếm",
+    "noResults": "Không tìm thấy kết quả",
+    "tryDifferentKeyword": "Hãy thử từ khóa khác"
+  },
+  "savedTab": {
+    "loadingAddresses": "Đang tải danh sách địa chỉ..."
+  },
+  "mockMapTitle": "Bản đồ (Chế độ phát triển)",
+  "confirmButton": {
+    "setThisLocation": "Chọn vị trí này",
+    "setLocationHint": "Xác nhận địa chỉ đã chọn và quay lại màn hình trước"
+  },
+  "accessibility": {
+    "tabHint": "Nhấn để hiển thị nội dung",
+    "addressItemHint": "Nhấn để chọn địa chỉ này"
+  },
+  "title": "Thiết lập địa chỉ giao hàng",
+  "selectLocationTitle": "Chọn vị trí này",
+  "addressInfo": "Địa chỉ nhận hàng",
+  "selectLocationHint": "Vui lòng chọn vị trí trên bản đồ",
+  "addressChecking": "Đang kiểm tra địa chỉ...",
+  "mockMapDescription": "Để tránh lỗi TurboModule khi phát triển,\nhiển thị tạm bản đồ giả lập.\nKhi build thực tế sẽ hiển thị Google Maps.",
+  "selectedCoordinates": "Tọa độ đã chọn:",
+  "emptySavedLocations": "Không có vị trí đã lưu",
+  "emptySavedLocationsDesc": "Hãy lưu các vị trí bạn thường sử dụng",
+  "addLocation": "Thêm vị trí",
+  "addressType": {
+    "home": "Nhà"
+  },
+  "addressSelector": {
+    "destination": "Bạn đang đi đâu?",
+    "mergeAddressDisplay": "Hiển thị địa chỉ gộp tỉnh/thành phố",
+    "recommended": "Đề xuất",
+    "saved": "Đã lưu",
+    "selectFromMap": "Chọn từ bản đồ",
+    "confirmDestination": "Xác nhận điểm đến",
+    "setAsDestination": "Đặt làm điểm đến",
+    "myLocation": "Vị trí của tôi",
+    "currentLocation": "Vị trí hiện tại"
+  },
+  "addressDetail": {
+    "title": "Chi tiết địa chỉ",
+    "label": "Nhãn địa chỉ",
+    "labelPlaceholder": "Ví dụ: Nhà, Công ty, Trường học",
+    "customLabelPlaceholder": "Nhập nhãn",
+    "addressDetailInput": "Địa chỉ chi tiết",
+    "addressDetailPlaceholder": "Số tòa/căn hộ, tầng...",
+    "recipientName": "Tên người nhận",
+    "recipientNamePlaceholder": "Nhập tên người nhận",
+    "recipientPhone": "Số điện thoại",
+    "recipientPhonePlaceholder": "Nhập số điện thoại",
+    "deliveryNote": "Ghi chú giao hàng",
+    "deliveryNotePlaceholder": "Lưu ý cho shipper",
+    "save": "Lưu",
+    "saving": "Đang lưu...",
+    "quickLabels": {
+      "home": "Nhà",
+      "office": "Công ty",
+      "school": "Trường",
+      "custom": "Tùy chỉnh"
+    },
+    "validation": {
+      "addressDetailRequired": "Vui lòng nhập địa chỉ chi tiết",
+      "recipientPhoneRequired": "Vui lòng nhập số điện thoại"
+    }
+  },
+  "searchResults": "Kết quả tìm kiếm",
+  "savedAddresses": "Địa chỉ đã lưu"
+}

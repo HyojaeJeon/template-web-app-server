@@ -1,0 +1,134 @@
+{
+  "selectedLocation": "Selected location",
+  "selectLocation": "Select delivery address",
+  "gettingAddress": "Getting address...",
+  "map": {
+    "tapToSelect": "Select a location",
+    "tapToSelectDesc": "Tap or drag on the map to select delivery location",
+    "selectedLocation": "Selected location",
+    "searchPlaceholder": "Search address..."
+  },
+  "screens": {
+    "mapPicker": {
+      "title": "Select Delivery Location",
+      "confirm": "Select this location"
+    }
+  },
+  "recent": "Recent",
+  "popularAreas": "Popular areas",
+  "detectWithGPS": "GPS will find your current location accurately",
+  "enterAddressManually": "Enter address manually",
+  "enterDetailedAddress": "Please enter detailed address manually",
+  "searchPlaceholder": "Search Vietnam addresses...",
+  "location": {
+    "selectLocation": "Select delivery address",
+    "notSelected": "No location selected",
+    "accuracy": "Accuracy",
+    "gettingLocation": "Getting location...",
+    "useCurrentLocation": "Use current location",
+    "enterManually": "Enter address manually",
+    "permission": {
+      "title": "Location permission required",
+      "message": "The app needs location access to provide delivery services",
+      "askLater": "Ask Me Later"
+    },
+    "error": {
+      "title": "Location error",
+      "failed": "Unable to get current location",
+      "noAddressFound": "No address found for this location"
+    },
+    "delivery": {
+      "available": "Delivery available",
+      "unavailable": "Delivery unavailable",
+      "checking": "Checking delivery availability...",
+      "checkZone": "Check delivery zone",
+      "checkError": "Failed to check delivery zone",
+      "estimatedTime": "Estimated delivery time",
+      "fee": "Delivery fee",
+      "free": "Free",
+      "suggestedZones": "Available delivery zones",
+      "lastChecked": "Last checked"
+    }
+  },
+  "tabs": {
+    "map": "Map",
+    "search": "Search",
+    "saved": "Saved"
+  },
+  "mapTab": {
+    "current": "Current",
+    "detailAddressPlaceholder": "Enter detailed address (optional)",
+    "distanceUnit": "meters away",
+    "currentLocationGPS": "Current location from GPS"
+  },
+  "searchTab": {
+    "searching": "Searching...",
+    "searchError": "Search error",
+    "noResults": "No results found",
+    "tryDifferentKeyword": "Try a different keyword"
+  },
+  "savedTab": {
+    "loadingAddresses": "Loading address list..."
+  },
+  "mockMapTitle": "Map (Dev Mode)",
+  "confirmButton": {
+    "setThisLocation": "Set this location",
+    "setLocationHint": "Confirm selected address and return to previous screen"
+  },
+  "accessibility": {
+    "tabHint": "Tap to show content",
+    "addressItemHint": "Tap to select this address"
+  },
+  "title": "Set delivery address",
+  "selectLocationTitle": "Set to this location",
+  "addressInfo": "Delivery address",
+  "selectLocationHint": "Please select a location on the map",
+  "addressChecking": "Checking address...",
+  "mockMapDescription": "To avoid TurboModule errors during development,\na mock map is displayed temporarily.\nGoogle Maps will be shown in production builds.",
+  "selectedCoordinates": "Selected coordinates:",
+  "emptySavedLocations": "No saved locations",
+  "emptySavedLocationsDesc": "Save your frequently used locations",
+  "addLocation": "Add location",
+  "addressType": {
+    "home": "Home"
+  },
+  "addressSelector": {
+    "destination": "Where are you going?",
+    "mergeAddressDisplay": "Display merged city/province address",
+    "recommended": "Recommended",
+    "saved": "Saved",
+    "selectFromMap": "Select from map",
+    "confirmDestination": "Confirm destination",
+    "setAsDestination": "Set as destination",
+    "myLocation": "My location",
+    "currentLocation": "Current location"
+  },
+  "addressDetail": {
+    "title": "Address Details",
+    "label": "Address Label",
+    "labelPlaceholder": "e.g. Home, Office, School",
+    "customLabelPlaceholder": "Enter label",
+    "addressDetailInput": "Detail Address",
+    "addressDetailPlaceholder": "Apt/Unit number, Floor...",
+    "recipientName": "Recipient Name",
+    "recipientNamePlaceholder": "Enter recipient name",
+    "recipientPhone": "Phone Number",
+    "recipientPhonePlaceholder": "Enter phone number",
+    "deliveryNote": "Delivery Note",
+    "deliveryNotePlaceholder": "Instructions for delivery",
+    "save": "Save",
+    "saving": "Saving...",
+    "quickLabels": {
+      "home": "Home",
+      "office": "Office",
+      "school": "School",
+      "custom": "Custom"
+    },
+    "validation": {
+      "addressDetailRequired": "Please enter detail address",
+      "recipientPhoneRequired": "Please enter phone number"
+    }
+  },
+  "searchResults": "Search results",
+  "savedAddresses": "Saved addresses"
+}

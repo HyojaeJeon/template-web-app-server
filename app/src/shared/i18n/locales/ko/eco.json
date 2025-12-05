@@ -1,0 +1,16 @@
+{
+  "score": "에코 점수",
+  "level": {
+    "excellent": "최우수",
+    "good": "우수",
+    "moderate": "보통",
+    "basic": "기본"
+  },
+  "sustainablePackaging": "지속가능 포장",
+  "plasticFree": "플라스틱 프리",
+  "biodegradable": "생분해성 용기",
+  "reusableContainers": "재사용 용기",
+  "carbonNeutral": "탄소중립",
+  "localSourcing": "로컬 식재료",
+  "certifications": "환경 인증"
+}

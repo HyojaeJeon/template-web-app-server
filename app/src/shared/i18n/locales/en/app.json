@@ -1,0 +1,43 @@
+{
+  "initialization": {
+    "title": "App Initialization",
+    "loading": "Loading...",
+    "starting": "App has started",
+    "failed": "App initialization failed",
+    "success": "App initialization success"
+  },
+  "apollo": {
+    "initializing": "Starting Apollo Client initialization...",
+    "initSuccess": "Apollo Client initialization successful",
+    "initFailed": "Apollo Client initialization failed, using fallback",
+    "initTimeout": "Apollo Client initialization timeout",
+    "fallbackSuccess": "Fallback Apollo Client creation completed",
+    "fallbackFailed": "Fallback Apollo Client creation failed",
+    "cacheRefreshSuccess": "Apollo Client cache refresh completed (language change)",
+    "cacheRefreshFailed": "Apollo Client cache refresh failed"
+  },
+  "errors": {
+    "title": "Error",
+    "cannotStart": "Cannot start the app",
+    "initialization": "App initialization failed or timeout",
+    "apolloInitializing": "Initializing Apollo Client..."
+  },
+  "messages": {
+    "loading": "Loading...",
+    "loadingApp": "Loading app...",
+    "testing": "Testing app...",
+    "apolloSocketReady": "Apollo Client + Socket initialization completed",
+    "allProviderReady": "All Providers working normally!",
+    "apolloTest": "Apollo Client 3.14.0 Test"
+  },
+  "i18n": {
+    "initialized": "i18n initialization completed",
+    "initFailed": "i18n initialization failed",
+    "languageChanged": "Language changed to {language}",
+    "languageChangeFailed": "Language change failed",
+    "languageLoadFailed": "Cannot load language settings",
+    "missingKeys": "Missing translation keys ({count} keys)",
+    "fallbackInit": "i18n initialized with default settings",
+    "fallbackInitFailed": "i18n fallback initialization also failed"
+  }
+}

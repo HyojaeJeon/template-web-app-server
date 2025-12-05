@@ -1,0 +1,640 @@
+{
+  "ongoing": "Đang xử lý",
+  "history": "Lịch sử đặt hàng",
+  "emptyOngoing": "Không có đơn hàng đang xử lý",
+  "emptyOngoingDesc": "Hãy bắt đầu đặt hàng mới!",
+  "emptyHistory": "Chưa có lịch sử đặt hàng",
+  "emptyHistoryDesc": "Hãy đặt đơn hàng đầu tiên của bạn!",
+  "startOrdering": "Đặt hàng ngay",
+  "viewHistory": "Xem lịch sử đơn hàng",
+  "orderNumber": "Mã đơn hàng",
+  "andOthers": "và {{count}} món khác",
+  "totalItems": "Tổng {{count}} món",
+  "noItems": "Không có món",
+  "deliveringSoon": "Sắp giao hàng",
+  "estimatedMinutes": "Khoảng {{minutes}} phút nữa",
+  "estimatedTime": "Khoảng {{hours}} giờ {{minutes}} phút nữa",
+  "urgent": "Khẩn cấp",
+  "reorder": "Đặt lại",
+  "writeReview": "Viết đánh giá",
+  "reorderSuccess": "Đã thêm vào giỏ hàng",
+  "status": {
+    "pending": "Chờ thanh toán",
+    "pendingShort": "Chờ",
+    "confirmed": "Đã thanh toán",
+    "confirmedShort": "Xác nhận",
+    "preparing": "Đang chuẩn bị",
+    "preparingShort": "Nấu",
+    "ready": "Sẵn sàng",
+    "readyShort": "Xong",
+    "pickedUp": "Đã lấy hàng",
+    "pickedUpShort": "Lấy",
+    "outForDelivery": "Đang giao hàng",
+    "outForDeliveryShort": "Giao",
+    "delivered": "Đã giao hàng",
+    "deliveredShort": "Xong",
+    "cancelled": "Đã hủy",
+    "cancelledShort": "Hủy",
+    "failed": "Đơn hàng thất bại",
+    "failedShort": "Thất bại",
+    "refunded": "Đã hoàn tiền",
+    "orderCompleted": "Đơn hàng hoàn thành",
+    "PENDING": "Chờ thanh toán",
+    "CONFIRMED": "Đã thanh toán",
+    "PREPARING": "Đang chuẩn bị",
+    "READY": "Sẵn sàng",
+    "PICKED_UP": "Đã lấy hàng",
+    "DELIVERING": "Đang giao hàng",
+    "DELIVERED": "Đã giao hàng",
+    "COMPLETED": "Hoàn thành",
+    "CANCELLED": "Đã hủy",
+    "REJECTED": "Bị từ chối"
+  },
+  "statusMessages": {
+    "pending": "Đơn hàng của bạn đã được tiếp nhận",
+    "confirmed": "Đơn hàng của bạn đã được xác nhận",
+    "preparing": "Món ăn của bạn đang được chuẩn bị",
+    "ready": "Món ăn của bạn đã sẵn sàng",
+    "pickedUp": "Tài xế đã lấy món ăn của bạn",
+    "outForDelivery": "Đơn hàng của bạn đang trên đường giao",
+    "delivering": "Đơn hàng của bạn đang được giao",
+    "delivered": "Đơn hàng của bạn đã được giao",
+    "orderCancelled": "Đơn hàng đã bị hủy",
+    "orderFailed": "Xử lý đơn hàng thất bại"
+  },
+  "unknownStore": "Cửa hàng",
+  "items": "Món",
+  "itemsUnit": "",
+  "deliveryFee": "Phí giao hàng",
+  "discount": "Giảm giá",
+  "paymentMethod": {
+    "CASH": "Tiền mặt",
+    "CARD": "Thẻ",
+    "MOMO": "MoMo",
+    "ZALO_PAY": "ZaloPay",
+    "BANKING": "Chuyển khoản",
+    "COD": "Thanh toán khi nhận hàng",
+    "BANK_TRANSFER": "Chuyển khoản ngân hàng",
+    "CREDIT_CARD": "Thẻ tín dụng",
+    "VNPAY": "VNPay",
+    "ZALOPAY": "ZaloPay",
+    "momo": "MoMo",
+    "zalopay": "ZaloPay",
+    "vnpay": "VNPay",
+    "cod": "Thanh toán khi nhận hàng"
+  },
+  "filter": {
+    "title": "Bộ lọc",
+    "all": "Tất cả",
+    "allTime": "Mọi thời gian",
+    "today": "Hôm nay",
+    "thisWeek": "Tuần này",
+    "thisMonth": "Tháng này",
+    "status": "Trạng thái đơn hàng",
+    "dateRange": "Khoảng thời gian",
+    "paymentMethod": "Phương thức thanh toán",
+    "reset": "Đặt lại",
+    "apply": "Áp dụng",
+    "activeCount": "{{count}} bộ lọc đã áp dụng"
+  },
+  "notifications": {
+    "statusUpdate": "Cập nhật trạng thái đơn hàng",
+    "statusUpdated": "Trạng thái đơn hàng đã được cập nhật",
+    "orderComplete": "Hoàn thành đơn hàng",
+    "deliveryUpdate": "Cập nhật giao hàng",
+    "connectionIssue": "Vấn đề kết nối",
+    "orderCancelled": "Đơn hàng đã hủy",
+    "confirmed": "Thanh toán đã hoàn tất",
+    "preparing": "Đang chuẩn bị thức ăn",
+    "ready": "Thức ăn đã sẵn sàng",
+    "pickedUp": "Tài xế đã lấy thức ăn",
+    "outForDelivery": "Thức ăn đang được giao",
+    "delivered": "Thức ăn đã được giao",
+    "driverAssigned": "Đã phân công tài xế",
+    "driverAssignedMessage": "Tài xế {{driverName}} đã được phân công (Liên hệ: {{phone}})",
+    "nearDestination": "Tài xế đang đến gần điểm giao hàng",
+    "orderCancelledMessage": "Đơn hàng đã bị hủy"
+  },
+  "tracking": {
+    "title": "Theo dõi đơn hàng",
+    "orderInfo": "Thông tin đơn hàng",
+    "deliveryInfo": "Thông tin giao hàng",
+    "timeline": "Tiến trình",
+    "progress": "Tiến độ giao hàng",
+    "currentTime": "Thời gian hiện tại",
+    "estimatedArrivalShort": "Giờ đến dự kiến",
+    "arrivingSoon": "Tài xế sắp đến nơi. Vui lòng chuẩn bị!",
+    "delayNotice": "Có thể chậm trễ do tình trạng giao thông",
+    "severeDelay": "Xin lỗi vì sự chậm trễ. Vui lòng liên hệ hỗ trợ",
+    "deliveredOnTime": "Giao hàng đúng giờ. Chúc ngon miệng!",
+    "deliveredDelayed": "Giao trễ {{minutes}} phút",
+    "liveUpdate": "Cập nhật theo thời gian thực",
+    "stepsCompleted": "bước đã hoàn thành",
+    "contact": "Liên hệ",
+    "contactStore": "Liên hệ cửa hàng",
+    "contactSupport": "Hỗ trợ khách hàng",
+    "cancelOrder": "Yêu cầu hủy đơn hàng",
+    "driverInfo": "Thông tin tài xế",
+    "rating": "Đánh giá",
+    "vehicleType": "Loại xe",
+    "vehicleNumber": "Biển số xe",
+    "callDriver": "Gọi tài xế",
+    "messageDriver": "Nhắn tin tài xế",
+    "estimatedArrival": "Thời gian dự kiến",
+    "currentLocation": "Vị trí hiện tại",
+    "viewOrderInfo": "Xem thông tin đơn hàng"
+  },
+  "detail": {
+    "title": "Chi tiết đơn hàng",
+    "orderSummary": "Tóm tắt đơn hàng",
+    "orderItems": "Món đã đặt",
+    "paymentInfo": "Thông tin thanh toán",
+    "orderNumber": "Mã đơn hàng",
+    "storeInfo": "Thông tin cửa hàng",
+    "chat": "Nhắn tin",
+    "driver": "Tài xế",
+    "orderTime": "Thời gian đặt hàng",
+    "paymentMethod": "Phương thức thanh toán",
+    "deliveryAddress": "Địa chỉ giao hàng",
+    "specialInstructions": "Yêu cầu đặc biệt",
+    "orderItems": "Món đã đặt",
+    "quantity": "Số lượng",
+    "unitPrice": "Đơn giá",
+    "options": "Tùy chọn",
+    "subtotal": "Tạm tính",
+    "deliveryFee": "Phí giao hàng",
+    "discount": "Giảm giá",
+    "tax": "Thuế",
+    "total": "Tổng thanh toán",
+    "receipt": "Xem hóa đơn",
+    "downloadReceipt": "Tải hóa đơn",
+    "emailReceipt": "Gửi email",
+    "printReceipt": "In hóa đơn",
+    "noItems": "Không có sản phẩm trong đơn hàng",
+    "saveReceipt": "Lưu hóa đơn",
+    "recipient": "Người nhận",
+    "contact": "Liên hệ",
+    "phone": "Số điện thoại",
+    "delivery": "Giao hàng",
+    "pickup": "Tự đến lấy",
+    "deliveryNotes": "Yêu cầu giao hàng",
+    "deliveryNote": "Ghi chú giao hàng",
+    "note": "Ghi chú",
+    "notFound": "Không tìm thấy đơn hàng",
+    "notFoundDesc": "Không thể tải thông tin đơn hàng. Vui lòng thử lại.",
+    "liveTracking": "Theo dõi trực tiếp",
+    "currentLocation": "Vị trí hiện tại",
+    "lastUpdate": "Cập nhật gần nhất",
+    "estimatedDelivery": "Thời gian giao hàng dự kiến"
+  },
+  "pointsUsed": "Điểm đã dùng",
+  "refundInfo": "Thông tin hoàn tiền",
+  "refundAmount": "Số tiền hoàn",
+  "refundDate": "Thời gian hoàn",
+  "refundStatus": "Trạng thái",
+  "refundCompleted": "Đã hoàn tiền",
+  "processing": "Đang xử lý",
+  "checkout": {
+    "title": "Xác nhận đơn hàng",
+    "deliveryAddress": "Địa chỉ giao hàng",
+    "deliveryInfo": "Thông tin giao hàng",
+    "requestNote": "Yêu cầu",
+    "selectAddress": "Vui lòng chọn địa chỉ giao hàng",
+    "estimatedTime": "Thời gian dự kiến",
+    "orderDetails": "Chi tiết đơn hàng",
+    "menuCount": "{{count}} món",
+    "promotion": "Khuyến mãi",
+    "selectPromotion": "Chọn mã giảm giá",
+    "subtotal": "Tạm tính",
+    "deliveryFee": "Phí giao hàng",
+    "discount": "Giảm giá",
+    "totalAmount": "Tổng thanh toán",
+    "addNew": "Thêm mới",
+    "addDeliveryAddress": "Thêm địa chỉ giao hàng",
+    "paymentMethod": "Phương thức thanh toán",
+    "orderSummary": "Tóm tắt đơn hàng",
+    "total": "Tổng cộng",
+    "placeOrder": "Đặt hàng",
+    "creating": "Đang tạo đơn hàng...",
+    "tempAddressLabel": "Địa chỉ tạm thời",
+    "tempAddressText": "110 Sejong-daero, Jung-gu, Seoul (tạm)",
+    "tempRecipient": "Người nhận",
+    "moreForFreeDelivery": "Cần thêm {{amount}} để được miễn phí giao hàng",
+    "freeDeliveryApplied": "Đã áp dụng miễn phí giao hàng",
+    "defaultMenu": "Món"
+  },
+  "orderSuccessMessage": "Đơn hàng đã được tiếp nhận thành công. Cửa hàng sẽ xác nhận và bắt đầu chế biến.",
+  "store": "Cửa hàng",
+  "storeName": "Tên cửa hàng",
+  "nextSteps": "Bước tiếp theo",
+  "stepsDescription": "• Cửa hàng sẽ xác nhận đơn hàng\n• Bạn sẽ nhận được thông báo khi bắt đầu chế biến",
+  "create": {
+    "title": "Đặt hàng",
+    "step1": "Chọn cửa hàng",
+    "step2": "Chọn món",
+    "step3": "Địa chỉ giao hàng",
+    "step4": "Yêu cầu đặc biệt",
+    "step5": "Xác nhận đơn hàng",
+    "selectStore": "Vui lòng chọn cửa hàng",
+    "storeInfo": "Thông tin cửa hàng",
+    "businessHours": "Giờ mở cửa",
+    "deliveryArea": "Khu vực giao hàng",
+    "minimumOrder": "Đơn tối thiểu",
+    "selectItems": "Vui lòng chọn món",
+    "fromCart": "Lấy từ giỏ hàng",
+    "reviewItems": "Xem lại món đã chọn",
+    "deliveryAddress": "Địa chỉ giao hàng",
+    "selectAddress": "Chọn địa chỉ",
+    "newAddress": "Thêm địa chỉ mới",
+    "addressDetails": "Chi tiết địa chỉ",
+    "contactInfo": "Thông tin liên hệ",
+    "specialRequests": "Yêu cầu đặc biệt",
+    "requestToStore": "Yêu cầu cho cửa hàng",
+    "requestToDriver": "Yêu cầu cho tài xế",
+    "commonRequests": "Yêu cầu thường dùng",
+    "characterLimit": "{{current}}/{{max}} ký tự",
+    "orderConfirm": "Xác nhận đơn hàng",
+    "finalReview": "Xem lại đơn hàng cuối cùng",
+    "paymentMethod": "Phương thức thanh toán",
+    "termsAgreement": "Đồng ý điều khoản sử dụng",
+    "privacyAgreement": "Đồng ý chính sách bảo mật",
+    "placeOrder": "Đặt hàng",
+    "processing": "Đang xử lý đơn hàng...",
+    "success": "Đặt hàng thành công",
+    "failed": "Đặt hàng thất bại"
+  },
+  "cancel": {
+    "title": "Hủy đơn hàng",
+    "reason": "Lý do hủy",
+    "reasonRequired": "Vui lòng chọn lý do hủy",
+    "reasons": {
+      "changeOrder": "Thay đổi đơn hàng",
+      "wrongAddress": "Địa chỉ giao hàng sai",
+      "paymentIssue": "Vấn đề thanh toán",
+      "tooLong": "Thời gian giao hàng quá lâu",
+      "other": "Khác"
+    },
+    "otherReason": "Lý do khác",
+    "confirm": "Bạn có chắc muốn hủy đơn hàng?",
+    "confirmMessage": "Sau khi hủy sẽ không thể hoàn tác",
+    "processing": "Đang xử lý hủy...",
+    "success": "Đã hủy đơn hàng",
+    "failed": "Hủy đơn hàng thất bại",
+    "notAllowed": "Không thể hủy đơn hàng ở trạng thái hiện tại"
+  },
+  "review": {
+    "title": "Viết đánh giá",
+    "rating": "Đánh giá",
+    "rateFood": "Đánh giá đồ ăn",
+    "rateDelivery": "Đánh giá giao hàng",
+    "rateOverall": "Đánh giá tổng thể",
+    "writeReview": "Viết đánh giá",
+    "reviewPlaceholder": "Bạn cảm thấy thế nào về đồ ăn và dịch vụ?",
+    "photos": "Đính kèm ảnh",
+    "addPhotos": "Thêm ảnh",
+    "anonymous": "Viết ẩn danh",
+    "submit": "Gửi đánh giá",
+    "submitting": "Đang gửi...",
+    "success": "Đánh giá đã được gửi",
+    "failed": "Gửi đánh giá thất bại"
+  },
+  "auth": {
+    "loginRequired": "Cần đăng nhập",
+    "loginMessage": "Vui lòng đăng nhập để xem lịch sử đặt hàng"
+  },
+  "driver": {
+    "title": "Tài xế",
+    "info": "Thông tin tài xế",
+    "loading": "Đang tải thông tin tài xế...",
+    "online": "Trực tuyến",
+    "offline": "Ngoại tuyến",
+    "noContact": "Không có thông tin liên hệ tài xế",
+    "phoneNotAvailable": "Chức năng gọi điện không khả dụng",
+    "phoneCallFailed": "Cuộc gọi thất bại",
+    "messageNotAvailable": "Chức năng nhắn tin không khả dụng",
+    "messageSendFailed": "Gửi tin nhắn thất bại",
+    "call": "Gọi điện",
+    "message": "Nhắn tin",
+    "rating": "Đánh giá",
+    "deliveries": "lần giao hàng",
+    "successRate": "Tỷ lệ thành công",
+    "avgTime": "phút",
+    "avgTimeLabel": "Thời gian trung bình",
+    "experience": "tháng",
+    "experienceLabel": "Kinh nghiệm",
+    "badges": "Huy hiệu tài xế",
+    "totalDeliveries": "Tổng giao hàng",
+    "statusMessage": {
+      "confirmed": "Đang di chuyển đến cửa hàng",
+      "preparing": "Đang chờ lấy thức ăn tại cửa hàng",
+      "ready": "Đã lấy thức ăn",
+      "outForDelivery": "Đang giao hàng đến bạn",
+      "delivered": "Đã hoàn thành giao hàng"
+    }
+  },
+  "actions": {
+    "cancel": "Hủy đơn hàng",
+    "reorder": "Đặt lại",
+    "writeReview": "Viết đánh giá",
+    "availableActions": "Hành động khả dụng",
+    "pay": {
+      "title": "Thanh toán",
+      "description": "Hoàn tất đơn hàng với thanh toán an toàn"
+    },
+    "cancelOrder": {
+      "title": "Hủy đơn hàng",
+      "descriptionBeforePayment": "Có thể hủy trước khi thanh toán",
+      "descriptionBeforeCooking": "Có thể hủy trước khi bắt đầu chế biến"
+    },
+    "callStore": {
+      "title": "Liên hệ cửa hàng",
+      "descriptionGeneral": "Liên hệ nếu có thay đổi hoặc thắc mắc về đơn hàng",
+      "descriptionCooking": "Bạn có thể hỏi về tình trạng chế biến",
+      "descriptionReady": "Đã sẵn sàng để lấy hàng",
+      "descriptionDelivery": "Liên hệ cửa hàng nếu có thắc mắc"
+    },
+    "callDriver": {
+      "title": "Liên hệ tài xế",
+      "description": "Bạn có thể gọi trực tiếp cho tài xế"
+    },
+    "trackLocation": {
+      "title": "Theo dõi vị trí",
+      "description": "Xem vị trí hiện tại của tài xế"
+    },
+    "confirmDelivery": {
+      "title": "Xác nhận giao hàng",
+      "description": "Vui lòng xác nhận nếu đã nhận được thức ăn"
+    },
+    "writeReviewAction": {
+      "title": "Viết đánh giá",
+      "description": "Dịch vụ như thế nào?"
+    },
+    "reorderAction": {
+      "title": "Đặt lại",
+      "description": "Bạn có muốn đặt lại thực đơn này không?"
+    },
+    "reorderNew": {
+      "title": "Đặt hàng lại",
+      "description": "Bắt đầu đơn hàng mới"
+    }
+  },
+  "toasts": {
+    "cancelConfirm": {
+      "message": "Hủy đơn hàng",
+      "description": "Bạn có chắc muốn hủy đơn hàng này?",
+      "button": "Hủy đơn"
+    },
+    "cancelProcessing": {
+      "message": "Đang xử lý hủy...",
+      "description": "Vui lòng đợi một chút"
+    },
+    "storeContactNotFound": {
+      "message": "Không tìm thấy liên hệ cửa hàng",
+      "description": "Vui lòng liên hệ hỗ trợ khách hàng"
+    },
+    "phoneNotAvailable": "Chức năng điện thoại không khả dụng",
+    "phoneCallFailed": "Cuộc gọi thất bại",
+    "driverContactNotFound": {
+      "message": "Không tìm thấy liên hệ tài xế",
+      "description": "Vui lòng liên hệ cửa hàng"
+    },
+    "confirmDelivery": {
+      "message": "Xác nhận giao hàng",
+      "description": "Bạn đã nhận được thức ăn chưa?",
+      "button": "Vâng, tôi đã nhận"
+    },
+    "deliveryConfirmed": {
+      "message": "Đã xác nhận giao hàng",
+      "description": "Chúc ngon miệng!"
+    },
+    "featureComingSoon": {
+      "message": "Tính năng sắp ra mắt",
+      "description": "Vui lòng chờ cập nhật"
+    }
+  },
+  "map": {
+    "loading": "Đang tải bản đồ...",
+    "loadingWithNote": "Đang tải bản đồ...\n(react-native-maps chưa cài đặt)"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "store": "Liên hệ cửa hàng",
+    "storeDesc": "Liên hệ về đơn hàng hoặc thức ăn",
+    "support": "Liên hệ hỗ trợ khách hàng",
+    "supportDesc": "Hỗ trợ về giao hàng hoặc sử dụng ứng dụng"
+  },
+  "timeline": {
+    "pending": "Đã nhận đơn",
+    "confirmed": "Đã xác nhận",
+    "preparing": "Đang chuẩn bị",
+    "ready": "Sẵn sàng",
+    "pickedUp": "Đã lấy hàng",
+    "outForDelivery": "Đang giao",
+    "delivered": "Đã giao",
+    "cancelled": "Đã hủy",
+    "simplified": {
+      "waiting": "Chờ xác nhận",
+      "cooking": "Đã xác nhận/Đang nấu",
+      "delivering": "Sẵn sàng/Đang giao",
+      "completed": "Đã giao",
+      "rejected": "Từ chối"
+    },
+    "steps": {
+      "orderReceived": {
+        "title": "Đã nhận đơn hàng",
+        "description": "Đơn hàng đã được nhận"
+      },
+      "orderConfirmed": {
+        "title": "Đã xác nhận đơn hàng",
+        "description": "Cửa hàng đã xác nhận đơn hàng"
+      },
+      "preparing": {
+        "title": "Đang chuẩn bị thức ăn",
+        "description": "Cửa hàng đang chuẩn bị thức ăn",
+        "currentInfo": "Dự kiến hoàn thành: khoảng 10 phút"
+      },
+      "ready": {
+        "title": "Hoàn thành chuẩn bị",
+        "description": "Thức ăn đã sẵn sàng",
+        "currentInfo": "Đang phân công tài xế"
+      },
+      "pickedUp": {
+        "title": "Đã lấy hàng",
+        "description": "Tài xế đã lấy thức ăn"
+      },
+      "outForDelivery": {
+        "title": "Đang giao hàng",
+        "description": "Đang giao hàng đến bạn",
+        "currentInfo": "Dự kiến đến: khoảng 15 phút"
+      },
+      "delivered": {
+        "title": "Hoàn thành giao hàng",
+        "description": "Đã hoàn thành giao hàng"
+      },
+      "confirmed": {
+        "currentInfo": "Đang chờ xác nhận từ cửa hàng"
+      }
+    },
+    "status": {
+      "completed": "Hoàn thành",
+      "inProgress": "Đang thực hiện",
+      "pending": "Đang chờ",
+      "estimatedTime": "Khoảng {{time}} phút nữa"
+    },
+    "totalEstimatedTime": "Tổng thời gian dự kiến",
+    "trackingNumber": "Mã theo dõi",
+    "minutesUntilArrival": "Đến trong {{minutes}} phút",
+    "defaultEstimatedTime": "Khoảng 40-50 phút",
+    "collapseView": "Thu gọn",
+    "expandView": "Xem tất cả",
+    "moreSteps": "{{count}} bước nữa"
+  },
+  "messages": {
+    "CART_ADD_SUCCESS": "Đã thêm vào giỏ hàng",
+    "ORDER_COMPLETED_SUCCESS": "Đơn hàng đã hoàn thành",
+    "ORDER_CREATED_SUCCESS": "Đơn hàng đã được tạo",
+    "ORDER_REORDER_FAILED": "Đặt lại đơn hàng thất bại",
+    "DRIVER_MESSAGE_NOT_AVAILABLE": "Không thể gửi tin nhắn cho tài xế",
+    "DRIVER_MESSAGE_SEND_FAILED": "Gửi tin nhắn cho tài xế thất bại",
+    "DRIVER_NO_CONTACT": "Không có thông tin liên hệ tài xế",
+    "DRIVER_PHONE_CALL_FAILED": "Gọi điện cho tài xế thất bại",
+    "DRIVER_PHONE_NOT_AVAILABLE": "Không thể gọi điện cho tài xế"
+  },
+  "title": "Đơn hàng",
+  "makeFirstOrder": "Đặt đơn hàng đầu tiên",
+  "payment": {
+    "payment": "Thanh toán",
+    "methods": {
+      "COD": "Tiền mặt",
+      "cod": "Tiền mặt",
+      "codDescription": "Thanh toán khi nhận hàng",
+      "VNPAY": "VNPay",
+      "vnpay": "VNPay",
+      "vnpayDescription": "Thanh toán qua ví VNPay",
+      "MOMO": "MoMo",
+      "momo": "MoMo",
+      "momoDescription": "Thanh toán qua ví MoMo",
+      "ZALOPAY": "ZaloPay",
+      "zalopay": "ZaloPay",
+      "zalopayDescription": "Thanh toán qua ví ZaloPay",
+      "NAPAS_QR": "NAPAS QR",
+      "napasQr": "NAPAS QR",
+      "napasQrDescription": "Thanh toán bằng mã QR NAPAS",
+      "INFOCMS_SHINHAN": "Ngân hàng Shinhan",
+      "infocmsShinhan": "Ngân hàng Shinhan",
+      "infocmsShinhanDescription": "Thanh toán qua Infocms Shinhan",
+      "INFOCMS_BIDV": "Ngân hàng BIDV",
+      "infocmsBidv": "Ngân hàng BIDV",
+      "infocmsBidvDescription": "Thanh toán qua Infocms BIDV",
+      "MBBANK": "MB Bank",
+      "mbbank": "MB Bank",
+      "mbbankDescription": "Thanh toán qua MB Bank",
+      "BANK_TRANSFER": "Chuyển khoản",
+      "bankTransfer": "Chuyển khoản",
+      "bankTransferDescription": "Chuyển khoản ngân hàng"
+    },
+    "recommended": "Đề xuất",
+    "marketShare": "Thị phần"
+  },
+  "cart": {
+    "empty": {
+      "title": "Giỏ hàng trống",
+      "description": "Hãy thêm món ăn ngon",
+      "browsestores": "Xem cửa hàng"
+    }
+  },
+  "common": {
+    "loading": "Đang tải..."
+  },
+  "errors": {
+    "storeNotFound": "Không tìm thấy thông tin cửa hàng",
+    "serverUnavailable": "Lỗi kết nối máy chủ",
+    "serverRetryMessage": "Vui lòng thử lại sau",
+    "navigationError": "Lỗi điều hướng",
+    "navigationErrorMessage": "Vui lòng khởi động lại ứng dụng",
+    "orderNotFound": "Không tìm thấy thông tin đơn hàng"
+  },
+  "validation": {
+    "storeNotOpen": "Cửa hàng chưa mở cửa",
+    "cannotReorderStatus": "Không thể đặt lại từ trạng thái đơn hàng hiện tại",
+    "allItemsSoldOut": "Tất cả món đã đặt hiện đã hết hàng",
+    "someItemsSoldOut": "{{count}} món đã hết hàng",
+    "notInDeliveryArea": "Vị trí của bạn không nằm trong vùng giao hàng",
+    "minOrderNotMet": "Chưa đạt đơn tối thiểu {{amount}}",
+    "cartHasItems": "Giỏ hàng có sản phẩm khác. Xóa sản phẩm hiện có và đặt lại?",
+    "reorderUnavailable": "Không thể đặt lại"
+  },
+  "reorderError": "Lỗi đặt lại",
+  "cooking": {
+    "steps": {
+      "ingredients": {
+        "title": "Chuẩn bị nguyên liệu",
+        "description": "Đang chuẩn bị nguyên liệu tươi"
+      },
+      "cooking": {
+        "title": "Đang nấu",
+        "description": "Đang nấu với sự tận tâm"
+      },
+      "plating": {
+        "title": "Đóng gói",
+        "description": "Đang đóng gói món ăn ngon của bạn"
+      },
+      "ready": {
+        "title": "Hoàn thành",
+        "description": "Thức ăn đã sẵn sàng!"
+      }
+    },
+    "messages": {
+      "message1": "Đầu bếp đang chuẩn bị với sự tận tâm 👨‍🍳",
+      "message2": "Đang làm món ngon với nguyên liệu tươi 🥬",
+      "message3": "Chỉ còn một chút thời gian nữa! ⏰",
+      "message4": "Gần xong rồi 🔥"
+    },
+    "itemProgress": "Tiến độ món",
+    "moreItems": "{{count}} món nữa",
+    "remainingMinutes": "Khoảng {{minutes}} phút",
+    "specialRequest": "Yêu cầu đặc biệt",
+    "contactStore": "Liên hệ cửa hàng"
+  },
+  "header": {
+    "arrivingSoon": "Sắp đến",
+    "arrivalMinutes": "Khoảng {{minutes}} phút",
+    "arrivalHoursMinutes": "Khoảng {{hours}} giờ {{minutes}} phút",
+    "normalDeliveryTime": "Thời gian giao hàng thông thường",
+    "isOpen": "Đang mở",
+    "isClosed": "Đã đóng",
+    "customerService": "Dịch vụ khách hàng"
+  },
+  "paymentStatus": {
+    "completed": "Đã thanh toán",
+    "pending": "Chờ thanh toán",
+    "failed": "Thanh toán thất bại"
+  },
+  "deliveryFreeLabel": "Miễn phí",
+  "stats": {
+    "title": "Thống kê đơn hàng",
+    "thisMonthOrders": "Đơn hàng tháng này",
+    "thisMonthSpent": "Chi tiêu tháng này",
+    "totalOrders": "Tổng đơn hàng",
+    "totalSpent": "Tổng chi tiêu"
+  },
+  "addressRequired": "Vui lòng chọn địa chỉ giao hàng",
+  "cartEmpty": "Giỏ hàng trống",
+  "unknownItem": "Sản phẩm không xác định",
+  "unknownOption": "Tùy chọn không xác định",
+  "actionsSection": {
+    "title": "Chức năng đơn hàng",
+    "cancelOrder": "Hủy đơn hàng",
+    "liveTracking": "Theo dõi trực tiếp",
+    "viewReceipt": "Xem hóa đơn",
+    "customerService": "Dịch vụ khách hàng",
+    "completedMessage": "Đơn hàng đã hoàn thành thành công!",
+    "reviewRequest": "Bạn có thích bữa ăn không? Hãy để lại đánh giá để giúp đỡ khách hàng khác.",
+    "preparingMessage": "Cửa hàng đang chuẩn bị đơn hàng của bạn",
+    "preparingSubMessage": "Có thể mất nhiều thời gian hơn dự kiến. Xin vui lòng đợi thêm một chút!",
+    "cancelledMessage": "Đơn hàng đã bị hủy",
+    "cancelReason": "Lý do hủy",
+    "refundMessage": "Hoàn tiền đã hoàn tất. Sẽ được chuyển vào tài khoản của bạn trong 2-3 ngày làm việc.",
+    "needHelp": "Cần hỗ trợ về đơn hàng?"
+  }
+}

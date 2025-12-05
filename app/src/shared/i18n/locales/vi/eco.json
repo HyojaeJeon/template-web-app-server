@@ -1,0 +1,16 @@
+{
+  "score": "Điểm Sinh thái",
+  "level": {
+    "excellent": "Xuất sắc",
+    "good": "Tốt",
+    "moderate": "Trung bình",
+    "basic": "Cơ bản"
+  },
+  "sustainablePackaging": "Bao bì Bền vững",
+  "plasticFree": "Không Nhựa",
+  "biodegradable": "Hộp Phân hủy sinh học",
+  "reusableContainers": "Hộp Tái sử dụng",
+  "carbonNeutral": "Trung hòa Cacbon",
+  "localSourcing": "Nguyên liệu Địa phương",
+  "certifications": "Chứng nhận Môi trường"
+}

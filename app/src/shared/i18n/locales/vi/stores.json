@@ -1,0 +1,273 @@
+{
+  "title": "Cửa hàng",
+  "search": {
+    "placeholder": "Tìm kiếm cửa hàng...",
+    "popular": "Tìm kiếm phổ biến",
+    "recent": "Tìm kiếm gần đây",
+    "suggestions": "Gợi ý",
+    "noResults": "Không tìm thấy cửa hàng nào",
+    "tryDifferentKeyword": "Thử từ khóa khác"
+  },
+  "filters": {
+    "title": "Lọc cửa hàng",
+    "category": "Danh mục",
+    "service": "Dịch vụ",
+    "all": "Tất cả",
+    "deliveryFee": "Phí giao hàng",
+    "freeDelivery": "Miễn phí giao hàng",
+    "minOrder": "Đơn hàng tối thiểu",
+    "rating": "Đánh giá",
+    "distance": "Khoảng cách",
+    "openNow": "Đang mở cửa",
+    "apply": "Áp dụng",
+    "clear": "Xóa bộ lọc"
+  },
+  "sort": {
+    "title": "Sắp xếp theo",
+    "distance": "Khoảng cách",
+    "rating": "Đánh giá",
+    "deliveryTime": "Thời gian giao hàng",
+    "popularity": "Độ phổ biến",
+    "newest": "Mới nhất"
+  },
+  "status": {
+    "open": "Đang mở cửa",
+    "closed": "Đã đóng cửa",
+    "busy": "Đông khách",
+    "temporarilyClosed": "Tạm đóng cửa",
+    "cannotOrder": "Không thể đặt hàng",
+    "system": "Hệ thống",
+    "connected": "Đã kết nối",
+    "disconnected": "Chưa kết nối"
+  },
+  "delivery": {
+    "free": "Miễn phí giao hàng",
+    "fee": "Phí giao hàng: {fee}₫",
+    "time": "{time} phút",
+    "minOrder": "Đơn tối thiểu: {amount}₫",
+    "notAvailable": "Không giao đến khu vực này",
+    "calculating": "Đang tính..."
+  },
+  "rating": {
+    "stars": "{rating} sao",
+    "reviews": "{count} đánh giá",
+    "noReviews": "Chưa có đánh giá"
+  },
+  "distance": {
+    "km": "{distance} km",
+    "m": "{distance} m",
+    "calculating": "Đang tính khoảng cách..."
+  },
+  "tags": {
+    "new": "Mới",
+    "popular": "Phổ biến",
+    "premium": "Cao cấp",
+    "verified": "Đã xác thực",
+    "promotion": "Khuyến mãi",
+    "fastDelivery": "Giao hàng nhanh"
+  },
+  "empty": {
+    "noStores": {
+      "title": "Không có cửa hàng nào",
+      "message": "Hiện tại không có cửa hàng nào trong khu vực của bạn.",
+      "action": "Thử tìm kiếm khu vực khác"
+    },
+    "noResults": {
+      "title": "Không tìm thấy kết quả",
+      "message": "Không có cửa hàng nào phù hợp với tiêu chí tìm kiếm của bạn.",
+      "action": "Thử thay đổi bộ lọc"
+    },
+    "networkError": {
+      "title": "Lỗi kết nối",
+      "message": "Không thể tải danh sách cửa hàng. Vui lòng kiểm tra kết nối internet.",
+      "action": "Thử lại"
+    },
+    "offline": {
+      "title": "Chế độ ngoại tuyến",
+      "message": "Hiển thị dữ liệu đã lưu. Kết nối internet để cập nhật.",
+      "action": "Kết nối lại"
+    }
+  },
+  "actions": {
+    "viewMenu": "Xem thực đơn",
+    "viewDetails": "Chi tiết",
+    "addToFavorites": "Thêm vào yêu thích",
+    "removeFromFavorites": "Bỏ yêu thích",
+    "share": "Chia sẻ",
+    "call": "Gọi điện",
+    "directions": "Chỉ đường",
+    "order": "Đặt hàng",
+    "viewCart": "Xem giỏ hàng"
+  },
+  "detail": {
+    "tabs": {
+      "menu": "Thực đơn",
+      "info": "Thông tin",
+      "reviews": "Đánh giá",
+      "gallery": "Hình ảnh"
+    },
+    "header": {
+      "featured": "Nổi bật",
+      "new": "Mới",
+      "verified": "Đã xác minh"
+    },
+    "info": {
+      "about": "Về cửa hàng",
+      "contact": "Liên hệ",
+      "hours": "Giờ hoạt động",
+      "location": "Vị trí",
+      "payment": "Thanh toán",
+      "policies": "Chính sách"
+    },
+    "stats": {
+      "rating": "Đánh giá",
+      "reviews": "Lượt đánh giá",
+      "deliveryTime": "Thời gian giao",
+      "orders": "Đơn hàng",
+      "minOrder": "Đơn tối thiểu",
+      "deliveryFee": "Phí giao hàng",
+      "distance": "Khoảng cách"
+    },
+    "hours": {
+      "today": "Hôm nay",
+      "tomorrow": "Ngày mai",
+      "monday": "Thứ Hai",
+      "tuesday": "Thứ Ba",
+      "wednesday": "Thứ Tư",
+      "thursday": "Thứ Năm",
+      "friday": "Thứ Sáu",
+      "saturday": "Thứ Bảy",
+      "sunday": "Chủ Nhật",
+      "closed": "Đóng cửa",
+      "open24h": "Mở cửa 24h",
+      "openUntil": "Mở đến {time}",
+      "opensAt": "Mở lúc {time}",
+      "allDay": "Cả ngày"
+    },
+    "contact": {
+      "phone": "Điện thoại",
+      "email": "Email",
+      "website": "Website",
+      "address": "Địa chỉ",
+      "directions": "Chỉ đường",
+      "call": "Gọi ngay"
+    },
+    "payment": {
+      "title": "Phương thức thanh toán",
+      "cash": "Tiền mặt",
+      "momo": "Ví MoMo",
+      "zaloPay": "ZaloPay",
+      "vnPay": "VNPay",
+      "napasQR": "NAPAS QR",
+      "creditCard": "Thẻ tín dụng",
+      "bankTransfer": "Chuyển khoản"
+    },
+    "gallery": {
+      "photos": "Hình ảnh",
+      "menu": "Thực đơn",
+      "interior": "Nội thất",
+      "food": "Món ăn",
+      "viewAll": "Xem tất cả"
+    },
+    "business": {
+      "businessHours": "Giờ kinh doanh",
+      "businessInfo": "Thông tin kinh doanh",
+      "registrationNumber": "Số đăng ký kinh doanh",
+      "taxId": "Mã số thuế",
+      "companyName": "Tên công ty",
+      "bankInfo": "Thông tin ngân hàng"
+    },
+    "loading": "Đang tải thông tin cửa hàng...",
+    "error": {
+      "title": "Không thể tải thông tin",
+      "message": "Đã xảy ra lỗi khi tải thông tin cửa hàng. Vui lòng thử lại.",
+      "retry": "Thử lại"
+    },
+    "notFound": {
+      "title": "Không tìm thấy cửa hàng",
+      "message": "Cửa hàng này có thể đã đóng cửa hoặc không còn hoạt động."
+    },
+    "title": "Chi tiết cửa hàng",
+    "errorTitle": "Không thể tải thông tin cửa hàng",
+    "networkError": "Lỗi kết nối mạng. Vui lòng kiểm tra kết nối internet.",
+    "unknownError": "Đã xảy ra lỗi không xác định. Vui lòng thử lại sau.",
+    "storeNotFound": "Không tìm thấy cửa hàng",
+    "menu": "Thực đơn",
+    "moreNeeded": "Vui lòng thêm món",
+    "minOrder": "Đơn tối thiểu"
+  },
+  "map": {
+    "toggle": {
+      "list": "Danh sách",
+      "map": "Bản đồ"
+    },
+    "legend": {
+      "store": "Cửa hàng",
+      "myLocation": "Vị trí của tôi"
+    },
+    "userLocation": "Vị trí của bạn",
+    "storeLocation": "Vị trí cửa hàng",
+    "deliveryRadius": "Bán kính giao hàng"
+  },
+  "loading": {
+    "stores": "Đang tải cửa hàng...",
+    "location": "Đang xác định vị trí...",
+    "more": "Đang tải thêm..."
+  },
+  "errors": {
+    "loadFailed": "Không thể tải danh sách cửa hàng",
+    "locationFailed": "Không thể xác định vị trí của bạn",
+    "networkError": "Lỗi kết nối mạng",
+    "tryAgain": "Thử lại"
+  },
+  "store": {
+    "featured": "Cửa hàng nổi bật",
+    "about": "Giới thiệu cửa hàng",
+    "businessNumber": "Số đăng ký kinh doanh",
+    "companyName": "Tên công ty",
+    "joinedDate": "Ngày tham gia",
+    "contactInfo": "Thông tin liên hệ",
+    "operatingHours": "Giờ hoạt động",
+    "statistics": "Thống kê cửa hàng",
+    "tab": {
+      "menu": "Thực đơn",
+      "info": "Thông tin",
+      "reviews": "Đánh giá",
+      "gallery": "Thư viện ảnh"
+    },
+    "stats": {
+      "rating": "Đánh giá",
+      "reviews": "Số đánh giá",
+      "orders": "Số đơn hàng",
+      "totalRatings": "Tổng đánh giá"
+    }
+  },
+  "days": {
+    "monday": "Thứ Hai",
+    "tuesday": "Thứ Ba",
+    "wednesday": "Thứ Tư",
+    "thursday": "Thứ Năm",
+    "friday": "Thứ Sáu",
+    "saturday": "Thứ Bảy",
+    "sunday": "Chủ Nhật"
+  },
+  "payment": {
+    "acceptedMethods": "Phương thức thanh toán",
+    "cod": "Thanh toán khi nhận hàng",
+    "creditCard": "Thẻ tín dụng",
+    "bankTransfer": "Chuyển khoản ngân hàng"
+  },
+  "gallery": {
+    "empty": {
+      "title": "Thư viện ảnh trống",
+      "description": "Cửa hàng này chưa có hình ảnh nào được đăng ký."
+    }
+  }
+  ,
+  "nearby": {
+    "title": "Cửa hàng gần bạn",
+    "radius": "Bán kính:",
+    "searching": "Đang tìm cửa hàng...",
+    "find": "Tìm cửa hàng gần đây"
+  }
+}

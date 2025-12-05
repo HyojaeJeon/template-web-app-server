@@ -1,0 +1,837 @@
+{
+  "title": "프로필",
+  "guest": "게스트",
+  "noContact": "연락처 정보 없음",
+  "memberSince": "{{date}}부터 회원",
+  "anonymous": "익명 사용자",
+  "greeting": {
+    "title": "오늘도 맛있는 하루 되세요!",
+    "availablePoints": "사용 가능 포인트",
+    "points": "포인트"
+  },
+  "stats": {
+    "title": "배달 통계",
+    "totalOrders": "주문 횟수",
+    "totalReviews": "작성한 리뷰",
+    "loyaltyPoints": "적립 포인트",
+    "favoriteStores": "즐겨찾는 매장",
+    "stores": "개",
+    "totalSpent": "총 주문 금액",
+    "orders": "주문",
+    "points": "포인트",
+    "favorites": "즐겨찾기",
+    "reviews": "리뷰",
+    "coupons": "쿠폰",
+    "defaultName": "고객",
+    "greeting": "님!",
+    "activityMessage": "고객님의 활동이 이렇게 모여있어요!"
+  },
+  "membership": {
+    "myTier": "나의 등급",
+    "bronze": "브론즈 회원",
+    "silver": "실버 회원",
+    "gold": "골드 회원",
+    "platinum": "플래티넘 회원",
+    "diamond": "다이아몬드 회원",
+    "title": "멤버십 등급",
+    "loading": "멤버십 정보를 불러오는 중...",
+    "currentTier": "현재 등급",
+    "points": "포인트",
+    "totalSpent": "총 주문 금액",
+    "nextTier": "다음 등급",
+    "needMore": "{{amount}} 더 주문하면 등급 업그레이드",
+    "benefits": {
+      "delivery_discount": "배달료 할인",
+      "points_earning": "포인트 적립",
+      "welcome_bonus": "웰컴 보너스",
+      "priority_support": "우선 고객 지원",
+      "faster_delivery": "빠른 배달",
+      "monthly_coupon": "월간 쿠폰",
+      "exclusive_deals": "독점 혜택",
+      "vip_support": "VIP 고객 지원",
+      "premium_coupons": "프리미엄 쿠폰",
+      "special_events": "특별 이벤트",
+      "chef_recommendations": "셰프 추천",
+      "free_delivery": "무료 배달",
+      "concierge_service": "컨시어지 서비스",
+      "unlimited_coupons": "무제한 쿠폰",
+      "vip_events": "VIP 이벤트",
+      "custom_menu": "맞춤 메뉴",
+      "priority_booking": "우선 예약",
+      "bronze": {
+        "delivery_description": "모든 주문에서 배달료 5% 할인",
+        "points_description": "주문 금액의 1% 포인트 적립",
+        "welcome_description": "회원 가입 시 10,000 VND 보너스"
+      },
+      "silver": {
+        "delivery_description": "모든 주문에서 배달료 10% 할인",
+        "points_description": "주문 금액의 1.2% 포인트 적립",
+        "support_description": "우선 고객 지원 서비스",
+        "delivery_time_description": "평균 배달 시간 15분 단축"
+      },
+      "gold": {
+        "delivery_description": "모든 주문에서 배달료 15% 할인",
+        "points_description": "주문 금액의 1.5% 포인트 적립",
+        "support_description": "24시간 우선 고객 지원",
+        "coupon_description": "매월 5장 할인 쿠폰 제공",
+        "deals_description": "골드 회원 전용 특별 할인"
+      },
+      "platinum": {
+        "delivery_description": "모든 주문에서 배달료 20% 할인",
+        "points_description": "주문 금액의 2% 포인트 적립",
+        "support_description": "전담 고객 상담사 배정",
+        "coupon_description": "매월 10장 프리미엄 쿠폰",
+        "events_description": "플래티넘 회원 전용 이벤트",
+        "chef_description": "주간 셰프 추천 메뉴"
+      },
+      "diamond": {
+        "delivery_description": "모든 주문 무료 배달",
+        "points_description": "주문 금액의 2.5% 포인트 적립",
+        "concierge_description": "개인 컨시어지 서비스",
+        "coupon_description": "무제한 프리미엄 쿠폰",
+        "events_description": "VIP 전용 이벤트 초대",
+        "menu_description": "맞춤형 메뉴 추천",
+        "booking_description": "레스토랑 우선 예약 서비스"
+      }
+    },
+    "viewBenefits": "혜택 보기",
+    "pointsHistory": "포인트 내역",
+    "upgrade": "등급 업그레이드",
+    "vietnamSpecial": "Local 특별 혜택",
+    "card": "멤버십 카드",
+    "member": "멤버",
+    "since": "가입일",
+    "orders": "회 주문",
+    "until": "등급까지",
+    "moreOrders": "회 더 주문",
+    "currentBenefits": "현재 혜택",
+    "tiers": {
+      "bronze": "브론즈",
+      "silver": "실버",
+      "gold": "골드",
+      "platinum": "플래티넘",
+      "diamond": "다이아몬드"
+    },
+    "benefits_detail_title": "멤버십 혜택 상세",
+    "membership_benefits": "멤버십 혜택",
+    "current_tier": "현재 등급",
+    "progress_to_next": "{{tier}}까지 진행률",
+    "points_remaining": "{{points}} 포인트 남음",
+    "current_benefits": "현재 혜택",
+    "upgrade_to": "{{tier}}로 업그레이드",
+    "points_needed": "필요 포인트",
+    "orders_needed": "필요 주문 수",
+    "estimated_time": "예상 소요 시간",
+    "months": "{{count}}개월",
+    "upgrade_now": "지금 업그레이드",
+    "max_tier_reached": "최고 등급 달성",
+    "max_tier_message": "축하합니다! 최고 등급에 도달하셨습니다.",
+    "error": {
+      "title": "멤버십 정보를 불러올 수 없습니다",
+      "description": "멤버십 등급 정보를 불러오는 중 오류가 발생했습니다. 다시 시도해주세요."
+    }
+  },
+  "membershipBenefits": {
+    "title": "멤버십 혜택",
+    "description": "회원 등급별 혜택을 확인하세요"
+  },
+  "header": {
+    "defaultName": "사용자",
+    "noPhone": "전화번호 없음",
+    "verified": "인증 완료",
+    "pendingVerification": "인증 대기",
+    "memberSince": "가입일:"
+  },
+  "statsOld": {
+    "title": "나의 배달 통계",
+    "totalOrders": "총 주문수",
+    "totalReviews": "작성한 리뷰",
+    "loyaltyPoints": "적립 포인트",
+    "favoriteStores": "즐겨찾는 매장",
+    "stores": "개",
+    "totalSpent": "총 주문 금액",
+    "orders": "주문",
+    "points": "포인트",
+    "reviews": "리뷰",
+    "favorites": "즐겨찾기",
+    "coupons": "쿠폰"
+  },
+  "menu": {
+    "editProfile": "프로필 편집",
+    "orderHistory": "주문 내역",
+    "history": "히스토리",
+    "addresses": "배송지 관리",
+    "paymentMethods": "결제수단",
+    "chatMessages": "메시지",
+    "language": "언어 설정",
+    "support": "고객 지원",
+    "customerService": "고객 지원센터",
+    "logout": "로그아웃",
+    "settings": "설정",
+    "notifications": "알림 설정",
+    "privacy": "개인정보 보호",
+    "terms": "이용약관"
+  },
+  "logout": {
+    "title": "로그아웃",
+    "message": "정말 로그아웃하시겠습니까?",
+    "confirm": "로그아웃",
+    "success": "로그아웃 성공",
+    "successMessage": "성공적으로 로그아웃되었습니다",
+    "error": "로그아웃 오류",
+    "errorMessage": "로그아웃 중 오류가 발생했습니다"
+  },
+  "editProfile": {
+    "title": "Edit Profile",
+    "save": "Save",
+    "cancel": "Cancel",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "birthDate": "Birth Date",
+      "gender": "Gender"
+    },
+    "changePhoto": "Change Photo",
+    "removePhoto": "Remove Photo",
+    "photoOptions": {
+      "title": "Profile Photo",
+      "camera": "Take Photo",
+      "gallery": "Choose from Gallery",
+      "remove": "Remove Current Photo"
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "general": "일반 설정",
+    "privacy": "개인정보 보호",
+    "dataSaver": "데이터 절약 모드",
+    "dataSaverDesc": "데이터 사용량을 줄이기 위해 이미지 품질을 낮춥니다",
+    "autoPlay": "자동 재생",
+    "autoPlayDesc": "동영상 콘텐츠를 자동으로 재생합니다",
+    "shareLocation": "위치 정보 공유",
+    "shareLocationDesc": "배달 서비스 향상을 위해 위치 정보를 공유합니다",
+    "analytics": "사용 통계",
+    "analyticsDesc": "앱 개선을 위한 익명의 사용 통계를 수집합니다",
+    "about": "앱 정보",
+    "aboutDesc": "버전 정보 및 이용약관을 확인합니다",
+    "terms": "이용약관",
+    "termsDesc": "서비스 이용약관을 확인합니다",
+    "privacyPolicy": "개인정보처리방침",
+    "privacyPolicyDesc": "개인정보 처리 방침을 확인합니다",
+    "notifications": "알림 설정",
+    "accountManagement": "계정 관리",
+    "version": "버전",
+    "regionSettings": "지역 설정",
+    "currentRegion": "현재 지역 설정",
+    "currency": "화폐",
+    "selectCurrency": "화폐를 선택하세요",
+    "language": "언어",
+    "selectLanguage": "언어를 선택하세요",
+    "deliveryInfo": "배달 정보",
+    "deliveryTime": "배달 시간",
+    "deliveryFee": "배달비",
+    "minOrder": "최소 주문금액",
+    "regionNote": "지역 설정 안내",
+    "regionDescription": "지역 설정은 배달 가능 매장, 배달비, 결제 방법에 영향을 줍니다. 변경 후 일부 매장이 표시되지 않을 수 있습니다.",
+    "saveSuccess": "설정이 저장되었습니다",
+    "regionUpdated": "지역 설정이 업데이트되었습니다",
+    "saveError": "설정 저장에 실패했습니다",
+    "cache": {
+      "title": "캐시 관리",
+      "refresh": "새로고침",
+      "totalSize": "전체 캐시 크기",
+      "calculating": "계산 중...",
+      "calculationError": "계산 실패",
+      "imageCache": "이미지 캐시",
+      "dataCache": "데이터 캐시",
+      "tempFiles": "임시 파일",
+      "clearImageCache": "이미지 캐시 삭제",
+      "clearDataCache": "데이터 캐시 삭제",
+      "clearAll": "전체 캐시 삭제",
+      "clearAllWarning": "모든 캐시 데이터가 삭제됩니다. 계속하시겠습니까?",
+      "clearError": "캐시 삭제에 실패했습니다",
+      "imageCacheCleared": "이미지 캐시가 삭제되었습니다",
+      "imageCacheClearedDesc": "저장된 이미지들이 정리되었습니다",
+      "dataCacheCleared": "데이터 캐시가 삭제되었습니다",
+      "dataCacheClearedDesc": "임시 데이터가 정리되었습니다",
+      "allCacheCleared": "모든 캐시가 삭제되었습니다",
+      "allCacheClearedDesc": "저장 공간이 확보되었습니다",
+      "refreshing": "캐시 정보를 새로고침합니다",
+      "description": "캐시를 삭제하면 저장 공간이 확보되지만, 다음 실행 시 데이터 로딩 시간이 늘어날 수 있습니다.",
+      "confirmMessage": "캐시를 삭제하시겠습니까?",
+      "deleteError": "캐시 삭제에 실패했습니다",
+      "clear": "Clear Cache",
+      "size": "Cache Size: {{size}}"
+    },
+    "testNotificationTitle": "테스트 알림",
+    "testNotificationMessage": "알림이 정상적으로 작동합니다!",
+    "messages": {
+      "accountActionProcessing": "처리 중입니다...",
+      "accountDeleted": "계정이 삭제되었습니다",
+      "accountDeleteScheduled": "{{date}}에 계정이 완전히 삭제됩니다",
+      "accountSuspended": "계정이 일시 정지되었습니다",
+      "updateSuccess": "프로필이 업데이트되었습니다",
+      "updateError": "프로필 업데이트에 실패했습니다",
+      "imageUpdateSuccess": "프로필 이미지가 업데이트되었습니다",
+      "imageUploadError": "이미지 업로드에 실패했습니다",
+      "fetchError": "프로필 정보를 불러올 수 없습니다",
+      "addressUpdateSuccess": "주소가 업데이트되었습니다",
+      "addressUpdateError": "주소 업데이트에 실패했습니다",
+      "locationPermissionGranted": "위치 접근 권한이 허용되었습니다",
+      "locationPermissionDenied": "위치 접근 권한이 거부되었습니다",
+      "locationPermissionError": "위치 권한 요청 중 오류가 발생했습니다",
+      "noChangesToSync": "동기화할 변경사항이 없습니다"
+    },
+    "errors": {
+      "accountActionFailed": "작업에 실패했습니다. 다시 시도해주세요"
+    }
+  },
+  "points": {
+    "earned": "적립",
+    "redeemed": "사용",
+    "expired": "만료",
+    "adjustment": "조정",
+    "noTransactions": "포인트 거래 내역이 없습니다",
+    "earnPointsByOrdering": "주문을 통해 포인트를 적립해보세요",
+    "currentBalance": "현재 잔액",
+    "totalEarned": "총 적립",
+    "totalRedeemed": "총 사용"
+  },
+  "coupons": {
+    "card": "쿠폰 카드",
+    "title": "보유 쿠폰",
+    "available": "개 사용 가능",
+    "used": "사용됨",
+    "expiring": "만료 임박",
+    "expiringSoon": "개 쿠폰이",
+    "featured": "주요 쿠폰",
+    "minOrder": "최소 주문",
+    "viewAll": "전체 보기",
+    "getMore": "쿠폰 받기"
+  },
+  "edit": {
+    "title": "프로필 편집",
+    "basicInfo": "기본 정보",
+    "additionalInfo": "추가 정보",
+    "preferences": "환경설정",
+    "notifications": "알림 설정",
+    "saveChanges": "변경사항 저장",
+    "saving": "저장 중...",
+    "saveSuccess": "프로필이 저장되었습니다",
+    "saveSuccessDesc": "변경사항이 성공적으로 적용되었습니다",
+    "saveError": "저장에 실패했습니다",
+    "unsavedChanges": "저장되지 않은 변경사항이 있습니다",
+    "loseChanges": "변경사항이 모두 사라집니다. 계속하시겠습니까?",
+    "discard": "변경사항 버리기",
+    "privacyNotice": "개인정보 보호",
+    "privacyDescription": "입력하신 정보는 안전하게 보호됩니다. 서비스 제공을 위해서만 사용되며, 제3자에게 제공되지 않습니다.",
+    "verificationRequired": "인증이 필요합니다",
+    "verificationDescription": "이메일이나 전화번호를 변경한 경우 인증 절차가 필요합니다.",
+    "loadingProfile": "프로필 정보를 불러오는 중...",
+    "loadError": "프로필 정보를 불러오는데 실패했습니다",
+    "retryLoad": "다시 시도",
+    "networkError": "네트워크 연결을 확인해주세요",
+    "updateSuccess": "프로필이 업데이트되었습니다",
+    "updateError": "프로필 업데이트에 실패했습니다",
+    "confirmDiscard": "변경사항을 취소하시겠습니까?",
+    "discardChanges": "취소",
+    "keepEditing": "계속 편집",
+    "formErrors": "입력 정보를 확인해주세요",
+    "requiredField": "필수 항목입니다",
+    "invalidFormat": "형식이 올바르지 않습니다",
+    "personalInformation": "Personal Information"
+  },
+  "privacySettings": "개인정보 설정",
+  "fields": {
+    "name": "이름",
+    "fullName": "이름",
+    "email": "이메일",
+    "phone": "전화번호",
+    "birthday": "생년월일",
+    "gender": "성별",
+    "preferredLanguage": "선호 언어",
+    "promotionNotifications": "프로모션 알림",
+    "marketingNotifications": "마케팅 알림"
+  },
+  "descriptions": {
+    "promotionNotifications": "할인 및 프로모션 정보를 받아보세요",
+    "marketingNotifications": "맞춤형 마케팅 정보를 받아보세요"
+  },
+  "selectBirthdate": "생년월일을 선택하세요",
+  "birthdate": "생년월일",
+  "fullName": "이름",
+  "enterFullName": "이름을 입력하세요",
+  "enterEmail": "이메일을 입력하세요",
+  "enterPhone": "전화번호를 입력하세요",
+  "phoneNumber": "전화번호",
+  "bio": "자기소개",
+  "enterBio": "자기소개를 입력하세요",
+  "personalInformation": "개인 정보",
+  "preferences": "환경설정",
+  "changePassword": {
+    "title": "비밀번호 변경",
+    "currentPassword": "현재 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "enterCurrent": "현재 비밀번호를 입력하세요",
+    "enterNew": "새 비밀번호를 입력하세요",
+    "enterConfirm": "새 비밀번호를 다시 입력하세요",
+    "securityNotice": "보안 알림",
+    "securityDescription": "강력한 비밀번호를 설정하여 계정을 안전하게 보호하세요.",
+    "requirements": "비밀번호 요구사항",
+    "minLength": "최소 6자 이상",
+    "noSpaces": "공백 없이 입력",
+    "different": "현재 비밀번호와 달라야 함",
+    "change": "비밀번호 변경",
+    "changing": "변경 중...",
+    "changeButton": "비밀번호 변경 버튼",
+    "success": "비밀번호가 성공적으로 변경되었습니다",
+    "error": "비밀번호 변경에 실패했습니다",
+    "errors": {
+      "currentRequired": "현재 비밀번호를 입력해주세요",
+      "newRequired": "새 비밀번호를 입력해주세요",
+      "confirmRequired": "비밀번호 확인을 입력해주세요",
+      "tooShort": "비밀번호는 최소 6자 이상이어야 합니다",
+      "passwordMismatch": "비밀번호가 일치하지 않습니다",
+      "samePassword": "새 비밀번호는 현재 비밀번호와 달라야 합니다"
+    }
+  },
+  "notificationSettings": "알림 설정",
+  "changePhoto": "사진 변경",
+  "tapToChangePhoto": "탭하여 사진 변경",
+  "selectPhotoSource": "사진 선택",
+  "takePhoto": "카메라로 촬영",
+  "chooseFromGallery": "갤러리에서 선택",
+  "profileImage": "프로필 이미지",
+  "placeholders": {
+    "name": "이름을 입력하세요",
+    "fullName": "이름을 입력하세요",
+    "email": "user@example.com",
+    "phone": "+84 123 456 789",
+    "birthday": "YYYY-MM-DD"
+  },
+  "cartAccessibilityHint": "장바구니로 이동",
+  "gender": {
+    "select": "선택하세요",
+    "male": "남성",
+    "female": "여성",
+    "other": "기타"
+  },
+  "avatar": {
+    "change": "프로필 사진 변경",
+    "tapToChange": "탭하여 사진 변경",
+    "select": "사진을 선택하세요",
+    "selectSource": "이미지 소스 선택",
+    "selectSourceMessage": "원하는 방법을 선택하세요",
+    "camera": "카메라로 촬영",
+    "gallery": "갤러리에서 선택",
+    "delete": "사진 삭제",
+    "profileImage": "프로필 이미지",
+    "updateSuccess": "프로필 사진이 업데이트되었습니다",
+    "updateError": "프로필 사진 업데이트에 실패했습니다",
+    "deleteSuccess": "프로필 사진이 삭제되었습니다",
+    "deleteError": "프로필 사진 삭제에 실패했습니다",
+    "changePhoto": "프로필 사진 변경",
+    "selectMethod": "원하는 방법을 선택하세요",
+    "defaultAvatar": "기본 아바타",
+    "customAvatar": "사용자 아바타",
+    "tapToChangeDesc": "탭하여 프로필 사진을 변경하세요",
+    "defaultOptions": "기본 아바타 옵션"
+  },
+  "validation": {
+    "nameRequired": "이름은 2자 이상 입력해주세요",
+    "emailRequired": "이메일은 필수 입력 사항입니다",
+    "emailInvalid": "올바른 이메일 형식을 입력해주세요",
+    "phoneRequired": "전화번호는 필수 입력 사항입니다",
+    "phoneInvalid": "올바른 전화번호 형식을 입력해주세요",
+    "phoneInvalidVN": "올바른 Local 전화번호를 입력해주세요",
+    "phoneFormatVN": "Local 전화번호 형식이 올바르지 않습니다",
+    "addressMinLength": "주소를 5자 이상 입력해주세요",
+    "invalidLatitude": "올바르지 않은 위도 값입니다",
+    "invalidLongitude": "올바르지 않은 경도 값입니다",
+    "checkFields": "입력 정보를 확인해주세요",
+    "correctErrors": "오류를 수정한 후 다시 시도해주세요"
+  },
+  "language": {
+    "title": "언어 설정",
+    "selectNote": "앱에서 사용할 언어를 선택해주세요",
+    "changeNote": "언어 변경 후 앱이 자동으로 새로운 언어로 표시됩니다. 일부 콘텐츠는 다음 실행 시 적용될 수 있습니다.",
+    "changeSuccess": "언어가 변경되었습니다",
+    "changedTo": "{{language}}로 언어가 변경되었습니다",
+    "changeError": "언어 변경에 실패했습니다",
+    "changeErrorDesc": "다시 시도해주세요",
+    "changing": "언어를 변경하는 중..."
+  },
+  "notifications": {
+    "orderUpdates": "주문 업데이트",
+    "orderUpdatesDesc": "주문 상태 변경 알림",
+    "promotions": "프로모션",
+    "promotionsDesc": "할인 및 이벤트 알림"
+  },
+  "membershipUpgrade": {
+    "title": "등급 업그레이드",
+    "description": "다음 등급까지 남은 주문 횟수를 확인하세요"
+  },
+  "pointsHistory": {
+    "title": "포인트 내역",
+    "description": "포인트 적립 및 사용 내역을 확인하세요",
+    "loading": "포인트 내역을 불러오는 중...",
+    "error": "포인트 내역을 불러올 수 없습니다",
+    "retry": "다시 시도",
+    "today": "오늘",
+    "yesterday": "어제",
+    "balance": "잔액",
+    "orderNumber": "주문번호",
+    "filter": {
+      "all": "전체",
+      "earned": "적립",
+      "spent": "사용",
+      "expired": "만료"
+    },
+    "empty": {
+      "title": "포인트 내역이 없습니다",
+      "description": "주문을 하시면 포인트가 적립됩니다"
+    },
+    "types": {
+      "earned": "적립",
+      "spent": "사용",
+      "expired": "만료",
+      "adjustment": "조정"
+    },
+    "sources": {
+      "orderCompletion": "주문 완료",
+      "orderPayment": "주문 결제",
+      "signupBonus": "가입 보너스",
+      "referral": "친구 추천",
+      "promotion": "프로모션",
+      "admin": "관리자",
+      "expiration": "만료"
+    },
+    "details": {
+      "date": "날짜",
+      "type": "유형",
+      "amount": "포인트",
+      "balance": "잔액",
+      "description": "설명",
+      "expires": "만료일",
+      "reference": "참조"
+    },
+    "summary": {
+      "currentBalance": "현재 잔액",
+      "totalEarned": "총 적립",
+      "totalSpent": "총 사용",
+      "expiringAmount": "만료 예정",
+      "expiringDays": "{{count}}P가 {{days}}일 후 만료됩니다"
+    },
+    "loadMore": "더보기",
+    "noMore": "더 이상 데이터가 없습니다",
+    "refresh": "새로고침"
+  },
+  "history": {
+    "thisMontSummary": "이번 달 요약",
+    "noHistoryYet": "아직 이용 내역이 없습니다",
+    "startUsingApp": "앱을 사용하여 주문하고 포인트를 적립해보세요"
+  },
+  "usePoints": {
+    "title": "포인트 사용",
+    "description": "보유한 포인트로 할인을 받으세요"
+  },
+  "myReviews": {
+    "title": "내 리뷰",
+    "description": "작성한 리뷰를 관리하세요"
+  },
+  "deletion": {
+    "deleteAccount": "계정 탈퇴",
+    "confirmTitle": "계정 탈퇴 확인",
+    "confirmMessage": "정말로 계정을 탈퇴하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "continue": "계속하기",
+    "processing": "처리 중...",
+    "buttonLabel": "계정 탈퇴 버튼",
+    "buttonHint": "계정을 영구적으로 삭제합니다",
+    "step1Title": "탈퇴 사유 선택",
+    "step1Description": "더 나은 서비스를 위해 탈퇴 사유를 알려주세요.",
+    "step2Title": "최종 확인",
+    "step2Description": "계정 탈퇴 후에는 모든 데이터가 영구적으로 삭제됩니다.",
+    "warningTitle": "⚠️ 중요한 알림",
+    "warningDescription": "계정 탈퇴 시 주문 내역, 포인트, 쿠폰, 즐겨찾기 등 모든 정보가 영구적으로 삭제되며 복구할 수 없습니다.",
+    "confirmationInstruction": "계속하시려면 아래 문구를 정확히 입력해주세요:",
+    "confirmationText": "계정을 탈퇴합니다",
+    "confirmationPlaceholder": "위 문구를 정확히 입력해주세요",
+    "nextStep": "다음 단계",
+    "finalDelete": "계정 탈퇴",
+    "selectReason": "탈퇴 사유를 선택해주세요",
+    "enterCustomReason": "기타 사유를 입력해주세요",
+    "incorrectConfirmation": "입력한 문구가 일치하지 않습니다: {{text}}",
+    "success": "계정이 성공적으로 탈퇴되었습니다",
+    "failed": "계정 탈퇴에 실패했습니다. 다시 시도해주세요",
+    "customReasonLabel": "상세 사유",
+    "customReasonPlaceholder": "탈퇴 사유를 자세히 알려주세요 (선택사항)",
+    "reasons": {
+      "notUsing": "더 이상 앱을 사용하지 않음",
+      "privacyConcerns": "개인정보 보호 우려",
+      "tooManyNotifications": "알림이 너무 많음",
+      "poorService": "서비스 품질에 불만",
+      "foundAlternative": "다른 서비스를 찾음",
+      "other": "기타"
+    }
+  },
+  "suspension": {
+    "suspendAccount": "계정 일시 정지",
+    "confirmTitle": "계정 일시 정지 확인",
+    "confirmMessage": "계정을 일시적으로 정지하시겠습니까? 설정한 기간 후 자동으로 활성화됩니다.",
+    "continue": "계속하기",
+    "processing": "처리 중...",
+    "buttonLabel": "계정 일시 정지 버튼",
+    "buttonHint": "지정된 기간 동안 계정을 비활성화합니다",
+    "modalTitle": "계정 일시 정지 설정",
+    "description": "계정을 일시적으로 정지하면 로그인할 수 없게 되며, 주문, 알림 등 모든 서비스 이용이 중단됩니다. 설정한 기간 후 자동으로 재활성화됩니다.",
+    "selectPeriodTitle": "정지 기간 선택",
+    "selectReasonTitle": "정지 사유 선택 (선택사항)",
+    "selectPeriod": "정지 기간을 선택해주세요",
+    "selectReason": "정지 사유를 선택해주세요",
+    "enterCustomReason": "기타 사유를 입력해주세요",
+    "confirmSuspension": "계정 정지하기",
+    "success": "{{period}} 동안 계정이 일시 정지되었습니다",
+    "failed": "계정 일시 정지에 실패했습니다. 다시 시도해주세요",
+    "customReasonLabel": "상세 사유",
+    "customReasonPlaceholder": "정지 사유를 자세히 알려주세요 (선택사항)",
+    "infoTitle": "📋 안내 사항",
+    "infoDescription": "정지 기간 중에는 로그인이 불가하며, 진행 중인 주문은 그대로 처리됩니다. 언제든지 고객센터를 통해 조기 복구를 요청할 수 있습니다.",
+    "periods": {
+      "oneWeek": "1주일",
+      "twoWeeks": "2주일",
+      "oneMonth": "1개월",
+      "threeMonths": "3개월",
+      "sixMonths": "6개월"
+    },
+    "reasons": {
+      "needBreak": "앱 사용을 잠시 쉬고 싶어서",
+      "tooMuchSpending": "과소비를 방지하기 위해",
+      "privacyConcerns": "개인정보 보호를 위해",
+      "temporaryIssue": "일시적인 문제로 인해",
+      "other": "기타"
+    }
+  },
+  "activityStats": {
+    "title": "활동 통계"
+  },
+  "quickAccess": {
+    "title": "빠른 접근"
+  },
+  "appFeatures": {
+    "title": "앱 기능"
+  },
+  "pointsBox": {
+    "title": "보유 포인트",
+    "conversion": "1 포인트 = 100 VNĐ",
+    "history": "히스토리"
+  },
+  "membershipStatus": {
+    "title": "멤버십 등급",
+    "newMember": "신규 회원",
+    "bronzeNewMember": "브론즈 - 신규 회원",
+    "memberSinceDate": "가입일: {{date}}",
+    "viewBenefits": "혜택 보기"
+  },
+  "statsLabels": {
+    "orders": "주문",
+    "pointsEarned": "적립 포인트",
+    "vouchers": "쿠폰",
+    "reviews": "리뷰"
+  },
+  "quickAccessItems": {
+    "orderHistory": {
+      "title": "주문 히스토리",
+      "subtitle": "{{count}}개 주문 완료"
+    },
+    "addresses": {
+      "title": "배송 주소",
+      "subtitle": "{{count}}개 주소 관리"
+    },
+    "paymentMethods": {
+      "title": "결제 수단",
+      "subtitle": "새 카드 추가"
+    },
+    "supportMessages": {
+      "title": "고객 지원 메시지",
+      "noNewMessages": "새 메시지 없음",
+      "newMessages": "{{count}}개 새 메시지"
+    },
+    "favorites": {
+      "title": "즐겨찾기",
+      "subtitle": "{{count}}개 즐겨찾기"
+    },
+    "myReviews": {
+      "title": "내가 쓴 리뷰",
+      "subtitle": "{{count}}개 리뷰 작성"
+    },
+    "coupons": {
+      "title": "쿠폰",
+      "subtitle": "{{count}}개 보유 중"
+    }
+  },
+  "appFeaturesItems": {
+    "language": {
+      "title": "언어",
+      "subtitle": "한국어"
+    },
+    "notifications": {
+      "title": "알림",
+      "subtitle": "알림 설정"
+    },
+    "customerSupport": {
+      "title": "고객 지원",
+      "subtitle": "문의하기"
+    },
+    "aboutApp": {
+      "title": "앱 정보",
+      "subtitle": "버전 1.0.0"
+    }
+  },
+  "addresses": {
+    "saved": "저장된 주소",
+    "title": "배송 주소 관리",
+    "quickActions": {
+      "title": "빠른 작업",
+      "addNew": "새 주소 추가",
+      "addDescription": "집, 회사 또는 기타 장소 추가"
+    },
+    "delivery": {
+      "title": "배송 정보",
+      "description": "현재 서울, 경기 지역을 지원합니다. 배송 시간은 20-45분입니다."
+    },
+    "empty": {
+      "title": "저장된 주소가 없습니다",
+      "description": "새 배송 주소를 추가해보세요"
+    },
+    "addFirst": "첫 주소 추가",
+    "addNew": "새 주소 추가",
+    "addHelper": "집, 회사 또는 자주 가는 장소를 추가하세요",
+    "deliveryInfo": {
+      "title": "배송 안내",
+      "description": "등록하신 주소로 빠르고 정확하게 배송해드립니다"
+    },
+    "types": {
+      "home": "집",
+      "work": "회사"
+    },
+    "address": {
+      "title": "배송지 관리",
+      "default": "기본 주소"
+    },
+    "notes": {
+      "frontDoor": "파란색 정문",
+      "reception": "5층 접수처에서 받아주세요"
+    },
+    "add": {
+      "coming": "기능 개발 중",
+      "description": "다음 버전에서 제공됩니다"
+    },
+    "sampleAddresses": {
+      "home": "123 Nguyễn Huế, Phường Bến Nghé, Quận 1, TP.HCM",
+      "work": "456 Lê Lợi, Phường Phạm Ngũ Lão, Quận 1, TP.HCM"
+    },
+    "sampleStreets": {
+      "home": "123 Nguyễn Huế",
+      "work": "456 Lê Lợi"
+    },
+    "sampleDistricts": {
+      "district1": "Quận 1"
+    },
+    "sampleWards": {
+      "benNghe": "Phường Bến Nghé",
+      "phamNguLao": "Phường Phạm Ngũ Lão"
+    },
+    "delete": {
+      "confirm": {
+        "title": "삭제 확인",
+        "message": "정말 이 주소를 삭제하시겠습니까?"
+      },
+      "success": "주소가 삭제되었습니다",
+      "description": "주소 목록에서 제거되었습니다"
+    },
+    "edit": {
+      "description": "다음 버전에서 제공될 예정입니다",
+      "title": "Edit Profile",
+      "basicInfo": "Basic Information",
+      "additionalInfo": "Additional Information",
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "saveSuccess": "Profile saved successfully",
+      "saveSuccessDesc": "Changes have been applied successfully",
+      "saveError": "Save failed",
+      "unsavedChanges": "You have unsaved changes",
+      "loseChanges": "All changes will be lost. Do you want to continue?",
+      "discard": "Discard changes",
+      "privacyNotice": "Privacy Notice",
+      "privacyDescription": "Your information is securely protected. It is only used to provide services and is not shared with third parties.",
+      "verificationRequired": "Verification required",
+      "verificationDescription": "Verification is required if you change your email or phone number.",
+      "loadingProfile": "Loading profile information...",
+      "loadError": "Failed to load profile information",
+      "retryLoad": "Retry",
+      "networkError": "Please check your network connection",
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Profile update failed",
+      "confirmDiscard": "Do you want to discard changes?",
+      "discardChanges": "Discard",
+      "keepEditing": "Keep editing",
+      "formErrors": "Please check your input",
+      "requiredField": "Required field",
+      "invalidFormat": "Invalid format"
+    },
+    "title": "배송 주소 관리",
+    "quickActions": {
+      "title": "빠른 작업",
+      "addNew": "새 주소 추가",
+      "addDescription": "집, 회사 또는 기타 장소 추가"
+    },
+    "delivery": {
+      "title": "배송 정보",
+      "description": "현재 서울, 경기 지역을 지원합니다. 배송 시간은 20-45분입니다."
+    }
+  },
+  "regions": {
+    "north": "북부",
+    "central": "중부",
+    "south": "남부"
+  },
+  "customerService": {
+    "workingHoursText": "08:00 - 22:00 (매일)",
+    "emergencyHours": "24/7",
+    "title": "고객 지원센터",
+    "subtitle": "언제든지 도움을 드릴게요",
+    "hours": "운영시간",
+    "quickContact": "빠른 상담",
+    "actions": {
+      "liveChat": "실시간 채팅 상담",
+      "liveChatDesc": "즉시 답변 받기",
+      "call": "전화 상담",
+      "email": "이메일 문의"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "order": "주문 관련",
+      "orderCancel": "주문을 취소하고 싶어요",
+      "orderCancelAnswer": "주문 내역에서 취소 가능합니다. 조리 시작 전까지만 가능해요.",
+      "orderDelay": "배달이 지연되고 있어요",
+      "orderDelayAnswer": "실시간 주문 추적에서 현재 상태를 확인하거나 매장에 직접 문의해주세요.",
+      "payment": "결제 관련",
+      "paymentFailed": "결제가 실패했어요",
+      "paymentFailedAnswer": "결제 방법을 확인하거나 다른 결제 수단을 이용해주세요.",
+      "refund": "환불은 언제 처리되나요?",
+      "refundAnswer": "취소 후 3-5 영업일 내 환불됩니다.",
+      "delivery": "배달 관련",
+      "deliveryArea": "배달 가능 지역이 궁금해요",
+      "deliveryAreaAnswer": "호치민시 중심가 기준 5km 이내 배달 가능합니다.",
+      "account": "계정 관련",
+      "passwordReset": "비밀번호를 잊었어요",
+      "passwordResetAnswer": "로그인 화면에서 비밀번호 찾기를 이용해주세요."
+    },
+    "info": {
+      "title": "서비스 안내",
+      "description": "더 자세한 도움이 필요하시면 고객센터로 연락해주세요. 전문 상담원이 친절하게 도와드리겠습니다."
+    }
+  }
+}

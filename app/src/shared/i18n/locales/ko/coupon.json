@@ -1,0 +1,182 @@
+{
+  "title": "쿠폰",
+  "availableCoupons": "사용 가능한 쿠폰",
+  "myCoupons": "내 쿠폰",
+  "applyCoupon": "쿠폰 적용",
+  "enterCouponCode": "쿠폰 코드 입력",
+  "couponCode": "쿠폰 코드",
+  "use": "사용",
+  "applied": "적용됨",
+  "expired": "만료됨",
+  "used": "사용됨",
+  "expiringSoon": "곳 만료",
+  "available": "사용 가능",
+  "off": "할인",
+  "freeDelivery": "무료배송",
+  "discount": "할인",
+  "minOrder": "{{amount}} 이상 주문 시",
+  "validUntil": "{{date}}까지",
+  "expiresSoon": "{{days}}일 후 만료",
+  "usedUp": "사용 완료",
+  "lastUse": "마지막 사용 기회",
+  "usesRemaining": "{{count}}번 남음",
+  "categories": {
+    "all": "전체",
+    "percentage": "비율 할인",
+    "fixed_amount": "금액 할인",
+    "free_delivery": "무료배송"
+  },
+  "empty": {
+    "title": "사용 가능한 쿠폰이 없습니다",
+    "description": "새로운 쿠폰이 있으면 알려드릴게요",
+    "actionText": "매장 둘러보기"
+  },
+  "error": {
+    "loadFailed": "쿠폰을 불러올 수 없습니다",
+    "applyFailed": "쿠폰 적용에 실패했습니다",
+    "invalidCode": "유효하지 않은 쿠폰 코드입니다",
+    "expired": "만료된 쿠폰입니다",
+    "minOrderNotMet": "최소 주문 금액을 충족하지 않습니다",
+    "alreadyUsed": "이미 사용된 쿠폰입니다"
+  },
+  "success": {
+    "applied": "쿠폰이 적용되었습니다",
+    "removed": "쿠폰이 제거되었습니다"
+  },
+  "center": {
+    "title": "쿠폰 센터",
+    "description": "다양한 할인 쿠폰을 받아보세요",
+    "subtitle": "모든 주문에서 더 많이 절약하세요"
+  },
+  "status": {
+    "available": "사용 가능",
+    "used": "사용 완료",
+    "expired": "만료됨",
+    "comingSoon": "곧 출시"
+  },
+  "filter": {
+    "all": "전체",
+    "available": "사용 가능",
+    "used": "사용 완료",
+    "expired": "만료됨"
+  },
+  "actions": {
+    "viewDetails": "자세히 보기",
+    "copyCode": "코드 복사",
+    "shareCode": "코드 공유",
+    "useNow": "지금 사용"
+  },
+  "details": {
+    "terms": "이용약관",
+    "validFrom": "유효 시작일",
+    "validTo": "유효 종료일",
+    "usageLimit": "사용 제한",
+    "minOrderAmount": "최소 주문 금액"
+  },
+  "tabs": {
+    "my": "내 쿠폰",
+    "available": "받을 수 있는 쿠폰",
+    "myWithCount": "내 쿠폰 ({{count}}개)",
+    "availableWithCount": "받을 수 있는 쿠폰 ({{count}}개)"
+  },
+  "chips": {
+    "all": "전체",
+    "available": "사용 가능",
+    "used": "사용 완료",
+    "expired": "만료됨",
+    "expiring": "곧 만료"
+  },
+  "states": {
+    "loading": "쿠폰 불러오는 중...",
+    "refreshing": "새로고침 중...",
+    "loadingMore": "더 불러오는 중..."
+  },
+  "accessibility": {
+    "tabSelected": "{{tab}} 탭이 선택됨",
+    "filterSelected": "{{filter}} 필터가 선택됨",
+    "couponCard": "{{name}} 쿠폰, {{discount}} 할인, {{status}} 상태",
+    "useButton": "{{name}} 쿠폰 사용하기",
+    "viewButton": "{{name}} 쿠폰 상세보기",
+    "refreshList": "쿠폰 목록 새로고침",
+    "emptyStateIcon": "쿠폰 없음 아이콘",
+    "errorStateIcon": "데이터 로드 오류 아이콘",
+    "retryButton": "쿠폰 다시 불러오기",
+    "tabList": "탭 네비게이션",
+    "filterGroup": "필터 옵션",
+    "couponList": "{{tab}} 쿠폰 목록",
+    "emptyState": "빈 상태 정보",
+    "errorState": "오류 정보",
+    "emptyStateAction": "제안된 작업 수행",
+    "retryHint": "내용을 다시 로드하려면 탭하세요"
+  },
+  "emptyStates": {
+    "myEmpty": {
+      "title": "보유한 쿠폰이 없어요",
+      "description": "아직 쿠폰이 없네요. 다양한 할인 혜택을 확인해보세요!",
+      "actionText": "쿠폰 받기"
+    },
+    "availableEmpty": {
+      "title": "현재 쿠폰이 없어요",
+      "description": "새로운 할인 혜택이 있으면 바로 알려드릴게요!",
+      "actionText": "돌아가기"
+    },
+    "filteredEmpty": {
+      "title": "조건에 맞는 쿠폰이 없어요",
+      "description": "다른 필터를 선택해서 쿠폰을 확인해보세요",
+      "actionText": "필터 초기화"
+    }
+  },
+  "errorStates": {
+    "networkError": {
+      "title": "인터넷 연결 오류",
+      "description": "네트워크 연결을 확인하고 다시 시도해주세요",
+      "actionText": "다시 시도"
+    },
+    "serverError": {
+      "title": "서버 오류",
+      "description": "일시적인 오류가 발생했습니다. 잠시 후 다시 시도해주세요",
+      "actionText": "다시 시도"
+    },
+    "unexpectedError": {
+      "title": "예상치 못한 오류",
+      "description": "앱을 다시 시작해주세요",
+      "actionText": "다시 시도"
+    }
+  },
+  "promotions": "프로모션",
+  "vietnamFestivals": "Local 축제",
+  "traditionalEvents": "전통 행사",
+  "promotionCategories": "프로모션 카테고리",
+  "dailyDeals": "오늘의 특가",
+  "vndSpecial": "VND 특가",
+  "availableOffers": "사용 가능한 혜택",
+  "getCoupon": "쿠폰 받기",
+  "noDailyDeals": "오늘의 특가가 없습니다",
+  "noVndOffers": "VND 특가가 없습니다",
+  "checkBackLater": "나중에 다시 확인해주세요",
+  "expiresInDay": "1일 후 만료",
+  "expiresInDays": "{{days}}일 후 만료",
+  "tetSpecial": "설날 특별 할인",
+  "weatherBased": "날씨 기반 프로모션",
+  "regional": "지역별 특가",
+  "festivals": {
+    "tet": {
+      "name": "설날 (테트)",
+      "period": "1월 말 - 2월 초",
+      "discount": "최대 30% 할인",
+      "description": "Local 최대 명절 특별 할인"
+    },
+    "midAutumn": {
+      "name": "중추절",
+      "period": "9월",
+      "discount": "최대 25% 할인",
+      "description": "보름달 축제 특별 혜택"
+    },
+    "nationalDay": {
+      "name": "국경일",
+      "period": "9월 2일",
+      "discount": "최대 20% 할인",
+      "description": "Local 독립기념일 기념 할인"
+    }
+  }
+}

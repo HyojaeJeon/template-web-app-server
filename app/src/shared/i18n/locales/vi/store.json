@@ -1,0 +1,239 @@
+{
+  "detail": {
+    "title": "Chi tiết cửa hàng",
+    "loading": {
+      "title": "Đang tải thông tin cửa hàng..."
+    },
+    "error": {
+      "title": "Không thể tải thông tin cửa hàng",
+      "networkFallback": "Vui lòng kiểm tra kết nối mạng",
+      "retry": "Thử lại",
+      "goBack": "Quay lại",
+      "helpText": "Nếu vấn đề vẫn tiếp tục, hãy khởi động lại ứng dụng",
+      "noStoreId": "Không có ID cửa hàng"
+    },
+    "header": {
+      "defaultTitle": "Cửa hàng"
+    },
+    "info": {
+      "title": "Thông tin cửa hàng",
+      "noName": "Không có tên cửa hàng",
+      "defaultCategory": "Danh mục",
+      "noAddress": "Không có thông tin địa chỉ",
+      "addressLabel": "📍 Địa chỉ",
+      "phoneLabel": "📞 Điện thoại"
+    },
+    "status": {
+      "open": "Đang mở cửa",
+      "closed": "Đã đóng cửa",
+      "online": "Online"
+    },
+    "action": {
+      "call": "Gọi điện",
+      "chat": "Chat"
+    },
+    "hours": {
+      "today": "Hôm nay: {{hours}}"
+    },
+    "delivery": {
+      "time": "Thời gian giao",
+      "fee": "Phí giao hàng",
+      "free": "Miễn phí",
+      "estimatedTime": "Giao hàng {{min}}-{{max}} phút",
+      "feeLabel": "Phí giao hàng"
+    },
+    "order": {
+      "minimum": "Đơn tối thiểu",
+      "minimumLabel": "Đơn tối thiểu"
+    },
+    "tabs": {
+      "menu": "Thực đơn",
+      "promotions": "Khuyến mãi",
+      "info": "Thông tin",
+      "reviews": "Đánh giá"
+    },
+    "category": {
+      "menu": "Thực đơn",
+      "all": "Tất cả"
+    },
+    "reviews": {
+      "empty": "Chưa có đánh giá nào"
+    },
+    "cart": {
+      "itemCount": "{{count}} món",
+      "empty": "Giỏ hàng trống",
+      "addItemPrompt": "Hãy thêm món ăn",
+      "view": "Xem giỏ hàng",
+      "selectMenu": "Vui lòng chọn món ăn",
+      "orderMore": "Đặt thêm {{amount}}",
+      "minimumOrder": "Đơn tối thiểu: {{amount}}",
+      "checkout": "Đặt hàng ({{amount}})",
+      "replaceError": "Lỗi khi thay thế giỏ hàng. Vui lòng thử lại."
+    }
+  },
+  "tab": {
+    "info": "Thông tin",
+    "menu": "Thực đơn",
+    "reviews": "Đánh giá"
+  },
+  "action": {
+    "orderNow": "Đặt hàng ngay",
+    "call": "Gọi điện"
+  },
+  "status": {
+    "closed": "Đã đóng cửa",
+    "closedToday": "Hôm nay nghỉ",
+    "open": "Đang mở cửa",
+    "opening": "Sắp mở cửa",
+    "noBusinessHours": "Không có thông tin giờ mở cửa"
+  },
+  "loading": "Đang tải thông tin cửa hàng...",
+  "operatingHours": "Giờ hoạt động",
+  "deliveryInfo": "Thông tin giao hàng",
+  "deliveryTime": "Thời gian giao",
+  "deliveryFee": "Phí giao hàng",
+  "minOrder": "Đơn tối thiểu",
+  "minOrderInfo": "Đơn hàng tối thiểu: {{amount}}",
+  "address": "Địa chỉ",
+  "reviews": "Đánh giá",
+  "label": "Cửa hàng",
+  "store": {
+    "operatingHours": "Giờ hoạt động",
+    "noOperatingHours": "Không có thông tin giờ hoạt động",
+    "deliveryInfo": "Thông tin giao hàng",
+    "deliveryTime": "Thời gian giao",
+    "deliveryFee": "Phí giao hàng",
+    "minOrder": "Đơn tối thiểu",
+    "paymentMethods": "Phương thức thanh toán",
+    "address": "Địa chỉ",
+    "call": "Gọi điện"
+  },
+  "call": "Gọi điện",
+  "addFavorite": "Thêm yêu thích",
+  "removeFavorite": "Bỏ yêu thích",
+  "viewReviews": "Xem đánh giá",
+  "closed": "Đã đóng cửa",
+  "open": "Đang mở cửa",
+  "error": {
+    "notFound": {
+      "title": "Không tìm thấy cửa hàng",
+      "description": "Cửa hàng bạn yêu cầu không tồn tại hoặc tạm thời không khả dụng."
+    },
+    "network": {
+      "title": "Lỗi mạng",
+      "description": "Không thể tải thông tin cửa hàng. Vui lòng thử lại sau."
+    }
+  },
+  "notFound": {
+    "title": "Không tìm thấy cửa hàng",
+    "description": "Không có thông tin cửa hàng được yêu cầu."
+  },
+  "paymentMethods": "Phương thức thanh toán",
+  "noOperatingHours": "Không có thông tin giờ hoạt động",
+  "sort": {
+    "distance": "Theo khoảng cách",
+    "rating": "Theo đánh giá",
+    "popularity": "Theo độ phổ biến",
+    "deliveryTime": "Theo thời gian giao"
+  },
+  "card": {
+    "freeDelivery": "Miễn phí giao",
+    "freeDeliveryApplied": "Đang miễn phí giao",
+    "free": "Miễn phí",
+    "discount": "Đang giảm giá",
+    "promotion": "Khuyến mãi",
+    "new": "Mới",
+    "popular": "Phổ biến",
+    "closedMessage": "Hiện đã đóng cửa",
+    "featured": "Nổi bật",
+    "deliveryTimeShort": "{{time}} phút",
+    "minOrderLabel": "Tối thiểu",
+    "minOrder": "Đơn tối thiểu"
+  },
+  "rank": "",
+  "searchResults": "Kết quả tìm kiếm \"{{query}}\" có {{count}} cửa hàng",
+  "storeCount": "Tổng cộng {{count}} cửa hàng",
+  "category": {
+    "title": "Danh mục",
+    "all": "Tất cả",
+    "emptyTitle": "Không có món ăn",
+    "emptyDescription": "Danh mục này hiện chưa có món ăn nào.",
+    "emptyAction": "Xem danh mục khác"
+  },
+  "recommended": {
+    "title": "Món Đề Xuất Của Chủ",
+    "badge": "Đề xuất"
+  },
+  "menu": {
+    "loadingMore": "Đang tải thêm món...",
+    "allLoaded": "Đã tải tất cả món ăn",
+    "noItems": "Không có món ăn",
+    "loadingTitle": "Đang tải thực đơn",
+    "loadingMessage": "Vui lòng đợi một chút",
+    "emptyTitle": "Không có món ăn",
+    "emptyDescription": "Hiện không có món ăn nào có sẵn"
+  },
+  "defaultDescription": "Cửa hàng phục vụ món ăn ngon",
+  "messages": {
+    "addedToFavorites": "Đã thêm vào yêu thích",
+    "removedFromFavorites": "Đã xóa khỏi yêu thích"
+  },
+  "common": {
+    "days": {
+      "monday": "Thứ Hai",
+      "tuesday": "Thứ Ba",
+      "wednesday": "Thứ Tư",
+      "thursday": "Thứ Năm",
+      "friday": "Thứ Sáu",
+      "saturday": "Thứ Bảy",
+      "sunday": "Chủ Nhật"
+    },
+    "time": {
+      "minutes": "phút"
+    },
+    "actions": {
+      "viewOnMap": "Xem trên bản đồ"
+    }
+  },
+  "payment": {
+    "cash": "Tiền mặt",
+    "card": "Thẻ"
+  },
+  "general": "Nhà hàng",
+  "freeDeliveryApplied": "Đang áp dụng giao hàng miễn phí",
+  "distanceUnknown": "Không có thông tin khoảng cách",
+  "ordersCount": "{{count}} đơn đặt hàng",
+  "reviewsCount": "{{count}}+ đánh giá",
+  "newStore": "Cửa hàng mới mở",
+  "fastDelivery": "Giao hàng nhanh {{time}} phút",
+  "deliveryTimeLong": "Giao hàng {{time}} phút",
+  "minOrderShort": "Tối thiểu {{amount}}",
+  "ordersCountShort": "{{count}} đơn",
+  "badges": {
+    "fastDelivery": "Giao nhanh",
+    "fast": "Nhanh",
+    "popular": "Phổ biến",
+    "recommended": "Được đề xuất",
+    "coupons": "{{count}} Mã giảm",
+    "firstOrderDiscount": "Đơn đầu giảm {{amount}}",
+    "membership": "Thành viên",
+    "maxCoupon": "Mã giảm đến {{amount}}",
+    "pickupAvailable": "Tự lấy",
+    "freeDelivery": "Miễn phí",
+    "nearby": "Gần đây",
+    "sale": "Giảm giá",
+    "firstOrder": "Đơn đầu"
+  },
+  "highlights": {
+    "freeDeliveryActive": "🎉 Đang áp dụng giao hàng miễn phí",
+    "freeDeliveryWithMin": "🎉 Đang áp dụng giao hàng miễn phí (từ {{amount}})",
+    "popularStore": "{{count}} lần đặt hàng",
+    "popularBadge": "Phổ biến",
+    "highRated": "{{rating}} ({{count}}+ đánh giá)",
+    "recommendedBadge": "Được đề xuất",
+    "fastDeliveryTime": "Giao hàng nhanh {{time}} phút",
+    "fastBadge": "NHANH",
+    "newStoreOpen": "Cửa hàng mới mở",
+    "defaultDeliveryTime": "Giao hàng {{time}} phút"
+  }
+}

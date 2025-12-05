@@ -1,0 +1,61 @@
+{
+  "ORDER": {
+    "title": "Orders",
+    "description": "Order status, changes, cancellations and related issues",
+    "subCategories": {
+      "STATUS": "Order status inquiry",
+      "MODIFICATION": "Order modification",
+      "CANCELLATION": "Order cancellation request",
+      "REFUND": "Refund request"
+    }
+  },
+  "DELIVERY": {
+    "title": "Delivery",
+    "description": "Delivery time, location, driver contact and delivery issues",
+    "subCategories": {
+      "DELAY": "Delivery delays",
+      "LOCATION": "Delivery address issues",
+      "CONTACT": "Contact delivery driver",
+      "ISSUE": "Other delivery issues"
+    }
+  },
+  "MENU": {
+    "title": "Food",
+    "description": "Menu information, ingredients, allergies and pricing",
+    "subCategories": {
+      "INGREDIENTS": "Food ingredients information",
+      "ALLERGEN": "Allergen information",
+      "AVAILABILITY": "Item availability",
+      "PRICE": "Pricing issues"
+    }
+  },
+  "PAYMENT": {
+    "title": "Payment",
+    "description": "Payment errors, refunds, vouchers and payment-related issues",
+    "subCategories": {
+      "METHOD": "Payment methods",
+      "FAILED": "Payment failed",
+      "REFUND": "Refund request",
+      "DISCOUNT": "Promotion issues"
+    }
+  },
+  "SERVICE": {
+    "title": "Service",
+    "description": "Complaints, compliments, feedback and general support",
+    "subCategories": {
+      "COMPLAINT": "Service complaint",
+      "COMPLIMENT": "Service compliment",
+      "SUGGESTION": "Improvement suggestions",
+      "SUPPORT": "General support"
+    }
+  },
+  "OTHER": {
+    "title": "Other",
+    "description": "Other questions and issues",
+    "subCategories": {
+      "GENERAL": "General questions",
+      "FEEDBACK": "Feedback",
+      "TECHNICAL": "Technical issues"
+    }
+  }
+}

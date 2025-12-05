@@ -1,0 +1,360 @@
+{
+  "title": "Notifications",
+  "filter": {
+    "all": "All",
+    "unread": "Unread",
+    "important": "Important",
+    "promotions": "Promotions"
+  },
+  "settings": {
+    "title": "Notification Settings",
+    "saveSuccess": {
+      "message": "Notification settings saved"
+    },
+    "saveError": {
+      "message": "Failed to save notification settings"
+    },
+    "permission": {
+      "title": "Notification Permission",
+      "granted": "Notification permission granted",
+      "denied": "Notification permission denied",
+      "not_determined": "Please set notification permission",
+      "unknown": "Notification permission status unknown",
+      "enable": "Allow Permission"
+    },
+    "permissionError": {
+      "message": "Failed to request notification permission"
+    },
+    "testSuccess": {
+      "message": "Test notification sent"
+    },
+    "testError": {
+      "message": "Failed to send test notification"
+    },
+    "unsavedChanges": {
+      "message": "You have unsaved changes",
+      "discard": "Discard Changes"
+    },
+    "general": {
+      "title": "General Settings",
+      "enabled": "Enable Notifications",
+      "enabledDesc": "Do you want to receive all notifications?",
+      "quietHours": "Quiet Hours",
+      "quietHoursDesc": "Block notifications during night time (22:00-08:00)",
+      "test": "Test Notification",
+      "testDesc": "Check if notifications work properly",
+      "testButton": "Send Test"
+    },
+    "core": {
+      "title": "Core Notifications"
+    },
+    "marketing_section": {
+      "title": "Marketing Notifications"
+    },
+    "orderUpdates": {
+      "title": "Order Updates",
+      "description": "Notifications about order status changes (order confirmed, cooking, delivery)"
+    },
+    "chatMessages": {
+      "title": "Chat Messages",
+      "description": "Notifications for new messages from stores or customer service"
+    },
+    "paymentAlerts": {
+      "title": "Payment Alerts",
+      "description": "Payment confirmation, refund, and payment-related notifications"
+    },
+    "systemNotices": {
+      "title": "System Notices",
+      "description": "Important app updates and service announcements"
+    },
+    "promotions": {
+      "title": "Promotions",
+      "description": "Special discounts and limited-time offers"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "New store information and general event updates"
+    }
+  },
+  "markAsRead": "Mark as Read",
+  "delete": "Delete",
+  "markAllAsRead": "Mark All as Read",
+  "loading": "Loading...",
+  "empty": {
+    "noNotifications": "No notifications",
+    "noUnread": "No unread notifications",
+    "description": "New notifications will appear here"
+  },
+  "error": {
+    "loadFailed": "Failed to load notifications"
+  },
+  "messages": {
+    "orderConfirmed": {
+      "title": "Order Confirmed",
+      "message": "The store has confirmed your order"
+    },
+    "orderPreparing": {
+      "title": "Cooking Started",
+      "message": "We are preparing delicious food for you"
+    },
+    "orderReady": {
+      "title": "Cooking Completed",
+      "message": "Food is ready"
+    },
+    "driverAssigned": {
+      "title": "Driver Assigned",
+      "message": "A driver has been assigned and is coming to pick up your order"
+    },
+    "outForDelivery": {
+      "title": "Out for Delivery",
+      "message": "We are delivering your order"
+    },
+    "deliveryArriving": {
+      "title": "Arriving Soon",
+      "message": "The driver will arrive soon"
+    },
+    "orderDelivered": {
+      "title": "Delivery Completed",
+      "message": "Your order has been delivered successfully. Enjoy your meal!"
+    },
+    "orderCancelled": {
+      "title": "Order Cancelled",
+      "message": "Your order has been cancelled"
+    },
+    "orderRejected": {
+      "title": "Order Rejected",
+      "message": "Sorry, the store has rejected your order due to store circumstances"
+    },
+    "paymentFailed": {
+      "title": "Payment Failed",
+      "message": "There was a problem processing your payment"
+    },
+    "withDriver": "(Driver: {{driverName}})",
+    "withEstimatedTime": "(Estimated time: {{estimatedTime}} minutes)",
+    "withStoreName": "({{storeName}})"
+  },
+  "system": {
+    "notificationDisabled": "Notifications are disabled",
+    "unknownNotificationType": "Unknown notification type",
+    "loadSettingsError": "Error loading notification settings",
+    "saveSettingsError": "Error saving notification settings",
+    "vibrationError": "Error playing vibration",
+    "navigationError": "Navigation error",
+    "navigationRefMissing": "Navigation ref is missing",
+    "logSaveError": "Error saving notification log",
+    "pendingActionsError": "Error saving pending notification actions",
+    "processingPendingActions": "Error processing pending notification actions",
+    "getLogsError": "Error getting notification logs",
+    "clearLogsError": "Error clearing notification logs",
+    "getOrderHistoryError": "Error getting order notification history"
+  },
+  "categories": {
+    "orders": {
+      "title": "Order Notifications",
+      "push": "Push Notifications",
+      "pushDesc": "Receive notifications when order status changes",
+      "sound": "Notification Sound",
+      "soundDesc": "Play sound when receiving notifications",
+      "vibration": "Vibration",
+      "vibrationDesc": "Vibrate when receiving notifications"
+    },
+    "promotions": {
+      "title": "Promotion Notifications",
+      "push": "Push Notifications",
+      "pushDesc": "Receive discount and promotion information",
+      "sound": "Notification Sound",
+      "soundDesc": "Play sound for promotion notifications",
+      "vibration": "Vibration",
+      "vibrationDesc": "Vibrate for promotion notifications"
+    },
+    "updates": {
+      "title": "Update Notifications",
+      "push": "Push Notifications",
+      "pushDesc": "Receive app updates and new feature news",
+      "sound": "Notification Sound",
+      "soundDesc": "Play sound for update notifications",
+      "vibration": "Vibration",
+      "vibrationDesc": "Vibrate for update notifications"
+    }
+  },
+  "orderStatus": {
+    "ORDER_CONFIRMED": {
+      "title": "Order Confirmed",
+      "message": "The store has confirmed your order"
+    },
+    "ORDER_PREPARING": {
+      "title": "Cooking Started",
+      "message": "We're preparing your delicious meal"
+    },
+    "ORDER_READY": {
+      "title": "Cooking Complete",
+      "message": "Your food is ready"
+    },
+    "DRIVER_ASSIGNED": {
+      "title": "Driver Assigned",
+      "message": "A driver has been assigned and is on the way to pickup"
+    },
+    "OUT_FOR_DELIVERY": {
+      "title": "Out for Delivery",
+      "message": "We're delivering your order to you"
+    },
+    "DELIVERY_ARRIVING": {
+      "title": "Almost There",
+      "message": "The driver will arrive soon"
+    },
+    "ORDER_DELIVERED": {
+      "title": "Delivery Complete",
+      "message": "Your order has been delivered successfully. Enjoy your meal!"
+    },
+    "ORDER_CANCELLED": {
+      "title": "Order Cancelled",
+      "message": "Your order has been cancelled"
+    },
+    "ORDER_REJECTED": {
+      "title": "Order Rejected",
+      "message": "Sorry, the store has rejected your order due to store circumstances"
+    },
+    "PAYMENT_FAILED": {
+      "title": "Payment Failed",
+      "message": "An issue occurred during payment processing"
+    }
+  },
+  "logs": {
+    "loadError": "Notification settings load error:",
+    "saveError": "Notification settings save error:",
+    "disabled": "Notifications disabled",
+    "unknownType": "Unknown notification type:",
+    "received": "📱 Order notification received:",
+    "inScreenUpdate": "[SYNC] In-screen real-time update:",
+    "toastInApp": "🍞 Show in-app toast notification",
+    "background": "📱 Background notification processing",
+    "pendingActionsSaveError": "Pending notification actions save error:",
+    "vibrationError": "Vibration playback error:",
+    "badgeUpdate": "🔢 App badge count update",
+    "navigationRefMissing": "Navigation ref missing",
+    "navigationError": "Navigation error:",
+    "logSaveError": "Notification log save error:",
+    "pendingActions": "📱 Processing pending notification actions:",
+    "pendingActionsError": "Pending notification actions processing error:",
+    "logLoadError": "Notification logs load error:",
+    "logClearError": "Notification logs clear error:",
+    "orderHistoryError": "Order notification history load error:"
+  },
+  "dynamicMessages": {
+    "driverPrefix": " (Driver: ",
+    "estimatedTimePrefix": " (Estimated time: ",
+    "estimatedTimeSuffix": " minutes)",
+    "storePrefix": " (",
+    "storeSuffix": ")"
+  },
+  "toastMessages": {
+    "NOTIFICATION_PERMISSION_ERROR": "Failed to request notification permission",
+    "NOTIFICATION_PERMISSION_GRANTED": "Notification permission granted",
+    "NOTIFICATION_SETTINGS_LOAD_ERROR": "Failed to load notification settings",
+    "NOTIFICATION_SETTINGS_SAVED": "Notification settings saved",
+    "NOTIFICATION_SETTINGS_SAVE_ERROR": "Failed to save notification settings",
+    "NOTIFICATION_SETTINGS_SAVE_SUCCESS": "Notification settings saved successfully",
+    "NOTIFICATION_SETTINGS_UPDATE_SUCCESS": "Notification settings updated",
+    "NOTIFICATION_SETTINGS_UPDATE_FAILED": "Failed to update notification settings",
+    "NOTIFICATION_MARK_READ_FAILED": "Failed to mark notification as read",
+    "NOTIFICATION_MARK_ALL_READ_FAILED": "Failed to mark all notifications as read",
+    "NOTIFICATION_DELETE_FAILED": "Failed to delete notification",
+    "NOTIFICATION_CLEAR_ALL_FAILED": "Failed to clear all notifications",
+    "NOTIFICATION_TEST_ERROR": "Failed to send test notification",
+    "NOTIFICATION_TEST_SUCCESS": "Test notification sent successfully"
+  },
+  "emptyTitle": "No notifications",
+  "emptyDescription": "New notifications will appear here",
+  "fcm": {
+    "initialization": {
+      "disabled": "🚫 Firebase messaging disabled - skipping FCM initialization",
+      "permissionCheckDisabled": "🚫 Firebase messaging disabled - skipping permission check",
+      "tokenGetDisabled": "🚫 Firebase messaging disabled - skipping token retrieval"
+    },
+    "permission": {
+      "requestTitle": "Notification permission request",
+      "requestMessage": "To receive order and promotion notifications, please allow permission.",
+      "buttonNeutral": "Later",
+      "buttonNegative": "Deny",
+      "buttonPositive": "Allow",
+      "androidGranted": "Android notification permission granted",
+      "iosGranted": "iOS notification permission granted",
+      "requestFailed": "Permission request failed:",
+      "iosRegistrationComplete": "iOS remote notification registration completed"
+    },
+    "token": {
+      "refresh": "FCM token refreshed:",
+      "noUserId": "No user ID, deferring token send",
+      "serverSendSuccess": "FCM token sent to server",
+      "serverSendFailed": "FCM token send to server failed:",
+      "serverSendError": "Token server send error:"
+    },
+    "channels": {
+      "deliveryName": "Delivery",
+      "deliveryDescription": "Order and delivery notifications",
+      "deliveryCreated": "Created delivery notification channel:",
+      "promotionName": "Promotions",
+      "promotionDescription": "Discount and event notifications",
+      "promotionCreated": "Created promotion notification channel:",
+      "createFailed": "Failed to create notification channel:"
+    },
+    "listeners": {
+      "registrationStart": "🎧 Registering FCM listeners",
+      "foregroundReceived": "📩 FCM foreground message:",
+      "foregroundError": "[ERROR] Failed to handle FCM foreground message:",
+      "backgroundClicked": "👆 FCM background notification click:",
+      "backgroundError": "[ERROR] Failed to handle background notification click:",
+      "terminatedLaunch": "[API] App launched via terminated-state notification:",
+      "terminatedError": "[ERROR] Failed to handle terminated-state notification:",
+      "notLaunchedByNotification": "[INFO] App not launched by notification",
+      "getInitialError": "[ERROR] getInitialNotification failed:",
+      "registrationComplete": "[SUCCESS] FCM listeners registered",
+      "backgroundReceived": "Background message received:"
+    },
+    "localNotification": {
+      "displayStart": "🔔 Showing local notification:",
+      "processedData": "🔔 Processed notification data:",
+      "displaySuccess": "[SUCCESS] Local notification displayed",
+      "displayError": "[ERROR] Failed to display local notification:",
+      "defaultTitle": "Notification",
+      "defaultBody": "You have a new notification.",
+      "fallbackError": "[ERROR] Fallback notification also failed:"
+    },
+    "clickHandling": {
+      "clickStart": "👆 Handling FCM notification click:",
+      "noData": "[WARNING] No click data",
+      "processedData": "👆 Processed click data:",
+      "navigateOrder": "📱 Navigating to order detail:",
+      "noOrderId": "[WARNING] Missing order ID",
+      "navigateDelivery": "📱 Navigating to delivery tracking:",
+      "noDeliveryId": "[WARNING] Missing delivery order ID",
+      "navigatePromotion": "📱 Navigating to promotion:",
+      "noPromotionId": "[WARNING] Missing promotion ID",
+      "navigateChat": "📱 Navigating to chat:",
+      "noChatId": "[WARNING] Missing chat room ID",
+      "unknownType": "[WARNING] Unknown notification type:",
+      "clickComplete": "[SUCCESS] Notification click handled",
+      "clickError": "[ERROR] Failed to handle notification click:"
+    },
+    "badge": {
+      "updateStart": "🔢 Updating badge count",
+      "noBadgeData": "[WARNING] No badge count data",
+      "noBadgeCount": "[WARNING] Missing badge count value",
+      "processedCount": "🔢 Processed badge count:",
+      "iosSetComplete": "🍎 iOS badge count set:",
+      "localSaveComplete": "💾 Badge count saved locally:",
+      "updateComplete": "[SUCCESS] Badge count updated",
+      "updateError": "[ERROR] Badge count update failed:"
+    },
+    "settings": {
+      "updateSuccess": "Notification settings updated:",
+      "updateError": "Notification settings update failed:"
+    },
+    "topic": {
+      "subscribeSuccess": "Topic subscribed:",
+      "subscribeFailed": "Topic subscription failed:",
+      "unsubscribeSuccess": "Topic unsubscribed:",
+      "unsubscribeFailed": "Topic unsubscription failed:"
+    }
+  }
+}

@@ -1,0 +1,356 @@
+/* Tab Group Container */
+.tab-group {
+  width: 100%;
+}
+
+.tab-group-horizontal {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-group-vertical {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+/* Tab List */
+.tab-list {
+  display: flex;
+  gap: 4px;
+  position: relative;
+  background: #f9fafb;
+  padding: 4px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.tab-list-vertical {
+  flex-direction: column;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.tab-list-full {
+  width: 100%;
+}
+
+.tab-list-scrollable {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #d1d5db #f3f4f6;
+}
+
+.tab-list-scrollable::-webkit-scrollbar {
+  height: 6px;
+}
+
+.tab-list-scrollable::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 3px;
+}
+
+.tab-list-scrollable::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+/* Tab Button */
+.tab-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: none;
+  background: transparent;
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  position: relative;
+  flex: 1;
+}
+
+.tab-list-vertical .tab-button {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.tab-button:hover:not(.disabled) {
+  color: #374151;
+  background: rgba(156, 163, 175, 0.1);
+}
+
+.tab-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(42, 193, 188, 0.2);
+}
+
+.tab-button.active {
+  background: white;
+  color: #1f2937;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.tab-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Tab Icon */
+.tab-icon {
+  font-size: 16px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Tab Label */
+.tab-label {
+  line-height: 1.2;
+}
+
+/* Tab Badge */
+.tab-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+/* Tab Panel */
+.tab-panels {
+  flex: 1;
+}
+
+.tab-panel {
+  padding: 24px 0;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Variant: Pills */
+.tab-list-pills {
+  background: transparent;
+  border: none;
+  gap: 8px;
+  padding: 0;
+}
+
+.tab-button-pills {
+  background: white;
+  border: 1px solid #e5e7eb;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.tab-button-pills:hover:not(.disabled) {
+  background: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.tab-button-pills.active {
+  background: linear-gradient(135deg, #2ac1bc 0%, #3ec8c3 100%);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 2px 8px rgba(42, 193, 188, 0.3);
+}
+
+/* Variant: Underline */
+.tab-list-underline {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0;
+  gap: 0;
+  border-radius: 0;
+}
+
+.tab-button-underline {
+  background: transparent;
+  border-radius: 0;
+  padding: 12px 20px;
+  position: relative;
+}
+
+.tab-button-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: transparent;
+  transition: background 0.2s ease;
+}
+
+.tab-button-underline:hover:not(.disabled) {
+  background: transparent;
+  color: #2ac1bc;
+}
+
+.tab-button-underline.active {
+  background: transparent;
+  color: #2ac1bc;
+  box-shadow: none;
+}
+
+.tab-button-underline.active::after {
+  background: linear-gradient(90deg, #2ac1bc 0%, #3ec8c3 100%);
+}
+
+/* Variant: Vietnamese Theme */
+.tab-list-vietnamese {
+  background: linear-gradient(135deg, #e8faf9 0%, #f8fffe 100%);
+  border-color: rgba(42, 193, 188, 0.2);
+}
+
+.tab-button-vietnamese.active {
+  background: linear-gradient(135deg, #00b14f 0%, #00c458 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 177, 79, 0.3);
+}
+
+.tab-button-vietnamese:hover:not(.disabled) {
+  color: #00b14f;
+  background: rgba(0, 177, 79, 0.08);
+}
+
+/* Size Variants */
+.tab-list-small .tab-button {
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.tab-list-small .tab-icon {
+  font-size: 14px;
+}
+
+.tab-list-small .tab-badge {
+  min-width: 16px;
+  height: 16px;
+  font-size: 10px;
+  padding: 0 4px;
+}
+
+.tab-list-large .tab-button {
+  padding: 14px 24px;
+  font-size: 16px;
+}
+
+.tab-list-large .tab-icon {
+  font-size: 20px;
+}
+
+.tab-list-large .tab-badge {
+  min-width: 24px;
+  height: 24px;
+  font-size: 12px;
+  padding: 0 8px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .tab-group-vertical {
+    flex-direction: column;
+  }
+
+  .tab-list-vertical {
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .tab-button {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .tab-panel {
+    padding: 16px 0;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  .tab-list {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  .tab-button {
+    color: #d1d5db;
+  }
+
+  .tab-button:hover:not(.disabled) {
+    color: #f3f4f6;
+    background: rgba(75, 85, 99, 0.5);
+  }
+
+  .tab-button.active {
+    background: #374151;
+    color: #f3f4f6;
+  }
+
+  .tab-list-pills .tab-button {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  .tab-list-pills .tab-button:hover:not(.disabled) {
+    background: #374151;
+    border-color: #4b5563;
+  }
+
+  .tab-list-underline {
+    border-bottom-color: #374151;
+  }
+
+  .tab-badge {
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .tab-button,
+  .tab-panel {
+    transition: none;
+    animation: none;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .tab-button.active {
+    border: 2px solid currentColor;
+  }
+
+  .tab-button:focus {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "empty": {
+    "noResults": {
+      "title": "No stores found",
+      "subtitle": "Try adjusting your search keywords or filters",
+      "action": "Search again"
+    },
+    "noStores": {
+      "title": "No stores yet",
+      "subtitle": "This area doesn't have any stores yet. Please try searching in another area",
+      "action": "Explore other areas"
+    },
+    "error": {
+      "title": "Something went wrong",
+      "subtitle": "Unable to load store list. Please try again later",
+      "action": "Try again"
+    },
+    "offline": {
+      "title": "You're offline",
+      "subtitle": "Please check your internet connection and try again",
+      "action": "Try again"
+    },
+    "noFilters": {
+      "title": "No results with these filters",
+      "subtitle": "No stores match your current filter criteria",
+      "action": "Adjust filters"
+    },
+    "resetFilters": "Clear all filters",
+    "searchTips": "Search tips:",
+    "tip1": "Try different keywords",
+    "tip2": "Search by cuisine type",
+    "tip3": "Check spelling",
+    "filterSuggestion": {
+      "title": "Filter adjustment suggestions",
+      "subtitle": "Try relaxing some criteria to find more stores:",
+      "relaxDeliveryFee": "Remove delivery fee limit",
+      "relaxRating": "Lower rating requirement",
+      "relaxMinOrder": "Lower minimum order",
+      "expandRadius": "Expand search radius"
+    },
+    "suggestedStores": {
+      "title": "Suggested stores for you",
+      "selectStore": "Select {{name}} store",
+      "hasPromotion": "Has promotion"
+    },
+    "offlineMode": "Offline mode",
+    "offlineDescription": "Showing cached data. Connect to internet for latest updates.",
+    "errorDescription": "Unable to connect to server. Please check your connection and try again."
+  },
+  "list": {
+    "title": "Store List",
+    "resultCount": "Total {{count}} stores",
+    "storeUnit": "stores"
+  },
+  "search": {
+    "placeholder": "Search stores, food...",
+    "title": "Search",
+    "inputLabel": "Store search input",
+    "inputHint": "Enter store name or food type",
+    "clearButton": "Clear search",
+    "clearHint": "Clear all entered keywords",
+    "voiceButton": "Voice search",
+    "voiceHint": "Search by voice input",
+    "error": "Search error occurred",
+    "loading": "Searching...",
+    "resultCount": "{{count}} results for \"{{query}}\"",
+    "searchResults": "Search Results",
+    "searchingFor": "Searching for:"
+  },
+  "filter": {
+    "title": "Filters",
+    "buttonLabel": "Filter settings",
+    "buttonHint": "{{count}} filters applied",
+    "chipHint": "Open or close filters",
+    "applied": "Applied",
+    "active": "Active",
+    "inactive": "Inactive",
+    "appliedCount": "{{count}} applied",
+    "removeFilter": "Remove {{filter}} filter",
+    "removeFilterHint": "Remove this filter",
+    "clearAll": "Clear all",
+    "clearAllHint": "Clear all filters",
+    "appliedSummary": "{{count}} filters applied",
+    "viewDetails": "View details",
+    "categories": "{{count}} categories",
+    "minRating": "Rating {{rating}}+ stars",
+    "maxDeliveryFee": "Delivery fee up to {{fee}}₫",
+    "maxDeliveryTime": "Delivery time up to {{time}} mins"
+  },
+  "sort": {
+    "distance": "By distance",
+    "rating": "By rating",
+    "popularity": "Most popular",
+    "deliveryTime": "Fastest delivery",
+    "newest": "Newest",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "buttonLabel": "Sort settings",
+    "buttonHint": "Currently sorted by {{current}}",
+    "alphabetical": "Alphabetical",
+    "distanceDesc": "Nearest stores first",
+    "ratingDesc": "Highest rated first",
+    "deliveryTimeDesc": "Fastest delivery first",
+    "popularityDesc": "Most popular first",
+    "newestDesc": "Newest first",
+    "alphabeticalDesc": "Store name (A–Z)",
+    "title": "Sort",
+    "subtitle": "Choose how to sort the store list",
+    "tip": "Select your preferred sort to find stores"
+  },
+  "view": {
+    "list": "List",
+    "grid": "Grid",
+    "map": "Map",
+    "toggleLabel": "Change view mode",
+    "toggleHint": "Current {{current}} mode, switch to {{next}} mode"
+  },
+  "location": {
+    "change": "Change location",
+    "changeHint": "Change your delivery location",
+    "usingGPS": "Using GPS location"
+  },
+  "title": "Stores",
+  "searchResults": "{{count}} results for \"{{query}}\"",
+  "storeCount": "Total {{count}} stores",
+  "store": {
+    "card": {
+      "freeDelivery": "Free delivery",
+      "discount": "Discount"
+    },
+    "storeCount": "Total {{count}} stores"
+  }
+}

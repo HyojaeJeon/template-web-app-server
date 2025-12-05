@@ -1,0 +1,122 @@
+{
+  "connection": {
+    "connecting": "Đang kết nối...",
+    "connected": "Đã kết nối",
+    "disconnected": "Mất kết nối",
+    "reconnecting": "Đang kết nối lại...",
+    "error": "Lỗi kết nối",
+    "retry": "Kết nối lại",
+    "retrying": "Đang thử kết nối lại ({{attempt}}/{{max}})",
+    "offline": "Ngoại tuyến",
+    "online": "Trực tuyến",
+    "poor_connection": "Kết nối không ổn định"
+  },
+  "chat": {
+    "typing": "{{name}} đang nhập...",
+    "multiple_typing": "{{count}} người đang nhập...",
+    "message_sent": "Tin nhắn đã gửi",
+    "message_failed": "Gửi tin nhắn thất bại",
+    "message_delivered": "Đã nhận",
+    "message_read": "Đã đọc",
+    "new_message": "Tin nhắn mới",
+    "unread_messages": "{{count}} tin nhắn chưa đọc",
+    "chat_unavailable": "Chat không khả dụng",
+    "reconnect_to_chat": "Nhấn để kết nối lại chat",
+    "message_too_long": "Tin nhắn quá dài",
+    "store_offline": "Cửa hàng đang ngoại tuyến",
+    "store_online": "Cửa hàng đang trực tuyến"
+  },
+  "orders": {
+    "status_updated": "Trạng thái đơn hàng đã cập nhật",
+    "order_confirmed": "Đơn hàng đã được xác nhận",
+    "preparing": "Đang chuẩn bị món ăn",
+    "ready_for_pickup": "Sẵn sàng để lấy",
+    "out_for_delivery": "Đang giao hàng",
+    "delivered": "Đã giao thành công",
+    "cancelled": "Đơn hàng đã bị hủy",
+    "driver_assigned": "Đã phân công tài xế",
+    "driver_arrived": "Tài xế đã đến",
+    "estimated_time": "Thời gian dự kiến: {{time}} phút",
+    "order_delayed": "Đơn hàng bị trễ",
+    "tracking_unavailable": "Theo dõi thời gian thực không khả dụng"
+  },
+  "delivery": {
+    "driver_location_updated": "Vị trí tài xế đã cập nhật",
+    "eta_updated": "Thời gian đến dự kiến: {{eta}}",
+    "driver_nearby": "Tài xế đang ở gần bạn",
+    "driver_calling": "Tài xế đang gọi cho bạn",
+    "delivery_instructions": "Hướng dẫn giao hàng",
+    "unable_to_locate": "Không thể xác định vị trí",
+    "gps_disabled": "GPS đã bị tắt",
+    "location_permission_denied": "Quyền truy cập vị trí bị từ chối"
+  },
+  "notifications": {
+    "new_notification": "Thông báo mới",
+    "order_update": "Cập nhật đơn hàng",
+    "promotion": "Khuyến mãi",
+    "system": "Thông báo hệ thống",
+    "payment": "Thông báo thanh toán",
+    "delivery": "Thông báo giao hàng",
+    "store_news": "Tin tức cửa hàng",
+    "mark_all_read": "Đánh dấu tất cả đã đọc",
+    "no_notifications": "Không có thông báo nào",
+    "notification_permission_denied": "Quyền thông báo bị từ chối",
+    "enable_notifications": "Bật thông báo"
+  },
+  "store": {
+    "status_changed": "Trạng thái cửa hàng đã thay đổi",
+    "now_open": "Cửa hàng đã mở",
+    "now_closed": "Cửa hàng đã đóng",
+    "busy": "Cửa hàng đang bận",
+    "menu_updated": "Menu đã được cập nhật",
+    "new_promotion": "Có khuyến mãi mới",
+    "out_of_stock": "Hết hàng",
+    "back_in_stock": "Đã có hàng trở lại",
+    "price_changed": "Giá đã thay đổi",
+    "temporarily_unavailable": "Tạm thời không khả dụng"
+  },
+  "errors": {
+    "connection_lost": "Mất kết nối",
+    "reconnection_failed": "Kết nối lại thất bại",
+    "server_error": "Lỗi máy chủ",
+    "network_error": "Lỗi mạng",
+    "timeout": "Hết thời gian chờ",
+    "unknown_error": "Lỗi không xác định",
+    "feature_unavailable": "Tính năng không khả dụng",
+    "try_again_later": "Vui lòng thử lại sau"
+  },
+  "status": {
+    "loading": "Đang tải...",
+    "syncing": "Đang đồng bộ...",
+    "updating": "Đang cập nhật...",
+    "updated": "Đã cập nhật",
+    "refreshing": "Đang làm mới...",
+    "processing": "Đang xử lý...",
+    "completed": "Hoàn thành",
+    "failed": "Thất bại",
+    "cancelled": "Đã hủy",
+    "pending": "Đang chờ",
+    "in_progress": "Đang thực hiện"
+  },
+  "actions": {
+    "refresh": "Làm mới",
+    "retry": "Thử lại",
+    "cancel": "Hủy",
+    "dismiss": "Đóng",
+    "view_details": "Xem chi tiết",
+    "mark_read": "Đánh dấu đã đọc",
+    "clear_all": "Xóa tất cả",
+    "enable": "Bật",
+    "disable": "Tắt",
+    "settings": "Cài đặt"
+  },
+  "performance": {
+    "high_latency": "Độ trễ mạng cao",
+    "low_latency": "Kết nối mạng tốt",
+    "connection_quality": "Chất lượng kết nối: {{quality}}",
+    "ping": "Ping: {{ms}}ms",
+    "reconnect_attempts": "Lần thử kết nối: {{count}}",
+    "data_usage_high": "Sử dụng dữ liệu cao",
+    "battery_optimization": "Chế độ tiết kiệm pin"
+  }
+}

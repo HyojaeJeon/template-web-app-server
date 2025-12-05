@@ -1,0 +1,23 @@
+# ===============================================
+# Web Auth Domain Schema (Template)
+# Location: /graphql/clients/web/auth/schema.graphql
+# Purpose: Web 클라이언트 인증 관련 스키마 (뼈대)
+# ===============================================
+
+# ===============================================
+# Queries - Web Auth (prefix: s)
+# ===============================================
+
+extend type Query {
+  # 헬스 체크
+  sHealthCheck: HealthCheckResponse!
+}
+
+# ===============================================
+# Mutations - Web Auth (prefix: s)
+# ===============================================
+
+extend type Mutation {
+  # 추후 Web 인증 뮤테이션 추가
+  _webAuthPlaceholder: SuccessPayload
+}

@@ -1,0 +1,37 @@
+{
+  "offline": "Ngoại tuyến",
+  "offlineDesc": "Hiển thị dữ liệu đã lưu",
+  "online": "Trực tuyến",
+  "connected": "Đã kết nối",
+  "connectedDesc": "Kết nối internet đã được khôi phục",
+  "restored": "Kết nối khôi phục",
+  "restoredDesc": "Dữ liệu đang được cập nhật...",
+  "stillOffline": "Vẫn ngoại tuyến",
+  "checkConnection": "Vui lòng kiểm tra kết nối internet của bạn",
+  "retry": "Thử lại",
+  "tapToRetry": "Nhấn để thử lại",
+  "autoReconnecting": "Tự động thử kết nối lại",
+  "slowConnection": "Kết nối chậm",
+  "slowConnectionDesc": "Kết nối internet của bạn đang chậm",
+  "cache": {
+    "availableData": "Dữ liệu khả dụng",
+    "stores": "{count} cửa hàng",
+    "menus": "{count} thực đơn",
+    "images": "{size}",
+    "lastUpdate": "Cập nhật lần cuối",
+    "expired": "Dữ liệu đã hết hạn",
+    "refreshNeeded": "Cần kết nối để cập nhật"
+  },
+  "location": {
+    "permission": {
+      "title": "Quyền truy cập vị trí",
+      "message": "Ứng dụng cần quyền truy cập vị trí để hiển thị cửa hàng gần bạn"
+    },
+    "permissionDenied": "Không có quyền truy cập vị trí",
+    "permissionDeniedDesc": "Vui lòng cấp quyền truy cập vị trí trong cài đặt",
+    "error": "Lỗi vị trí",
+    "errorDesc": "Không thể xác định vị trí của bạn",
+    "myLocation": "Vị trí của tôi",
+    "calculating": "Đang xác định vị trí..."
+  }
+}

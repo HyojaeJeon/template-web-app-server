@@ -1,0 +1,59 @@
+{
+  "title": "Favorites",
+  "tabs": {
+    "stores": "Stores",
+    "menus": "Menu Items"
+  },
+  "stores": "Stores",
+  "menus": {
+    "title": "Favorite Menu Items",
+    "count": "{{count}} items",
+    "addToCart": "Add to Cart",
+    "from": "from {{storeName}}"
+  },
+  "noStores": "No favorite stores",
+  "noStoresDesc": "Explore and add your favorite stores",
+  "noMenus": "No favorite menu items",
+  "noMenusDesc": "Try delicious food and save your favorites",
+  "storeInfo": {
+    "title": "Favorite Stores",
+    "count": "{{count}} stores",
+    "orderCount": "{{count}} orders",
+    "totalSpent": "Total {{amount}}đ",
+    "lastOrdered": "Last ordered: {{date}}",
+    "orderNow": "Order Now"
+  },
+  "empty": {
+    "stores": {
+      "title": "No favorite stores yet",
+      "subtitle": "Explore and add your favorite stores for easier ordering next time",
+      "button": "Explore Stores"
+    },
+    "menus": {
+      "title": "No favorite menu items yet",
+      "subtitle": "Try delicious dishes and save your favorite items",
+      "button": "Browse Menu"
+    }
+  },
+  "actions": {
+    "remove": "Remove from favorites",
+    "removeConfirm": "Are you sure you want to remove from favorites?",
+    "removeSuccess": "Removed from favorites",
+    "addSuccess": "Added to favorites",
+    "viewStore": "View Store",
+    "orderAgain": "Order Again"
+  },
+  "filters": {
+    "all": "All",
+    "recentlyOrdered": "Recently Ordered",
+    "highRated": "Highly Rated",
+    "nearBy": "Nearby"
+  },
+  "sorting": {
+    "title": "Sort by",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "mostOrdered": "Most Ordered",
+    "alphabetical": "Alphabetical"
+  }
+}

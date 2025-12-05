@@ -1,0 +1,134 @@
+{
+  "selectedLocation": "선택된 위치",
+  "selectLocation": "배달 주소 선택",
+  "gettingAddress": "주소를 가져오는 중...",
+  "map": {
+    "tapToSelect": "위치를 선택해주세요",
+    "tapToSelectDesc": "지도를 탭하거나 드래그하여 배달 위치를 선택하세요",
+    "selectedLocation": "선택된 위치",
+    "searchPlaceholder": "주소 검색..."
+  },
+  "screens": {
+    "mapPicker": {
+      "title": "배달 위치 선택",
+      "confirm": "이 위치로 선택"
+    }
+  },
+  "recent": "최근",
+  "popularAreas": "인기 지역",
+  "detectWithGPS": "GPS로 정확한 현재 위치를 찾습니다",
+  "enterAddressManually": "주소 직접 입력",
+  "enterDetailedAddress": "상세한 주소를 직접 입력해보세요",
+  "searchPlaceholder": "Local 주소를 검색하세요...",
+  "title": "배달 주소 설정",
+  "selectLocationTitle": "이 위치로 설정하기",
+  "addressInfo": "배달 받을 주소",
+  "selectLocationHint": "지도에서 위치를 선택해주세요",
+  "addressChecking": "주소를 확인하는 중...",
+  "mockMapTitle": "지도 Mock 모드",
+  "mockMapDescription": "개발 중 TurboModule 오류 방지를 위해\n임시로 Mock 지도를 표시합니다.\n실제 빌드 시 Google Maps가 표시됩니다.",
+  "selectedCoordinates": "선택된 좌표:",
+  "location": {
+    "selectLocation": "배달 주소 선택",
+    "notSelected": "위치가 선택되지 않았습니다",
+    "accuracy": "정확도",
+    "gettingLocation": "위치 확인 중...",
+    "useCurrentLocation": "현재 위치 사용",
+    "enterManually": "주소 직접 입력",
+    "permission": {
+      "title": "위치 권한 필요",
+      "message": "배달 서비스를 이용하려면 위치 접근 권한이 필요합니다",
+      "askLater": "나중에 다시 묻기"
+    },
+    "error": {
+      "title": "위치 오류",
+      "failed": "위치를 가져올 수 없습니다",
+      "noAddressFound": "이 위치에 대한 주소를 찾을 수 없습니다"
+    },
+    "delivery": {
+      "available": "배달 가능 지역",
+      "unavailable": "배달 불가 지역",
+      "checking": "배달 가능 여부 확인 중...",
+      "checkZone": "배달 지역 확인",
+      "checkError": "배달 지역 확인에 실패했습니다",
+      "estimatedTime": "예상 배달 시간",
+      "fee": "배달비",
+      "free": "무료",
+      "suggestedZones": "배달 가능 지역",
+      "lastChecked": "마지막 확인"
+    }
+  },
+  "emptySavedLocations": "저장된 위치가 없습니다",
+  "emptySavedLocationsDesc": "자주 사용하는 위치를 저장해보세요",
+  "addLocation": "위치 추가하기",
+  "addressType": {
+    "home": "집"
+  },
+  "tabs": {
+    "map": "지도",
+    "search": "검색",
+    "saved": "저장됨"
+  },
+  "mapTab": {
+    "current": "현재",
+    "detailAddressPlaceholder": "상세주소 입력 (선택사항)",
+    "distanceUnit": "미터 거리",
+    "currentLocationGPS": "GPS로 찾은 현재 위치"
+  },
+  "searchTab": {
+    "searching": "검색 중...",
+    "searchError": "검색 오류",
+    "noResults": "검색 결과가 없습니다",
+    "tryDifferentKeyword": "다른 키워드로 검색해보세요"
+  },
+  "savedTab": {
+    "loadingAddresses": "주소 목록을 불러오는 중..."
+  },
+  "confirmButton": {
+    "setThisLocation": "이 위치로 설정",
+    "setLocationHint": "선택한 주소로 확정하고 이전 화면으로 돌아갑니다"
+  },
+  "accessibility": {
+    "tabHint": "콘텐츠를 표시하려면 탭하세요",
+    "addressItemHint": "이 주소를 선택하려면 탭하세요"
+  },
+  "addressSelector": {
+    "destination": "목적지에 가는?",
+    "mergeAddressDisplay": "도/시 병합 후 주소 표시",
+    "recommended": "추천됨",
+    "saved": "저장됨",
+    "selectFromMap": "지도에서 선택",
+    "confirmDestination": "목적지 확인",
+    "setAsDestination": "목적지로 설정",
+    "myLocation": "내 위치",
+    "currentLocation": "현재 위치"
+  },
+  "addressDetail": {
+    "title": "주소 상세 정보",
+    "label": "주소 라벨",
+    "labelPlaceholder": "예: 집, 회사, 학교",
+    "customLabelPlaceholder": "라벨을 입력하세요",
+    "addressDetailInput": "상세 주소",
+    "addressDetailPlaceholder": "동/호수, 층수 등",
+    "recipientName": "수령인 이름",
+    "recipientNamePlaceholder": "수령인 이름 입력",
+    "recipientPhone": "수령인 연락처",
+    "recipientPhonePlaceholder": "연락처 입력",
+    "deliveryNote": "배송 메모",
+    "deliveryNotePlaceholder": "배송 시 참고사항",
+    "save": "저장",
+    "saving": "저장 중...",
+    "quickLabels": {
+      "home": "집",
+      "office": "회사",
+      "school": "학교",
+      "custom": "직접입력"
+    },
+    "validation": {
+      "addressDetailRequired": "상세 주소를 입력해주세요",
+      "recipientPhoneRequired": "연락처를 입력해주세요"
+    }
+  },
+  "searchResults": "검색 결과",
+  "savedAddresses": "저장된 주소"
+}

@@ -1,0 +1,137 @@
+{
+  "title": "Menu",
+  "categories": {
+    "all": "All",
+    "appetizers": "Appetizers",
+    "mains": "Main Dishes",
+    "desserts": "Desserts",
+    "drinks": "Beverages",
+    "combos": "Combos",
+    "popular": "Popular",
+    "vegetarian": "Vegetarian",
+    "spicy": "Spicy"
+  },
+  "item": {
+    "price": "Price",
+    "originalPrice": "Original Price",
+    "discount": "{percent}% Off",
+    "popular": "Popular",
+    "new": "New",
+    "spicy": "Spicy",
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten Free",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "limitedQuantity": "Limited Quantity",
+    "prepTime": "Prep time: {time} minutes",
+    "calories": "{calories} kcal",
+    "description": "Description",
+    "ingredients": "Ingredients",
+    "allergens": "Allergen Information",
+    "nutritionInfo": "Nutrition Information",
+    "customizable": "Customizable"
+  },
+  "unavailableReason": {
+    "outOfStock": "Out of stock",
+    "temporaryUnavailable": "Temporarily unavailable",
+    "prepareTime": "Preparation time too long",
+    "ingredientUnavailable": "Ingredient unavailable"
+  },
+  "options": {
+    "title": "Options",
+    "required": "Required",
+    "optional": "Optional",
+    "selectOne": "Select one",
+    "selectMultiple": "Select multiple",
+    "selectUpTo": "Select up to {max}",
+    "selectAtLeast": "Select at least {min}",
+    "selectPrompt": "Please select an option",
+    "addPrice": "+ ${price}",
+    "free": "Free",
+    "size": "Size",
+    "extra": "Extra",
+    "remove": "Remove",
+    "customize": "Customize"
+  },
+  "quantity": {
+    "title": "Quantity",
+    "min": "Minimum {min}",
+    "max": "Maximum {max}",
+    "increment": "Increase quantity",
+    "decrement": "Decrease quantity",
+    "outOfStock": "Out of stock",
+    "limitReached": "Limit reached"
+  },
+  "cart": {
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added to Cart",
+    "updateCart": "Update Cart",
+    "removeFromCart": "Remove from Cart",
+    "itemTotal": "Total: ${total}",
+    "specialRequest": "Special Request",
+    "specialRequestPlaceholder": "Additional notes for this item..."
+  },
+  "search": {
+    "placeholder": "Search food...",
+    "popular": "Popular searches",
+    "noResults": "No food items found",
+    "suggestions": "Search suggestions"
+  },
+  "filters": {
+    "price": "Price Range",
+    "under50k": "Under $50",
+    "50kto100k": "$50 - $100",
+    "100kto200k": "$100 - $200",
+    "over200k": "Over $200",
+    "dietary": "Dietary",
+    "preparation": "Preparation",
+    "spicyLevel": "Spice Level",
+    "mild": "Mild",
+    "medium": "Medium",
+    "hot": "Hot",
+    "veryHot": "Very Hot"
+  },
+  "modal": {
+    "title": "Item Details",
+    "close": "Close",
+    "images": "Images",
+    "relatedItems": "Related Items",
+    "reviews": "Reviews",
+    "ingredients": "Main Ingredients"
+  },
+  "loading": {
+    "menu": "Loading menu...",
+    "categories": "Loading categories...",
+    "item": "Loading item details...",
+    "addingToCart": "Adding to cart..."
+  },
+  "errors": {
+    "loadFailed": "Failed to load menu",
+    "itemUnavailable": "This item is currently unavailable",
+    "addToCartFailed": "Failed to add to cart",
+    "optionRequired": "Please select {option}",
+    "quantityRequired": "Please select quantity",
+    "tryAgain": "Try again"
+  },
+  "empty": {
+    "noItems": {
+      "title": "No items available",
+      "message": "This store currently has no menu items.",
+      "action": "Back to store list"
+    },
+    "categoryEmpty": {
+      "title": "Category empty",
+      "message": "No items available in this category.",
+      "action": "View other categories"
+    },
+    "searchEmpty": {
+      "title": "No results found",
+      "message": "No items match your search criteria.",
+      "action": "Try different keywords"
+    }
+  },
+  "section": {
+    "someSoldOut": "Some items are unavailable"
+  }
+}

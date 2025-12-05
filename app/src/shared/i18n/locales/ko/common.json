@@ -1,0 +1,822 @@
+{
+  "actions": {
+    "close": "닫기",
+    "cancel": "취소",
+    "confirm": "확인",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집",
+    "add": "추가",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "more": "더보기",
+    "viewInfo": "정보 보기",
+    "businessInfo": "사업자 정보",
+    "done": "완료",
+    "loading": "로딩중...",
+    "loadingMore": "더 불러오는 중...",
+    "retry": "다시 시도",
+    "reset": "앱 다시 시작",
+    "skip": "건너뛰기",
+    "allow": "허용",
+    "deny": "거부",
+    "later": "나중에",
+    "getStarted": "시작하기",
+    "saving": "저장 중...",
+    "saved": "저장됨",
+    "processing": "처리 중...",
+    "tryAgain": "다시 시도해주세요",
+    "enabled": "활성화되었습니다",
+    "disabled": "비활성화되었습니다",
+    "ok": "확인",
+    "call": "전화하기",
+    "goBack": "돌아가기",
+    "goBackHint": "이전 화면으로 돌아가기",
+    "dismissToast": "알림을 닫으려면 탭하세요",
+    "selectCountry": "국가 선택",
+    "searchCountry": "국가 검색",
+    "noCountryFound": "검색 결과가 없습니다",
+    "pleaseSelect": "선택해주세요",
+    "tapToSelect": "탭하여 선택",
+    "seeAll": "전체보기",
+    "seeMore": "더보기",    "filter": "필터",
+    "continue": "계속",
+    "clearAll": "전체 삭제",
+    "dismiss": "닫기",
+    "tapToView": "탭하여 보기",
+    "copy": "복사",
+    "suspend": "일시정지",
+    "default": "기본",
+    "change": "변경"
+  },
+  "toast": {
+    "OPERATION_SUCCESS": "작업이 완료되었습니다",
+    "OPERATION_FAILED": "작업에 실패했습니다",
+    "LOADING": "로딩 중...",
+    "TRY_AGAIN": "다시 시도해주세요",
+    "LINK_NOT_SUPPORTED": "지원되지 않는 링크입니다",
+    "LINK_OPEN_FAILED": "링크 열기에 실패했습니다",
+    "COPY_SUCCESS": "복사되었습니다",
+    "SEARCH_FAILED": "검색에 실패했습니다",
+    "MAP_PICKER_NOT_IMPLEMENTED": "지도가 아직 준비되지 않았습니다",
+    "LOAD_MORE_ERROR": "추가 항목을 불러올 수 없습니다",
+    "REFRESH_ERROR": "새로고침에 실패했습니다",
+    "FAVORITE_TOGGLE_ERROR": "즐겨찾기 변경에 실패했습니다",
+    "INVALID_CUSTOMIZATION": "선택 옵션을 확인해주세요",
+    "ITEM_NOT_AVAILABLE": "현재 주문할 수 없는 항목입니다",
+    "ADD_TO_CART_SUCCESS": "장바구니에 담았습니다",
+    "ADD_TO_CART_FAILED": "장바구니 담기에 실패했습니다",
+    "VALIDATION_ADDRESS_FAILED": "주소 입력값을 확인해주세요",
+    "NOTIFICATION_MARK_READ_FAILED": "알림 읽음 처리에 실패했습니다",
+    "NOTIFICATION_MARK_ALL_READ_FAILED": "모든 알림 읽음 처리에 실패했습니다",
+    "NOTIFICATION_SETTINGS_UPDATE_FAILED": "알림 설정 업데이트에 실패했습니다",
+    "NOTIFICATION_DELETE_FAILED": "알림 삭제에 실패했습니다",
+    "NOTIFICATION_CLEAR_ALL_FAILED": "알림 전체 삭제에 실패했습니다",
+    "POINTS_LOAD_ERROR": "포인트 정보를 불러올 수 없습니다",
+    "POINTS_EARN_ERROR": "포인트 적립에 실패했습니다",
+    "POINTS_USE_ERROR": "포인트 사용에 실패했습니다",
+    "PROMOTION_CLAIM_ERROR": "프로모션 수령에 실패했습니다",
+    "POINTS_REPORT_ERROR": "포인트 내역 생성에 실패했습니다",
+    "POINTS_HISTORY_ERROR": "포인트 내역을 불러올 수 없습니다",
+    "STATISTICS_LOAD_ERROR": "통계를 불러올 수 없습니다",
+    "FEATURE_COMING_SOON": "곧 제공될 기능입니다"
+  },
+  "selectPromotion": "프로모션 선택",
+  "noPromotionsAvailable": "사용 가능한 프로모션이 없습니다",
+  "noPromotion": "프로모션 미사용",
+  "promotion": "프로모션",
+  "discount": "할인",
+  "promotionDiscount": "프로모션 할인",
+  "getDiscount": "할인 혜택 받기",
+  "emptyTitle": "내용이 없습니다",
+  "emptyDescription": "표시할 내용이 없습니다",
+  "retry": "다시 시도",
+  "back": "뒤로",
+  "more": "더보기",
+  "cancel": "취소",
+  "confirm": "확인",
+  "refresh": "새로고침",
+  "unknown": "알 수 없음",
+  "noPromotions": "진행중인 프로모션이 없습니다",
+  "noPromotionsMessage": "새로운 프로모션이 곧 시작됩니다!",
+  "default": "기본",
+  "common": {
+    "cancel": "취소",
+    "confirm": "확인",
+    "refreshing": "새로고침 중...",
+    "free": "무료",
+    "minute": "분",
+    "minutes": "분",
+    "store": "매장",
+    "addFavorite": "즐겨찾기 추가",
+    "removeFavorite": "즐겨찾기 제거",
+    "noLocationInfo": "위치 정보 없음",
+    "close": "닫기",
+    "reset": "초기화",
+    "delivered": "배달완료",
+    "cancelled": "취소됨",
+    "preparing": "준비중",
+    "loading": "로딩중...",
+    "goBack": "뒤로가기",
+    "refresh": "새로고침",
+    "pullToRefresh": "새로고침하려면 당겨주세요",
+    "days": {
+      "monday": "월요일",
+      "tuesday": "화요일",
+      "wednesday": "수요일",
+      "thursday": "목요일",
+      "friday": "금요일",
+      "saturday": "토요일",
+      "sunday": "일요일"
+    },
+    "actions": {
+      "goBack": "뒤로가기",
+      "viewOnMap": "지도에서 보기"
+    },
+    "filter": "필터",
+    "sort": "정렬",
+    "error": {
+      "network": {
+        "title": "네트워크 오류",
+        "description": "인터넷 연결을 확인해주세요"
+      }
+    },
+    "auth": {
+      "tokenExpired": "세션이 만료되어 로그아웃되었습니다. 다시 로그인해주세요.",
+      "sessionExpired": "로그인 세션이 만료되었습니다. 다시 로그인해주세요.",
+      "tokenRefreshFailed": "인증 토큰을 갱신하지 못했습니다",
+      "loggedOut": "성공적으로 로그아웃되었습니다.",
+      "loginRequired": "계속하려면 로그인해주세요.",
+      "login": "로그인"
+    },
+    "selectCountry": "국가 선택",
+    "searchCountry": "국가 검색",
+    "noCountryFound": "검색 결과가 없습니다"
+  },
+  "loading": "로딩중...",
+  "pleaseWait": "잠시만 기다려주세요",
+  "auth": {
+    "login": "로그인",
+    "loginRequired": "로그인이 필요합니다",
+    "loginRequiredMessage": "프로필을 편집하려면 먼저 로그인해주세요"
+  },
+  "ui": {
+    "filter": "필터",
+    "sort": "정렬",
+    "refresh": "새로고침",
+    "pullToRefresh": "당겨서 새로고침",
+    "optional": "선택",
+    "saving": "저장 중...",
+    "error": {
+      "network": {
+        "title": "네트워크 오류",
+        "description": "인터넷 연결을 확인해주세요"
+      }
+    },
+    "auth": {
+      "tokenExpired": "세션이 만료되어 로그아웃되었습니다. 다시 로그인해주세요.",
+      "sessionExpired": "로그인 세션이 만료되었습니다. 다시 로그인해주세요.",
+      "loggedOut": "로그아웃되었습니다.",
+      "loginRequired": "로그인이 필요합니다.",
+      "login": "로그인"
+    }
+  },
+  "store": {
+    "featured": "추천 매장",
+    "promotion": "프로모션",
+    "about": "매장 소개",
+    "businessNumber": "사업자 번호",
+    "joinedDate": "가입일",
+    "contactInfo": "연락처 정보",
+    "statistics": "통계",
+    "stats": {
+      "rating": "평점",
+      "reviews": "리뷰",
+      "orders": "주문수",
+      "totalRatings": "총 평점수"
+    },
+    "phone": {
+      "unavailable": "전화번호 없음",
+      "unavailableDesc": "이 매장의 전화번호를 찾을 수 없습니다",
+      "confirm": "전화걸기",
+      "confirmDesc": "{{phone}}으로 전화를 걸겠습니까?"
+    },
+    "general": "음식점",
+    "distanceUnknown": "거리정보없음",
+    "minOrder": "최소주문금액",
+    "status": {
+      "open": "영업중",
+      "closed": "영업종료",
+      "not_accepting_orders": "주문접수 불가",
+      "unknown": "상태 알 수 없음"
+    },
+    "notFound": {
+      "title": "매장을 찾을 수 없습니다",
+      "description": "요청하신 매장이 존재하지 않거나 일시적으로 이용할 수 없습니다"
+    },
+    "tab": {
+      "menu": "메뉴",
+      "info": "정보",
+      "reviews": "리뷰"
+    },
+    "loading": "매장 정보를 불러오는 중...",
+    "deliveryTime": "배달시간",
+    "deliveryFee": "배달비",
+    "operatingHours": "운영시간",
+    "noOperatingHours": "운영시간 정보 없음",
+    "deliveryInfo": "배달 정보",
+    "paymentMethods": "결제 방법",
+    "address": "주소",
+    "call": "전화하기",
+    "new": "New",
+    "card": {
+      "freeDelivery": "Free Delivery",
+      "deliveryFee": "Delivery Fee",
+      "minOrder": "Min Order",
+      "off": "OFF",
+      "discount": "Discount",
+      "new": "NEW",
+      "popular": "Popular",
+      "closed": "Closed",
+      "viewMenu": "View Menu"
+    },
+    "list": {
+      "title": "Store List"
+    },
+    "search": {
+      "title": "Search Stores",
+      "placeholder": "Search stores, food..."
+    },
+    "sort": {
+      "distance": "By Distance",
+      "rating": "By Rating",
+      "deliveryTime": "By Delivery Time",
+      "popularity": "By Popularity",
+      "newest": "Newest"
+    },
+    "filter": {
+      "title": "Filter"
+    },
+    "storeCount": "{{count}} stores",
+    "searchResults": "{{count}} results for '{{query}}'",
+    "error": {
+      "notFound": {
+        "title": "Store not found",
+        "description": "This store is not available at the moment"
+      }
+    },
+    "empty": {
+      "noStores": {
+        "title": "No stores available",
+        "description": "Currently no stores are open",
+        "action": "Refresh"
+      },
+      "searchNoResults": {
+        "title": "No search results",
+        "description": "No results found for '{{query}}'",
+        "action": "Change keywords"
+      },
+      "filteredNoResults": {
+        "title": "No matching stores",
+        "description": "Try changing your filter criteria",
+        "action": "Search again"
+      }
+    }
+  },
+  "filter": {
+    "title": "필터",
+    "close": "닫기",
+    "reset": "초기화",
+    "apply": "적용",
+    "results_other": "{{count}}개 결과",
+    "results": "결과",
+    "emptyTitle": "필터 조건에 맞는 결과가 없습니다",
+    "emptyDescription": "필터를 변경하거나 초기화해보세요",
+    "clearFilters": "필터 초기화",
+    "deliveryFee": {
+      "title": "배달비",
+      "all": "전체",
+      "free": "무료 배달",
+      "under15k": "15,000₫ 미만",
+      "under25k": "25,000₫ 미만"
+    },
+    "minOrder": {
+      "title": "최소주문금액",
+      "all": "전체",
+      "under50k": "50,000₫ 미만",
+      "under100k": "100,000₫ 미만",
+      "under150k": "150,000₫ 미만"
+    },
+    "rating": {
+      "title": "평점",
+      "all": "전체",
+      "above45": "4.5점 이상",
+      "above40": "4.0점 이상",
+      "above35": "3.5점 이상"
+    },
+    "hours": {
+      "title": "운영시간",
+      "openNow": "현재 운영중",
+      "openNowDesc": "지금 주문 가능한 매장",
+      "acceptingOrders": "주문 접수중",
+      "acceptingOrdersDesc": "주문을 받고 있는 매장"
+    },
+    "activeFilters": "{{count}}개 필터 적용 중",
+    "free": "무료"
+  },
+  "status": {
+    "loading": "로딩중...",
+    "error": "오류",
+    "success": "성공",
+    "warning": "경고",
+    "info": "정보",
+    "completed": "완료됨",
+    "pending": "대기중",
+    "failed": "실패",
+    "available": "이용 가능",
+    "unavailable": "이용 불가",
+    "operational": "운영중",
+    "delayed": "지연",
+    "suspended": "중단",
+    "unknown": "알 수 없음"
+  },
+  "available": "이용 가능",
+  "ai": "AI",
+  "navigation": {
+    "home": "홈",
+    "store": "매장",
+    "cart": "장바구니",
+    "chat": "채팅",
+    "orders": "주문",
+    "profile": "마이",
+    "search": "검색",
+    "favorites": "찜",
+    "settings": "설정"
+  },
+  "delivery": {
+    "error": {
+      "cannotDeliver": "배달 불가",
+      "cannotOrder": "주문할 수 없습니다"
+    },
+    "status": {
+      "locationRequired": "위치 정보가 필요합니다",
+      "outOfRange": "배달 가능 거리({{distance}}km)를 벗어났습니다",
+      "minOrder": "최소 주문 금액에 도달하지 않았습니다",
+      "available": "배달 가능"
+    },
+    "info": {
+      "title": "Delivery Info",
+      "time": "Delivery Time",
+      "fee": "Delivery Fee",
+      "minOrder": "Min Order",
+      "freeDelivery": "Free Delivery",
+      "estimatedTime": "Estimated Delivery Time",
+      "moreForFreeDelivery": "more for free delivery",
+      "minOrderAmount": "Minimum Order Amount",
+      "moreToOrder": "more to order",
+      "distance": "Distance"
+    }
+  },
+  "time": {
+    "hoursAgo": "{{count}}시간 전",
+    "minutesAgo": "{{count}}분 전",
+    "justNow": "방금 전",
+    "daysAgo": "{{count}}일 전",
+    "morning": "아침",
+    "lunch": "점심",
+    "afternoon": "오후",
+    "dinner": "저녁",
+    "lateNight": "야식",
+    "minutes": "분",
+    "min": "분",
+    "approximately": "약",
+    "about": "약"
+  },
+  "promotions": {
+    "hot_deal": "핫딜",
+    "coupon_available": "쿠폰 사용 가능",
+    "apply_now": "지금 적용",
+    "newUser": {
+      "title": "신규 가입 혜택",
+      "desc": "첫 주문 최대 70,000₫ 할인"
+    }
+  },
+  "tabs": {
+    "delivery": "배달",
+    "takeout": "포장",
+    "shopping": "쇼핑"
+  },
+  "categories": {
+    "title": "카테고리",
+    "viewAll": "전체보기",
+    "korean_food": "한식",
+    "bunsik_ramen": "분식·라면",
+    "chicken": "치킨",
+    "pizza": "피자",
+    "chinese_food": "중식",
+    "vietnamese_food": "Local식",
+    "japanese_food": "일식·돈까스",
+    "sushi_sashimi": "회·초밥",
+    "western_fastfood": "양식·패스트푸드",
+    "cafe_dessert": "카페·디저트",
+    "bar_pocha": "술집·포차"
+  },
+  "services": {
+    "convenience_mart_beauty": "편의점 및 뷰티"
+  },
+  "home": {
+    "emptyState": {
+      "noStores": {
+        "title": "근처 매장이 없어요",
+        "description": "다른 지역을 선택하거나\n잠시 후 다시 시도해보세요",
+        "action": "위치 변경"
+      },
+      "noSearchResults": {
+        "title": "검색 결과가 없어요",
+        "description": "다른 검색어를 입력하거나\n카테고리에서 찾아보세요",
+        "action": "다시 검색"
+      },
+      "offline": {
+        "title": "인터넷 연결 확인",
+        "description": "네트워크 연결을 확인하고\n다시 시도해주세요",
+        "action": "다시 시도"
+      },
+      "error": {
+        "title": "일시적인 오류",
+        "description": "잠시 후 다시 시도하거나\n고객센터에 문의해주세요",
+        "action": "다시 시도"
+      }
+    },
+    "header": {
+      "deliverTo": "Deliver to",
+      "selectLocation": "Select location"
+    },
+    "search": {
+      "placeholder": "Search stores, food..."
+    },
+    "category": {
+      "all": "All",
+      "vietnamese": "Vietnamese",
+      "korean": "Korean",
+      "chinese": "Chinese",
+      "western": "Western",
+      "dessert": "Dessert",
+      "drinks": "Drinks"
+    },
+    "location": {
+      "district1": "District 1, Ho Chi Minh City, Vietnam"
+    },
+    "stores": {
+      "pho24": {
+        "name": "Phở 24 - Authentic Vietnamese Noodle"
+      },
+      "banh_mi": {
+        "name": "Bánh Mì 25 - Fresh Vietnamese Sandwich"
+      },
+      "kimchi": {
+        "name": "Kimchi Store - Korean Cuisine"
+      },
+      "malatang": {
+        "name": "Malatang Store - Spicy Chinese Food"
+      },
+      "discount": {
+        "fifteen": "15% OFF",
+        "twenty": "20% OFF",
+        "thirty": "30% OFF"
+      },
+      "deliveryFee": {
+        "free": "FREE"
+      },
+      "distance": {
+        "zeroPointEight": "0.8km",
+        "onePointTwo": "1.2km",
+        "onePointEight": "1.8km",
+        "twoPointOne": "2.1km"
+      },
+      "deliveryTime": {
+        "fifteenToTwentyFive": "15-25 min",
+        "twentyToThirty": "20-30 min",
+        "twentyFiveToThirtyFive": "25-35 min",
+        "thirtyToForty": "30-40 min"
+      }
+    },
+    "empty": {
+      "noSearchResults": "No search results found",
+      "noStores": "No available stores at the moment"
+    }
+  },
+  "orderNumber": "주문번호",
+  "completed": "완료",
+  "connected": "연결됨",
+  "deliveryExpert": "배달 전문",
+  "callDriver": "배달원에게 전화하기",
+  "tapToCall": "탭하여 전화하기",
+  "currentLocation": "현재 위치",
+  "chat": {
+    "customerSupport": "고객지원팀",
+    "customer": "고객님"
+  },
+  "tapToOpen": "탭하여 열기",
+  "tapToViewDetails": "탭하여 자세히 보기",
+  "stay": "머물기",
+  "promotionNotifications": "프로모션 알림",
+  "marketingNotifications": "마케팅 알림",
+  "orderUpdates": "주문 상태 알림",
+  "promotions": "프로모션 알림",
+  "chatMessages": "채팅 메시지",
+  "dataSaver": "데이터 절약 모드",
+  "reduceDataUsage": "데이터 사용량 절약",
+  "autoPlayVideos": "동영상 자동 재생",
+  "shareLocation": "위치 정보 공유",
+  "improveDelivery": "배달 서비스 개선에 도움",
+  "analytics": "사용 분석",
+  "helpImprove": "서비스 개선에 도움",
+  "other": "기타",
+  "confirmDelete": "정말 삭제하시겠습니까?",
+  "success": "성공",
+  "cacheCleared": "캐시가 삭제되었습니다",
+  "error": {
+    "title": "오류",
+    "networkError": "네트워크 오류가 발생했습니다"
+  },
+  "notice": "안내",
+  "tryAgain": "다시 시도해주세요",
+  "messages": {
+    "noChanges": "변경된 내용이 없습니다",
+    "saveSuccess": "저장되었습니다",
+    "updateSuccess": "업데이트되었습니다",
+    "deleteSuccess": "삭제되었습니다",
+    "operationComplete": "작업이 완료되었습니다"
+  },
+  "errors": {
+    "unexpected": "예상치 못한 오류가 발생했습니다",
+    "general": "앱에서 문제가 발생했습니다. 잠시 후 다시 시도해주세요",
+    "feature_error": "{{feature}} 기능에서 문제가 발생했습니다. 잠시 후 다시 시도해주세요",
+    "retryAttempt": "재시도 {{current}}/{{max}}",
+    "saveError": "저장에 실패했습니다",
+    "updateError": "업데이트에 실패했습니다",
+    "deleteError": "삭제에 실패했습니다",
+    "loadError": "불러오기에 실패했습니다",
+    "networkError": "네트워크 오류가 발생했습니다",
+    "unexpectedError": "예기치 못한 오류가 발생했습니다",
+    "tryAgain": "다시 시도해주세요",
+    "trackingFetchFailed": "배달 정보를 불러오는데 실패했습니다",
+    "locationUpdateFailed": "위치 업데이트 실패:",
+    "network": {
+      "title": "네트워크 오류",
+      "description": "인터넷 연결을 확인해주세요",
+      "connectionFailed": "연결에 실패했습니다",
+      "timeout": "요청 시간이 초과되었습니다",
+      "serverError": "서버 오류가 발생했습니다"
+    },
+    "errorModal": {
+      "temporaryError": "일시적인 오류가 발생했습니다",
+      "tryAgainLater": "잠시 후 다시 시도해 주세요."
+    }
+  },
+  "orders": {
+    "noOrdersYet": "아직 주문 내역이 없습니다",
+    "startOrdering": "첫 번째 주문을 시작해보세요",
+    "browseStores": "매장 둘러보기",
+    "items": "{{count}}개 메뉴",
+    "review": "리뷰 작성",
+    "reorder": "재주문"
+  },
+  "order": {
+    "orderNow": "지금 주문"
+  },
+  "menu": {
+    "detail": "메뉴 상세",
+    "notFound": "메뉴를 찾을 수 없습니다",
+    "notFoundDesc": "요청하신 메뉴가 존재하지 않거나 일시적으로 이용할 수 없습니다",
+    "empty": {
+      "title": "메뉴가 없습니다",
+      "description": "현재 이용 가능한 메뉴가 없습니다"
+    },
+    "options": {
+      "summary": "선택 {{count}}개",
+      "extra": "추가 금액",
+      "singleSelect": "하나만 선택",
+      "selectedCount": "선택 {{count}}개",
+      "multiSelectRange": "{{min}}~{{max}}개 선택",
+      "confirmWithExtra": "확인 (+{{amount}})",
+      "selected": "{{count}}개 선택됨",
+      "count": "{{count}}개",
+      "selectRange": "{{min}}개에서 {{max}}개 선택"
+    },
+    "required": "필수",
+    "selectUpTo": "최대 {{max}}개까지 선택",
+    "specialInstructions": "특별 요청 사항",
+    "addNote": "요청사항을 입력하세요 (예: 맵기 조절, 양념 빼기 등)",
+    "addToCart": "장바구니에 담기"
+  },
+  "cart": {
+    "viewCart": "장바구니 보기"
+  },
+  "payment": {
+    "cash": "현금",
+    "card": "카드"
+  },
+  "review": {
+    "filter": {
+      "all": "전체"
+    },
+    "reviews": "리뷰",
+    "empty": {
+      "title": "리뷰가 없습니다",
+      "description": "아직 작성된 리뷰가 없습니다"
+    },
+    "helpful": "도움이 됨"
+  },
+  "validation": {
+    "invalidPhoneNumber": "올바른 전화번호를 입력해주세요"
+  },
+  "phoneHint": "예시: {{format}}",
+  "mock": {
+    "mapView": "지도 뷰 (개발 환경에서는 모의 컴포넌트가 표시됩니다)"
+  },
+  "language": {
+    "selectTitle": "언어 선택"
+  },
+  "languages": {
+    "ko": "한국어",
+    "vi": "Local어",
+    "en": "영어"
+  },
+  "noData": "데이터가 없습니다",
+  "promotionNotFound": "프로모션을 찾을 수 없습니다",
+  "goBack": "돌아가기",
+  "promotionDetail": "프로모션 상세",
+  "description": "설명",
+  "conditions": "적용 조건",
+  "targetCustomers": "대상 고객",
+  "usePromotion": "프로모션 사용하기",
+  "promotionDetail": {
+    "minOrderAmount": "최소 주문 금액",
+    "maxOrderAmount": "최대 주문 금액",
+    "maxDiscountAmount": "최대 할인",
+    "code": "코드",
+    "usageLimitPerUser": "1인당 {{count}}회 사용 가능"
+  },
+  "mapToggle": {
+    "currentList": "현재 리스트",
+    "switchToList": "리스트로 전환",
+    "currentMap": "현재 지도",
+    "switchToMap": "지도로 전환"
+  },
+  "soldOut": "품절",
+  "storeOpen": "영업중",
+  "freeDelivery": "무료배달",
+  "anonymous": "익명",
+  "results": "결과",
+  "loadingMore": "더 불러오는 중...",
+  "comingSoon": "구현 예정",
+  "filters": {
+    "all": "전체"
+  },
+  "imagePicker": {
+    "permissions": {
+      "photoLibraryTitle": "권한 필요",
+      "photoLibraryMessage": "갤러리 접근을 위해 사진 접근 권한이 필요합니다.",
+      "cameraTitle": "권한 필요",
+      "cameraMessage": "카메라 사용을 위해 카메라 접근 권한이 필요합니다.",
+      "ok": "확인"
+    },
+    "dialog": {
+      "title": "이미지 선택",
+      "message": "이미지를 어떻게 선택하시겠습니까?",
+      "gallery": "갤러리",
+      "camera": "카메라",
+      "cancel": "취소"
+    },
+    "errors": {
+      "permissionDenied": "permission_denied",
+      "gallerySelectFailed": "이미지를 선택할 수 없습니다.",
+      "cameraCaptureFailed": "사진을 촬영할 수 없습니다.",
+      "multipleSelectFailed": "이미지를 선택할 수 없습니다."
+    },
+    "logs": {
+      "permissionRequestFailed": "권한 요청 실패",
+      "permissionCheckFailed": "권한 확인 실패",
+      "gallerySelectError": "갤러리 이미지 선택 실패",
+      "cameraError": "카메라 촬영 실패",
+      "multipleSelectError": "다중 이미지 선택 실패",
+      "cleanupFailed": "임시 파일 정리 실패",
+      "cleanupCompleted": "임시 이미지 파일 정리 완료"
+    }
+  },
+  "emptyStates": {
+    "points": {
+      "title": "포인트가 없습니다",
+      "description": "주문을 완료하면 포인트를 적립할 수 있습니다",
+      "actionText": "주문하러 가기"
+    },
+    "search": {
+      "title": "검색 결과가 없습니다",
+      "description": "다른 키워드로 다시 검색해보세요",
+      "actionText": "다시 검색"
+    },
+    "favorite": {
+      "title": "즐겨찾기가 없습니다",
+      "description": "마음에 드는 매장을 즐겨찾기에 추가해보세요",
+      "actionText": "매장 둘러보기"
+    },
+    "location": {
+      "title": "위치 정보 없음",
+      "description": "위치 권한을 허용해주세요",
+      "actionText": "설정하기"
+    },
+    "filter": {
+      "title": "조건에 맞는 매장이 없습니다",
+      "description": "필터 조건을 변경해보세요",
+      "actionText": "필터 초기화"
+    },
+    "permission": {
+      "title": "권한이 필요합니다",
+      "description": "앱 사용을 위해 권한을 허용해주세요",
+      "actionText": "설정으로 이동"
+    }
+  },
+  "coupon": {
+    "emptyStates": {
+      "myEmpty": {
+        "title": "사용 가능한 쿠폰이 없습니다",
+        "description": "새로운 쿠폰을 받아보세요!",
+        "actionText": "쿠폰 받기"
+      },
+      "availableEmpty": {
+        "title": "받을 수 있는 쿠폰이 없습니다",
+        "description": "곧 새로운 쿠폰이 업데이트됩니다"
+      }
+    }
+  },
+  "sort": {
+    "distance": "거리순",
+    "distanceDesc": "가까운 순서",
+    "rating": "평점순",
+    "ratingDesc": "높은 평점순",
+    "deliveryTime": "배달시간순",
+    "deliveryTimeDesc": "빠른 배달순",
+    "popularity": "인기순",
+    "popularityDesc": "인기도순",
+    "newest": "최신순",
+    "newestDesc": "새로 등록된 순",
+    "alphabetical": "가나다순",
+    "alphabeticalDesc": "이름 가나다순",
+    "title": "정렬",
+    "subtitle": "매장 정렬 방식을 선택하세요",
+    "tip": "원하는 정렬 방식을 선택해보세요"
+  },
+  "search": {
+    "placeholder": "매장이나 음식을 검색해보세요",
+    "button": "검색",
+    "noResults": "검색 결과가 없습니다",
+    "tryDifferent": "다른 검색어로 시도해보세요",
+    "suggestions": "검색 제안",
+    "history": "최근 검색",
+    "popular": "인기 검색어",
+    "trending": "트렌딩 검색어",
+    "clear": "지우기",
+    "clearHistory": "검색 기록 삭제",
+    "noHistory": "검색 기록이 없습니다",
+    "searching": "검색 중...",
+    "enterKeyword": "검색어를 입력하세요",
+    "minLength": "2글자 이상 입력해주세요"
+  },
+  "items": "개 메뉴",
+  "gallery": {
+    "empty": {
+      "title": "이미지가 없습니다",
+      "description": "아직 업로드된 이미지가 없습니다"
+    }
+  },
+  "favorites": {
+    "title": "즐겨찾기",
+    "stores": "매장",
+    "menus": "메뉴",
+    "noStores": "즐겨찾기한 매장이 없습니다",
+    "noStoresDesc": "마음에 드는 매장을 즐겨찾기에 추가해보세요",
+    "noMenus": "즐겨찾기한 메뉴가 없습니다",
+    "noMenusDesc": "좋아하는 메뉴를 즐겨찾기에 추가해보세요",
+    "storeInfo": {
+      "orderCount": "{{count}}번 주문",
+      "totalSpent": "총 {{amount}}₫ 사용"
+    }
+  },
+  "notification": {
+    "center": "알림 센터",
+    "title": "알림",
+    "message": "새로운 알림이 있습니다",
+    "empty": "알림이 없습니다",
+    "emptyDescription": "새로운 알림이 도착하면 여기에 표시됩니다",
+    "orderUpdate": "주문 업데이트",
+    "orderStatusChanged": "주문 상태가 {{status}}로 변경되었습니다"
+  },
+  "accessibility": {
+    "tapToView": "탭하여 보기"
+  },
+  "a11y": {
+    "bannerImage": "배너 이미지"
+  }
+}

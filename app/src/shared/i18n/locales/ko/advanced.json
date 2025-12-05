@@ -1,0 +1,155 @@
+{
+  "weather": {
+    "title": "날씨",
+    "subtitle": "날씨 기반 음식 추천 시스템",
+    "systemTitle": "Local App 날씨 연동 시스템",
+    "systemDescription": "현재 날씨에 맞는 음식과 음료를 AI가 추천하는 스마트 시스템",
+    "currentWeather": {
+      "title": "현재 날씨",
+      "description": "실시간 날씨 정보"
+    },
+    "recommendations": {
+      "title": "날씨별 추천",
+      "description": "날씨에 맞는 음식 추천"
+    },
+    "conditions": {
+      "sunny": "맑음",
+      "rainy": "비",
+      "cloudy": "흐림",
+      "hot": "더움",
+      "cold": "춥다"
+    },
+    "suggestions": {
+      "hotWeather": {
+        "title": "더운 날씨",
+        "foods": "시원한 음료, 냉면, 아이스크림",
+        "description": "더위를 식혀줄 시원한 음식들"
+      },
+      "rainyWeather": {
+        "title": "비 오는 날",
+        "foods": "뜨거운 국물, 전, 따뜻한 음료",
+        "description": "우중충한 날씨에 따뜻하게"
+      },
+      "coldWeather": {
+        "title": "추운 날씨",
+        "foods": "매운탕, 뜨거운 국물, 따뜻한 차",
+        "description": "몸을 따뜻하게 해주는 음식들"
+      }
+    }
+  },
+  "accessibility": {
+    "title": "접근성",
+    "subtitle": "모든 사용자를 위한 접근성 기능",
+    "systemTitle": "Local App 접근성 시스템",
+    "systemDescription": "시각, 청각, 신체 장애가 있는 사용자를 위한 포용적 디자인",
+    "screenReader": {
+      "title": "스크린 리더 지원",
+      "description": "시각 장애인을 위한 음성 안내"
+    },
+    "fontSize": {
+      "title": "글자 크기 조절",
+      "description": "가독성 향상을 위한 글자 크기 설정"
+    },
+    "highContrast": {
+      "title": "고대비 모드",
+      "description": "시각적 구별을 위한 대비 강화"
+    },
+    "voiceOrdering": {
+      "title": "음성 주문",
+      "description": "음성으로 음식 주문하기"
+    },
+    "largeButtons": {
+      "title": "큰 버튼",
+      "description": "터치하기 쉬운 큰 버튼들"
+    },
+    "colorBlindSupport": {
+      "title": "색맹 지원",
+      "description": "색상 외 다른 방법으로 정보 전달"
+    }
+  },
+  "personalization": {
+    "title": "개인화",
+    "subtitle": "사용자 맞춤 경험 제공",
+    "systemTitle": "Local App 개인화 시스템",
+    "systemDescription": "사용자의 선호도와 주문 패턴을 분석한 맞춤형 추천",
+    "preferences": {
+      "title": "선호도 설정",
+      "description": "개인 취향 및 선호도 관리"
+    },
+    "orderHistory": {
+      "title": "주문 기록 분석",
+      "description": "과거 주문을 바탕으로 한 추천"
+    },
+    "dietaryRestrictions": {
+      "title": "식단 제한",
+      "description": "알레르기, 비건 등 식단 제한 관리"
+    },
+    "favoriteStores": {
+      "title": "즐겨찾는 매장",
+      "description": "자주 주문하는 매장 관리"
+    },
+    "customization": {
+      "title": "앱 커스터마이징",
+      "description": "테마, 레이아웃 등 개인화 설정"
+    },
+    "smartSuggestions": {
+      "title": "스마트 추천",
+      "description": "AI 기반 맞춤 음식 추천"
+    },
+    "dietary": {
+      "vegetarian": "채식주의",
+      "vegan": "비건",
+      "halal": "할랄",
+      "kosher": "코셔",
+      "glutenFree": "글루텐 프리",
+      "allergies": "알레르기"
+    }
+  },
+  "reviewSystem": {
+    "title": "리뷰 시스템",
+    "subtitle": "종합적인 평가 및 리뷰 관리",
+    "systemTitle": "Local App 리뷰 시스템",
+    "systemDescription": "매장과 음식에 대한 상세하고 도움이 되는 리뷰 작성 및 관리",
+    "writeReview": {
+      "title": "리뷰 작성",
+      "description": "매장과 음식에 대한 평가"
+    },
+    "ratingCategories": {
+      "title": "평가 카테고리",
+      "description": "다양한 관점에서의 평가"
+    },
+    "photoReviews": {
+      "title": "사진 리뷰",
+      "description": "음식 사진과 함께 하는 리뷰"
+    },
+    "reviewIncentives": {
+      "title": "리뷰 혜택",
+      "description": "리뷰 작성 시 포인트 및 할인"
+    },
+    "helpfulVotes": {
+      "title": "도움이 된 리뷰",
+      "description": "다른 사용자들의 도움 투표"
+    },
+    "categories": {
+      "taste": "맛",
+      "delivery": "배달",
+      "packaging": "포장",
+      "temperature": "온도",
+      "portion": "양",
+      "value": "가성비"
+    },
+    "quickFeedback": {
+      "delicious": "맛있어요",
+      "fresh": "신선해요",
+      "hot": "뜨거워요",
+      "fast": "빨라요",
+      "goodPackaging": "포장이 좋아요",
+      "generous": "양이 많아요"
+    },
+    "incentives": {
+      "photoReward": "사진 리뷰 작성 시 500 포인트",
+      "detailedReward": "상세 리뷰 작성 시 300 포인트",
+      "firstReview": "첫 리뷰 작성 시 1000 포인트"
+    }
+  }
+}

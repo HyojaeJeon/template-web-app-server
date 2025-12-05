@@ -1,0 +1,636 @@
+{
+  "all": "전체",
+  "category": "카테고리",
+  "delete": "삭제",
+  "edit": "수정",
+  "never": "없음",
+  "filter": "필터",
+  "refresh": "새로고침",
+  "reset": "초기화",
+  "retry": "다시 시도",
+  "or": "또는",
+  "yes": "예",
+  "no": "아니오",
+  "confirm": "확인",
+  "priority": "우선순위",
+  "initializing": "초기화 중...",
+  "untitled": "제목 없음",
+  "processing": "처리 중...",
+
+  "language": "ko",
+
+  "languages": {
+    "vietnamese": "Local어",
+    "korean": "한국어",
+    "english": "영어"
+  },
+
+  "actions": {
+    "add": "추가",
+    "edit": "수정",
+    "delete": "삭제",
+    "save": "저장",
+    "saving": "저장 중...",
+    "cancel": "취소",
+    "confirm": "확인",
+    "submit": "제출",
+    "close": "닫기",
+    "logout": "로그아웃",
+    "open": "열기",
+    "view": "보기",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "reset": "초기화",
+    "clear": "지우기",
+    "refresh": "새로고침",
+    "update": "업데이트",
+    "create": "생성",
+    "remove": "제거",
+    "select": "선택",
+    "selectAll": "모두 선택",
+    "deselect": "선택 해제",
+    "deselectAll": "모두 해제",
+    "more": "더보기",
+    "enable": "활성화",
+    "disable": "비활성화",
+    "show": "보이기",
+    "hide": "숨기기",
+    "expand": "펼치기",
+    "collapse": "접기",
+    "next": "다음",
+    "previous": "이전",
+    "back": "뒤로",
+    "goBack": "뒤로 가기",
+    "forward": "앞으로",
+    "up": "위로",
+    "down": "아래로",
+    "copy": "복사",
+    "paste": "붙여넣기",
+    "cut": "잘라내기",
+    "undo": "실행 취소",
+    "redo": "다시 실행",
+    "print": "인쇄",
+    "download": "다운로드",
+    "upload": "업로드",
+    "import": "가져오기",
+    "export": "내보내기",
+    "retry": "다시 시도",
+    "activate": "활성화",
+    "deactivate": "비활성화",
+    "selectColor": "색상 선택",
+    "viewCustomerDetail": "고객 상세 정보",
+    "viewOrderDetail": "주문 상세 보기",
+    "attachImage": "이미지 첨부",
+    "sendMessage": "메시지 전송",
+    "moveUp": "위로 이동",
+    "moveDown": "아래로 이동"
+  },
+
+  "breadcrumb": {
+    "dashboard": "대시보드"
+  },
+
+  "navigation": {
+    "dashboard": "대시보드"
+  },
+
+  
+  "back": "뒤로",
+  "add": "추가",
+  "cancel": "취소",
+  "save": "저장",
+
+  "common": {
+    "back": "뒤로",
+    "cancel": "취소",
+    "add": "추가",
+    "delete": "삭제",
+    "save": "저장",
+    "saved": "저장됨",
+    "saving": "저장 중...",
+    "edit": "수정",
+    "never": "없음"
+  },
+
+  "status": {
+    "all": "전체",
+    "active": "활성",
+    "inactive": "비활성",
+    "pending": "대기 중",
+    "processing": "처리 중",
+    "completed": "완료",
+    "cancelled": "취소됨",
+    "failed": "실패",
+    "success": "성공",
+    "error": "오류",
+    "warning": "경고",
+    "info": "정보",
+    "loading": "로딩 중",
+    "ready": "준비 완료",
+    "busy": "처리 중",
+    "available": "이용 가능",
+    "unavailable": "이용 불가",
+    "online": "온라인",
+    "offline": "오프라인",
+    "connected": "연결됨",
+    "unknown": "알 수 없음",
+    "disconnected": "연결 끊김",
+    "enabled": "활성화됨",
+    "disabled": "비활성화됨",
+    "public": "공개",
+    "private": "비공개",
+    "draft": "임시저장",
+    "published": "게시됨",
+    "archived": "보관됨",
+    "saving": "저장 중...",
+    "deleting": "삭제 중...",
+    "ACTIVE": "활성",
+    "CONFIRMED": "확인됨"
+  },
+
+  "selectInput": {
+    "placeholder": "선택하세요",
+    "searchPlaceholder": "검색...",
+    "searchLabel": "항목 검색",
+    "noOptions": "옵션이 없습니다",
+    "noSearchResults": "검색 결과가 없습니다",
+    "loading": "로딩 중...",
+    "allItemsLoaded": "모든 항목을 로드했습니다",
+    "itemsSelected": "{{count}}개 선택됨",
+    "required": "필수",
+    "clear": "지우기"
+  },
+
+  "time": {
+    "now": "지금",
+    "today": "오늘",
+    "yesterday": "어제",
+    "tomorrow": "내일",
+    "thisWeek": "이번 주",
+    "thisMonth": "이번 달",
+    "thisYear": "올해",
+    "minute": "분",
+    "minutes": "분",
+    "hour": "시간",
+    "hours": "시간",
+    "day": "일",
+    "days": "일",
+    "week": "주",
+    "weeks": "주",
+    "month": "월",
+    "months": "월",
+    "year": "년",
+    "years": "년",
+    "second": "초",
+    "seconds": "초",
+    "am": "오전",
+    "pm": "오후",
+    "morning": "오전",
+    "afternoon": "오후",
+    "evening": "저녁",
+    "night": "밤",
+    "midnight": "자정",
+    "noon": "정오"
+  },
+
+  "navigation": {
+    "home": "홈",
+    "dashboard": "대시보드",
+    "menu": "메뉴 관리",
+    "orders": "주문 관리",
+    "customers": "고객 관리",
+    "analytics": "분석",
+    "reports": "보고서",
+    "pos": "POS 시스템",
+    "delivery": "배달 관리",
+    "promotions": "프로모션",
+    "staff": "직원 관리",
+    "chat": "채팅",
+    "notifications": "알림",
+    "payments": "결제 관리",
+    "settings": "설정",
+    "profile": "프로필",
+    "account": "계정",
+    "help": "도움말",
+    "support": "지원",
+    "about": "정보",
+    "contact": "연락처",
+    "terms": "이용약관",
+    "privacy": "개인정보보호",
+    "logout": "로그아웃",
+    "login": "로그인",
+    "register": "회원가입",
+    "liveOrders": "실시간 주문",
+    "newOrder": "신규 주문",
+    "revenueAnalytics": "매출 분석",
+    "orderAnalytics": "주문 분석",
+    "customerAnalytics": "고객 분석",
+    "menuAnalytics": "메뉴 분석",
+    "performanceAnalytics": "성과 분석",
+    "deliveryZones": "배달 구역",
+    "posSetup": "POS 설정",
+    "paymentMethods": "결제 수단",
+    "profileSettings": "프로필 설정",
+    "chatSettings": "채팅 설정",
+    "noResults": "결과 없음",
+    "pagination": "페이지네이션",
+    "currentPage": "현재 페이지",
+    "first": "처음",
+    "last": "마지막",
+    "showingResults": "{{start}}~{{end}} / 총 {{total}}개"
+  },
+
+  "totalCount": "총 {{count}}개",
+  "count": "개",
+
+  "form": {
+    "required": "필수 입력",
+    "optional": "선택 입력",
+    "placeholder": "입력하세요",
+    "login_success": "로그인 성공!",
+    "logging_in": "로그인 중...",
+    "login_button": "로그인",
+    "forgot_password": "비밀번호 찾기",
+    "validation": {
+      "required": "필수 항목입니다",
+      "invalid": "올바르지 않은 형식입니다",
+      "tooShort": "너무 짧습니다",
+      "tooLong": "너무 깁니다",
+      "invalidEmail": "올바르지 않은 이메일 주소입니다",
+      "invalidPhone": "올바르지 않은 전화번호입니다",
+      "passwordMismatch": "비밀번호가 일치하지 않습니다",
+      "weakPassword": "비밀번호가 너무 약합니다",
+      "invalidDate": "올바르지 않은 날짜입니다",
+      "invalidNumber": "올바르지 않은 숫자입니다",
+      "minValue": "최소값보다 작습니다",
+      "maxValue": "최대값보다 큽니다",
+      "validationFailed": "유효성 검사 실패"
+    }
+  },
+
+  "accessibility": {
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "skipToContent": "본문으로 건너뛰기",
+    "skipToNavigation": "네비게이션으로 건너뛰기",
+    "currentPage": "현재 페이지",
+    "newWindow": "새 창에서 열기",
+    "loading": "로딩 중입니다",
+    "sortAscending": "오름차순 정렬",
+    "sortDescending": "내림차순 정렬",
+    "expand": "확장",
+    "collapse": "축소",
+    "selected": "선택됨",
+    "unselected": "선택되지 않음",
+    "readMore": "더 읽기",
+    "readLess": "접기",
+    "selectLanguage": "언어 선택",
+    "languageOptions": "언어 옵션",
+    "currentLanguage": "현재 언어",
+    "clickToChange": "클릭하여 변경",
+    "switchTo": "전환하기",
+    "languageChanged": "{{language}}로 변경되었습니다"
+  },
+
+  "theme": {
+    "light": "라이트 모드",
+    "dark": "다크 모드",
+    "system": "시스템 설정",
+    "toggle": "테마 변경",
+    "lightDesc": "밝은 색상 테마",
+    "darkDesc": "어두운 색상 테마",
+    "systemDesc": "시스템 설정을 따름"
+  },
+
+  "notifications": {
+    "title": "알림",
+    "newOrder": "새로운 주문",
+    "paymentReceived": "결제 완료",
+    "reviewPosted": "새로운 리뷰",
+    "empty": "새로운 알림이 없습니다",
+    "markAllRead": "모두 읽음으로 표시",
+    "viewAll": "모든 알림 보기"
+  },
+
+  "user": {
+    "menu": "사용자 메뉴",
+    "storeOwner": "점주",
+    "demoAdmin": "데모 관리자",
+    "profile": "프로필",
+    "settings": "설정"
+  },
+
+  "header": {
+    "toggleMenu": "메뉴 전환",
+    "expandSidebar": "사이드바 펼치기",
+    "collapseSidebar": "사이드바 접기",
+    "searchPlaceholder": "검색...",
+    "changeLanguage": "언어 변경"
+  },
+
+  "empty": {
+    "noData": "데이터가 없습니다",
+    "noDataDescription": "표시할 데이터가 없습니다"
+  },
+
+  "conditional": "조건부",
+  "optional": "선택 사항",
+  "free": "무료",
+  "unlimited": "무제한",
+  "selectSubOption": "하위 옵션 선택",
+
+  "currency": {
+    "krw": "원",
+    "usd": "달러",
+    "vnd": "동"
+  },
+
+  "units": {
+    "kg": "킬로그램",
+    "g": "그램",
+    "l": "리터",
+    "ml": "밀리리터",
+    "cm": "센티미터",
+    "mm": "밀리미터",
+    "piece": "개",
+    "pieces": "개",
+    "serving": "인분",
+    "servings": "인분",
+    "minutes": "분"
+  },
+  
+  "unknown": "알 수 없음",
+  "items": "개",
+  "paidAt": "결제일시",
+  
+  "titles": {
+    "orders": "주문",
+    "customers": "고객",
+    "settings": "설정"
+  },
+
+  "errors": {
+    "loadingError": "데이터를 불러오는 중 오류가 발생했습니다",
+    "networkError": "네트워크 연결에 문제가 있습니다",
+    "serverError": "서버에 문제가 발생했습니다",
+    "unknownError": "알 수 없는 오류가 발생했습니다",
+    "tryAgain": "다시 시도해 주세요",
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "accessDenied": "접근이 거부되었습니다",
+    "storeNotFound": "매장을 찾을 수 없습니다",
+    "storeNotFoundDescription": "요청하신 매장 정보를 찾을 수 없습니다. 매장 ID를 확인해 주세요.",
+    "loadFailed": "데이터를 불러오는데 실패했습니다"
+  },
+
+  "loading": {
+    "profile": "프로필 정보를 불러오는 중...",
+    "userInfo": "사용자 정보를 불러오는 중..."
+  },
+
+  "filters": {
+    "allRoles": "모든 역할",
+    "allStatuses": "모든 상태",
+    "selectRole": "역할 선택",
+    "selectStatus": "상태 선택",
+    "yesterday": "어제",
+    "last7Days": "지난 7일",
+    "last30Days": "지난 30일",
+    "customRange": "직접 선택",
+    "startDate": "시작일",
+    "endDate": "종료일"
+  },
+
+  "auth": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "register": "회원가입",
+    "loading": "로딩 중...",
+    "unauthorized": "인증되지 않음",
+    "tokenExpired": "토큰 만료",
+    "loginSuccess": "로그인이 완료되었습니다",
+    "loginFailed": "로그인에 실패했습니다",
+    "logoutSuccess": "로그아웃이 완료되었습니다",
+    "logoutFailed": "로그아웃에 실패했습니다",
+    "registerSuccess": "회원가입이 완료되었습니다",
+    "registerFailed": "회원가입에 실패했습니다",
+    "invalidCredentials": "잘못된 로그인 정보입니다",
+    "networkError": "네트워크 연결을 확인해 주세요",
+    "sessionExpired": "세션이 만료되었습니다. 다시 로그인해 주세요"
+  },
+
+  "modal": {
+    "confirm": {
+      "title": "확인",
+      "dangerTitle": "주의",
+      "infoTitle": "알림",
+      "successTitle": "성공",
+      "confirm": "확인",
+      "cancel": "취소",
+      "delete": "삭제",
+      "ok": "확인",
+      "close": "닫기",
+      "processing": "처리 중...",
+      "logout": {
+        "title": "로그아웃",
+        "message": "정말 로그아웃 하시겠습니까?",
+        "confirm": "로그아웃"
+      },
+      "unsavedChanges": {
+        "title": "페이지에서 나가시겠습니까?",
+        "message": "저장하지 않은 변경사항이 있습니다. 페이지를 나가면 변경사항이 손실됩니다.",
+        "confirm": "나가기",
+        "cancel": "머물기"
+      }
+    }
+  },
+
+
+
+  "pagination": {
+    "showing": "{{total}}개 중 {{start}}-{{end}}개 표시",
+    "previous": "이전",
+    "next": "다음",
+    "first": "처음",
+    "last": "마지막",
+    "navigation": "페이지 탐색",
+    "goToPage": "{{page}}페이지로 이동",
+    "pageTitle": "{{page}}페이지",
+    "pageInfo": "{{current}}페이지 / 전체 {{total}}페이지"
+  },
+
+  "messages": {
+    "saveSuccess": "성공적으로 저장되었습니다",
+    "updateSuccess": "성공적으로 업데이트되었습니다",
+    "deleteSuccess": "성공적으로 삭제되었습니다",
+    "createSuccess": "성공적으로 생성되었습니다",
+    "operationSuccess": "작업이 성공적으로 완료되었습니다",
+    "generalError": "오류가 발생했습니다",
+    "validationError": "입력값을 확인해 주세요",
+    "loadingStoreInfo": "매장 정보를 불러오는 중...",
+    "MENU_AVAILABILITY_UPDATED": "메뉴 가용성이 변경되었습니다",
+    "MENU_BULK_UPDATED": "메뉴가 일괄 업데이트되었습니다",
+    "MENU_AVAILABILITY_UPDATE_FAILED": "메뉴 가용성 변경에 실패했습니다",
+    "MENU_BULK_UPDATE_FAILED": "메뉴 일괄 업데이트에 실패했습니다",
+    "REVIEW_REPLY_SUCCESS": "리뷰에 답변이 성공적으로 등록되었습니다",
+    "REVIEW_REPLY_UPDATED": "리뷰 답변이 성공적으로 수정되었습니다",
+    "REVIEW_REPLY_DELETED": "리뷰 답변이 삭제되었습니다",
+    "REVIEW_REPORT_HANDLED": "리뷰 신고가 성공적으로 처리되었습니다",
+    "REVIEW_REPLY_FAILED": "리뷰 답변 중 오류가 발생했습니다",
+    "REVIEW_REPLY_UPDATE_FAILED": "리뷰 답변 수정 중 오류가 발생했습니다",
+    "REVIEW_REPLY_DELETE_FAILED": "리뷰 답변 삭제 중 오류가 발생했습니다",
+    "REVIEW_REPORT_HANDLE_FAILED": "리뷰 신고 처리 중 오류가 발생했습니다"
+  },
+  
+  "search": {
+    "noResults": "검색 결과가 없습니다",
+    "tryDifferent": "다른 검색어를 시도해보세요"
+  },
+
+  "buttons": {
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "수정",
+    "create": "생성",
+    "update": "업데이트",
+    "confirm": "확인",
+    "close": "닫기"
+  },
+
+  "websocket": {
+    "connection": {
+      "connected": "실시간 연결 성공",
+      "disconnected": "실시간 연결 끊김",
+      "reconnected": "실시간 연결 재연결됨",
+      "failed": "실시간 연결 실패",
+      "connecting": "실시간 서비스에 연결 중..."
+    },
+    "errors": {
+      "networkError": "네트워크 연결 문제가 발생했습니다",
+      "connectionTimeout": "연결 시간 초과 - 다시 시도해주세요",
+      "reconnecting": "다시 연결 중입니다..."
+    }
+  },
+
+  "connection": {
+    "connected": "연결됨"
+  },
+
+  "tier": {
+    "BRONZE": "브론즈"
+  },
+
+  "payment": {
+    "COD": "현금 결제",
+    "BANK_TRANSFER": "계좌 이체"
+  },
+
+  "labels": {
+    "popular": "인기"
+  },
+
+  "fields": {
+    "description": "설명"
+  },
+
+  "wizard": {
+    "previous": "이전",
+    "next": "다음",
+    "complete": "완료",
+    "processing": "처리 중...",
+    "updateStep": "{{stepTitle}} 수정",
+    "stepOf": "단계 {{current}} / {{total}}",
+    "progressComplete": "{{percent}}% 완료"
+  },
+
+  "selectInput": {
+    "placeholder": "선택해주세요",
+    "searchPlaceholder": "검색...",
+    "searchLabel": "검색",
+    "noOptions": "옵션이 없습니다",
+    "loading": "로딩 중...",
+    "loadMore": "더 보기",
+    "allItemsLoaded": "모든 항목을 불러왔습니다",
+    "itemsSelected": "{{count}}개 선택됨",
+    "required": "필수"
+  },
+
+  "websocket": {
+    "connection": {
+      "connected": "실시간 연결 성공",
+      "disconnected": "실시간 연결 끊김",
+      "reconnected": "실시간 연결 재연결됨",
+      "failed": "실시간 연결 실패"
+    },
+    "errors": {
+      "networkError": "네트워크 연결 문제가 발생했습니다",
+      "unauthorized": "인증 실패. 다시 로그인해주세요",
+      "connectionError": "실시간 연결 오류가 발생했습니다",
+      "maxReconnectFailed": "서버 연결에 실패했습니다. 잠시 후 페이지를 새로고침해주세요"
+    },
+    "orders": {
+      "newOrder": "새 주문이 들어왔습니다! #{{orderId}}"
+    },
+    "notifications": {
+      "newMessage": "새 고객 메시지: {{customerName}}님"
+    }
+  },
+  "datePicker": {
+    "today": "오늘",
+    "yesterday": "어제",
+    "7daysAgo": "7일 전",
+    "30daysAgo": "30일 전",
+    "selectDate": "날짜 선택",
+    "endDateAfterStart": "종료일은 시작일 이후여야 합니다",
+    "endDateBeforeStartDate": "종료일은 시작일보다 이전일 수 없습니다"
+  },
+  "date": "날짜",
+  "timeLabel": "시간",
+  "categories": "카테고리",
+  "deliveryFee": "배달비",
+  "discount": "할인",
+  "reviews": {
+    "title": "리뷰 관리",
+    "subtitle": "고객 리뷰를 관리하고 답변하세요",
+    "filters": {
+      "searchPlaceholder": "리뷰 검색...",
+      "rating": {
+        "all": "전체 평점",
+        "5star": "5점",
+        "4star": "4점",
+        "3star": "3점",
+        "2star": "2점",
+        "1star": "1점"
+      },
+      "status": {
+        "all": "전체 상태",
+        "pending": "대기 중",
+        "responded": "답변 완료",
+        "flagged": "신고됨"
+      },
+      "sort": {
+        "newest": "최신순",
+        "oldest": "오래된순",
+        "ratingHigh": "평점 높은순",
+        "ratingLow": "평점 낮은순",
+        "helpful": "유용한순"
+      }
+    },
+    "empty": {
+      "title": "리뷰가 없습니다",
+      "description": "아직 등록된 리뷰가 없습니다"
+    },
+    "reply": {
+      "placeholder": "답변을 입력하세요...",
+      "submit": "답변 등록",
+      "edit": "답변 수정",
+      "delete": "답변 삭제"
+    },
+    "report": {
+      "title": "리뷰 신고",
+      "reason": "신고 사유",
+      "submit": "신고하기"
+    }
+  }
+}

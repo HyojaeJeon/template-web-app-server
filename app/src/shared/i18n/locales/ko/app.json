@@ -1,0 +1,43 @@
+{
+  "initialization": {
+    "title": "앱 초기화",
+    "loading": "로딩 중...",
+    "starting": "앱이 시작되었습니다",
+    "failed": "앱 초기화 실패",
+    "success": "앱 초기화 성공"
+  },
+  "apollo": {
+    "initializing": "Apollo Client 초기화 시작...",
+    "initSuccess": "Apollo Client 초기화 성공",
+    "initFailed": "Apollo Client 초기화 실패, fallback 사용",
+    "initTimeout": "Apollo Client 초기화 타임아웃",
+    "fallbackSuccess": "Fallback Apollo Client 생성 완료",
+    "fallbackFailed": "Fallback Apollo Client 생성 실패",
+    "cacheRefreshSuccess": "Apollo Client 캐시 새로고침 완료 (언어 변경)",
+    "cacheRefreshFailed": "Apollo Client 캐시 새로고침 실패"
+  },
+  "errors": {
+    "title": "오류",
+    "cannotStart": "앱을 시작할 수 없습니다",
+    "initialization": "앱 초기화 실패 또는 타임아웃",
+    "apolloInitializing": "Apollo Client 초기화 중..."
+  },
+  "messages": {
+    "loading": "로딩 중...",
+    "loadingApp": "Loading app...",
+    "testing": "앱 테스트 중...",
+    "apolloSocketReady": "Apollo Client + Socket 초기화 완료",
+    "allProviderReady": "모든 Provider 정상 작동!",
+    "apolloTest": "Apollo Client 3.14.0 테스트"
+  },
+  "i18n": {
+    "initialized": "i18n 초기화 완료",
+    "initFailed": "i18n 초기화 실패",
+    "languageChanged": "언어가 {language}로 변경되었습니다",
+    "languageChangeFailed": "언어 변경 실패",
+    "languageLoadFailed": "언어 설정을 불러올 수 없습니다",
+    "missingKeys": "누락된 번역키 ({count}개)",
+    "fallbackInit": "i18n 기본 설정으로 초기화됨",
+    "fallbackInitFailed": "i18n fallback 초기화도 실패"
+  }
+}

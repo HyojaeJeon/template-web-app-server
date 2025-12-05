@@ -1,0 +1,54 @@
+# ===============================================
+# Custom Scalar 타입 정의
+# Location: /graphql/types/scalars.graphql
+# Purpose: 모든 클라이언트에서 공통으로 사용하는 Scalar 타입
+# ===============================================
+
+# 기본 스칼라 타입들
+scalar DateTime      # ISO 8601 형식의 날짜/시간
+scalar Date          # ISO 8601 형식의 날짜
+scalar JSON          # JSON 객체
+scalar Decimal       # 고정소수점 decimal 값
+
+# 파일 업로드
+scalar Upload        # 파일 업로드용
+
+# 통화 및 금액
+scalar Currency      # 통화 코드 (USD, KRW 등)
+scalar Money         # 금액 (통화 포함)
+
+# 위치 정보
+scalar Coordinates   # 좌표 정보 [latitude, longitude]
+scalar GeoPoint      # 지리적 위치 포인트
+
+# 색상 및 미디어
+scalar Color         # HEX 색상 코드 (#RRGGBB)
+scalar URL           # 유효한 URL
+scalar Email         # 유효한 이메일 주소
+scalar PhoneNumber   # 전화번호 형식
+
+# 식별자
+scalar UUID          # UUID 형식 ID
+scalar Base64        # Base64 인코딩 문자열
+
+# 시간 관련
+scalar Time          # 시간 (HH:mm:ss)
+scalar Duration      # 지속 시간 (ISO 8601 duration)
+scalar Timestamp     # Unix 타임스탬프
+
+# 특수 타입들
+scalar Void          # void 타입 (부작용만 있는 mutation용)
+scalar Any           # 임의 타입 (JSON과 유사하지만 더 유연함)
+
+# ===============================================
+# 별칭 스칼라 타입들
+# 기존 타입명과 호환성 유지를 위한 별칭들
+# ===============================================
+
+scalar PaymentMethod         # PaymentMethodEnum과 동일
+scalar PaymentStatus         # PaymentStatusEnum과 동일
+scalar NotificationType      # NotificationTypeEnum과 동일
+scalar SocialProvider        # SocialProviderEnum과 동일
+scalar LanguageCode          # LanguageCodeEnum과 동일
+scalar DeviceType            # DeviceTypeEnum과 동일
+scalar Platform              # PlatformEnum과 동일

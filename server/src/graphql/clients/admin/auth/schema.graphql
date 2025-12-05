@@ -1,0 +1,23 @@
+# ===============================================
+# Admin Auth Domain Schema (Template)
+# Location: /graphql/clients/admin/auth/schema.graphql
+# Purpose: Admin 클라이언트 인증 관련 스키마 (뼈대)
+# ===============================================
+
+# ===============================================
+# Queries - Admin Auth (prefix: a)
+# ===============================================
+
+extend type Query {
+  # 헬스 체크
+  aHealthCheck: HealthCheckResponse!
+}
+
+# ===============================================
+# Mutations - Admin Auth (prefix: a)
+# ===============================================
+
+extend type Mutation {
+  # 추후 Admin 인증 뮤테이션 추가
+  _adminAuthPlaceholder: SuccessPayload
+}

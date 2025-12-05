@@ -1,0 +1,51 @@
+{
+  "status": {
+    "connected": "Online Connected",
+    "disconnected": "No Internet Connection",
+    "limitedMode": "Limited functionality mode",
+    "workingOffline": "Offline Mode"
+  },
+  "sync": "Sync",
+  "syncing": "Syncing...",
+  "syncSuccess": "Sync Complete",
+  "syncFailed": "Sync Failed",
+  "pendingActions": "{{count}} pending actions",
+  "cache": {
+    "justNow": "Just now",
+    "minutesAgo": "{{minutes}} minutes ago",
+    "lastUpdated": "Last updated: {{age}}",
+    "expired": "Expired ({{age}})",
+    "loading": "Loading cache..."
+  },
+  "warning": {
+    "cachedData": "You are offline. Showing cached data.",
+    "dataOutdated": "Displayed information may not be up to date.",
+    "limitedFunctionality": "Some features are limited."
+  },
+  "error": {
+    "noConnection": "Please check your internet connection",
+    "loadFailed": "Unable to load data",
+    "refreshFailed": "Refresh failed",
+    "syncFailed": "Sync failed",
+    "checkConnection": "Please check your network connection",
+    "tryAgain": "Please try again"
+  },
+  "empty": {
+    "noData": "No cached data available",
+    "connectToRefresh": "Connect to internet to refresh",
+    "pullToRefresh": "Pull down to refresh"
+  },
+  "actions": {
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "viewCached": "View cached data",
+    "clearCache": "Clear cache"
+  },
+  "settings": {
+    "title": "Offline Settings",
+    "cacheEnabled": "Enable offline cache",
+    "cacheSize": "Cache size",
+    "autoSync": "Auto sync",
+    "syncOnConnection": "Auto sync on connection"
+  }
+}

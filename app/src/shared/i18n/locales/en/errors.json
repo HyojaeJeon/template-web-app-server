@@ -1,0 +1,43 @@
+{
+  "general": {
+    "title": "Something went wrong",
+    "description": "The application encountered an unexpected error. Please try again in a moment."
+  },
+  "errorModal": {
+    "title": "Error Occurred",
+    "temporaryError": "A temporary error occurred",
+    "appProblem": "The app encountered a problem",
+    "restartRequired": "If the problem persists, please restart the app.",
+    "tryAgainLater": "Please try again later.",
+    "code": "Code",
+    "category": "Category",
+    "details": "Details"
+  },
+  "technicalDetails": "Technical Details",
+  "retry": "Try Again",
+  "retrying": "Retrying...",
+  "goBack": "Go Back",
+  "contactSupport": "Contact Customer Support",
+  "persistentIssue": "Issue persists?",
+  "errors": {
+    "menu": {
+      "connectionFailed": "Connection failed",
+      "notConnected": "Not connected to server",
+      "refreshFailed": "Failed to refresh menu availability"
+    },
+    "promotion": {
+      "fetchFailed": "Failed to fetch promotions",
+      "notFound": "Promotion not found",
+      "detailsFetchFailed": "Failed to fetch promotion details",
+      "notFoundOrInactive": "Promotion not found or inactive",
+      "expired": "Promotion has expired",
+      "minOrderAmount": "Minimum order amount is {{amount}}",
+      "newUsersOnly": "This promotion is only for new users",
+      "vipMembersOnly": "This promotion is only for VIP members",
+      "locationNotAvailable": "Promotion not available in your location",
+      "flashSaleSoldOut": "Flash sale sold out",
+      "eligibilityCheckFailed": "Failed to check promotion eligibility",
+      "applyFailed": "Failed to apply promotion"
+    }
+  }
+}

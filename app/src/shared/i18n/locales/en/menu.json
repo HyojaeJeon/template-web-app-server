@@ -1,0 +1,138 @@
+{
+  "empty": {
+    "title": "No Menu Available",
+    "description": "Currently there are no menu items available"
+  },
+  "popularMenus": "Popular Menus",
+  "searchPlaceholder": "Search menu...",
+  "noPopularMenus": "No Popular Menus",
+  "noPopularMenusDesc": "Currently no popular menus available. Try refreshing.",
+  "totalMenus": "Total {{count}} menus",
+  "detail": "Menu Details",
+  "loadFailed": "Menu not found",
+  "loadFailedDesc": "The requested menu does not exist or is temporarily unavailable",
+  "itemDetail": {
+    "title": "Menu Details"
+  },
+  "error": {
+    "itemNotFound": {
+      "title": "Menu Item Not Found",
+      "description": "The menu item you are looking for does not exist or has been removed"
+    }
+  },
+  "menu": {
+    "categories": {
+      "all": "All",
+      "popular": "Popular",
+      "recommended": "Recommended",
+      "appetizers": "Appetizers",
+      "mains": "Main Dishes",
+      "desserts": "Desserts",
+      "beverages": "Beverages",
+      "combos": "Combo Meals",
+      "special": "Special Menu"
+    },
+    "availability": {
+      "available": "Available",
+      "limited": "Limited Stock",
+      "lowStock": "Low Stock",
+      "soldOut": "Sold Out",
+      "restockingSoon": "Restocking Soon",
+      "restockInMinutes": "Restock in {{minutes}} min",
+      "restockInHours": "Restock in {{hours}}h {{minutes}}m",
+      "restockInDays": "Restock in {{days}} days",
+      "lastUpdate": "Last updated",
+      "realTime": "Real-time updates",
+      "connectionLost": "Connection lost",
+      "reconnecting": "Reconnecting...",
+      "refreshing": "Refreshing..."
+    },
+    "item": {
+      "addToCart": "Add to Cart",
+      "customize": "Customize",
+      "viewDetails": "View Details",
+      "ingredients": "Ingredients",
+      "nutrition": "Nutrition Info",
+      "allergens": "Allergen Information",
+      "spicyLevel": "Spicy Level",
+      "prepTime": "Prep Time",
+      "calories": "Calories",
+      "price": "Price",
+      "originalPrice": "Original Price",
+      "discount": "Discount",
+      "options": "Options",
+      "required": "Required",
+      "optional": "Optional",
+      "quantity": "Quantity",
+      "specialInstructions": "Special Instructions",
+      "addNote": "Add Note",
+      "unavailable": {
+        "title": "Item Unavailable",
+        "message": "This item is currently unavailable"
+      },
+      "orderCount": "{{count}} orders",
+      "soldOut": "Sold Out",
+      "noImage": "No image available",
+      "storeInfo": "Store Information"
+    },
+    "youMightAlsoLike": "You might also like",
+    "search": {
+      "placeholder": "Search menu items...",
+      "noResults": "No items found",
+      "searching": "Searching...",
+      "recent": "Recent Searches",
+      "clear": "Clear"
+    },
+    "filters": {
+      "sortBy": "Sort By",
+      "priceRange": "Price Range",
+      "dietary": "Dietary",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan",
+      "glutenFree": "Gluten-Free",
+      "halal": "Halal",
+      "apply": "Apply Filters",
+      "reset": "Reset"
+    },
+    "errors": {
+      "loadFailed": "Failed to load menu",
+      "itemUnavailable": "This item is currently unavailable",
+      "connectionError": "Connection error. Please try again.",
+      "updateFailed": "Failed to update menu availability"
+    },
+    "notifications": {
+      "itemBackInStock": "{{item}} is back in stock!",
+      "itemSoldOut": "{{item}} is now sold out",
+      "priceChanged": "Price updated for {{item}}",
+      "limitedStock": "Only {{count}} left of {{item}}"
+    },
+    "options": {
+      "title": "Customization",
+      "description": "Please select your preferred options",
+      "required": "Required",
+      "optional": "Optional",
+      "selectOne": "Select one",
+      "selectRange": "Select {{min}} to {{max}} items",
+      "selectMax": "Select up to {{max}} items",
+      "selectMultiple": "Multiple selection available",
+      "selected": "{{count}} selected",
+      "selectedOptions": "Selected Options",
+      "optionIndex": "Option {{index}}",
+      "moreOptions": "+{{count}} more options",
+      "count": "{{count}} items",
+      "unavailable": "Unavailable",
+      "pleaseSelectRequired": "Please select required options",
+      "selectPrompt": "Please select options",
+      "maxSelectionReached": "You can only select up to {{max}} items",
+      "note": "Special requests",
+      "addNote": "Add note",
+      "error": {
+        "minRequired": "Minimum selection required",
+        "minRequiredDesc": "Please select at least {{min}} items from {{groupName}} group",
+        "maxExceeded": "Maximum selection exceeded",
+        "maxExceededDesc": "You can select up to {{max}} items from {{groupName}} group"
+      }
+    }
+  },
+  "ordered": "{{count}} orders"
+}

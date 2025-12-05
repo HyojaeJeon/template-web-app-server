@@ -1,0 +1,241 @@
+{
+  "detail": {
+    "title": "매장 상세",
+    "loading": {
+      "title": "매장 정보를 불러오는 중..."
+    },
+    "error": {
+      "title": "매장 정보를 불러오지 못했습니다",
+      "networkFallback": "네트워크 연결을 확인해주세요",
+      "retry": "다시 시도",
+      "goBack": "뒤로 가기",
+      "helpText": "문제가 계속되면 앱을 재시작해주세요",
+      "noStoreId": "매장 ID가 없습니다"
+    },
+    "header": {
+      "defaultTitle": "매장"
+    },
+    "info": {
+      "title": "매장 정보",
+      "noName": "매장명 없음",
+      "defaultCategory": "카테고리",
+      "noAddress": "주소 정보 없음",
+      "addressLabel": "📍 주소",
+      "phoneLabel": "📞 전화"
+    },
+    "status": {
+      "open": "영업중",
+      "closed": "영업 종료",
+      "online": "접속중"
+    },
+    "action": {
+      "call": "전화하기",
+      "chat": "채팅"
+    },
+    "hours": {
+      "today": "오늘 영업: {{hours}}"
+    },
+    "delivery": {
+      "time": "배달시간",
+      "fee": "배달비",
+      "free": "무료",
+      "estimatedTime": "배달 {{min}}-{{max}}분",
+      "feeLabel": "배달비"
+    },
+    "order": {
+      "minimum": "최소주문",
+      "minimumLabel": "최소주문"
+    },
+    "tabs": {
+      "menu": "메뉴",
+      "promotions": "프로모션",
+      "info": "정보",
+      "reviews": "리뷰"
+    },
+    "category": {
+      "menu": "메뉴",
+      "all": "전체"
+    },
+    "reviews": {
+      "empty": "리뷰가 아직 없습니다"
+    },
+    "cart": {
+      "itemCount": "{{count}}개 아이템",
+      "empty": "장바구니 비어있음",
+      "addItemPrompt": "아이템을 추가해보세요",
+      "view": "장바구니 보기",
+      "selectMenu": "메뉴를 선택해주세요",
+      "orderMore": "{{amount}} 더 주문",
+      "minimumOrder": "최소주문: {{amount}}",
+      "checkout": "주문하기 ({{amount}})",
+      "replaceError": "장바구니 교체 중 오류가 발생했습니다. 다시 시도해주세요."
+    }
+  },
+  "tab": {
+    "info": "정보",
+    "menu": "메뉴",
+    "reviews": "리뷰"
+  },
+  "action": {
+    "orderNow": "지금 주문하기",
+    "call": "전화하기"
+  },
+  "status": {
+    "closed": "영업 종료",
+    "closedToday": "오늘 휴무",
+    "open": "영업중",
+    "opening": "곧 영업 시작",
+    "noBusinessHours": "영업시간 정보 없음"
+  },
+  "loading": "매장 정보를 불러오는 중...",
+  "operatingHours": "영업 시간",
+  "deliveryInfo": "배달 정보",
+  "deliveryTime": "배달 시간",
+  "deliveryFee": "배달비",
+  "minOrder": "최소 주문금액",
+  "minOrderInfo": "최소 주문금액: {{amount}}",
+  "address": "주소",
+  "reviews": "리뷰",
+  "label": "매장",
+  "store": {
+    "operatingHours": "영업시간",
+    "noOperatingHours": "운영시간 정보 없음",
+    "deliveryInfo": "배달 정보",
+    "deliveryTime": "배달시간",
+    "deliveryFee": "배달비",
+    "minOrder": "최소주문금액",
+    "paymentMethods": "결제 방법",
+    "address": "주소",
+    "call": "전화하기"
+  },
+  "call": "전화하기",
+  "addFavorite": "즐겨찾기 추가",
+  "removeFavorite": "즐겨찾기 제거",
+  "viewReviews": "리뷰 보기",
+  "closed": "영업 종료",
+  "open": "영업중",
+  "error": {
+    "notFound": {
+      "title": "매장을 찾을 수 없습니다",
+      "description": "요청하신 매장이 존재하지 않거나 일시적으로 이용할 수 없습니다."
+    },
+    "network": {
+      "title": "네트워크 오류",
+      "description": "매장 정보를 불러올 수 없습니다. 잠시 후 다시 시도해주세요."
+    }
+  },
+  "notFound": {
+    "title": "매장을 찾을 수 없습니다",
+    "description": "요청하신 매장 정보가 없습니다."
+  },
+  "paymentMethods": "결제 수단",
+  "noOperatingHours": "운영시간 정보 없음",
+  "sort": {
+    "distance": "거리순",
+    "rating": "평점순",
+    "popularity": "인기순",
+    "deliveryTime": "배달시간순"
+  },
+  "card": {
+    "freeDelivery": "무료배달",
+    "freeDeliveryApplied": "무료배달 적용 중",
+    "free": "무료",
+    "discount": "할인중",
+    "promotion": "프로모션",
+    "new": "신규",
+    "popular": "인기",
+    "closedMessage": "현재 영업 종료",
+    "featured": "추천",
+    "deliveryTimeShort": "{{time}}분",
+    "minOrderLabel": "최소",
+    "minOrder": "최소주문"
+  },
+  "badges": {
+    "fast": "빠른배달",
+    "freeDelivery": "무료배달",
+    "nearby": "근처",
+    "sale": "할인",
+    "firstOrder": "첫주문"
+  },
+  "rank": "위",
+  "searchResults": "\"{{query}}\" 검색결과 {{count}}개",
+  "storeCount": "총 {{count}}개 매장",
+  "messages": {
+    "addedToFavorites": "즐겨찾기에 추가되었습니다",
+    "removedFromFavorites": "즐겨찾기에서 제거되었습니다"
+  },
+  "common": {
+    "days": {
+      "monday": "월요일",
+      "tuesday": "화요일",
+      "wednesday": "수요일",
+      "thursday": "목요일",
+      "friday": "금요일",
+      "saturday": "토요일",
+      "sunday": "일요일"
+    },
+    "time": {
+      "minutes": "분"
+    },
+    "actions": {
+      "viewOnMap": "지도에서 보기"
+    }
+  },
+  "payment": {
+    "cash": "현금",
+    "card": "카드"
+  },
+  "category": {
+    "title": "카테고리",
+    "all": "전체",
+    "emptyTitle": "메뉴가 없습니다",
+    "emptyDescription": "이 카테고리에는 아직 메뉴가 없습니다.",
+    "emptyAction": "다른 카테고리 보기"
+  },
+  "recommended": {
+    "title": "사장님 추천 메뉴",
+    "badge": "추천"
+  },
+  "menu": {
+    "loadingMore": "메뉴를 더 불러오는 중...",
+    "allLoaded": "모든 메뉴를 불러왔습니다",
+    "noItems": "메뉴가 없습니다",
+    "loadingTitle": "메뉴 정보를 불러오는 중입니다",
+    "loadingMessage": "잠시만 기다려주세요",
+    "emptyTitle": "메뉴가 없습니다",
+    "emptyDescription": "현재 이용 가능한 메뉴가 없습니다"
+  },
+  "defaultDescription": "맛있는 음식을 제공하는 매장입니다",
+  "general": "음식점",
+  "freeDeliveryApplied": "무료배달 적용 중",
+  "distanceUnknown": "거리정보없음",
+  "ordersCount": "{{count}}회 주문됨",
+  "reviewsCount": "{{count}}+ 리뷰",
+  "newStore": "새로 오픈한 매장",
+  "fastDelivery": "빠른 배달 {{time}}분",
+  "deliveryTimeLong": "배달 {{time}}분 소요",
+  "minOrderShort": "최소 {{amount}}",
+  "ordersCountShort": "{{count}}회 주문",
+  "badges": {
+    "fastDelivery": "빠른배달",
+    "popular": "인기",
+    "recommended": "추천",
+    "coupons": "쿠폰 {{count}}장",
+    "firstOrderDiscount": "첫주문 {{amount}} 할인",
+    "membership": "멤버십",
+    "maxCoupon": "최대 {{amount}} 쿠폰",
+    "pickupAvailable": "픽업가능"
+  },
+  "highlights": {
+    "freeDeliveryActive": "🎉 무료배달 적용 중",
+    "freeDeliveryWithMin": "🎉 무료배달 적용 중 ({{amount}} 이상)",
+    "popularStore": "{{count}}회 주문됨",
+    "popularBadge": "인기",
+    "highRated": "{{rating}} ({{count}}+ 리뷰)",
+    "recommendedBadge": "추천",
+    "fastDeliveryTime": "빠른 배달 {{time}}분",
+    "fastBadge": "FAST",
+    "newStoreOpen": "새로 오픈한 매장",
+    "defaultDeliveryTime": "배달 {{time}}분 소요"
+  }
+}

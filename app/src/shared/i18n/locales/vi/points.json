@@ -1,0 +1,58 @@
+{
+  "title": "Điểm",
+  "myPoints": "Điểm của tôi",
+  "pointBalance": "Số dư điểm",
+  "availablePoints": "Có sẵn {{points}}P",
+  "usePoints": "Sử dụng điểm",
+  "pointHistory": "Lịch sử điểm",
+  "earnedThisMonth": "Tích lũy tháng này",
+  "usedThisMonth": "Đã sử dụng tháng này",
+  "nextTier": "Đến hạng tiếp theo",
+  "tier": {
+    "bronze": "Đồng",
+    "silver": "Bạc",
+    "gold": "Vàng",
+    "platinum": "Bạch kim"
+  },
+  "transactionTypes": {
+    "earn_order": "Tích lũy từ đơn hàng",
+    "earn_review": "Tích lũy từ đánh giá",
+    "earn_referral": "Tích lũy từ giới thiệu",
+    "earn_signup": "Tích lũy từ đăng ký",
+    "earn_event": "Tích lũy từ sự kiện",
+    "use_order": "Sử dụng cho đơn hàng",
+    "expire": "Điểm hết hạn",
+    "cancel": "Hủy/Hoàn tiền"
+  },
+  "filters": {
+    "all": "Tất cả",
+    "earned": "Tích lũy",
+    "used": "Đã sử dụng",
+    "week": "Tuần qua",
+    "month": "Tháng qua",
+    "year": "Năm qua"
+  },
+  "expiringWarning": "{{points}}P sẽ hết hạn sau {{days}} ngày",
+  "pointsEarned": "+{{points}}P tích lũy",
+  "pointsUsed": "-{{points}}P đã sử dụng",
+  "pointsExpired": "{{points}}P hết hạn",
+  "insufficientPoints": "Không đủ điểm",
+  "maxUsablePoints": "Tối đa {{points}}P có thể sử dụng",
+  "pointsToEarn": "Sẽ tích lũy: {{points}}P",
+  "empty": {
+    "title": "Không có lịch sử điểm",
+    "description": "Đặt hàng và tích lũy điểm"
+  },
+  "error": {
+    "loadFailed": "Không thể tải lịch sử điểm",
+    "useFailed": "Không thể sử dụng điểm",
+    "insufficientBalance": "Không đủ điểm có sẵn"
+  },
+  "success": {
+    "pointsUsed": "{{points}}P đã được sử dụng",
+    "pointsEarned": "{{points}}P đã được tích lũy"
+  },
+  "emptyHistory": "Không có lịch sử điểm",
+  "emptyHistoryDesc": "Đặt hàng để tích lũy điểm",
+  "startOrdering": "Bắt đầu đặt hàng"
+}

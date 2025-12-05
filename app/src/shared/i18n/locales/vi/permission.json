@@ -1,0 +1,14 @@
+{
+  "required": "Cần quyền truy cập",
+  "description": "Vui lòng cho phép quyền để sử dụng tính năng này",
+  "openSettings": "Mở cài đặt",
+  "gallery": {
+    "title": "Cần quyền truy cập ảnh",
+    "message": "Cần quyền để chọn ảnh từ thư viện.",
+    "description": "Vui lòng cho phép quyền để chọn ảnh từ thư viện."
+  },
+  "notifications": {
+    "title": "Quyền thông báo",
+    "message": "Vui lòng cho phép thông báo để nhận cập nhật đơn hàng và khuyến mãi."
+  }
+}

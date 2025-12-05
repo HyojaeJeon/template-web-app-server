@@ -1,0 +1,826 @@
+{
+  "actions": {
+    "close": "Đóng",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "add": "Thêm",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước đó",
+    "more": "Xem thêm",
+    "viewInfo": "Xem thông tin",
+    "businessInfo": "Thông tin doanh nghiệp",
+    "done": "Hoàn thành",
+    "loading": "Đang tải...",
+    "loadingMore": "Đang tải thêm...",
+    "retry": "Thử lại",
+    "reset": "Khởi động lại ứng dụng",
+    "skip": "Bỏ qua",
+    "allow": "Cho phép",
+    "deny": "Từ chối",
+    "later": "Để sau",
+    "getStarted": "Bắt đầu",
+    "ok": "OK",
+    "continue": "Tiếp tục",
+    "clearAll": "Xóa tất cả",
+    "dismiss": "Bỏ qua",
+    "tapToView": "Nhấn để xem",
+    "call": "Gọi điện",
+    "goBack": "Quay lại",
+    "goBackHint": "Quay về màn hình trước",
+    "dismissToast": "Nhấn để đóng thông báo",
+    "selectCountry": "Chọn quốc gia",
+    "searchCountry": "Tìm kiếm quốc gia",
+    "noCountryFound": "Không tìm thấy kết quả",
+    "pleaseSelect": "Vui lòng chọn",
+    "seeAll": "Xem tất cả",
+    "seeMore": "Xem thêm",
+    "saving": "Đang lưu...",
+    "saved": "Đã lưu",
+    "processing": "Đang xử lý...",
+    "tryAgain": "Vui lòng thử lại",
+    "enabled": "Đã kích hoạt",
+    "disabled": "Đã tắt",
+    "tapToSelect": "Nhấn để chọn",
+    "filter": "Bộ lọc",
+    "copy": "Sao chép",
+    "suspend": "Tạm ngưng",
+    "default": "Mặc định",
+    "change": "Thay đổi"
+  },
+  "toast": {
+    "OPERATION_SUCCESS": "Thao tác thành công",
+    "OPERATION_FAILED": "Thao tác thất bại",
+    "LOADING": "Đang tải...",
+    "TRY_AGAIN": "Vui lòng thử lại",
+    "LINK_NOT_SUPPORTED": "Liên kết không được hỗ trợ",
+    "LINK_OPEN_FAILED": "Không thể mở liên kết",
+    "COPY_SUCCESS": "Đã sao chép",
+    "SEARCH_FAILED": "Tìm kiếm thất bại",
+    "MAP_PICKER_NOT_IMPLEMENTED": "Bản đồ chưa khả dụng",
+    "LOAD_MORE_ERROR": "Không thể tải thêm mục",
+    "REFRESH_ERROR": "Làm mới thất bại",
+    "FAVORITE_TOGGLE_ERROR": "Cập nhật yêu thích thất bại",
+    "INVALID_CUSTOMIZATION": "Vui lòng kiểm tra tùy chọn",
+    "ITEM_NOT_AVAILABLE": "Món này hiện không có sẵn",
+    "ADD_TO_CART_SUCCESS": "Đã thêm vào giỏ hàng",
+    "ADD_TO_CART_FAILED": "Không thể thêm vào giỏ hàng",
+    "VALIDATION_ADDRESS_FAILED": "Vui lòng kiểm tra các trường địa chỉ",
+    "NOTIFICATION_MARK_READ_FAILED": "Không thể đánh dấu đã đọc",
+    "NOTIFICATION_MARK_ALL_READ_FAILED": "Không thể đánh dấu tất cả đã đọc",
+    "NOTIFICATION_SETTINGS_UPDATE_FAILED": "Cập nhật cài đặt thông báo thất bại",
+    "NOTIFICATION_DELETE_FAILED": "Xóa thông báo thất bại",
+    "NOTIFICATION_CLEAR_ALL_FAILED": "Không thể xóa tất cả thông báo",
+    "POINTS_LOAD_ERROR": "Không thể tải điểm",
+    "POINTS_EARN_ERROR": "Không thể tích điểm",
+    "POINTS_USE_ERROR": "Không thể sử dụng điểm",
+    "PROMOTION_CLAIM_ERROR": "Không thể nhận khuyến mãi",
+    "POINTS_REPORT_ERROR": "Không thể tạo báo cáo điểm",
+    "POINTS_HISTORY_ERROR": "Không thể tải lịch sử điểm",
+    "STATISTICS_LOAD_ERROR": "Không thể tải thống kê",
+    "FEATURE_COMING_SOON": "Tính năng sắp ra mắt"
+  },
+  "notice": "Thông báo",
+  "selectPromotion": "Chọn khuyến mãi",
+  "noPromotionsAvailable": "Không có khuyến mãi khả dụng",
+  "noPromotion": "Không sử dụng khuyến mãi",
+  "promotion": "Khuyến mãi",
+  "discount": "Giảm giá",
+  "promotionDiscount": "Giảm giá khuyến mãi",
+  "getDiscount": "Nhận ưu đãi giảm giá",
+  "refresh": "Làm mới",
+  "unknown": "Không xác định",
+  "noPromotions": "Không có khuyến mãi nào đang diễn ra",
+  "noPromotionsMessage": "Khuyến mãi mới sẽ sớm bắt đầu!",
+  "cancel": "Hủy",
+  "confirm": "Xác nhận",
+  "default": "Mặc định",
+  "common": {
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "refreshing": "Đang làm mới...",
+    "free": "Miễn phí",
+    "minute": "phút",
+    "minutes": "phút",
+    "store": "quán ăn",
+    "addFavorite": "Thêm vào yêu thích",
+    "removeFavorite": "Xóa khỏi yêu thích",
+    "noLocationInfo": "Không có thông tin vị trí",
+    "close": "Đóng",
+    "reset": "Đặt lại",
+    "delivered": "Đã giao hàng",
+    "cancelled": "Đã hủy",
+    "preparing": "Đang chuẩn bị",
+    "loading": "Đang tải...",
+    "days": {
+      "monday": "Thứ Hai",
+      "tuesday": "Thứ Ba",
+      "wednesday": "Thứ Tư",
+      "thursday": "Thứ Năm",
+      "friday": "Thứ Sáu",
+      "saturday": "Thứ Bảy",
+      "sunday": "Chủ Nhật"
+    },
+    "actions": {
+      "viewOnMap": "Xem trên bản đồ",
+      "goBack": "Quay lại"
+    },
+    "goBack": "Quay lại",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "refresh": "Làm mới",
+    "pullToRefresh": "Kéo để làm mới",
+    "selectCountry": "Chọn quốc gia",
+    "searchCountry": "Tìm kiếm quốc gia",
+    "noCountryFound": "Không tìm thấy quốc gia",
+    "error": {
+      "network": {
+        "title": "Lỗi mạng",
+        "description": "Vui lòng kiểm tra kết nối internet"
+      }
+    },
+    "auth": {
+      "tokenExpired": "Phiên đăng nhập đã hết hạn và bạn đã được đăng xuất. Vui lòng đăng nhập lại.",
+      "sessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+      "tokenRefreshFailed": "Không thể làm mới token xác thực",
+      "loggedOut": "Đã đăng xuất thành công.",
+      "loginRequired": "Vui lòng đăng nhập để tiếp tục.",
+      "login": "Đăng nhập"
+    }
+  },
+  "store": {
+    "featured": "Nổi bật",
+    "promotion": "Khuyến mãi",
+    "new": "Mới",
+    "card": {
+      "freeDelivery": "Giao hàng miễn phí",
+      "deliveryFee": "Phí giao hàng",
+      "minOrder": "Đơn tối thiểu",
+      "off": "giảm",
+      "discount": "Giảm giá",
+      "new": "MỚI",
+      "popular": "Phổ biến",
+      "closed": "Đã đóng cửa",
+      "viewMenu": "Xem menu"
+    },
+    "list": {
+      "title": "Danh sách quán ăn"
+    },
+    "search": {
+      "title": "Tìm kiếm quán ăn",
+      "placeholder": "Tìm kiếm quán ăn, món ăn..."
+    },
+    "sort": {
+      "distance": "Theo khoảng cách",
+      "rating": "Theo đánh giá",
+      "deliveryTime": "Theo thời gian giao hàng",
+      "popularity": "Theo độ phổ biến",
+      "newest": "Mới nhất"
+    },
+    "filter": {
+      "title": "Bộ lọc"
+    },
+    "storeCount": "{{count}} quán ăn",
+    "searchResults": "{{count}} kết quả cho '{{query}}'",
+    "error": {
+      "notFound": {
+        "title": "Không tìm thấy quán ăn",
+        "description": "Quán ăn này hiện không có sẵn"
+      }
+    },
+    "tab": {
+      "menu": "Thực đơn",
+      "info": "Thông tin",
+      "reviews": "Đánh giá"
+    },
+    "loading": "Đang tải thông tin quán ăn...",
+    "deliveryTime": "Thời gian giao hàng",
+    "deliveryFee": "Phí giao hàng",
+    "minOrder": "Đơn tối thiểu {{amount}}",
+    "operatingHours": "Giờ hoạt động",
+    "noOperatingHours": "Không có thông tin giờ hoạt động",
+    "deliveryInfo": "Thông tin giao hàng",
+    "paymentMethods": "Phương thức thanh toán",
+    "address": "Địa chỉ",
+    "call": "Gọi điện",
+    "general": "Nhà hàng",
+    "distanceUnknown": "Không rõ khoảng cách",
+    "empty": {
+      "noStores": {
+        "title": "Không có quán ăn nào",
+        "description": "Hiện tại không có quán ăn nào hoạt động",
+        "action": "Làm mới"
+      },
+      "searchNoResults": {
+        "title": "Không tìm thấy kết quả",
+        "description": "Không tìm thấy kết quả cho '{{query}}'",
+        "action": "Thay đổi từ khóa"
+      },
+      "filteredNoResults": {
+        "title": "Không có quán ăn nào phù hợp",
+        "description": "Thử thay đổi điều kiện lọc",
+        "action": "Tìm kiếm lại"
+      }
+    },
+    "about": "Giới thiệu quán ăn",
+    "businessNumber": "Mã số doanh nghiệp",
+    "joinedDate": "Ngày tham gia",
+    "contactInfo": "Thông tin liên hệ",
+    "statistics": "Thống kê",
+    "stats": {
+      "rating": "Đánh giá",
+      "reviews": "Lượt đánh giá",
+      "orders": "Số đơn hàng",
+      "totalRatings": "Tổng lượt đánh giá"
+    },
+    "phone": {
+      "unavailable": "Không có số điện thoại",
+      "unavailableDesc": "Không tìm thấy số điện thoại của quán này",
+      "confirm": "Gọi điện",
+      "confirmDesc": "Bạn có muốn gọi {{phone}} không?"
+    },
+    "status": {
+      "open": "Đang mở cửa",
+      "closed": "Đã đóng cửa",
+      "not_accepting_orders": "Không nhận đơn",
+      "unknown": "Không xác định"
+    },
+    "notFound": {
+      "title": "Không tìm thấy quán ăn",
+      "description": "Quán bạn yêu cầu không tồn tại hoặc tạm thời không khả dụng"
+    }
+  },
+  "filter": {
+    "title": "Lọc",
+    "close": "Đóng",
+    "reset": "Đặt lại",
+    "apply": "Áp dụng",
+    "results_other": "{{count}} kết quả",
+    "deliveryFee": {
+      "title": "Phí giao hàng",
+      "all": "Tất cả",
+      "free": "Giao hàng miễn phí",
+      "under15k": "Dưới 15.000₫",
+      "under25k": "Dưới 25.000₫"
+    },
+    "minOrder": {
+      "title": "Đơn hàng tối thiểu",
+      "all": "Tất cả",
+      "under50k": "Dưới 50.000₫",
+      "under100k": "Dưới 100.000₫",
+      "under150k": "Dưới 150.000₫"
+    },
+    "rating": {
+      "title": "Đánh giá",
+      "all": "Tất cả",
+      "above45": "4.5 sao trở lên",
+      "above40": "4.0 sao trở lên",
+      "above35": "3.5 sao trở lên"
+    },
+    "hours": {
+      "title": "Giờ hoạt động",
+      "openNow": "Đang mở cửa",
+      "openNowDesc": "Quán đang nhận đơn hàng",
+      "acceptingOrders": "Nhận đơn hàng",
+      "acceptingOrdersDesc": "Quán đang nhận đơn hàng"
+    },
+    "activeFilters": "{{count}} bộ lọc",
+    "free": "Miễn phí",
+    "results": "Kết quả",
+    "emptyTitle": "Không có kết quả phù hợp với bộ lọc",
+    "emptyDescription": "Hãy thay đổi hoặc đặt lại bộ lọc",
+    "clearFilters": "Xóa bộ lọc"
+  },
+  "status": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "warning": "Cảnh báo",
+    "info": "Thông tin",
+    "completed": "Hoàn thành",
+    "pending": "Đang chờ",
+    "failed": "Thất bại",
+    "available": "Có sẵn",
+    "unavailable": "Không có sẵn",
+    "operational": "Đang hoạt động",
+    "delayed": "Bị trễ",
+    "suspended": "Tạm dừng",
+    "unknown": "Không xác định"
+  },
+  "available": "Có sẵn",
+  "ai": "AI",
+  "navigation": {
+    "home": "Trang chủ",
+    "store": "Cửa hàng",
+    "cart": "Giỏ hàng",
+    "chat": "Trò chuyện",
+    "orders": "Đơn hàng",
+    "profile": "Cá nhân",
+    "search": "Tìm kiếm",
+    "favorites": "Yêu thích",
+    "settings": "Cài đặt"
+  },
+  "delivery": {
+    "info": {
+      "title": "Thông tin giao hàng",
+      "time": "Thời gian giao hàng",
+      "fee": "Phí giao hàng",
+      "minOrder": "Đơn tối thiểu",
+      "freeDelivery": "Giao hàng miễn phí",
+      "estimatedTime": "Thời gian giao dự kiến",
+      "moreForFreeDelivery": "thêm nữa để được giao miễn phí",
+      "minOrderAmount": "Giá trị đơn hàng tối thiểu",
+      "moreToOrder": "thêm để đặt hàng",
+      "distance": "Khoảng cách"
+    },
+    "status": {
+      "locationRequired": "Cần thông tin vị trí",
+      "outOfRange": "Vượt quá khoảng cách giao hàng ({{distance}}km)",
+      "minOrder": "Chưa đạt giá trị đơn hàng tối thiểu",
+      "available": "Có thể giao hàng"
+    },
+    "error": {
+      "cannotDeliver": "Không thể giao hàng",
+      "cannotOrder": "Không thể đặt hàng"
+    }
+  },
+  "time": {
+    "hoursAgo": "{{count}} giờ trước",
+    "minutesAgo": "{{count}} phút trước",
+    "justNow": "Vừa xong",
+    "morning": "Buổi sáng",
+    "lunch": "Buổi trưa",
+    "afternoon": "Buổi chiều",
+    "dinner": "Buổi tối",
+    "lateNight": "Đêm muộn",
+    "minutes": "phút",
+    "min": "phút",
+    "daysAgo": "{{count}} ngày trước",
+    "approximately": "khoảng",
+    "about": "khoảng"
+  },
+  "promotions": {
+    "hot_deal": "Ưu đãi hấp dẫn",
+    "coupon_available": "Có mã giảm giá",
+    "apply_now": "Áp dụng ngay",
+    "newUser": {
+      "title": "Ưu đãi người dùng mới",
+      "desc": "Giảm đến 70.000₫ cho đơn đầu tiên"
+    }
+  },
+  "tabs": {
+    "delivery": "Giao hàng",
+    "takeout": "Mang đi",
+    "shopping": "Mua sắm"
+  },
+  "categories": {
+    "title": "Danh mục",
+    "viewAll": "Xem tất cả",
+    "korean_food": "Món Hàn",
+    "bunsik_ramen": "Ăn vặt & Mì",
+    "chicken": "Gà rán",
+    "pizza": "Pizza",
+    "chinese_food": "Món Trung",
+    "vietnamese_food": "Món Việt",
+    "japanese_food": "Món Nhật & Cơm cuộn",
+    "sushi_sashimi": "Sushi & Sashimi",
+    "western_fastfood": "Món Âu & Fastfood",
+    "cafe_dessert": "Cafe & Tráng miệng",
+    "bar_pocha": "Quán nhậu"
+  },
+  "services": {
+    "convenience_mart_beauty": "Tiện lợi & Làm đẹp"
+  },
+  "home": {
+    "header": {
+      "deliverTo": "Giao đến",
+      "selectLocation": "Chọn vị trí"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm nhà hàng, món ăn..."
+    },
+    "category": {
+      "all": "Tất cả",
+      "vietnamese": "Món Việt",
+      "korean": "Món Hàn",
+      "chinese": "Món Trung",
+      "western": "Món Âu",
+      "dessert": "Tráng miệng",
+      "drinks": "Đồ uống"
+    },
+    "location": {
+      "district1": "Quận 1, TP.HCM, Việt Nam"
+    },
+    "stores": {
+      "pho24": {
+        "name": "Phở 24 - Phở Bò Chính Gốc"
+      },
+      "banh_mi": {
+        "name": "Bánh Mì 25 - Bánh Mì Tươi Ngon"
+      },
+      "kimchi": {
+        "name": "Cửa Hàng Kimchi - Món Hàn"
+      },
+      "malatang": {
+        "name": "Cửa Hàng Mala Tang - Món Trung Cay"
+      },
+      "discount": {
+        "fifteen": "Giảm 15%",
+        "twenty": "Giảm 20%",
+        "thirty": "Giảm 30%"
+      },
+      "deliveryFee": {
+        "free": "MIỄN PHÍ"
+      },
+      "distance": {
+        "zeroPointEight": "0.8km",
+        "onePointTwo": "1.2km",
+        "onePointEight": "1.8km",
+        "twoPointOne": "2.1km"
+      },
+      "deliveryTime": {
+        "fifteenToTwentyFive": "15-25 phút",
+        "twentyToThirty": "20-30 phút",
+        "twentyFiveToThirtyFive": "25-35 phút",
+        "thirtyToForty": "30-40 phút"
+      }
+    },
+    "empty": {
+      "noSearchResults": "Không tìm thấy kết quả nào",
+      "noStores": "Hiện tại không có cửa hàng nào"
+    },
+    "emptyState": {
+      "noStores": {
+        "title": "Không có cửa hàng gần bạn",
+        "description": "Hãy chọn khu vực khác hoặc thử lại sau",
+        "action": "Thay đổi vị trí"
+      },
+      "noSearchResults": {
+        "title": "Không có kết quả tìm kiếm",
+        "description": "Hãy thử từ khóa khác hoặc duyệt theo danh mục",
+        "action": "Tìm lại"
+      },
+      "offline": {
+        "title": "Kiểm tra kết nối Internet",
+        "description": "Vui lòng kiểm tra kết nối mạng và thử lại",
+        "action": "Thử lại"
+      },
+      "error": {
+        "title": "Lỗi tạm thời",
+        "description": "Vui lòng thử lại sau hoặc liên hệ hỗ trợ",
+        "action": "Thử lại"
+      }
+    }
+  },
+  "notification": {
+    "center": "Trung tâm thông báo",
+    "title": "Thông báo",
+    "message": "Bạn có thông báo mới",
+    "empty": "Không có thông báo nào",
+    "emptyDescription": "Khi có thông báo mới, chúng sẽ hiển thị ở đây",
+    "orderUpdate": "Cập nhật đơn hàng",
+    "orderStatusChanged": "Trạng thái đơn hàng đã thay đổi thành {{status}}"
+  },
+  "accessibility": {
+    "tapToView": "Nhấn để xem"
+  },
+  "orders": {
+    "noOrdersYet": "Chưa có đơn hàng nào",
+    "startOrdering": "Bắt đầu đặt đơn hàng đầu tiên của bạn",
+    "browseStores": "Duyệt quán ăn",
+    "items": "{{count}} món",
+    "review": "Viết đánh giá",
+    "reorder": "Đặt lại"
+  },
+  "menu": {
+    "detail": "Chi tiết món ăn",
+    "notFound": "Không tìm thấy món ăn",
+    "notFoundDesc": "Món ăn bạn yêu cầu không tồn tại hoặc tạm thời không khả dụng",
+    "empty": {
+      "title": "Không có thực đơn",
+      "description": "Hiện tại không có món ăn nào có sẵn"
+    },
+    "options": {
+      "summary": "Đã chọn {{count}} tùy chọn",
+      "extra": "Phí bổ sung",
+      "singleSelect": "Chọn một",
+      "selectedCount": "Đã chọn {{count}}",
+      "multiSelectRange": "Chọn {{min}}~{{max}} tùy chọn",
+      "confirmWithExtra": "Xác nhận (+{{amount}})",
+      "selected": "Đã chọn {{count}}",
+      "count": "{{count}} cái",
+      "selectRange": "Chọn từ {{min}} đến {{max}}"
+    },
+    "required": "Bắt buộc",
+    "selectUpTo": "Chọn tối đa {{max}}",
+    "specialInstructions": "Yêu cầu đặc biệt",
+    "addNote": "Nhập yêu cầu (ví dụ: ít cay, không sốt)",
+    "addToCart": "Thêm vào giỏ hàng"
+  },
+  "cart": {
+    "viewCart": "Xem giỏ hàng"
+  },
+  "payment": {
+    "cash": "Tiền mặt",
+    "card": "Thẻ"
+  },
+  "review": {
+    "filter": {
+      "all": "Tất cả"
+    },
+    "reviews": "Đánh giá",
+    "empty": {
+      "title": "Chưa có đánh giá",
+      "description": "Chưa có đánh giá nào được viết"
+    },
+    "helpful": "Hữu ích"
+  },
+  "validation": {
+    "invalidPhoneNumber": "Vui lòng nhập số điện thoại hợp lệ"
+  },
+  "phoneHint": "Ví dụ: {{format}}",
+  "chat": {
+    "customerSupport": "Hỗ trợ khách hàng",
+    "customer": "Khách hàng"
+  },
+  "comingSoon": "Sắp ra mắt",
+  "error": {
+    "title": "Lỗi",
+    "networkError": "Đã xảy ra lỗi mạng"
+  },
+  "errors": {
+    "unexpected": "Xảy ra lỗi không mong muốn",
+    "general": "Có sự cố xảy ra trong ứng dụng. Vui lòng thử lại sau.",
+    "feature_error": "Có sự cố xảy ra trong chức năng {{feature}}. Vui lòng thử lại sau.",
+    "retryAttempt": "Thử lại {{current}}/{{max}}",
+    "saveError": "Lưu thất bại",
+    "updateError": "Cập nhật thất bại",
+    "deleteError": "Xóa thất bại",
+    "loadError": "Tải thất bại",
+    "networkError": "Lỗi mạng",
+    "unexpectedError": "Lỗi không mong muốn",
+    "tryAgain": "Vui lòng thử lại",
+    "trackingFetchFailed": "Không thể tải thông tin giao hàng",
+    "locationUpdateFailed": "Cập nhật vị trí thất bại:",
+    "network": {
+      "title": "Lỗi mạng",
+      "description": "Vui lòng kiểm tra kết nối internet",
+      "connectionFailed": "Kết nối thất bại",
+      "timeout": "Yêu cầu đã hết thời gian",
+      "serverError": "Đã xảy ra lỗi máy chủ"
+    },
+    "errorModal": {
+      "temporaryError": "Đã xảy ra lỗi tạm thời",
+      "tryAgainLater": "Vui lòng thử lại sau."
+    }
+  },
+  "mock": {
+    "mapView": "Chế độ xem bản đồ (Mock)"
+  },
+  "language": {
+    "selectTitle": "Chọn ngôn ngữ"
+  },
+  "languages": {
+    "ko": "Tiếng Hàn",
+    "vi": "Tiếng Việt",
+    "en": "Tiếng Anh"
+  },
+  "noData": "Không có dữ liệu",
+  "promotionNotFound": "Không tìm thấy khuyến mãi",
+  "goBack": "Quay lại",
+  "promotionDetail": "Chi tiết khuyến mãi",
+  "description": "Mô tả",
+  "conditions": "Điều kiện áp dụng",
+  "targetCustomers": "Khách hàng mục tiêu",
+  "usePromotion": "Sử dụng khuyến mãi",
+  "promotionDetail": {
+    "minOrderAmount": "Đơn tối thiểu",
+    "maxOrderAmount": "Đơn tối đa",
+    "maxDiscountAmount": "Giảm tối đa",
+    "code": "Mã",
+    "usageLimitPerUser": "Giới hạn {{count}} lần/người"
+  },
+  "mapToggle": {
+    "currentList": "Danh sách hiện tại",
+    "switchToList": "Chuyển sang danh sách",
+    "currentMap": "Bản đồ hiện tại",
+    "switchToMap": "Chuyển sang bản đồ"
+  },
+  "soldOut": "Hết hàng",
+  "storeOpen": "Mở cửa",
+  "freeDelivery": "Miễn phí giao hàng",
+  "anonymous": "Ẩn danh",
+  "results": "kết quả",
+  "loadingMore": "Đang tải thêm...",
+  "filters": {
+    "all": "Tất cả"
+  },
+  "imagePicker": {
+    "permissions": {
+      "photoLibraryTitle": "Cần quyền truy cập",
+      "photoLibraryMessage": "Cần quyền truy cập thư viện ảnh để chọn ảnh.",
+      "cameraTitle": "Cần quyền truy cập",
+      "cameraMessage": "Cần quyền truy cập camera để chụp ảnh.",
+      "ok": "Đồng ý"
+    },
+    "dialog": {
+      "title": "Chọn ảnh",
+      "message": "Bạn muốn chọn ảnh bằng cách nào?",
+      "gallery": "Thư viện",
+      "camera": "Camera",
+      "cancel": "Hủy"
+    },
+    "errors": {
+      "permissionDenied": "permission_denied",
+      "gallerySelectFailed": "Không thể chọn ảnh.",
+      "cameraCaptureFailed": "Không thể chụp ảnh.",
+      "multipleSelectFailed": "Không thể chọn ảnh."
+    },
+    "logs": {
+      "permissionRequestFailed": "Yêu cầu quyền thất bại",
+      "permissionCheckFailed": "Kiểm tra quyền thất bại",
+      "gallerySelectError": "Chọn ảnh từ thư viện thất bại",
+      "cameraError": "Chụp ảnh bằng camera thất bại",
+      "multipleSelectError": "Chọn nhiều ảnh thất bại",
+      "cleanupFailed": "Dọn dẹp file tạm thất bại",
+      "cleanupCompleted": "Dọn dẹp file ảnh tạm hoàn tất"
+    }
+  },
+  "favorites": {
+    "title": "Yêu thích",
+    "stores": "Cửa hàng",
+    "menus": "Món ăn",
+    "noStores": "Chưa có cửa hàng yêu thích",
+    "noStoresDesc": "Hãy thêm những cửa hàng bạn thích vào danh sách yêu thích",
+    "noMenus": "Chưa có món ăn yêu thích",
+    "noMenusDesc": "Hãy thêm những món ăn bạn thích vào danh sách yêu thích",
+    "storeInfo": {
+      "orderCount": "{{count}} đơn hàng",
+      "totalSpent": "Đã chi {{amount}}₫"
+    }
+  },
+  "emptyTitle": "Không có nội dung",
+  "emptyDescription": "Không có nội dung để hiển thị",
+  "retry": "Thử lại",
+  "back": "Quay lại",
+  "more": "thêm",
+  "loading": "Đang tải...",
+  "pleaseWait": "Vui lòng chờ",
+  "auth": {
+    "login": "Đăng nhập",
+    "loginRequired": "Cần đăng nhập",
+    "loginRequiredMessage": "Vui lòng đăng nhập để chỉnh sửa hồ sơ"
+  },
+  "ui": {
+    "filter": "Bộ lọc",
+    "sort": "Sắp xếp",
+    "refresh": "Làm mới",
+    "pullToRefresh": "Kéo để làm mới",
+    "optional": "Tùy chọn",
+    "saving": "Đang lưu...",
+    "error": {
+      "network": {
+        "title": "Lỗi mạng",
+        "description": "Vui lòng kiểm tra kết nối internet"
+      }
+    },
+    "auth": {
+      "tokenExpired": "Phiên đăng nhập đã hết hạn và bạn đã được đăng xuất. Vui lòng đăng nhập lại.",
+      "sessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+      "loggedOut": "Đã đăng xuất thành công.",
+      "loginRequired": "Vui lòng đăng nhập để tiếp tục.",
+      "login": "Đăng nhập"
+    }
+  },
+  "orderNumber": "Mã đơn hàng",
+  "completed": "Hoàn tất",
+  "connected": "Đã kết nối",
+  "deliveryExpert": "Chuyên gia giao hàng",
+  "callDriver": "Gọi tài xế",
+  "tapToCall": "Nhấn để gọi",
+  "currentLocation": "Vị trí hiện tại",
+  "tapToOpen": "Nhấn để mở",
+  "tapToViewDetails": "Nhấn để xem chi tiết",
+  "stay": "Ở lại",
+  "promotionNotifications": "Thông báo khuyến mãi",
+  "marketingNotifications": "Thông báo tiếp thị",
+  "orderUpdates": "Thông báo trạng thái đơn hàng",
+  "promotions": "Thông báo khuyến mãi",
+  "chatMessages": "Tin nhắn trò chuyện",
+  "dataSaver": "Chế độ tiết kiệm dữ liệu",
+  "reduceDataUsage": "Tiết kiệm dung lượng dữ liệu",
+  "autoPlayVideos": "Tự động phát video",
+  "shareLocation": "Chia sẻ vị trí",
+  "improveDelivery": "Giúp cải thiện dịch vụ giao hàng",
+  "analytics": "Phân tích sử dụng",
+  "helpImprove": "Giúp cải thiện dịch vụ",
+  "other": "Khác",
+  "confirmDelete": "Bạn có chắc chắn muốn xóa?",
+  "success": "Thành công",
+  "cacheCleared": "Đã xóa bộ nhớ đệm",
+  "tryAgain": "Vui lòng thử lại",
+  "messages": {
+    "noChanges": "Không có thay đổi",
+    "saveSuccess": "Đã lưu",
+    "updateSuccess": "Đã cập nhật",
+    "deleteSuccess": "Đã xóa",
+    "operationComplete": "Hoàn tất"
+  },
+  "order": {
+    "orderNow": "Đặt ngay"
+  },
+  "emptyStates": {
+    "points": {
+      "title": "Chưa có điểm",
+      "description": "Bạn có thể tích điểm sau khi hoàn tất đơn hàng",
+      "actionText": "Bắt đầu đặt hàng"
+    },
+    "search": {
+      "title": "Không có kết quả tìm kiếm",
+      "description": "Hãy thử từ khóa khác",
+      "actionText": "Tìm lại"
+    },
+    "favorite": {
+      "title": "Chưa có yêu thích",
+      "description": "Hãy thêm cửa hàng yêu thích của bạn",
+      "actionText": "Khám phá cửa hàng"
+    },
+    "location": {
+      "title": "Không có thông tin vị trí",
+      "description": "Vui lòng cho phép quyền vị trí",
+      "actionText": "Mở cài đặt"
+    },
+    "filter": {
+      "title": "Không có cửa hàng phù hợp",
+      "description": "Hãy thay đổi điều kiện lọc",
+      "actionText": "Đặt lại bộ lọc"
+    },
+    "permission": {
+      "title": "Cần quyền",
+      "description": "Vui lòng cho phép quyền để sử dụng ứng dụng",
+      "actionText": "Đi tới cài đặt"
+    }
+  },
+  "coupon": {
+    "emptyStates": {
+      "myEmpty": {
+        "title": "Không có phiếu giảm giá",
+        "description": "Hãy nhận phiếu giảm giá mới!",
+        "actionText": "Nhận phiếu giảm giá"
+      },
+      "availableEmpty": {
+        "title": "Không có phiếu có thể nhận",
+        "description": "Phiếu giảm giá mới sẽ sớm được cập nhật"
+      }
+    }
+  },
+  "sort": {
+    "distance": "Khoảng cách",
+    "distanceDesc": "Gần nhất",
+    "rating": "Đánh giá",
+    "ratingDesc": "Cao nhất",
+    "deliveryTime": "Thời gian giao",
+    "deliveryTimeDesc": "Giao nhanh nhất",
+    "popularity": "Phổ biến",
+    "popularityDesc": "Phổ biến nhất",
+    "newest": "Mới nhất",
+    "newestDesc": "Mới nhất trước",
+    "alphabetical": "A–Z",
+    "alphabeticalDesc": "Tên A–Z",
+    "title": "Sắp xếp",
+    "subtitle": "Chọn cách sắp xếp cửa hàng",
+    "tip": "Chọn thứ tự sắp xếp bạn muốn"
+  },
+  "search": {
+    "placeholder": "Tìm cửa hàng hoặc món ăn",
+    "button": "Tìm kiếm",
+    "noResults": "Không có kết quả",
+    "tryDifferent": "Hãy thử từ khóa khác",
+    "suggestions": "Gợi ý",
+    "history": "Tìm kiếm gần đây",
+    "popular": "Tìm kiếm phổ biến",
+    "trending": "Xu hướng tìm kiếm",
+    "clear": "Xóa",
+    "clearHistory": "Xóa lịch sử tìm kiếm",
+    "noHistory": "Không có lịch sử tìm kiếm",
+    "searching": "Đang tìm kiếm...",
+    "enterKeyword": "Nhập từ khóa",
+    "minLength": "Vui lòng nhập ít nhất 2 ký tự"
+  },
+  "items": "món",
+  "gallery": {
+    "empty": {
+      "title": "Không có hình ảnh",
+      "description": "Chưa có hình ảnh nào được tải lên"
+    }
+  },
+  "accessibility": {
+    "tapToView": "Nhấn để xem"
+  },
+  "a11y": {
+    "bannerImage": "hình ảnh banner"
+  }
+}

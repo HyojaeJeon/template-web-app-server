@@ -1,0 +1,355 @@
+{
+  "inputs": {
+    "title": "Input Forms",
+    "subtitle": "Various input components and validation",
+    "systemTitle": "Vietnamese Food Delivery App Input System",
+    "systemDescription": "User-friendly and accessible input form component system for Vietnamese food delivery app",
+    "basicInputs": {
+      "title": "Basic Input Fields",
+      "description": "Text input fields with various states"
+    },
+    "searchInputs": {
+      "title": "Search Input",
+      "description": "Search field used with icons"
+    },
+    "labelHelper": {
+      "title": "Labels and Helpers",
+      "description": "Input fields with labels and helper text"
+    },
+    "textArea": {
+      "title": "Text Area",
+      "description": "Text area that allows multi-line input"
+    },
+    "vietnamSpecial": {
+      "title": "Vietnam Special Inputs",
+      "description": "Special input fields localized for Vietnam"
+    },
+    "fields": {
+      "basicInput": "Basic Input",
+      "focusState": "Focus State",
+      "errorState": "Error State",
+      "successState": "Success State",
+      "disabledState": "Disabled State",
+      "email": "Email",
+      "optional": "Optional",
+      "requirements": "Requirements",
+      "deliveryAddress": "Delivery Address",
+      "amountInput": "Amount Input"
+    },
+    "placeholders": {
+      "enterText": "Please enter text",
+      "focusedInput": "Focused input field",
+      "errorInput": "Input field with error",
+      "successInput": "Success state input field",
+      "disabledInput": "Disabled input field",
+      "emailExample": "example@email.com",
+      "deliveryRequests": "Please enter delivery requests\n(Ex: Please leave at the door)",
+      "vietnamAddress": "District 7, Ho Chi Minh City",
+      "amount": "285,000"
+    },
+    "helperTexts": {
+      "invalidFormat": "Invalid format",
+      "available": "Available",
+      "emailHelper": "Please enter your email address to receive order confirmation emails"
+    },
+    "inputTexts": {
+      "enteredText": "Entered text",
+      "wrongInput": "Wrong input",
+      "correctInput": "Correct input"
+    },
+    "textInput": {
+      "title": "Text Input",
+      "description": "Basic text input field"
+    },
+    "phoneInput": {
+      "title": "Phone Input",
+      "description": "Input with Vietnamese phone format (+84)"
+    },
+    "addressInput": {
+      "title": "Address Input",
+      "description": "Vietnamese address system based on District/Ward"
+    },
+    "searchInput": {
+      "title": "Search Input",
+      "description": "Input for searching stores and menus"
+    },
+    "passwordInput": {
+      "title": "Password Input",
+      "description": "Secure password input and confirmation"
+    }
+  },
+  "buttons": {
+    "title": "Buttons",
+    "subtitle": "Various button styles and interactions",
+    "systemTitle": "Button Component System",
+    "systemDescription": "Integrated button design system for Vietnamese food delivery app, providing various button styles considering usability and accessibility."
+  },
+  "modals": {
+    "title": "Modals",
+    "subtitle": "Modal components for user interactions",
+    "systemTitle": "Vietnamese Food Delivery App Modal System",
+    "systemDescription": "Various modal designs and interaction patterns for ordering, payment, and notifications",
+    "orderConfirmation": {
+      "title": "Order Confirmation Modal",
+      "description": "Order details and final confirmation"
+    },
+    "paymentModal": {
+      "title": "Payment Modal",
+      "description": "Vietnamese payment method selection"
+    },
+    "addressModal": {
+      "title": "Address Input Modal",
+      "description": "Delivery address setup and modification"
+    },
+    "reviewModal": {
+      "title": "Review Writing Modal",
+      "description": "Store and menu review writing"
+    }
+  },
+  "navigation": {
+    "title": "Navigation",
+    "subtitle": "Navigation system for in-app movement",
+    "systemTitle": "Vietnamese Food Delivery App Navigation",
+    "systemDescription": "Intuitive and accessible app navigation patterns",
+    "bottomTab": {
+      "title": "Bottom Tab Navigation",
+      "description": "Navigation between main sections"
+    },
+    "topTab": {
+      "title": "Top Tab Navigation",
+      "description": "Category and filter tabs"
+    },
+    "drawer": {
+      "title": "Side Drawer",
+      "description": "Menu and settings access"
+    },
+    "breadcrumb": {
+      "title": "Breadcrumb",
+      "description": "Current location and path display"
+    }
+  },
+  "payment": {
+    "title": "Payment System",
+    "subtitle": "Vietnamese local payment method integration",
+    "systemTitle": "Vietnamese Payment Gateway",
+    "systemDescription": "Support for local payment methods like MoMo, ZaloPay, VNPay and QR code payment",
+    "methods": {
+      "title": "Payment Methods",
+      "description": "Various payment options"
+    },
+    "qrPayment": {
+      "title": "QR Payment",
+      "description": "NAPAS QR standard support"
+    },
+    "cardPayment": {
+      "title": "Card Payment",
+      "description": "Credit and debit cards"
+    },
+    "eWallet": {
+      "title": "E-Wallet",
+      "description": "MoMo, ZaloPay, VNPay"
+    },
+    "cod": {
+      "title": "Cash on Delivery",
+      "description": "Cash payment upon delivery"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "subtitle": "Order management and cart functionality",
+    "systemTitle": "Vietnamese Delivery App Cart System",
+    "systemDescription": "Intuitive order management with real-time price calculation and",
+    "emptyState": {
+      "title": "Your cart is empty",
+      "description": "Add some delicious food!\nWe have various menus ready for you.",
+      "actionButton": "Browse Menu"
+    },
+    "orderButton": {
+      "canOrder": "Place Order",
+      "cannotOrder": "Place Order",
+      "freeDelivery": "Order anything, delivery fee 0 VND",
+      "minimumOrderCheck": "Please check the minimum order amount"
+    },
+    "actions": {
+      "save": "Save",
+      "share": "Share",
+      "reset": "Reset"
+    },
+    "status": {
+      "cannotOrder": "Unable to place order in current state"
+    },
+    "itemManagement": {
+      "title": "Item Management",
+      "description": "Quantity adjustment and option selection"
+    },
+    "priceCalculation": {
+      "title": "Price Calculation",
+      "description": "Calculation including delivery fee, discounts, taxes"
+    },
+    "couponSystem": {
+      "title": "Coupon System",
+      "description": "Apply and manage discount coupons"
+    },
+    "orderSummary": {
+      "title": "Order Summary",
+      "description": "Final order details confirmation"
+    }
+  },
+  "addressSearch": {
+    "title": "Address Search",
+    "subtitle": "Vietnamese address system integrated search",
+    "systemTitle": "Vietnamese Address Search System",
+    "systemDescription": "Vietnamese address system based on District/Ward and real-time address validation",
+    "districtSearch": {
+      "title": "District Search",
+      "description": "Main area search"
+    },
+    "wardSearch": {
+      "title": "Ward Search",
+      "description": "Detailed address search"
+    },
+    "mapIntegration": {
+      "title": "Map Integration",
+      "description": "OpenStreetMap-based location selection"
+    },
+    "addressValidation": {
+      "title": "Address Validation",
+      "description": "Delivery area availability check"
+    }
+  },
+  "chat": {
+    "title": "Chat & Customer Support",
+    "subtitle": "Real-time communication and customer service",
+    "systemTitle": "Vietnamese Food Delivery App Chat System",
+    "systemDescription": "Real-time communication between customer-store-driver and multilingual customer service",
+    "customerSupport": {
+      "title": "Customer Support",
+      "description": "Real-time help and inquiries"
+    },
+    "orderChat": {
+      "title": "Order Chat",
+      "description": "Direct communication with stores"
+    },
+    "driverChat": {
+      "title": "Driver Chat",
+      "description": "Real-time communication with drivers"
+    },
+    "multiLanguage": {
+      "title": "Multi-language Support",
+      "description": "Support for Vietnamese, Korean, English"
+    }
+  },
+  "icons": {
+    "title": "Icon System",
+    "subtitle": "Unified icon system for Vietnamese delivery app",
+    "systemTitle": "Vietnamese Delivery App Icon System",
+    "systemDescription": "Icon system considering consistency and intuitiveness\nVisual language considering Vietnamese localization and accessibility",
+    "sections": {
+      "navigation": {
+        "title": "🧭 Navigation Icons",
+        "description": "Basic icons for app navigation"
+      },
+      "action": {
+        "title": "⚡ Action Icons",
+        "description": "Functional icons for user actions"
+      },
+      "status": {
+        "title": "📊 Status Icons",
+        "description": "Icons for status display"
+      },
+      "payment": {
+        "title": "💳 Payment Icons",
+        "description": "Vietnamese local payment method icons"
+      },
+      "delivery": {
+        "title": "🏍️ Delivery Icons",
+        "description": "Delivery service related icons"
+      },
+      "food": {
+        "title": "🍜 Food Icons",
+        "description": "Vietnamese food category icons"
+      }
+    },
+    "guidelines": {
+      "title": "📖 Icon Usage Guidelines"
+    }
+  },
+  "search": {
+    "title": "Search System",
+    "subtitle": "Search and filtering components",
+    "systemTitle": "Vietnamese Delivery App Search System",
+    "systemDescription": "Search system for user navigation\nInterface includes smart search, filters, recommendation features",
+    "sections": {
+      "basic": {
+        "title": "🔍 Basic Search Bar",
+        "description": "Standard search interface"
+      },
+      "gradient": {
+        "title": "🎨 Gradient Search Bar",
+        "description": "Premium style search bar"
+      },
+      "withFilters": {
+        "title": "⚙️ Search with Filters",
+        "description": "Advanced search options"
+      },
+      "recent": {
+        "title": "🕐 Recent Searches",
+        "description": "Search history"
+      },
+      "popular": {
+        "title": "🔥 Popular Searches",
+        "description": "Frequently searched keywords"
+      },
+      "categories": {
+        "title": "📂 Category Search",
+        "description": "Search by categories"
+      },
+      "results": {
+        "title": "📋 Search Results",
+        "description": "Search term highlighting"
+      },
+      "states": {
+        "title": "🎯 Search States",
+        "description": "Various search states"
+      }
+    },
+    "placeholders": {
+      "basic": "Search menus, store names...",
+      "premium": "Find the food you want...",
+      "withFilters": "Enter search term..."
+    },
+    "labels": {
+      "inputSearch": "Entered search term:",
+      "noInput": "(none)",
+      "filterOptions": "💡 Filter options:",
+      "filterDescription": "Price range, ratings, delivery time, food types, etc.",
+      "clearHistory": "Clear all search history",
+      "searchTerm": "Search term:",
+      "searchResults": "Search results"
+    },
+    "states": {
+      "loading": "Searching...",
+      "success": "Search completed",
+      "noResults": "No search results found"
+    }
+  },
+  "products": {
+    "title": "Product Grid",
+    "subtitle": "Product grid and card system",
+    "systemTitle": "Vietnamese Delivery App Product System",
+    "systemDescription": "Product display system for delivery app\\nIntuitive grid-based product interface",
+    "verticalCards": "Vertical Cards",
+    "verticalCardsDesc": "Vertical style product cards",
+    "horizontalCards": "Horizontal Cards",
+    "horizontalCardsDesc": "Horizontal style product cards",
+    "categoryGrid": "Category Grid",
+    "categoryGridDesc": "Food category classification",
+    "storeCard": "Store Card",
+    "storeCardDesc": "Store information display",
+    "deliveryProgress": "Delivery Progress",
+    "deliveryProgressDesc": "Real-time delivery tracking",
+    "promotionCard": "Promotion Card",
+    "promotionCardDesc": "Discount and event information",
+    "savingsMessage": "Delivery fee discount"
+  }
+}

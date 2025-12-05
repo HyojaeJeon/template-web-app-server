@@ -1,0 +1,122 @@
+{
+  "connection": {
+    "connecting": "연결 중...",
+    "connected": "연결됨",
+    "disconnected": "연결 끊김",
+    "reconnecting": "재연결 중...",
+    "error": "연결 오류",
+    "retry": "다시 연결",
+    "retrying": "재연결 시도 중 ({{attempt}}/{{max}})",
+    "offline": "오프라인",
+    "online": "온라인",
+    "poor_connection": "연결 상태가 불안정합니다"
+  },
+  "chat": {
+    "typing": "{{name}}님이 입력 중...",
+    "multiple_typing": "{{count}}명이 입력 중...",
+    "message_sent": "메시지 전송됨",
+    "message_failed": "메시지 전송 실패",
+    "message_delivered": "전달됨",
+    "message_read": "읽음",
+    "new_message": "새 메시지",
+    "unread_messages": "읽지 않은 메시지 {{count}}개",
+    "chat_unavailable": "채팅을 사용할 수 없습니다",
+    "reconnect_to_chat": "채팅에 다시 연결하려면 탭하세요",
+    "message_too_long": "메시지가 너무 깁니다",
+    "store_offline": "매장이 오프라인 상태입니다",
+    "store_online": "매장이 온라인 상태입니다"
+  },
+  "orders": {
+    "status_updated": "주문 상태가 업데이트되었습니다",
+    "order_confirmed": "주문이 확인되었습니다",
+    "preparing": "음식 준비 중",
+    "ready_for_pickup": "픽업 준비 완료",
+    "out_for_delivery": "배달 출발",
+    "delivered": "배달 완료",
+    "cancelled": "주문 취소됨",
+    "driver_assigned": "배달원이 배정되었습니다",
+    "driver_arrived": "배달원이 도착했습니다",
+    "estimated_time": "예상 시간: {{time}}분",
+    "order_delayed": "주문이 지연되고 있습니다",
+    "tracking_unavailable": "실시간 추적을 사용할 수 없습니다"
+  },
+  "delivery": {
+    "driver_location_updated": "배달원 위치가 업데이트되었습니다",
+    "eta_updated": "도착 예정 시간: {{eta}}",
+    "driver_nearby": "배달원이 근처에 있습니다",
+    "driver_calling": "배달원이 전화를 걸고 있습니다",
+    "delivery_instructions": "배달 지시사항",
+    "unable_to_locate": "위치를 찾을 수 없습니다",
+    "gps_disabled": "GPS가 비활성화되어 있습니다",
+    "location_permission_denied": "위치 권한이 거부되었습니다"
+  },
+  "notifications": {
+    "new_notification": "새 알림",
+    "order_update": "주문 업데이트",
+    "promotion": "프로모션",
+    "system": "시스템 알림",
+    "payment": "결제 알림",
+    "delivery": "배달 알림",
+    "store_news": "매장 소식",
+    "mark_all_read": "모두 읽음 처리",
+    "no_notifications": "알림이 없습니다",
+    "notification_permission_denied": "알림 권한이 거부되었습니다",
+    "enable_notifications": "알림 활성화"
+  },
+  "store": {
+    "status_changed": "매장 상태가 변경되었습니다",
+    "now_open": "매장이 열었습니다",
+    "now_closed": "매장이 문을 닫았습니다",
+    "busy": "매장이 바쁩니다",
+    "menu_updated": "메뉴가 업데이트되었습니다",
+    "new_promotion": "새 프로모션이 등록되었습니다",
+    "out_of_stock": "품절",
+    "back_in_stock": "재입고됨",
+    "price_changed": "가격이 변경되었습니다",
+    "temporarily_unavailable": "일시적으로 이용할 수 없습니다"
+  },
+  "errors": {
+    "connection_lost": "연결이 끊어졌습니다",
+    "reconnection_failed": "재연결에 실패했습니다",
+    "server_error": "서버 오류가 발생했습니다",
+    "network_error": "네트워크 오류",
+    "timeout": "시간 초과",
+    "unknown_error": "알 수 없는 오류가 발생했습니다",
+    "feature_unavailable": "기능을 사용할 수 없습니다",
+    "try_again_later": "나중에 다시 시도해 주세요"
+  },
+  "status": {
+    "loading": "로딩 중...",
+    "syncing": "동기화 중...",
+    "updating": "업데이트 중...",
+    "updated": "업데이트",
+    "refreshing": "새로고침 중...",
+    "processing": "처리 중...",
+    "completed": "완료",
+    "failed": "실패",
+    "cancelled": "취소됨",
+    "pending": "대기 중",
+    "in_progress": "진행 중"
+  },
+  "actions": {
+    "refresh": "새로고침",
+    "retry": "다시 시도",
+    "cancel": "취소",
+    "dismiss": "닫기",
+    "view_details": "자세히 보기",
+    "mark_read": "읽음 처리",
+    "clear_all": "모두 지우기",
+    "enable": "활성화",
+    "disable": "비활성화",
+    "settings": "설정"
+  },
+  "performance": {
+    "high_latency": "네트워크 지연이 높습니다",
+    "low_latency": "네트워크 상태 양호",
+    "connection_quality": "연결 품질: {{quality}}",
+    "ping": "핑: {{ms}}ms",
+    "reconnect_attempts": "재연결 시도: {{count}}회",
+    "data_usage_high": "데이터 사용량이 높습니다",
+    "battery_optimization": "배터리 절약 모드"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "title": "Tìm kiếm",
+  "placeholder": "Tìm nhà hàng, món ăn...",
+  "button": "Tìm kiếm",
+  "typing": "Đang tìm kiếm...",
+  "recent": "Tìm kiếm gần đây",
+  "popular": "Tìm kiếm phổ biến",
+  "suggestions": "Gợi ý",
+  "results": "Kết quả tìm kiếm",
+  "noResults": "Không tìm thấy kết quả",
+  "tryDifferent": "Thử từ khóa khác",
+  "filters": {
+    "title": "Bộ lọc",
+    "category": "Danh mục",
+    "priceRange": "Khoảng giá",
+    "deliveryTime": "Thời gian giao hàng",
+    "rating": "Đánh giá",
+    "deliveryFee": "Phí giao hàng",
+    "freeDelivery": "Miễn phí giao hàng",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại",
+    "clear": "Xóa tất cả"
+  },
+  "sorting": {
+    "title": "Sắp xếp theo",
+    "recommended": "Đề xuất",
+    "distance": "Khoảng cách",
+    "deliveryCost": "Chi phí giao hàng",
+    "rating": "Đánh giá",
+    "newest": "Mới nhất",
+    "priceHigh": "Giá: Cao đến thấp",
+    "priceLow": "Giá: Thấp đến cao"
+  },
+  "categories": {
+    "all": "Tất cả",
+    "vietnamese": "Việt Nam",
+    "korean": "Hàn Quốc",
+    "chinese": "Trung Quốc",
+    "japanese": "Nhật Bản",
+    "western": "Âu Mỹ",
+    "fastfood": "Đồ ăn nhanh",
+    "cafe": "Cafe",
+    "dessert": "Tráng miệng"
+  },
+  "popularItems": {
+    "pizza": "Pizza",
+    "burger": "Hamburger",
+    "sushi": "Sushi",
+    "pho": "Phở",
+    "coffee": "Cà phê",
+    "tea": "Trà",
+    "banh_mi": "Bánh mì",
+    "com_tam": "Cơm tấm"
+  },
+  "error": {
+    "general": "Đã xảy ra lỗi khi tìm kiếm.",
+    "loadMore": "Không thể tải thêm kết quả."
+  },
+  "recentSearches": "Tìm kiếm gần đây",
+  "popularSearches": "Tìm kiếm phổ biến",
+  "categoryResults": "Kết quả tìm kiếm theo danh mục",
+  "promotion": "Khuyến mãi",
+  "sections": {
+    "stores": "Nhà hàng",
+    "menuItems": "Món ăn",
+    "promotions": "Khuyến mãi",
+    "reviews": "Đánh giá"
+  },
+  "emptyTitle": "Không có kết quả",
+  "emptyDescription": "Hãy thử nhập từ khóa khác",
+  "clearSearch": "Xóa tìm kiếm",
+  "searching": "Đang tìm kiếm...",
+  "findingBest": "Đang tìm món ăn ngon cho bạn",
+  "searchTips": "Mẹo tìm kiếm",
+  "searchTipsText": "Thử tìm kiếm theo tên cửa hàng, món ăn hoặc loại ẩm thực",
+  "noResultsDescription": "Không tìm thấy kết quả cho \"{{query}}\".",
+  "searchAgain": "Tìm lại",
+  "results": {
+    "stores": "Cửa hàng",
+    "menus": "Món ăn",
+    "categories": "Danh mục"
+  },
+  "storesCount": "cửa hàng"
+}

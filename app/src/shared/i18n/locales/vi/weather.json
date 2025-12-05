@@ -1,0 +1,119 @@
+{
+  "title": "Thời tiết thông minh",
+  "systemDescription": "Hệ thống giao hàng thông minh dựa trên thời tiết",
+  "smartDeliverySystem": "Hệ thống giao hàng thông minh",
+  "optimizedForVietnam": "Tối ưu hóa cho điều kiện thời tiết Việt Nam",
+  "weatherStatus": "Trạng thái thời tiết",
+  "weatherCardsSection": "Phần thông tin thời tiết",
+  "operational": "Hoạt động bình thường",
+  "delayed": "Chậm trễ",
+  "suspended": "Tạm ngưng",
+  "unknown": "Không xác định",
+  "available": "Có sẵn",
+  "unavailable": "Không khả dụng",
+  "delayedStatus": "Giao hàng bị chậm trễ",
+  "suspendedStatus": "Giao hàng tạm ngưng",
+  "deliveryTime": {
+    "sunny": "25-35 phút",
+    "cloudy": "30-40 phút",
+    "rain": "40-60 phút",
+    "heavyRain": "60-90 phút",
+    "storm": "Tạm ngưng",
+    "flood": "Tạm ngưng"
+  },
+  "currentStatus": "Trạng thái hiện tại",
+  "currentLocation": "Vị trí hiện tại",
+  "currentDelay": "Chậm trễ hiện tại do thời tiết",
+  "realTimeStatus": "Trạng thái thời gian thực",
+  "selectWeatherHint": "Chọn điều kiện thời tiết này",
+  "selectedIndicator": "Đã chọn",
+  "deliveryNotification": "Thông báo giao hàng",
+  "realTimeUpdate": "Cập nhật thời gian thực",
+  "deliveryUpdates": "Cập nhật giao hàng",
+  "normalWeatherDelivery": "Thời tiết bình thường - Giao hàng đúng giờ",
+  "lightRainDelivery": "Mưa nhẹ - Có thể chậm 10-15 phút",
+  "heavyRainDelivery": "Mưa to - Chậm 20-30 phút",
+  "stormFloodDelivery": "Bão lũ - Tạm ngưng giao hàng",
+  "orderingTips": "Mẹo đặt hàng",
+  "tipsSection": "Phần mẹo hay",
+  "rainySeason": "Mùa mưa",
+  "hotWeather": "Thời tiết nóng",
+  "stormyWeather": "Thời tiết bão",
+  "rainySeasonTip": "Đặt hàng sớm 30 phút để tránh chậm trễ do mưa",
+  "hotWeatherTip": "Đồ uống mát và thực phẩm tươi sẽ được ưu tiên giao",
+  "stormyWeatherTip": "Theo dõi cảnh báo thời tiết, có thể tạm ngưng dịch vụ",
+  "seasonalOffers": "Ưu đãi theo mùa",
+  "seasonalPromoSection": "Phần khuyến mãi theo mùa",
+  "rainySeasonPromo": "Khuyến mãi mùa mưa",
+  "deliveryDiscount20": "Giảm 20% phí giao hàng",
+  "promoCondition": "Áp dụng cho đơn hàng từ {{amount}} trở lên",
+  "copyPromoCode": "Sao chép mã khuyến mãi {{code}}",
+  "copyPromoCodeHint": "Nhấn để sao chép mã khuyến mãi",
+  "headerAccessibilityLabel": "Tiêu đề hệ thống thời tiết thông minh",
+  "tabAccessibilityLabel": "Tab thông tin thời tiết và giao hàng",
+  "deliveryNotificationSection": "Phần thông báo về tình trạng giao hàng",
+  "currentStatusSection": "Phần trạng thái hiện tại của dịch vụ giao hàng",
+  "smartWeatherTitle": "Thời tiết thông minh",
+  "smartWeatherDescription": "Hệ thống giao hàng tối ưu theo thời tiết",
+  "selectWeatherPrompt": "Chọn điều kiện thời tiết hiện tại để nhận dự đoán giao hàng chính xác",
+  "sunny": "Nắng đẹp",
+  "cloudy": "Nhiều mây",
+  "rain": "Mưa nhẹ",
+  "heavyRain": "Mưa to",
+  "storm": "Bão",
+  "flood": "Ngập lụt",
+  "description": {
+    "sunny": "Thời tiết đẹp, điều kiện giao hàng lý tưởng với đường xá thuận lợi",
+    "cloudy": "Thời tiết ổn định, giao hàng bình thường không bị ảnh hưởng",
+    "rain": "Mưa nhẹ có thể gây chậm trễ do tắc đường và di chuyển cẩn thận",
+    "heavyRain": "Mưa to ảnh hưởng đáng kể đến giao thông, thời gian giao hàng tăng",
+    "storm": "Thời tiết nguy hiểm, dịch vụ giao hàng tạm ngưng vì an toàn",
+    "flood": "Ngập lụt nghiêm trọng, không thể giao hàng trong khu vực bị ảnh hưởng"
+  },
+  "status": {
+    "normal": "Bình thường",
+    "delayed": "Chậm trễ",
+    "unavailable": "Tạm ngưng"
+  },
+  "alert": {
+    "rain": "Lưu ý: Thời gian giao hàng có thể kéo dài do mưa",
+    "heavyRain": "Cảnh báo: Mưa to có thể gây chậm trễ nghiêm trọng",
+    "storm": "Nguy hiểm: Tạm ngưng giao hàng vì bão",
+    "flood": "Khẩn cấp: Dịch vụ không khả dụng do ngập lụt"
+  },
+  "delivery": {
+    "normal": "Giao hàng đúng giờ",
+    "delayed": "Có thể chậm trễ",
+    "suspended": "Tạm ngưng giao hàng"
+  },
+  "tips": {
+    "sunny": {
+      "orderEarly": "Đặt sớm để tránh giờ cao điểm",
+      "coldItems": "Thời điểm tốt để đặt đồ uống lạnh"
+    },
+    "cloudy": {
+      "normalService": "Dịch vụ hoạt động bình thường"
+    },
+    "rain": {
+      "orderEarly": "Đặt trước 30 phút để bù thời gian chậm trễ",
+      "bePrepared": "Chuẩn bị ô dù khi nhận hàng",
+      "contactDriver": "Liên hệ tài xế nếu cần hỗ trợ"
+    },
+    "heavyRain": {
+      "significantDelay": "Có thể chậm đáng kể, hãy kiên nhẫn",
+      "safetyFirst": "An toàn là ưu tiên hàng đầu",
+      "considerPostponing": "Cân nhắc hoãn đặt hàng nếu không cấp thiết"
+    },
+    "storm": {
+      "suspended": "Dịch vụ tạm ngưng vì lý do an toàn"
+    },
+    "flood": {
+      "suspended": "Không thể giao hàng trong khu vực ngập lụt"
+    }
+  },
+  "estimatedTime": "Thời gian dự kiến",
+  "selected": "Đã chọn",
+  "cardAccessibilityLabel": "Thẻ thời tiết {{weather}}, trạng thái {{status}}, thời gian giao hàng {{time}}",
+  "cardAccessibilityHint": "Nhấn để chọn điều kiện thời tiết này",
+  "weatherListAccessibilityLabel": "Danh sách các điều kiện thời tiết có thể chọn"
+}

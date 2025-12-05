@@ -1,0 +1,26 @@
+{
+  "messages": {
+    "promotion": {
+      "applied": "Áp dụng khuyến mãi thành công"
+    }
+  },
+  "toastMessages": {
+    "ACCOUNT_SUSPENSION_SUCCESS": "Tài khoản đã bị đình chỉ",
+    "ADDRESS_DELETE_SUCCESS": "Địa chỉ đã được xóa",
+    "ADDRESS_SET_DEFAULT_SUCCESS": "Đã đặt làm địa chỉ mặc định",
+    "COUPON_APPLIED_SUCCESS": "Mã giảm giá đã được áp dụng",
+    "MESSAGE_DELETED_SUCCESS": "Tin nhắn đã được xóa",
+    "OPERATION_FAILED": "Thao tác thất bại",
+    "OPERATION_SUCCESS": "Thao tác thành công",
+    "PHONE_CALL_ERROR": "Gọi điện thất bại",
+    "PROFILE_AVATAR_UPDATE_FAILED": "Cập nhật ảnh đại diện thất bại",
+    "PROFILE_AVATAR_UPDATE_SUCCESS": "Ảnh đại diện đã được cập nhật",
+    "PROFILE_EDIT_VALIDATION_ERROR": "Thông tin hồ sơ có lỗi",
+    "REVIEW_DELETED_SUCCESS": "Đánh giá đã được xóa",
+    "REVIEW_DELETE_FAILED": "Xóa đánh giá thất bại",
+    "REVIEW_HELPFUL_VOTE_SUCCESS": "Đã bình chọn đánh giá hữu ích",
+    "REVIEW_PHOTO_ERROR": "Tải ảnh đánh giá thất bại",
+    "SERVER_ERROR": "Lỗi máy chủ",
+    "SETTINGS_SAVE_FAILED": "Lưu cài đặt thất bại"
+  }
+}

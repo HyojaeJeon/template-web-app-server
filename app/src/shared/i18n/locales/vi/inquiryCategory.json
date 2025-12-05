@@ -1,0 +1,61 @@
+{
+  "ORDER": {
+    "title": "Đơn hàng",
+    "description": "Trạng thái đơn hàng, thay đổi, hủy và các vấn đề liên quan đến đơn hàng",
+    "subCategories": {
+      "STATUS": "Hỏi về trạng thái đơn hàng",
+      "MODIFICATION": "Thay đổi nội dung đơn hàng",
+      "CANCELLATION": "Yêu cầu hủy đơn hàng",
+      "REFUND": "Yêu cầu hoàn tiền"
+    }
+  },
+  "DELIVERY": {
+    "title": "Giao hàng",
+    "description": "Thời gian giao hàng, vị trí, liên hệ tài xế và các vấn đề giao hàng",
+    "subCategories": {
+      "DELAY": "Giao hàng bị chậm trễ",
+      "LOCATION": "Vấn đề về địa chỉ giao hàng",
+      "CONTACT": "Liên hệ tài xế giao hàng",
+      "ISSUE": "Vấn đề giao hàng khác"
+    }
+  },
+  "MENU": {
+    "title": "Thức ăn",
+    "description": "Thông tin món ăn, thành phần, dị ứng và giá cả",
+    "subCategories": {
+      "INGREDIENTS": "Thông tin thành phần món ăn",
+      "ALLERGEN": "Thông tin về dị ứng",
+      "AVAILABILITY": "Tình trạng còn hàng",
+      "PRICE": "Vấn đề về giá cả"
+    }
+  },
+  "PAYMENT": {
+    "title": "Thanh toán",
+    "description": "Lỗi thanh toán, hoàn tiền, voucher và các vấn đề liên quan đến thanh toán",
+    "subCategories": {
+      "METHOD": "Phương thức thanh toán",
+      "FAILED": "Thanh toán thất bại",
+      "REFUND": "Yêu cầu hoàn tiền",
+      "DISCOUNT": "Vấn đề về khuyến mãi"
+    }
+  },
+  "SERVICE": {
+    "title": "Dịch vụ",
+    "description": "Khiếu nại, khen ngợi, góp ý và hỗ trợ chung",
+    "subCategories": {
+      "COMPLAINT": "Khiếu nại dịch vụ",
+      "COMPLIMENT": "Khen ngợi dịch vụ",
+      "SUGGESTION": "Góp ý cải thiện",
+      "SUPPORT": "Hỗ trợ chung"
+    }
+  },
+  "OTHER": {
+    "title": "Khác",
+    "description": "Các câu hỏi và vấn đề khác",
+    "subCategories": {
+      "GENERAL": "Câu hỏi chung",
+      "FEEDBACK": "Phản hồi",
+      "TECHNICAL": "Vấn đề kỹ thuật"
+    }
+  }
+}

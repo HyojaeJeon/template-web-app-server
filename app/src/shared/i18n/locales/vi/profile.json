@@ -1,0 +1,872 @@
+{
+  "title": "Hồ sơ",
+  "guest": "Khách",
+  "noContact": "Không có thông tin liên hệ",
+  "memberSince": "Thành viên từ {{date}}",
+  "anonymous": "Người dùng ẩn danh",
+  "greeting": {
+    "title": "Chúc bạn một ngày ngon miệng!",
+    "availablePoints": "Điểm khả dụng",
+    "points": "Điểm"
+  },
+  "stats": {
+    "totalOrders": "Đơn hàng",
+    "favorites": "Yêu thích",
+    "reviews": "Đánh giá",
+    "defaultName": "Khách hàng",
+    "greeting": "!",
+    "activityMessage": "Hoạt động của bạn được tổng hợp tại đây!"
+  },
+  "membership": {
+    "title": "Hạng thành viên",
+    "loading": "Đang tải thông tin thành viên...",
+    "currentTier": "Hạng hiện tại",
+    "points": "Điểm",
+    "totalSpent": "Tổng chi tiêu",
+    "nextTier": "Hạng tiếp theo",
+    "needMore": "Cần thêm {{amount}} để lên hạng",
+    "benefits": {
+      "delivery_discount": "Giảm giá giao hàng",
+      "points_earning": "Tích điểm",
+      "welcome_bonus": "Thưởng chào mừng",
+      "priority_support": "Hỗ trợ ưu tiên",
+      "faster_delivery": "Giao hàng nhanh",
+      "monthly_coupon": "Coupon hàng tháng",
+      "exclusive_deals": "Ưu đãi độc quyền",
+      "vip_support": "Hỗ trợ VIP",
+      "premium_coupons": "Coupon cao cấp",
+      "special_events": "Sự kiện đặc biệt",
+      "chef_recommendations": "Đề xuất từ đầu bếp",
+      "free_delivery": "Giao hàng miễn phí",
+      "concierge_service": "Dịch vụ quản gia",
+      "unlimited_coupons": "Coupon không giới hạn",
+      "vip_events": "Sự kiện VIP",
+      "custom_menu": "Thực đơn tùy chỉnh",
+      "priority_booking": "Đặt chỗ ưu tiên",
+      "bronze": {
+        "delivery_description": "Giảm 5% phí giao hàng cho tất cả đơn hàng",
+        "points_description": "Tích 1% điểm từ giá trị đơn hàng",
+        "welcome_description": "Thưởng 10.000 VND khi đăng ký"
+      },
+      "silver": {
+        "delivery_description": "Giảm 10% phí giao hàng cho tất cả đơn hàng",
+        "points_description": "Tích 1.2% điểm từ giá trị đơn hàng",
+        "support_description": "Dịch vụ hỗ trợ khách hàng ưu tiên",
+        "delivery_time_description": "Thời gian giao hàng trung bình nhanh hơn 15 phút"
+      },
+      "gold": {
+        "delivery_description": "Giảm 15% phí giao hàng cho tất cả đơn hàng",
+        "points_description": "Tích 1.5% điểm từ giá trị đơn hàng",
+        "support_description": "Hỗ trợ khách hàng ưu tiên 24 giờ",
+        "coupon_description": "5 phiếu giảm giá mỗi tháng",
+        "deals_description": "Ưu đãi đặc biệt dành cho thành viên Vàng"
+      },
+      "platinum": {
+        "delivery_description": "Giảm 20% phí giao hàng cho tất cả đơn hàng",
+        "points_description": "Tích 2% điểm từ giá trị đơn hàng",
+        "support_description": "Tư vấn viên khách hàng chuyên trách",
+        "coupon_description": "10 phiếu giảm giá cao cấp mỗi tháng",
+        "events_description": "Sự kiện độc quyền dành cho thành viên Bạch kim",
+        "chef_description": "Thực đơn đề xuất từ đầu bếp hàng tuần"
+      },
+      "diamond": {
+        "delivery_description": "Giao hàng miễn phí cho tất cả đơn hàng",
+        "points_description": "Tích 2.5% điểm từ giá trị đơn hàng",
+        "concierge_description": "Dịch vụ quản gia cá nhân",
+        "coupon_description": "Phiếu giảm giá cao cấp không giới hạn",
+        "events_description": "Lời mời tham gia sự kiện VIP độc quyền",
+        "menu_description": "Đề xuất thực đơn tùy chỉnh",
+        "booking_description": "Dịch vụ đặt chỗ ưu tiên tại nhà hàng"
+      }
+    },
+    "viewBenefits": "Xem quyền lợi",
+    "pointsHistory": "Lịch sử điểm",
+    "upgrade": "Nâng hạng thành viên",
+    "vietnamSpecial": "Ưu đãi đặc biệt Việt Nam",
+    "tiers": {
+      "bronze": "Đồng",
+      "silver": "Bạc",
+      "gold": "Vàng",
+      "platinum": "Bạch kim",
+      "diamond": "Kim cương"
+    },
+    "benefits_detail_title": "Chi tiết quyền lợi thành viên",
+    "membership_benefits": "Quyền lợi thành viên",
+    "current_tier": "Hạng hiện tại",
+    "progress_to_next": "Tiến độ đến {{tier}}",
+    "points_remaining": "Còn {{points}} điểm",
+    "current_benefits": "Quyền lợi hiện tại",
+    "upgrade_to": "Nâng cấp lên {{tier}}",
+    "points_needed": "Điểm cần thiết",
+    "orders_needed": "Đơn hàng cần thiết",
+    "estimated_time": "Thời gian ước tính",
+    "months": "{{count}} tháng",
+    "upgrade_now": "Nâng cấp ngay",
+    "max_tier_reached": "Đã đạt hạng tối đa",
+    "max_tier_message": "Chúc mừng! Bạn đã đạt đến hạng thành viên cao nhất.",
+    "bronze": "Thành viên Đồng",
+    "silver": "Thành viên Bạc",
+    "gold": "Thành viên Vàng",
+    "platinum": "Thành viên Bạch kim",
+    "diamond": "Thành viên Kim cương",
+    "error": {
+      "title": "Không thể tải thông tin thành viên",
+      "description": "Đã xảy ra lỗi khi tải thông tin hạng thành viên. Vui lòng thử lại."
+    },
+    "card": "Thẻ thành viên",
+    "member": "Thành viên",
+    "since": "Thành viên từ",
+    "orders": "đơn hàng",
+    "until": "đến hạng tiếp theo",
+    "moreOrders": "đơn nữa",
+    "currentBenefits": "Quyền lợi hiện tại",
+    "myTier": "Hạng của tôi"
+  },
+  "header": {
+    "defaultName": "Người dùng",
+    "noPhone": "Không có số điện thoại",
+    "verified": "Đã xác thực",
+    "pendingVerification": "Chờ xác thực",
+    "memberSince": "Thành viên từ:"
+  },
+  "stats": {
+    "title": "Thống kê giao hàng",
+    "totalOrders": "Tổng đơn hàng",
+    "totalReviews": "Đánh giá đã viết",
+    "loyaltyPoints": "Điểm tích lũy",
+    "favoriteStores": "Cửa hàng yêu thích",
+    "stores": "cửa hàng",
+    "totalSpent": "Tổng chi tiêu",
+    "orders": "Đơn hàng",
+    "points": "Điểm",
+    "reviews": "Đánh giá",
+    "favorites": "Yêu thích",
+    "coupons": "Coupon",
+    "defaultName": "Khách hàng",
+    "greeting": "!",
+    "activityMessage": "Hoạt động của bạn được tổng hợp tại đây!"
+  },
+  "statsOld": {
+    "title": "Thống kê giao hàng của tôi",
+    "totalOrders": "Tổng đơn hàng",
+    "totalReviews": "Đánh giá đã viết",
+    "loyaltyPoints": "Điểm tích lũy",
+    "favoriteStores": "Cửa hàng yêu thích",
+    "stores": "cửa hàng",
+    "totalSpent": "Tổng chi tiêu",
+    "orders": "Đơn hàng",
+    "points": "Điểm",
+    "reviews": "Đánh giá",
+    "favorites": "Yêu thích",
+    "coupons": "Coupon"
+  },
+  "menu": {
+    "editProfile": "Chỉnh sửa hồ sơ",
+    "orderHistory": "Lịch sử đơn hàng",
+    "addresses": "Quản lý địa chỉ",
+    "paymentMethods": "Phương thức thanh toán",
+    "chatMessages": "Tin nhắn",
+    "language": "Cài đặt ngôn ngữ",
+    "support": "Hỗ trợ khách hàng",
+    "customerService": "Trung tâm hỗ trợ khách hàng",
+    "logout": "Đăng xuất",
+    "history": "Lịch sử",
+    "settings": "Cài đặt",
+    "notifications": "Cài đặt thông báo",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản"
+  },
+  "logout": {
+    "title": "Đăng xuất",
+    "message": "Bạn có chắc chắn muốn đăng xuất?",
+    "confirm": "Đăng xuất",
+    "success": "Đăng xuất thành công",
+    "successMessage": "Bạn đã đăng xuất thành công",
+    "error": "Lỗi đăng xuất",
+    "errorMessage": "Có lỗi xảy ra khi đăng xuất"
+  },
+  "membershipBenefits": {
+    "title": "Quyền lợi thành viên",
+    "description": "Xem quyền lợi theo từng hạng thành viên"
+  },
+  "membershipUpgrade": {
+    "title": "Nâng hạng thành viên",
+    "description": "Xem số đơn hàng còn lại để lên hạng tiếp theo"
+  },
+  "pointsHistory": {
+    "title": "Lịch sử điểm",
+    "description": "Xem lịch sử tích lũy và sử dụng điểm",
+    "loading": "Đang tải lịch sử điểm...",
+    "error": "Không thể tải lịch sử điểm",
+    "retry": "Thử lại",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "balance": "Số dư",
+    "orderNumber": "Số đơn hàng",
+    "empty": {
+      "title": "Chưa có lịch sử điểm",
+      "description": "Đặt hàng để tích lũy điểm thưởng"
+    },
+    "types": {
+      "earned": "Tích lũy",
+      "spent": "Sử dụng",
+      "expired": "Hết hạn",
+      "adjustment": "Điều chỉnh"
+    },
+    "sources": {
+      "orderCompletion": "Hoàn thành đơn hàng",
+      "orderPayment": "Thanh toán đơn hàng",
+      "signupBonus": "Thưởng đăng ký",
+      "referral": "Giới thiệu bạn bè",
+      "promotion": "Khuyến mại",
+      "admin": "Quản trị viên",
+      "expiration": "Hết hạn"
+    },
+    "details": {
+      "date": "Ngày",
+      "type": "Loại",
+      "amount": "Số điểm",
+      "balance": "Số dư",
+      "description": "Mô tả",
+      "expires": "Hết hạn",
+      "reference": "Tham chiếu"
+    },
+    "summary": {
+      "currentBalance": "Số dư hiện tại",
+      "totalEarned": "Tổng tích lũy",
+      "totalSpent": "Tổng sử dụng",
+      "expiringAmount": "Sắp hết hạn",
+      "expiringDays": "{{count}} điểm sẽ hết hạn trong {{days}} ngày"
+    },
+    "loadMore": "Tải thêm",
+    "noMore": "Không còn dữ liệu",
+    "refresh": "Làm mới",
+    "filter": {
+      "all": "Tất cả",
+      "earned": "Tích lũy",
+      "spent": "Sử dụng",
+      "expired": "Hết hạn"
+    }
+  },
+  "usePoints": {
+    "title": "Sử dụng điểm",
+    "description": "Dùng điểm để được giảm giá"
+  },
+  "myReviews": {
+    "title": "Đánh giá của tôi",
+    "description": "Quản lý các đánh giá đã viết"
+  },
+  "activityStats": {
+    "title": "Thống kê hoạt động"
+  },
+  "quickAccess": {
+    "title": "Truy cập nhanh"
+  },
+  "appFeatures": {
+    "title": "Tính năng ứng dụng"
+  },
+  "pointsBox": {
+    "title": "Điểm thưởng của bạn",
+    "conversion": "1 điểm = 100 VNĐ",
+    "history": "Lịch sử"
+  },
+  "membershipStatus": {
+    "title": "Hạng thành viên",
+    "newMember": "Thành viên mới",
+    "bronzeNewMember": "Đồng - Thành viên mới",
+    "memberSinceDate": "Thành viên từ: {{date}}",
+    "viewBenefits": "Xem quyền lợi"
+  },
+  "statsLabels": {
+    "orders": "Đơn hàng",
+    "pointsEarned": "Điểm tích",
+    "vouchers": "Voucher",
+    "reviews": "Đánh giá"
+  },
+  "quickAccessItems": {
+    "orderHistory": {
+      "title": "Lịch sử đơn hàng",
+      "subtitle": "{{count}} đơn đã đặt"
+    },
+    "addresses": {
+      "title": "Địa chỉ giao hàng",
+      "subtitle": "Quản lý {{count}} địa chỉ"
+    },
+    "paymentMethods": {
+      "title": "Phương thức thanh toán",
+      "subtitle": "Thêm thẻ mới"
+    },
+    "supportMessages": {
+      "title": "Tin nhắn hỗ trợ",
+      "noNewMessages": "Không có tin nhắn mới",
+      "newMessages": "{{count}} tin nhắn mới"
+    },
+    "favorites": {
+      "title": "Yêu thích",
+      "subtitle": "{{count}} mục yêu thích"
+    },
+    "myReviews": {
+      "title": "Đánh giá của tôi",
+      "subtitle": "{{count}} đánh giá đã viết"
+    },
+    "coupons": {
+      "title": "Coupon",
+      "subtitle": "{{count}} coupon đang có"
+    }
+  },
+  "appFeaturesItems": {
+    "language": {
+      "title": "Ngôn ngữ",
+      "subtitle": "Tiếng Việt"
+    },
+    "notifications": {
+      "title": "Thông báo",
+      "subtitle": "Cài đặt thông báo"
+    },
+    "customerSupport": {
+      "title": "Hỗ trợ khách hàng",
+      "subtitle": "Liên hệ với chúng tôi"
+    },
+    "aboutApp": {
+      "title": "Về ứng dụng",
+      "subtitle": "Phiên bản 1.0.0"
+    }
+  },
+  "coupons": {
+    "card": "Thẻ coupon",
+    "title": "Coupon sở hữu",
+    "available": "có thể sử dụng",
+    "used": "Đã sử dụng",
+    "expiring": "Sắp hết hạn",
+    "expiringSoon": "coupon sắp",
+    "featured": "Coupon chính",
+    "minOrder": "Đơn hàng tối thiểu",
+    "viewAll": "Xem tất cả",
+    "getMore": "Nhận coupon"
+  },
+  "editProfile": {
+    "title": "Chỉnh sửa hồ sơ",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "fields": {
+      "name": "Tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "birthDate": "Ngày sinh",
+      "gender": "Giới tính"
+    },
+    "changePhoto": "Thay đổi ảnh",
+    "removePhoto": "Xóa ảnh",
+    "photoOptions": {
+      "title": "Ảnh hồ sơ",
+      "camera": "Chụp ảnh",
+      "gallery": "Chọn từ thư viện",
+      "remove": "Xóa ảnh hiện tại"
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "general": "Cài đặt chung",
+    "privacy": "Bảo mật",
+    "dataSaver": "Chế độ tiết kiệm dữ liệu",
+    "dataSaverDesc": "Giảm chất lượng hình ảnh để tiết kiệm dữ liệu",
+    "autoPlay": "Tự động phát",
+    "autoPlayDesc": "Tự động phát nội dung video",
+    "shareLocation": "Chia sẻ vị trí",
+    "shareLocationDesc": "Chia sẻ thông tin vị trí để cải thiện dịch vụ giao hàng",
+    "analytics": "Thống kê sử dụng",
+    "analyticsDesc": "Thu thập thống kê sử dụng ẩn danh để cải thiện ứng dụng",
+    "about": "Thông tin ứng dụng",
+    "aboutDesc": "Xem thông tin phiên bản và điều khoản sử dụng",
+    "terms": "Điều khoản sử dụng",
+    "termsDesc": "Xem điều khoản sử dụng dịch vụ",
+    "privacyPolicy": "Chính sách bảo mật",
+    "privacyPolicyDesc": "Xem chính sách xử lý thông tin cá nhân",
+    "notifications": "Cài đặt thông báo",
+    "accountManagement": "Quản lý tài khoản",
+    "version": "Phiên bản",
+    "language": "Ngôn ngữ",
+    "cache": {
+      "title": "Quản lý bộ nhớ cache",
+      "clear": "Xóa cache",
+      "size": "Kích thước cache: {{size}}",
+      "description": "Xóa cache sẽ giải phóng dung lượng lưu trữ nhưng có thể làm tăng thời gian tải dữ liệu lần tiếp theo.",
+      "confirmMessage": "Bạn có muốn xóa cache không?",
+      "deleteError": "Xóa cache thất bại",
+    "refresh": "Làm mới",
+    "totalSize": "Tổng dung lượng bộ nhớ đệm",
+    "calculating": "Đang tính toán...",
+    "calculationError": "Tính toán thất bại",
+    "imageCache": "Bộ nhớ đệm hình ảnh",
+    "dataCache": "Bộ nhớ đệm dữ liệu",
+    "tempFiles": "Tệp tạm thời",
+    "clearImageCache": "Xóa bộ nhớ đệm hình ảnh",
+    "clearDataCache": "Xóa bộ nhớ đệm dữ liệu",
+    "clearAll": "Xóa tất cả bộ nhớ đệm",
+    "clearAllWarning": "Tất cả dữ liệu bộ nhớ đệm sẽ bị xóa. Bạn có chắc không?",
+    "clearError": "Xóa bộ nhớ đệm thất bại",
+    "imageCacheCleared": "Đã xóa bộ nhớ đệm hình ảnh",
+    "imageCacheClearedDesc": "Hình ảnh đã lưu đã được dọn sạch",
+    "dataCacheCleared": "Đã xóa bộ nhớ đệm dữ liệu",
+    "dataCacheClearedDesc": "Dữ liệu tạm thời đã được dọn sạch",
+    "allCacheCleared": "Đã xóa tất cả bộ nhớ đệm",
+    "allCacheClearedDesc": "Đã giải phóng dung lượng lưu trữ",
+    "refreshing": "Đang làm mới thông tin bộ nhớ đệm"
+    },
+    "messages": {
+      "accountActionProcessing": "Đang xử lý...",
+      "accountDeleted": "Tài khoản đã được xóa",
+      "accountDeleteScheduled": "Tài khoản sẽ được xóa hoàn toàn vào {{date}}",
+      "accountSuspended": "Tài khoản đã được tạm dừng",
+      "updateSuccess": "Hồ sơ đã được cập nhật",
+      "updateError": "Cập nhật hồ sơ thất bại",
+      "imageUpdateSuccess": "Ảnh hồ sơ đã được cập nhật",
+      "imageUploadError": "Tải ảnh lên thất bại",
+      "fetchError": "Không thể tải thông tin hồ sơ",
+      "addressUpdateSuccess": "Địa chỉ đã được cập nhật",
+      "addressUpdateError": "Cập nhật địa chỉ thất bại",
+      "locationPermissionGranted": "Quyền truy cập vị trí đã được cấp",
+      "locationPermissionDenied": "Quyền truy cập vị trí bị từ chối",
+      "locationPermissionError": "Lỗi khi yêu cầu quyền vị trí",
+      "noChangesToSync": "Không có thay đổi để đồng bộ"
+    },
+    "errors": {
+      "accountActionFailed": "Thao tác thất bại. Vui lòng thử lại"
+    },
+    "regionSettings": "Cài đặt khu vực",
+    "currentRegion": "Khu vực hiện tại",
+    "currency": "Tiền tệ",
+    "selectCurrency": "Chọn tiền tệ",
+    "selectLanguage": "Chọn ngôn ngữ",
+    "deliveryInfo": "Thông tin giao hàng",
+    "deliveryTime": "Thời gian giao hàng",
+    "deliveryFee": "Phí giao hàng",
+    "minOrder": "Đơn tối thiểu",
+    "regionNote": "Lưu ý về cài đặt khu vực",
+    "regionDescription": "Cài đặt khu vực ảnh hưởng đến cửa hàng khả dụng, phí giao hàng và phương thức thanh toán.",
+    "saveSuccess": "Đã lưu cài đặt",
+    "regionUpdated": "Đã cập nhật khu vực",
+    "saveError": "Lưu cài đặt thất bại",
+    "testNotificationTitle": "Thông báo thử",
+    "testNotificationMessage": "Thông báo hoạt động bình thường!"
+  },
+  "fields": {
+    "name": "Tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "fullName": "Họ và tên",
+    "preferredLanguage": "Ngôn ngữ ưa thích",
+    "promotionNotifications": "Thông báo khuyến mãi",
+    "marketingNotifications": "Thông báo tiếp thị"
+  },
+  "gender": {
+    "select": "Vui lòng chọn",
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác"
+  },
+  "avatar": {
+    "change": "Thay đổi ảnh hồ sơ",
+    "tapToChange": "Chạm để thay đổi ảnh",
+    "select": "Chọn một ảnh",
+    "selectSource": "Chọn nguồn ảnh",
+    "selectSourceMessage": "Chọn phương thức bạn muốn",
+    "camera": "Chụp ảnh",
+    "gallery": "Chọn từ thư viện",
+    "profileImage": "Ảnh hồ sơ",
+    "updateSuccess": "Cập nhật ảnh hồ sơ thành công",
+    "updateError": "Cập nhật ảnh hồ sơ thất bại",
+    "changePhoto": "Thay đổi ảnh hồ sơ",
+    "selectMethod": "Chọn phương thức bạn muốn",
+    "defaultAvatar": "Ảnh đại diện mặc định",
+    "customAvatar": "Ảnh đại diện tùy chỉnh",
+    "tapToChangeDesc": "Chạm để thay đổi ảnh hồ sơ",
+    "defaultOptions": "Tùy chọn ảnh đại diện mặc định",
+    "delete": "Xóa ảnh",
+    "deleteSuccess": "Ảnh hồ sơ đã được xóa thành công",
+    "deleteError": "Xóa ảnh hồ sơ thất bại"
+  },
+  "validation": {
+    "nameRequired": "Vui lòng nhập tên ít nhất 2 ký tự",
+    "emailRequired": "Email là bắt buộc",
+    "emailInvalid": "Vui lòng nhập email đúng định dạng",
+    "phoneRequired": "Số điện thoại là bắt buộc",
+    "phoneInvalid": "Vui lòng nhập số điện thoại đúng định dạng",
+    "phoneInvalidVN": "Vui lòng nhập số điện thoại Việt Nam hợp lệ",
+    "phoneFormatVN": "Định dạng số điện thoại Việt Nam không hợp lệ",
+    "addressMinLength": "Vui lòng nhập địa chỉ ít nhất 5 ký tự",
+    "invalidLatitude": "Giá trị vĩ độ không hợp lệ",
+    "invalidLongitude": "Giá trị kinh độ không hợp lệ",
+    "checkFields": "Vui lòng kiểm tra thông tin đầu vào",
+    "correctErrors": "Vui lòng sửa lỗi và thử lại"
+  },
+  "language": {
+    "title": "Cài đặt ngôn ngữ",
+    "selectNote": "Vui lòng chọn ngôn ngữ cho ứng dụng",
+    "changeNote": "Sau khi thay đổi ngôn ngữ, ứng dụng sẽ tự động hiển thị bằng ngôn ngữ mới. Một số nội dung có thể được áp dụng khi khởi động lại.",
+    "changeSuccess": "Đã thay đổi ngôn ngữ thành công",
+    "changedTo": "Ngôn ngữ đã được thay đổi thành {{language}}",
+    "changeError": "Thay đổi ngôn ngữ thất bại",
+    "changeErrorDesc": "Vui lòng thử lại",
+    "changing": "Đang thay đổi ngôn ngữ..."
+  },
+  "deletion": {
+    "deleteAccount": "Xóa tài khoản",
+    "confirmTitle": "Xác nhận xóa tài khoản",
+    "confirmMessage": "Bạn có chắc chắn muốn xóa tài khoản? Hành động này không thể hoàn tác.",
+    "continue": "Tiếp tục",
+    "processing": "Đang xử lý...",
+    "buttonLabel": "Nút Xóa Tài Khoản",
+    "buttonHint": "Xóa vĩnh viễn tài khoản của bạn",
+    "step1Title": "Chọn lý do xóa",
+    "step1Description": "Vui lòng cho chúng tôi biết lý do bạn muốn xóa tài khoản để giúp chúng tôi cải thiện dịch vụ.",
+    "step2Title": "Xác nhận cuối cùng",
+    "step2Description": "Sau khi xóa tài khoản, tất cả dữ liệu của bạn sẽ bị xóa vĩnh viễn.",
+    "warningTitle": "⚠️ Thông báo quan trọng",
+    "warningDescription": "Xóa tài khoản sẽ xóa vĩnh viễn lịch sử đơn hàng, điểm, coupon, yêu thích và tất cả thông tin khác không thể khôi phục.",
+    "confirmationInstruction": "Để tiếp tục, vui lòng nhập chính xác cụm từ sau:",
+    "confirmationText": "Xóa tài khoản của tôi",
+    "confirmationPlaceholder": "Vui lòng nhập chính xác cụm từ trên",
+    "nextStep": "Bước tiếp theo",
+    "finalDelete": "Xóa tài khoản",
+    "selectReason": "Vui lòng chọn lý do xóa",
+    "enterCustomReason": "Vui lòng nhập lý do khác",
+    "incorrectConfirmation": "Cụm từ đã nhập không khớp: {{text}}",
+    "success": "Xóa tài khoản thành công",
+    "failed": "Xóa tài khoản thất bại. Vui lòng thử lại",
+    "customReasonLabel": "Lý do chi tiết",
+    "customReasonPlaceholder": "Vui lòng cho chúng tôi biết chi tiết lý do (tùy chọn)",
+    "reasons": {
+      "notUsing": "Không còn sử dụng ứng dụng",
+      "privacyConcerns": "Quan ngại về quyền riêng tư",
+      "tooManyNotifications": "Quá nhiều thông báo",
+      "poorService": "Chất lượng dịch vụ kém",
+      "foundAlternative": "Tìm thấy dịch vụ khác",
+      "other": "Khác"
+    }
+  },
+  "suspension": {
+    "suspendAccount": "Tạm dừng tài khoản",
+    "confirmTitle": "Xác nhận tạm dừng tài khoản",
+    "confirmMessage": "Bạn có muốn tạm thời dừng tài khoản không? Nó sẽ được tự động kích hoạt lại sau thời gian đã đặt.",
+    "continue": "Tiếp tục",
+    "processing": "Đang xử lý...",
+    "buttonLabel": "Nút Tạm Dừng Tài Khoản",
+    "buttonHint": "Tạm thời vô hiệu hóa tài khoản trong thời gian được chỉ định",
+    "modalTitle": "Cài đặt tạm dừng tài khoản",
+    "description": "Khi tài khoản bị tạm dừng, bạn sẽ không thể đăng nhập và tất cả dịch vụ bao gồm đặt hàng và thông báo sẽ bị dừng. Nó sẽ được tự động kích hoạt lại sau thời gian đã đặt.",
+    "selectPeriodTitle": "Chọn thời gian tạm dừng",
+    "selectReasonTitle": "Chọn lý do tạm dừng (Tùy chọn)",
+    "selectPeriod": "Vui lòng chọn thời gian tạm dừng",
+    "selectReason": "Vui lòng chọn lý do tạm dừng",
+    "enterCustomReason": "Vui lòng nhập lý do khác",
+    "confirmSuspension": "Tạm dừng tài khoản",
+    "success": "Tài khoản đã được tạm dừng trong {{period}}",
+    "failed": "Tạm dừng tài khoản thất bại. Vui lòng thử lại",
+    "customReasonLabel": "Lý do chi tiết",
+    "customReasonPlaceholder": "Vui lòng cho chúng tôi biết chi tiết lý do (tùy chọn)",
+    "infoTitle": "📋 Thông báo",
+    "infoDescription": "Trong thời gian tạm dừng, đăng nhập sẽ không khả dụng và các đơn hàng đang diễn ra sẽ tiếp tục được xử lý. Bạn có thể yêu cầu khôi phục sớm thông qua dịch vụ khách hàng bất cứ lúc nào.",
+    "periods": {
+      "oneWeek": "1 tuần",
+      "twoWeeks": "2 tuần",
+      "oneMonth": "1 tháng",
+      "threeMonths": "3 tháng",
+      "sixMonths": "6 tháng"
+    },
+    "reasons": {
+      "needBreak": "Muốn nghỉ ngơi khỏi ứng dụng",
+      "tooMuchSpending": "Để ngăn chặn chi tiêu quá mức",
+      "privacyConcerns": "Bảo vệ quyền riêng tư",
+      "temporaryIssue": "Do vấn đề tạm thời",
+      "other": "Khác"
+    }
+  },
+  "placeholders": {
+    "name": "Nhập tên của bạn",
+    "email": "user@example.com",
+    "phone": "+84 123 456 789",
+    "birthday": "YYYY-MM-DD",
+    "fullName": "Vui lòng nhập tên của bạn"
+  },
+  "cartAccessibilityHint": "Đi đến giỏ hàng",
+  "customerService": {
+    "workingHoursText": "08:00 - 22:00 (Hàng ngày)",
+    "emergencyHours": "24/7",
+    "title": "Trung tâm hỗ trợ khách hàng",
+    "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn",
+    "hours": "Giờ làm việc",
+    "quickContact": "Liên hệ nhanh",
+    "actions": {
+      "liveChat": "Trò chuyện trực tuyến",
+      "liveChatDesc": "Nhận phản hồi ngay lập tức",
+      "call": "Tư vấn qua điện thoại",
+      "email": "Gửi email hỏi đáp"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "order": "Liên quan đến đơn hàng",
+      "orderCancel": "Tôi muốn hủy đơn hàng",
+      "orderCancelAnswer": "Bạn có thể hủy đơn hàng trong lịch sử đơn hàng. Chỉ có thể hủy trước khi bắt đầu chế biến.",
+      "orderDelay": "Đơn hàng bị chậm trễ",
+      "orderDelayAnswer": "Vui lòng kiểm tra trạng thái hiện tại trong theo dõi đơn hàng thời gian thực hoặc liên hệ trực tiếp với cửa hàng.",
+      "payment": "Liên quan đến thanh toán",
+      "paymentFailed": "Thanh toán không thành công",
+      "paymentFailedAnswer": "Vui lòng kiểm tra phương thức thanh toán hoặc sử dụng phương thức khác.",
+      "refund": "Khi nào được hoàn tiền?",
+      "refundAnswer": "Tiền sẽ được hoàn lại trong vòng 3-5 ngày làm việc sau khi hủy đơn.",
+      "delivery": "Liên quan đến giao hàng",
+      "deliveryArea": "Tôi muốn biết khu vực giao hàng",
+      "deliveryAreaAnswer": "Chúng tôi giao hàng trong bán kính 5km từ trung tâm Thành phố Hồ Chí Minh.",
+      "account": "Liên quan đến tài khoản",
+      "passwordReset": "Tôi quên mật khẩu",
+      "passwordResetAnswer": "Vui lòng sử dụng tính năng 'Quên mật khẩu' trên màn hình đăng nhập."
+    },
+    "info": {
+      "title": "Thông tin dịch vụ",
+      "description": "Nếu bạn cần hỗ trợ chi tiết hơn, vui lòng liên hệ trung tâm chăm sóc khách hàng. Nhân viên tư vấn chuyên nghiệp sẽ hỗ trợ bạn một cách tận tình."
+    }
+  },
+  "addresses": {
+    "saved": "Địa chỉ đã lưu",
+    "title": "Quản lý địa chỉ giao hàng",
+    "quickActions": {
+      "title": "Thao tác nhanh",
+      "addNew": "Thêm địa chỉ mới",
+      "addDescription": "Thêm nhà, công ty hoặc địa điểm khác"
+    },
+    "delivery": {
+      "title": "Thông tin giao hàng",
+      "description": "Hiện đang hỗ trợ khu vực TP.HCM và lân cận. Thời gian giao hàng là 20-45 phút."
+    },
+    "empty": {
+      "title": "Chưa có địa chỉ đã lưu",
+      "description": "Thêm địa chỉ giao hàng mới"
+    },
+    "addFirst": "Thêm địa chỉ đầu tiên",
+    "addNew": "Thêm địa chỉ mới",
+    "addHelper": "Thêm nhà, công ty hoặc địa điểm thường xuyên",
+    "deliveryInfo": {
+      "title": "Thông tin giao hàng",
+      "description": "Chúng tôi giao hàng nhanh chóng và chính xác đến địa chỉ đã đăng ký"
+    },
+    "types": {
+      "home": "Nhà",
+      "work": "Công ty"
+    },
+    "address": {
+      "title": "Quản lý địa chỉ",
+      "default": "Địa chỉ mặc định"
+    },
+    "notes": {
+      "frontDoor": "Cổng chính màu xanh",
+      "reception": "Giao tại lễ tân tầng 5"
+    },
+    "add": {
+      "coming": "Tính năng đang phát triển",
+      "description": "Sẽ có trong phiên bản tiếp theo"
+    },
+    "sampleAddresses": {
+      "home": "123 Nguyễn Huế, Phường Bến Nghé, Quận 1, TP.HCM",
+      "work": "456 Lê Lợi, Phường Phạm Ngũ Lão, Quận 1, TP.HCM"
+    },
+    "sampleStreets": {
+      "home": "123 Nguyễn Huế",
+      "work": "456 Lê Lợi"
+    },
+    "sampleDistricts": {
+      "district1": "Quận 1"
+    },
+    "sampleWards": {
+      "benNghe": "Phường Bến Nghé",
+      "phamNguLao": "Phường Phạm Ngũ Lão"
+    },
+    "delete": {
+      "confirm": {
+        "title": "Xác nhận xóa",
+        "message": "Bạn có chắc chắn muốn xóa địa chỉ này?"
+      },
+      "success": "Đã xóa địa chỉ",
+      "description": "Địa chỉ đã được xóa khỏi danh sách"
+    },
+    "edit": {
+      "description": "Chức năng chỉnh sửa sẽ có trong phiên bản tiếp theo",
+      "title": "Chỉnh sửa hồ sơ",
+      "basicInfo": "Thông tin cơ bản",
+      "additionalInfo": "Thông tin bổ sung",
+      "saveChanges": "Lưu thay đổi",
+      "saving": "Đang lưu...",
+      "saveSuccess": "Hồ sơ đã được lưu",
+      "saveSuccessDesc": "Thay đổi đã được áp dụng thành công",
+      "saveError": "Lưu thất bại",
+      "unsavedChanges": "Có thay đổi chưa được lưu",
+      "loseChanges": "Tất cả thay đổi sẽ bị mất. Bạn có muốn tiếp tục?",
+      "discard": "Bỏ thay đổi",
+      "privacyNotice": "Bảo mật thông tin",
+      "privacyDescription": "Thông tin bạn nhập được bảo vệ an toàn. Chỉ được sử dụng để cung cấp dịch vụ và không được chia sẻ với bên thứ ba.",
+      "verificationRequired": "Cần xác thực",
+      "verificationDescription": "Cần xác thực nếu bạn thay đổi email hoặc số điện thoại.",
+      "loadingProfile": "Đang tải thông tin hồ sơ...",
+      "loadError": "Không thể tải thông tin hồ sơ",
+      "retryLoad": "Thử lại",
+      "networkError": "Vui lòng kiểm tra kết nối mạng",
+      "updateSuccess": "Hồ sơ đã được cập nhật",
+      "updateError": "Cập nhật hồ sơ thất bại",
+      "confirmDiscard": "Bạn có muốn hủy thay đổi?",
+      "discardChanges": "Hủy",
+      "keepEditing": "Tiếp tục chỉnh sửa",
+      "formErrors": "Vui lòng kiểm tra thông tin đầu vào",
+      "requiredField": "Trường bắt buộc",
+      "invalidFormat": "Định dạng không hợp lệ"
+    }
+  },
+  "privacySettings": "Cài đặt quyền riêng tư",
+  "changePassword": {
+    "title": "Đổi mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "enterCurrent": "Nhập mật khẩu hiện tại",
+    "enterNew": "Nhập mật khẩu mới",
+    "enterConfirm": "Nhập lại mật khẩu mới",
+    "securityNotice": "Thông báo bảo mật",
+    "securityDescription": "Tạo mật khẩu mạnh để bảo vệ tài khoản của bạn an toàn.",
+    "requirements": "Yêu cầu mật khẩu",
+    "minLength": "Tối thiểu 6 ký tự",
+    "noSpaces": "Không có khoảng trắng",
+    "different": "Phải khác mật khẩu hiện tại",
+    "change": "Đổi mật khẩu",
+    "changing": "Đang đổi...",
+    "changeButton": "Nút đổi mật khẩu",
+    "success": "Mật khẩu đã được thay đổi thành công",
+    "error": "Thay đổi mật khẩu thất bại",
+    "errors": {
+      "currentRequired": "Vui lòng nhập mật khẩu hiện tại",
+      "newRequired": "Vui lòng nhập mật khẩu mới",
+      "confirmRequired": "Vui lòng xác nhận mật khẩu",
+      "tooShort": "Mật khẩu phải có ít nhất 6 ký tự",
+      "passwordMismatch": "Mật khẩu không khớp",
+      "samePassword": "Mật khẩu mới phải khác mật khẩu hiện tại"
+    }
+  },
+  "preferences": "Tùy chỉnh",
+  "edit": {
+    "title": "Chỉnh sửa hồ sơ",
+    "saving": "Đang lưu thay đổi...",
+    "saveSuccess": "Cập nhật hồ sơ thành công",
+    "saveError": "Cập nhật hồ sơ thất bại. Vui lòng thử lại",
+    "loadError": "Không thể tải thông tin hồ sơ",
+    "networkError": "Lỗi mạng. Vui lòng kiểm tra kết nối",
+    "retryLoad": "Thử lại",
+    "loadingProfile": "Đang tải hồ sơ...",
+    "confirmDiscard": "Hủy thay đổi?",
+    "loseChanges": "Bạn có thay đổi chưa được lưu sẽ bị mất",
+    "keepEditing": "Tiếp tục chỉnh sửa",
+    "discardChanges": "Hủy thay đổi",
+    "privacyNotice": "Bảo vệ quyền riêng tư",
+    "privacyDescription": "Thông tin của bạn được mã hóa và bảo vệ an toàn theo tiêu chuẩn quốc tế",
+    "personalInformation": "Thông tin cá nhân",
+    "basicInfo": "Thông tin cơ bản",
+    "additionalInfo": "Thông tin bổ sung",
+    "preferences": "Tùy chỉnh",
+    "notifications": "Cài đặt thông báo",
+    "saveChanges": "Lưu thay đổi",
+    "saveSuccessDesc": "Thay đổi đã được áp dụng thành công",
+    "unsavedChanges": "Có thay đổi chưa được lưu",
+    "discard": "Bỏ thay đổi",
+    "verificationRequired": "Cần xác thực",
+    "verificationDescription": "Cần xác thực nếu bạn thay đổi email hoặc số điện thoại.",
+    "updateSuccess": "Hồ sơ đã được cập nhật",
+    "updateError": "Cập nhật hồ sơ thất bại",
+    "formErrors": "Vui lòng kiểm tra thông tin đầu vào",
+    "requiredField": "Trường bắt buộc",
+    "invalidFormat": "Định dạng không hợp lệ"
+  },
+  "notificationSettings": "Cài đặt thông báo",
+  "points": {
+    "earned": "Tích lũy",
+    "redeemed": "Sử dụng",
+    "expired": "Hết hạn",
+    "adjustment": "Điều chỉnh",
+    "noTransactions": "Không có lịch sử giao dịch điểm",
+    "earnPointsByOrdering": "Đặt hàng để tích lũy điểm",
+    "currentBalance": "Số dư hiện tại",
+    "totalEarned": "Tổng tích lũy",
+    "totalRedeemed": "Tổng sử dụng"
+  },
+  "descriptions": {
+    "promotionNotifications": "Nhận thông tin giảm giá và khuyến mãi",
+    "marketingNotifications": "Nhận thông tin tiếp thị cá nhân hóa"
+  },
+  "selectBirthdate": "Chọn ngày sinh",
+  "birthdate": "Ngày sinh",
+  "fullName": "Họ và tên",
+  "enterFullName": "Nhập họ và tên",
+  "enterEmail": "Nhập email",
+  "enterPhone": "Nhập số điện thoại",
+  "phoneNumber": "Số điện thoại",
+  "bio": "Giới thiệu",
+  "enterBio": "Nhập giới thiệu ngắn",
+  "personalInformation": "Thông tin cá nhân",
+  "changePhoto": "Thay đổi ảnh",
+  "tapToChangePhoto": "Nhấn để thay đổi ảnh",
+  "selectPhotoSource": "Chọn nguồn ảnh",
+  "takePhoto": "Chụp ảnh",
+  "chooseFromGallery": "Chọn từ thư viện",
+  "profileImage": "Ảnh hồ sơ",
+  "notifications": {
+    "orderUpdates": "Cập nhật đơn hàng",
+    "orderUpdatesDesc": "Thông báo thay đổi trạng thái đơn hàng",
+    "promotions": "Khuyến mãi",
+    "promotionsDesc": "Thông báo giảm giá và sự kiện"
+  },
+  "history": {
+    "thisMontSummary": "Tóm tắt tháng này",
+    "noHistoryYet": "Chưa có lịch sử sử dụng",
+    "startUsingApp": "Sử dụng ứng dụng để đặt hàng và tích lũy điểm"
+  },
+  "regions": {
+    "north": "Miền Bắc",
+    "central": "Miền Trung",
+    "south": "Miền Nam"
+  },
+  "customerService": {
+    "workingHoursText": "08:00 - 22:00 (Hàng ngày)",
+    "emergencyHours": "24/7",
+    "title": "Trung tâm hỗ trợ khách hàng",
+    "subtitle": "Chúng tôi luôn sẵn sàng hỗ trợ bạn",
+    "hours": "Giờ làm việc",
+    "quickContact": "Liên hệ nhanh",
+    "actions": {
+      "liveChat": "Trò chuyện trực tuyến",
+      "liveChatDesc": "Nhận phản hồi ngay lập tức",
+      "call": "Tư vấn qua điện thoại",
+      "email": "Gửi email hỏi đáp"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "order": "Liên quan đến đơn hàng",
+      "orderCancel": "Tôi muốn hủy đơn hàng",
+      "orderCancelAnswer": "Bạn có thể hủy đơn hàng trong lịch sử đơn hàng. Chỉ có thể hủy trước khi bắt đầu chế biến.",
+      "orderDelay": "Đơn hàng bị chậm trễ",
+      "orderDelayAnswer": "Vui lòng kiểm tra trạng thái hiện tại trong theo dõi đơn hàng thời gian thực hoặc liên hệ trực tiếp với cửa hàng.",
+      "payment": "Liên quan đến thanh toán",
+      "paymentFailed": "Thanh toán không thành công",
+      "paymentFailedAnswer": "Vui lòng kiểm tra phương thức thanh toán hoặc sử dụng phương thức khác.",
+      "refund": "Khi nào được hoàn tiền?",
+      "refundAnswer": "Tiền sẽ được hoàn lại trong vòng 3-5 ngày làm việc sau khi hủy đơn.",
+      "delivery": "Liên quan đến giao hàng",
+      "deliveryArea": "Tôi muốn biết khu vực giao hàng",
+      "deliveryAreaAnswer": "Chúng tôi giao hàng trong bán kính 5km từ trung tâm Thành phố Hồ Chí Minh.",
+      "account": "Liên quan đến tài khoản",
+      "passwordReset": "Tôi quên mật khẩu",
+      "passwordResetAnswer": "Vui lòng sử dụng tính năng 'Quên mật khẩu' trên màn hình đăng nhập."
+    },
+    "info": {
+      "title": "Thông tin dịch vụ",
+      "description": "Nếu bạn cần hỗ trợ chi tiết hơn, vui lòng liên hệ trung tâm chăm sóc khách hàng. Nhân viên tư vấn chuyên nghiệp sẽ hỗ trợ bạn một cách tận tình."
+    }
+  }
+}

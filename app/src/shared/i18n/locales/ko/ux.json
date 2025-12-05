@@ -1,0 +1,131 @@
+{
+  "emptyStates": {
+    "title": "빈 상태",
+    "subtitle": "데이터가 없을 때 보여주는 상태",
+    "systemTitle": "Local App 빈 상태 시스템",
+    "systemDescription": "사용자에게 명확한 안내와 다음 액션을 제시하는 빈 상태 디자인",
+    "noOrders": {
+      "title": "아직 주문 내역이 없어요",
+      "description": "첫 주문을 하고 맛있는 음식을 즐겨보세요!",
+      "action": "매장 둘러보기"
+    },
+    "noFavorites": {
+      "title": "찜한 매장이 없어요",
+      "description": "마음에 드는 매장을 찜해보세요",
+      "action": "매장 찾기"
+    },
+    "noSearchResults": {
+      "title": "검색 결과가 없어요",
+      "description": "다른 키워드로 다시 검색해보세요",
+      "action": "검색어 변경"
+    },
+    "noNetwork": {
+      "title": "인터넷 연결을 확인해주세요",
+      "description": "네트워크 연결 후 다시 시도해주세요",
+      "action": "다시 시도"
+    },
+    "maintenance": {
+      "title": "서비스 점검 중입니다",
+      "description": "더 나은 서비스를 위해 잠시 점검 중이에요",
+      "expectedTime": "예상 완료 시간: 30분 후"
+    }
+  },
+  "loaders": {
+    "title": "로더",
+    "subtitle": "로딩 상태를 표시하는 컴포넌트",
+    "systemTitle": "Local App 로더 시스템",
+    "systemDescription": "부드럽고 직관적인 로딩 애니메이션과 진행률 표시",
+    "spinLoader": {
+      "title": "스핀 로더",
+      "description": "기본 회전 로딩 애니메이션"
+    },
+    "progressLoader": {
+      "title": "진행률 로더",
+      "description": "진행률을 표시하는 로더"
+    },
+    "skeletonLoader": {
+      "title": "스켈레톤 로더",
+      "description": "콘텐츠 구조를 미리 보여주는 로더"
+    },
+    "pulseLoader": {
+      "title": "펄스 로더",
+      "description": "맥박처럼 깜빡이는 로더"
+    },
+    "messages": {
+      "loading": "로딩 중...",
+      "fetchingData": "데이터를 불러오는 중...",
+      "processingOrder": "주문을 처리하는 중...",
+      "searchingStores": "매장을 찾는 중...",
+      "processingPayment": "결제를 처리하는 중..."
+    }
+  },
+  "toasts": {
+    "title": "토스트",
+    "subtitle": "간단한 알림 메시지",
+    "systemTitle": "Local App 토스트 시스템",
+    "systemDescription": "사용자에게 즉각적인 피드백을 제공하는 알림 시스템",
+    "success": {
+      "title": "성공 토스트",
+      "description": "작업 완료 알림"
+    },
+    "error": {
+      "title": "오류 토스트",
+      "description": "오류 발생 알림"
+    },
+    "warning": {
+      "title": "경고 토스트",
+      "description": "주의가 필요한 상황 알림"
+    },
+    "info": {
+      "title": "정보 토스트",
+      "description": "일반 정보 전달"
+    },
+    "messages": {
+      "orderPlaced": "주문이 성공적으로 접수되었습니다!",
+      "itemAdded": "장바구니에 추가되었습니다",
+      "paymentSuccess": "결제가 완료되었습니다",
+      "orderCancelled": "주문이 취소되었습니다",
+      "networkError": "네트워크 오류가 발생했습니다",
+      "lowBattery": "배터리가 부족합니다"
+    }
+  },
+  "banners": {
+    "title": "배너",
+    "subtitle": "프로모션 및 공지사항 배너",
+    "systemTitle": "Local App 배너 시스템",
+    "systemDescription": "시선을 끄는 프로모션과 중요한 정보를 전달하는 배너 디자인",
+    "promotional": {
+      "title": "프로모션 배너",
+      "description": "할인 및 특가 정보"
+    },
+    "informational": {
+      "title": "정보 배너",
+      "description": "중요한 공지사항 전달"
+    },
+    "seasonal": {
+      "title": "시즌 배너",
+      "description": "계절별 특별 이벤트"
+    },
+    "urgentNews": {
+      "title": "긴급 공지",
+      "description": "즉시 확인이 필요한 정보"
+    },
+    "examples": {
+      "firstOrder": {
+        "title": "첫 주문 50% 할인",
+        "subtitle": "지금 가입하고 특별 혜택 받으세요!",
+        "action": "지금 주문"
+      },
+      "freeDelivery": {
+        "title": "무료 배달",
+        "subtitle": "30,000₫ 이상 주문 시 배달비 무료!",
+        "action": "메뉴 보기"
+      },
+      "newStore": {
+        "title": "신규 매장 오픈",
+        "subtitle": "우리 동네에 새로운 맛집이 왔어요",
+        "action": "둘러보기"
+      }
+    }
+  }
+}

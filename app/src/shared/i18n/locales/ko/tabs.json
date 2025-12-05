@@ -1,0 +1,355 @@
+{
+  "inputs": {
+    "title": "입력 폼",
+    "subtitle": "다양한 입력 컴포넌트와 검증",
+    "systemTitle": "Local App 입력 시스템",
+    "systemDescription": "사용자 친화적이고 접근 가능한 Local App을 위한 입력 폼 컴포넌트 시스템",
+    "basicInputs": {
+      "title": "기본 입력 필드",
+      "description": "다양한 상태의 텍스트 입력 필드들"
+    },
+    "searchInputs": {
+      "title": "검색 입력",
+      "description": "아이콘과 함께 사용하는 검색 필드"
+    },
+    "labelHelper": {
+      "title": "레이블과 도움말",
+      "description": "레이블과 도움말 텍스트가 포함된 입력 필드"
+    },
+    "textArea": {
+      "title": "텍스트 영역",
+      "description": "여러 줄 입력이 가능한 텍스트 영역"
+    },
+    "vietnamSpecial": {
+      "title": "Local 특화 입력",
+      "description": "Local 현지화된 특별한 입력 필드들"
+    },
+    "fields": {
+      "basicInput": "기본 입력",
+      "focusState": "포커스 상태",
+      "errorState": "에러 상태",
+      "successState": "성공 상태",
+      "disabledState": "비활성화 상태",
+      "email": "이메일",
+      "optional": "선택사항",
+      "requirements": "요청사항",
+      "deliveryAddress": "배달 주소",
+      "amountInput": "금액 입력"
+    },
+    "placeholders": {
+      "enterText": "텍스트를 입력하세요",
+      "focusedInput": "포커스된 입력 필드",
+      "errorInput": "에러가 있는 입력 필드",
+      "successInput": "성공 상태 입력 필드",
+      "disabledInput": "비활성화된 입력 필드",
+      "emailExample": "example@email.com",
+      "deliveryRequests": "배달 시 요청사항을 입력하세요\n(예: 문 앞에 놓아주세요)",
+      "vietnamAddress": "District 7, Ho Chi Minh City",
+      "amount": "285,000"
+    },
+    "helperTexts": {
+      "invalidFormat": "올바른 형식이 아닙니다",
+      "available": "사용 가능합니다",
+      "emailHelper": "주문 확인 메일을 받으실 이메일 주소를 입력해주세요"
+    },
+    "inputTexts": {
+      "enteredText": "입력된 텍스트",
+      "wrongInput": "잘못된 입력",
+      "correctInput": "올바른 입력"
+    },
+    "textInput": {
+      "title": "텍스트 입력",
+      "description": "기본 텍스트 입력 필드"
+    },
+    "phoneInput": {
+      "title": "전화번호 입력",
+      "description": "Local 전화번호 형식 (+84)으로 입력"
+    },
+    "addressInput": {
+      "title": "주소 입력",
+      "description": "District/Ward 기반 Local 주소 시스템"
+    },
+    "searchInput": {
+      "title": "검색 입력",
+      "description": "매장과 메뉴 검색을 위한 입력"
+    },
+    "passwordInput": {
+      "title": "비밀번호 입력",
+      "description": "안전한 비밀번호 입력 및 확인"
+    }
+  },
+  "buttons": {
+    "title": "버튼",
+    "subtitle": "다양한 버튼 스타일과 상호작용",
+    "systemTitle": "버튼 컴포넌트 시스템",
+    "systemDescription": "Local App을 위한 통합 버튼 디자인 시스템으로, 사용성과 접근성을 고려한 다양한 버튼 스타일을 제공합니다."
+  },
+  "modals": {
+    "title": "모달",
+    "subtitle": "사용자 상호작용을 위한 모달 컴포넌트",
+    "systemTitle": "Local App 모달 시스템",
+    "systemDescription": "주문, 결제, 알림을 위한 다양한 모달 디자인과 상호작용 패턴",
+    "orderConfirmation": {
+      "title": "주문 확인 모달",
+      "description": "주문 내역과 최종 확인"
+    },
+    "paymentModal": {
+      "title": "결제 모달",
+      "description": "Local 결제 수단 선택"
+    },
+    "addressModal": {
+      "title": "주소 입력 모달",
+      "description": "배달 주소 설정 및 수정"
+    },
+    "reviewModal": {
+      "title": "리뷰 작성 모달",
+      "description": "매장 및 메뉴 리뷰 작성"
+    }
+  },
+  "navigation": {
+    "title": "네비게이션",
+    "subtitle": "앱 내 이동을 위한 네비게이션 시스템",
+    "systemTitle": "Local App 네비게이션",
+    "systemDescription": "직관적이고 접근 가능한 앱 네비게이션 패턴",
+    "bottomTab": {
+      "title": "하단 탭 네비게이션",
+      "description": "메인 섹션 간 이동"
+    },
+    "topTab": {
+      "title": "상단 탭 네비게이션",
+      "description": "카테고리 및 필터 탭"
+    },
+    "drawer": {
+      "title": "사이드 드로어",
+      "description": "메뉴 및 설정 접근"
+    },
+    "breadcrumb": {
+      "title": "브레드크럼",
+      "description": "현재 위치와 경로 표시"
+    }
+  },
+  "payment": {
+    "title": "결제 시스템",
+    "subtitle": "Local 현지 결제 수단 통합",
+    "systemTitle": "Local 결제 게이트웨이",
+    "systemDescription": "MoMo, ZaloPay, VNPay 등 현지 결제 수단과 QR 코드 결제 지원",
+    "methods": {
+      "title": "결제 수단",
+      "description": "다양한 결제 옵션"
+    },
+    "qrPayment": {
+      "title": "QR 결제",
+      "description": "NAPAS QR 표준 지원"
+    },
+    "cardPayment": {
+      "title": "카드 결제",
+      "description": "신용카드 및 체크카드"
+    },
+    "eWallet": {
+      "title": "전자지갑",
+      "description": "MoMo, ZaloPay, VNPay"
+    },
+    "cod": {
+      "title": "착불 결제",
+      "description": "배달 시 현금 결제"
+    }
+  },
+  "cart": {
+    "title": "장바구니",
+    "subtitle": "주문 관리 및 장바구니 기능",
+    "systemTitle": "Local App 장바구니 시스템",
+    "systemDescription": "직관적인 주문 관리와 실시간 가격 계산",
+    "emptyState": {
+      "title": "장바구니가 비어있어요",
+      "description": "맛있는 음식을 담아보세요!\n다양한 메뉴가 준비되어 있습니다.",
+      "actionButton": "메뉴 보러가기"
+    },
+    "orderButton": {
+      "canOrder": "주문하기",
+      "cannotOrder": "주문하기",
+      "freeDelivery": "이것 저것 담아도 배달팁 0원",
+      "minimumOrderCheck": "최소 주문 금액을 확인해주세요"
+    },
+    "actions": {
+      "save": "저장",
+      "share": "공유",
+      "reset": "초기화"
+    },
+    "status": {
+      "cannotOrder": "주문할 수 없는 상태입니다"
+    },
+    "itemManagement": {
+      "title": "상품 관리",
+      "description": "수량 조절 및 옵션 선택"
+    },
+    "priceCalculation": {
+      "title": "가격 계산",
+      "description": "배달비, 할인, 세금 포함 계산"
+    },
+    "couponSystem": {
+      "title": "쿠폰 시스템",
+      "description": "할인 쿠폰 적용 및 관리"
+    },
+    "orderSummary": {
+      "title": "주문 요약",
+      "description": "최종 주문 내역 확인"
+    }
+  },
+  "icons": {
+    "title": "아이콘 시스템",
+    "subtitle": "Local 배달 앱을 위한 통합 아이콘 시스템",
+    "systemTitle": "Local App 아이콘 시스템",
+    "systemDescription": "일관성과 직관성을 고려한 아이콘 시스템\nLocal 현지화와 접근성을 고려한 시각적 언어",
+    "sections": {
+      "navigation": {
+        "title": "🧭 Navigation Icons",
+        "description": "앱 내 탐색을 위한 기본 아이콘들"
+      },
+      "action": {
+        "title": "⚡ Action Icons",
+        "description": "사용자 액션을 위한 기능 아이콘들"
+      },
+      "status": {
+        "title": "📊 Status Icons",
+        "description": "상태 표시를 위한 아이콘들"
+      },
+      "payment": {
+        "title": "💳 Payment Icons",
+        "description": "Local 현지 결제 방법 아이콘들"
+      },
+      "delivery": {
+        "title": "🏍️ Delivery Icons",
+        "description": "배달 서비스 관련 아이콘들"
+      },
+      "food": {
+        "title": "🍜 Food Icons",
+        "description": "Local 음식 카테고리 아이콘들"
+      }
+    },
+    "guidelines": {
+      "title": "아이콘 사용 가이드라인"
+    }
+  },
+  "search": {
+    "title": "검색 시스템",
+    "subtitle": "검색 및 필터링 컴포넌트",
+    "systemTitle": "Local App 검색 시스템",
+    "systemDescription": "사용자 탐색을 위한 검색 시스템\n스마트 검색, 필터, 추천 기능이 포함된 인터페이스",
+    "sections": {
+      "basic": {
+        "title": "🔍 기본 검색바",
+        "description": "표준 검색 인터페이스"
+      },
+      "gradient": {
+        "title": "🎨 그라디언트 검색바",
+        "description": "프리미엄 스타일 검색바"
+      },
+      "withFilters": {
+        "title": "⚙️ 필터 포함 검색",
+        "description": "고급 검색 옵션"
+      },
+      "recent": {
+        "title": "🕐 최근 검색어",
+        "description": "검색 기록"
+      },
+      "popular": {
+        "title": "🔥 인기 검색어",
+        "description": "많이 검색된 키워드"
+      },
+      "categories": {
+        "title": "📂 카테고리 검색",
+        "description": "분류별 검색"
+      },
+      "results": {
+        "title": "📋 검색 결과",
+        "description": "검색어 하이라이트"
+      },
+      "states": {
+        "title": "🎯 검색 상태",
+        "description": "다양한 검색 상태"
+      }
+    },
+    "placeholders": {
+      "basic": "메뉴, 매장명을 검색해보세요",
+      "premium": "원하는 음식을 찾아보세요",
+      "withFilters": "검색어를 입력하세요"
+    },
+    "labels": {
+      "inputSearch": "입력된 검색어:",
+      "noInput": "(없음)",
+      "filterOptions": "💡 필터 옵션:",
+      "filterDescription": "가격대, 별점, 배달시간, 음식 종류 등",
+      "clearHistory": "전체 검색 기록 삭제",
+      "searchTerm": "검색어:",
+      "searchResults": "검색 결과"
+    },
+    "states": {
+      "loading": "검색 중...",
+      "success": "검색 완료",
+      "noResults": "검색 결과가 없습니다"
+    }
+  },
+  "products": {
+    "title": "상품 그리드",
+    "subtitle": "상품 그리드 및 카드 시스템",
+    "systemTitle": "Local App 상품 시스템",
+    "systemDescription": "배달 앱을 위한 상품 표시 시스템\n그리드 기반의 직관적인 상품 인터페이스",
+    "verticalCards": "세로 카드",
+    "verticalCardsDesc": "세로 형태 상품 카드",
+    "horizontalCards": "가로 카드",
+    "horizontalCardsDesc": "가로 형태 상품 카드",
+    "categoryGrid": "카테고리 그리드",
+    "categoryGridDesc": "음식 카테고리 분류",
+    "storeCard": "매장 카드",
+    "storeCardDesc": "매장 정보 표시",
+    "deliveryProgress": "배달 현황",
+    "deliveryProgressDesc": "실시간 배달 추적",
+    "promotionCard": "프로모션 카드",
+    "promotionCardDesc": "할인 및 이벤트 정보",
+    "savingsMessage": "배달비 할인"
+  },
+  "addressSearch": {
+    "title": "주소 검색",
+    "subtitle": "Local 주소 시스템 통합 검색",
+    "systemTitle": "Local 주소 검색 시스템",
+    "systemDescription": "District/Ward 기반 Local 주소 체계와 실시간 주소 검증",
+    "districtSearch": {
+      "title": "District 검색",
+      "description": "주요 지역 검색"
+    },
+    "wardSearch": {
+      "title": "Ward 검색",
+      "description": "상세 주소 검색"
+    },
+    "mapIntegration": {
+      "title": "지도 연동",
+      "description": "OpenStreetMap 기반 위치 선택"
+    },
+    "addressValidation": {
+      "title": "주소 검증",
+      "description": "배달 가능 지역 확인"
+    }
+  },
+  "chat": {
+    "title": "채팅 & 고객지원",
+    "subtitle": "실시간 소통 및 고객 서비스",
+    "systemTitle": "Local App 채팅 시스템",
+    "systemDescription": "고객-매장-배달원 간 실시간 소통과 다국어 지원 고객 서비스",
+    "customerSupport": {
+      "title": "고객 지원",
+      "description": "실시간 도움말 및 문의"
+    },
+    "orderChat": {
+      "title": "주문 채팅",
+      "description": "매장과 직접 소통"
+    },
+    "driverChat": {
+      "title": "배달원 채팅",
+      "description": "배달원과 실시간 소통"
+    },
+    "multiLanguage": {
+      "title": "다국어 지원",
+      "description": "Local어, 한국어, 영어 지원"
+    }
+  }
+}

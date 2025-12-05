@@ -1,0 +1,137 @@
+{
+  "title": "메뉴",
+  "categories": {
+    "all": "전체",
+    "appetizers": "전채",
+    "mains": "메인",
+    "desserts": "디저트",
+    "drinks": "음료",
+    "combos": "세트",
+    "popular": "인기",
+    "vegetarian": "채식",
+    "spicy": "매운맛"
+  },
+  "item": {
+    "price": "가격",
+    "originalPrice": "원가",
+    "discount": "{percent}% 할인",
+    "popular": "인기",
+    "new": "신메뉴",
+    "spicy": "매운맛",
+    "vegetarian": "채식",
+    "vegan": "비건",
+    "glutenFree": "글루텐 프리",
+    "available": "주문 가능",
+    "unavailable": "품절",
+    "limitedQuantity": "한정 수량",
+    "prepTime": "준비 시간: {time}분",
+    "calories": "{calories} kcal",
+    "description": "설명",
+    "ingredients": "재료",
+    "allergens": "알레르기 정보",
+    "nutritionInfo": "영양 정보",
+    "customizable": "맞춤 주문 가능"
+  },
+  "unavailableReason": {
+    "outOfStock": "품절",
+    "temporaryUnavailable": "일시적으로 주문 불가",
+    "prepareTime": "준비 시간 너무 길음",
+    "ingredientUnavailable": "재료 부족"
+  },
+  "options": {
+    "title": "옵션",
+    "required": "필수",
+    "optional": "선택",
+    "selectOne": "하나 선택",
+    "selectMultiple": "여러 개 선택",
+    "selectUpTo": "최대 {max}개 선택",
+    "selectAtLeast": "최소 {min}개 선택",
+    "selectPrompt": "옵션을 선택하세요",
+    "addPrice": "+ {price}원",
+    "free": "무료",
+    "size": "크기",
+    "extra": "추가",
+    "remove": "제거",
+    "customize": "맞춤 설정"
+  },
+  "quantity": {
+    "title": "수량",
+    "min": "최소 {min}개",
+    "max": "최대 {max}개",
+    "increment": "수량 증가",
+    "decrement": "수량 감소",
+    "outOfStock": "품절",
+    "limitReached": "한도 도달"
+  },
+  "cart": {
+    "addToCart": "장바구니에 담기",
+    "addedToCart": "장바구니에 담았습니다",
+    "updateCart": "장바구니 업데이트",
+    "removeFromCart": "장바구니에서 제거",
+    "itemTotal": "총액: {total}원",
+    "specialRequest": "특별 요청",
+    "specialRequestPlaceholder": "이 메뉴에 대한 추가 요청사항..."
+  },
+  "search": {
+    "placeholder": "음식 검색...",
+    "popular": "인기 검색어",
+    "noResults": "음식을 찾을 수 없습니다",
+    "suggestions": "검색 제안"
+  },
+  "filters": {
+    "price": "가격대",
+    "under50k": "5만원 미만",
+    "50kto100k": "5만원 - 10만원",
+    "100kto200k": "10만원 - 20만원",
+    "over200k": "20만원 이상",
+    "dietary": "식단",
+    "preparation": "조리법",
+    "spicyLevel": "매운 정도",
+    "mild": "순한맛",
+    "medium": "보통",
+    "hot": "매운맛",
+    "veryHot": "아주 매운맛"
+  },
+  "modal": {
+    "title": "메뉴 상세",
+    "close": "닫기",
+    "images": "이미지",
+    "relatedItems": "관련 메뉴",
+    "reviews": "후기",
+    "ingredients": "주요 재료"
+  },
+  "loading": {
+    "menu": "메뉴 로딩 중...",
+    "categories": "카테고리 로딩 중...",
+    "item": "메뉴 정보 로딩 중...",
+    "addingToCart": "장바구니에 담는 중..."
+  },
+  "errors": {
+    "loadFailed": "메뉴를 불러올 수 없습니다",
+    "itemUnavailable": "현재 주문할 수 없는 메뉴입니다",
+    "addToCartFailed": "장바구니에 담을 수 없습니다",
+    "optionRequired": "{option}을(를) 선택해주세요",
+    "quantityRequired": "수량을 선택해주세요",
+    "tryAgain": "다시 시도"
+  },
+  "empty": {
+    "noItems": {
+      "title": "메뉴가 없습니다",
+      "message": "이 매장은 현재 메뉴가 없습니다.",
+      "action": "매장 목록으로 돌아가기"
+    },
+    "categoryEmpty": {
+      "title": "카테고리가 비어있습니다",
+      "message": "이 카테고리에는 메뉴가 없습니다.",
+      "action": "다른 카테고리 보기"
+    },
+    "searchEmpty": {
+      "title": "검색 결과 없음",
+      "message": "검색 조건에 맞는 메뉴가 없습니다.",
+      "action": "다른 키워드로 시도"
+    }
+  },
+  "section": {
+    "someSoldOut": "일부 메뉴가 품절되었습니다"
+  }
+}

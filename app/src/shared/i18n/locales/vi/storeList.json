@@ -1,0 +1,133 @@
+{
+  "empty": {
+    "noResults": {
+      "title": "Không tìm thấy cửa hàng",
+      "subtitle": "Hãy thử điều chỉnh từ khóa tìm kiếm hoặc bộ lọc của bạn",
+      "action": "Tìm kiếm lại"
+    },
+    "noStores": {
+      "title": "Chưa có cửa hàng nào",
+      "subtitle": "Khu vực này hiện chưa có cửa hàng nào. Vui lòng thử tìm kiếm ở khu vực khác",
+      "action": "Khám phá khu vực khác"
+    },
+    "error": {
+      "title": "Đã xảy ra lỗi",
+      "subtitle": "Không thể tải danh sách cửa hàng. Vui lòng thử lại sau",
+      "action": "Thử lại"
+    },
+    "offline": {
+      "title": "Bạn đang ngoại tuyến",
+      "subtitle": "Vui lòng kiểm tra kết nối internet và thử lại",
+      "action": "Thử lại"
+    },
+    "noFilters": {
+      "title": "Không có kết quả với bộ lọc này",
+      "subtitle": "Không tìm thấy cửa hàng phù hợp với các tiêu chí lọc hiện tại",
+      "action": "Điều chỉnh bộ lọc"
+    },
+    "resetFilters": "Xóa tất cả bộ lọc",
+    "searchTips": "Gợi ý tìm kiếm:",
+    "tip1": "Thử từ khóa khác",
+    "tip2": "Tìm theo loại món ăn",
+    "tip3": "Kiểm tra chính tả",
+    "filterSuggestion": {
+      "title": "Gợi ý điều chỉnh bộ lọc",
+      "subtitle": "Hãy thử nới lỏng một số tiêu chí để tìm thêm cửa hàng:",
+      "relaxDeliveryFee": "Bỏ giới hạn phí ship",
+      "relaxRating": "Giảm yêu cầu đánh giá",
+      "relaxMinOrder": "Giảm đơn tối thiểu",
+      "expandRadius": "Mở rộng bán kính"
+    },
+    "suggestedStores": {
+      "title": "Cửa hàng gợi ý cho bạn",
+      "selectStore": "Chọn cửa hàng {{name}}",
+      "hasPromotion": "Có khuyến mãi"
+    },
+    "offlineMode": "Chế độ ngoại tuyến",
+    "offlineDescription": "Hiển thị dữ liệu đã lưu. Kết nối internet để cập nhật thông tin mới nhất.",
+    "errorDescription": "Không thể kết nối đến máy chủ. Vui lòng kiểm tra kết nối và thử lại."
+  },
+  "list": {
+    "title": "Danh sách cửa hàng",
+    "resultCount": "Tổng cộng {{count}} cửa hàng",
+    "storeUnit": "cửa hàng"
+  },
+  "search": {
+    "placeholder": "Tìm kiếm cửa hàng, món ăn...",
+    "title": "Tìm kiếm",
+    "inputLabel": "Hộp nhập tìm kiếm cửa hàng",
+    "inputHint": "Nhập tên cửa hàng hoặc loại món ăn",
+    "clearButton": "Xóa từ khóa tìm kiếm",
+    "clearHint": "Xóa tất cả từ khóa đã nhập",
+    "voiceButton": "Tìm kiếm bằng giọng nói",
+    "voiceHint": "Nhập từ khóa tìm kiếm bằng giọng nói",
+    "error": "Lỗi khi tìm kiếm",
+    "loading": "Đang tìm kiếm...",
+    "resultCount": "{{count}} kết quả cho \"{{query}}\"",
+    "searchResults": "Kết quả tìm kiếm",
+    "searchingFor": "Từ khóa:"
+  },
+  "filter": {
+    "title": "Bộ lọc",
+    "buttonLabel": "Cài đặt bộ lọc",
+    "buttonHint": "{{count}} bộ lọc đã được áp dụng",
+    "chipHint": "Mở hoặc đóng bộ lọc",
+    "applied": "Đã áp dụng",
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động",
+    "appliedCount": "{{count}} đã áp dụng",
+    "removeFilter": "Xóa bộ lọc {{filter}}",
+    "removeFilterHint": "Xóa bộ lọc này",
+    "clearAll": "Xóa tất cả",
+    "clearAllHint": "Xóa tất cả bộ lọc",
+    "appliedSummary": "{{count}} bộ lọc đã áp dụng",
+    "viewDetails": "Xem chi tiết",
+    "categories": "{{count}} danh mục",
+    "minRating": "Đánh giá từ {{rating}} sao trở lên",
+    "maxDeliveryFee": "Phí giao hàng tối đa {{fee}}₫",
+    "maxDeliveryTime": "Thời gian giao tối đa {{time}} phút"
+  },
+  "sort": {
+    "distance": "Theo khoảng cách",
+    "rating": "Theo đánh giá",
+    "popularity": "Phổ biến nhất",
+    "deliveryTime": "Giao hàng nhanh",
+    "newest": "Mới nhất",
+    "ascending": "Tăng dần",
+    "descending": "Giảm dần",
+    "buttonLabel": "Cài đặt sắp xếp",
+    "buttonHint": "Hiện đang sắp xếp theo {{current}}",
+    "alphabetical": "Theo thứ tự A-Z",
+    "distanceDesc": "Gần nhất trước",
+    "ratingDesc": "Đánh giá cao trước",
+    "deliveryTimeDesc": "Giao nhanh trước",
+    "popularityDesc": "Phổ biến nhất trước",
+    "newestDesc": "Mới nhất trước",
+    "alphabeticalDesc": "Tên A–Z",
+    "title": "Sắp xếp",
+    "subtitle": "Chọn cách sắp xếp danh sách cửa hàng",
+    "tip": "Chọn cách sắp xếp bạn muốn để tìm cửa hàng"
+  },
+  "view": {
+    "list": "Danh sách",
+    "grid": "Lưới",
+    "map": "Bản đồ",
+    "toggleLabel": "Thay đổi chế độ xem",
+    "toggleHint": "Chế độ {{current}} hiện tại, chuyển sang chế độ {{next}}"
+  },
+  "location": {
+    "change": "Thay đổi vị trí",
+    "changeHint": "Thay đổi vị trí giao hàng của bạn",
+    "usingGPS": "Sử dụng vị trí GPS"
+  },
+  "title": "Cửa hàng",
+  "searchResults": "{{count}} kết quả cho \"{{query}}\"",
+  "storeCount": "Tổng cộng {{count}} cửa hàng",
+  "store": {
+    "card": {
+      "freeDelivery": "Miễn phí giao hàng",
+      "discount": "Giảm giá"
+    },
+    "storeCount": "Tổng cộng {{count}} cửa hàng"
+  }
+}

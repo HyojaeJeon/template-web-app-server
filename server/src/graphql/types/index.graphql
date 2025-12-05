@@ -1,0 +1,264 @@
+# ===============================================
+# GraphQL 타입 정의 (Sequelize 모델 기준)
+# Location: /server/src/graphql/types/index.graphql
+# Purpose: 모든 Sequelize 모델과 100% 일치하는 GraphQL 타입
+# ===============================================
+
+# ===============================================
+# Custom Scalar 타입들 - scalars.graphql에서 정의됨
+# ===============================================
+
+# ===============================================
+# 헬스 체크 응답 타입
+# ===============================================
+
+type HealthCheckResponse {
+  success: Boolean!                              # 성공 여부
+  message: String!                               # 응답 메시지
+  timestamp: DateTime!                           # 타임스탬프
+}
+
+# ===============================================
+# 공통 Input/Output 타입들
+# ===============================================
+
+# 페이지네이션 입력
+input PaginationInput {
+  limit: Int = 20                                # 페이지당 항목 수 (기본: 20)
+  offset: Int = 0                                # 건너뛸 항목 수 (기본: 0)
+}
+
+# 페이지네이션 정보
+type PaginationInfo {
+  total: Int!                                    # 전체 항목 수
+  limit: Int!                                    # 페이지당 항목 수
+  offset: Int!                                   # 건너뛴 항목 수
+  hasMore: Boolean!                              # 더 많은 항목 존재 여부
+}
+
+# ===============================================
+# User 모델 (Users 테이블) - Sequelize 모델과 100% 동기화
+# ===============================================
+type User {
+  id: ID!                                        # 사용자 ID
+
+  # 인증 정보
+  phone: String                                  # 전화번호 (고유)
+  email: String                                  # 이메일 (고유)
+  passwordHash: String                           # 암호화된 비밀번호
+
+  # 프로필 정보
+  name: String                                   # 이름
+  nickname: String                               # 닉네임
+  profileImage: String                           # 프로필 이미지 URL
+  dateOfBirth: Date                              # 생년월일
+  gender: GenderEnum                             # 성별
+
+  # 위치 정보
+  address: String                                # 주소
+  latitude: Float                                # 위도
+  longitude: Float                               # 경도
+
+  # 상태 정보
+  isPhoneVerified: Boolean!                      # 전화번호 인증 여부
+  isEmailVerified: Boolean!                      # 이메일 인증 여부
+  status: AccountStatusEnum!                     # 계정 상태
+  role: UserRoleEnum!                            # 사용자 역할
+
+  # 설정
+  language: LanguageCodeEnum                     # 선호 언어
+  notificationsEnabled: Boolean!                 # 알림 활성화 여부
+  marketingOptIn: Boolean!                       # 마케팅 수신 동의
+
+  # 소셜 로그인
+  socialProvider: SocialProviderEnum             # 소셜 로그인 제공자
+  socialId: String                               # 소셜 로그인 ID
+
+  # 푸시 알림
+  fcmToken: String                               # Firebase Cloud Messaging 토큰
+  deviceType: DeviceTypeEnum                     # 디바이스 타입
+
+  # 마지막 활동
+  lastLoginAt: DateTime                          # 마지막 로그인 시각
+  lastActivityAt: DateTime                       # 마지막 활동 시각
+
+  # 시스템 정보
+  createdAt: DateTime!                           # 생성 시각
+  updatedAt: DateTime!                           # 수정 시각
+  deletedAt: DateTime                            # 삭제 시각 (Soft Delete)
+}
+
+# ===============================================
+# WebAccount 모델 (WebAccounts 테이블) - Web 클라이언트 계정
+# ===============================================
+type WebAccount {
+  id: ID!                                        # 계정 ID
+
+  # 인증 정보
+  email: String!                                 # 이메일 (고유)
+  passwordHash: String                           # 암호화된 비밀번호
+
+  # 프로필 정보
+  name: String!                                  # 이름
+  phone: String                                  # 전화번호
+  profileImage: String                           # 프로필 이미지 URL
+
+  # 역할 및 상태
+  role: WebAccountRoleEnum!                      # 역할 (OWNER, MANAGER, STAFF)
+  status: WebAccountStatusEnum!                  # 상태
+
+  # 설정
+  language: LanguageCodeEnum                     # 선호 언어
+  notificationsEnabled: Boolean!                 # 알림 활성화 여부
+
+  # 마지막 활동
+  lastLoginAt: DateTime                          # 마지막 로그인 시각
+
+  # 시스템 정보
+  createdAt: DateTime!                           # 생성 시각
+  updatedAt: DateTime!                           # 수정 시각
+  deletedAt: DateTime                            # 삭제 시각 (Soft Delete)
+}
+
+# ===============================================
+# 인증 관련 타입들
+# ===============================================
+
+# 인증 결과 타입
+type AuthPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  accessToken: String                            # Access Token
+  refreshToken: String                           # Refresh Token
+  user: User                                     # 사용자 정보
+}
+
+# Web 인증 결과 타입
+type WebAuthPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  accessToken: String                            # Access Token
+  refreshWebToken: String                        # Refresh Token (Web 전용)
+  webAccount: WebAccount                         # Web 계정 정보
+}
+
+# 토큰 갱신 결과 타입
+type RefreshTokenPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  accessToken: String                            # 새 Access Token
+  refreshToken: String                           # 새 Refresh Token (선택적)
+}
+
+# OTP 요청 결과 타입
+type OTPPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  expiresAt: DateTime                            # OTP 만료 시각
+  retryAfter: Int                                # 재시도 가능 시간 (초)
+}
+
+# ===============================================
+# 프로필 관련 타입들
+# ===============================================
+
+# 프로필 수정 결과 타입
+type UpdateProfilePayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  user: User                                     # 수정된 사용자 정보
+}
+
+# 비밀번호 변경 결과 타입
+type ChangePasswordPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+}
+
+# ===============================================
+# 공통 결과 타입들
+# ===============================================
+
+# 일반 성공 결과 타입
+type SuccessPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+}
+
+# 삭제 결과 타입
+type DeletePayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  deletedId: ID                                  # 삭제된 항목 ID
+}
+
+# ===============================================
+# 이미지 업로드 관련 타입들
+# ===============================================
+
+# Direct Upload URL 정보
+type DirectUploadUrl {
+  uploadURL: String!                             # 1회용 업로드 URL (30분 유효)
+  imageId: String!                               # Cloudflare Image ID
+  expiry: Int!                                   # 유효기간 (초 단위)
+  expiresAt: DateTime!                           # 만료 시각
+}
+
+# 단일 Direct Upload URL 응답
+type DirectUploadUrlResponse {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  message: String                                # 응답 메시지
+  uploadUrl: DirectUploadUrl                     # 업로드 URL 정보
+}
+
+# Direct Upload URL 요청 입력
+input RequestImageUploadUrlInput {
+  metadata: JSON                                 # 메타데이터 (소유권 검증용)
+  requireSignedURLs: Boolean                     # Signed URL 사용 여부 (기본: false)
+  expiry: Int                                    # 유효기간 초 단위 (기본: 1800 = 30분)
+}
+
+# ===============================================
+# 알림 관련 타입들
+# ===============================================
+
+# 알림 타입
+type Notification {
+  id: ID!                                        # 알림 ID
+  userId: ID!                                    # 대상 사용자 ID
+
+  # 알림 내용
+  title: String!                                 # 알림 제목
+  body: String!                                  # 알림 본문
+  data: JSON                                     # 추가 데이터
+
+  # 알림 설정
+  type: NotificationTypeEnum!                    # 알림 타입
+  priority: NotificationPriorityEnum!            # 우선순위
+
+  # 상태
+  isRead: Boolean!                               # 읽음 여부
+  readAt: DateTime                               # 읽은 시각
+
+  # 시스템 정보
+  createdAt: DateTime!                           # 생성 시각
+  updatedAt: DateTime!                           # 수정 시각
+}
+
+# 알림 목록 응답
+type NotificationListPayload {
+  success: Boolean!                              # 성공 여부
+  _code: String                                  # 성공/에러 코드
+  notifications: [Notification!]!                # 알림 목록
+  pagination: PaginationInfo                     # 페이지네이션 정보
+  unreadCount: Int!                              # 읽지 않은 알림 수
+}

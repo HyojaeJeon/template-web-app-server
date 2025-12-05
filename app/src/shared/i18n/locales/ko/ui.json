@@ -1,0 +1,524 @@
+{
+  "input": {
+    "phone": {
+      "label": "전화번호",
+      "placeholder": "전화번호를 입력하세요"
+    },
+    "password": {
+      "label": "비밀번호",
+      "placeholder": "비밀번호를 입력하세요"
+    },
+    "confirmPassword": {
+      "label": "비밀번호 확인",
+      "placeholder": "비밀번호를 다시 입력하세요"
+    },
+    "name": {
+      "label": "이름",
+      "placeholder": "이름을 입력하세요"
+    },
+    "search": {
+      "placeholder": "매장, 메뉴 검색..."
+    },
+    "message": {
+      "placeholder": "메시지를 입력하세요...",
+      "accessibilityLabel": "메시지 입력 필드",
+      "accessibilityHint": "메시지를 입력하고 전송 버튼을 눌러 보내세요"
+    }
+  },
+  "validation": {
+    "invalidPhoneNumber": "올바른 전화번호를 입력해주세요"
+  },
+  "buttons": {
+    "primary": {
+      "label": "Primary 버튼",
+      "description": "Primary Button (Mint)"
+    },
+    "secondary": {
+      "label": "Secondary 버튼",
+      "description": "Secondary Button (Success)"
+    },
+    "title": "Button System",
+    "subtitle": "Various button styles and interactions",
+    "systemTitle": "Button Component System",
+    "systemDescription": "Integrated button design system for Vietnamese food delivery app, providing diverse button styles with consideration for usability and accessibility.",
+    "warning": {
+      "label": "Warning Button",
+      "description": "Warning Button"
+    },
+    "danger": {
+      "label": "Danger Button",
+      "description": "Danger Button"
+    },
+    "disabled": {
+      "label": "Disabled Button",
+      "description": "Disabled Button"
+    },
+    "primaryButtons": {
+      "title": "Primary Buttons",
+      "description": "Basic button styles for main actions"
+    },
+    "secondaryButtons": {
+      "title": "Secondary Buttons",
+      "description": "Secondary button styles for auxiliary actions",
+      "secondary": "Secondary Button",
+      "outlined": "Outlined Button",
+      "text": "Text Button"
+    },
+    "buttonSizes": {
+      "title": "Button Sizes",
+      "description": "Various button size options",
+      "small": "Small Button",
+      "medium": "Medium Button",
+      "large": "Large Button",
+      "fullWidth": "Full Width"
+    },
+    "iconButtons": {
+      "title": "Icon Buttons",
+      "description": "Buttons used with icons",
+      "addToCart": "Add to Cart",
+      "orderComplete": "Complete Order",
+      "favorite": "Add to Favorites",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "floatingButtons": {
+      "title": "Floating Action Buttons",
+      "description": "Action buttons floating on screen"
+    },
+    "socialLogin": {
+      "title": "Quick Sign Up",
+      "description": "Get started quickly with your favorite platform",
+      "google": {
+        "title": "Start with Google",
+        "description": "Fast and secure Google login"
+      },
+      "facebook": {
+        "title": "Start with Facebook",
+        "description": "Easy login with Facebook account"
+      },
+      "apple": {
+        "title": "Start with Apple",
+        "description": "Privacy-focused Apple login"
+      },
+      "kakao": {
+        "title": "Start with Kakao",
+        "description": "Easy and fast with KakaoTalk"
+      },
+      "zalo": {
+        "title": "Start with Zalo",
+        "description": "Convenient with Vietnam's popular messenger"
+      }
+    },
+    "specialButtons": {
+      "title": "Special Buttons",
+      "description": "Social login and special function buttons"
+    },
+    "buttonStates": {
+      "title": "Button States",
+      "description": "Visual confirmation of various button states",
+      "currentState": "Current state",
+      "buttonPressed": "button has been pressed",
+      "default": "Default",
+      "pressed": "Pressed",
+      "disabled": "Disabled",
+      "button": "Button"
+    },
+    "delivery": {
+      "addToCart": "Add to Cart",
+      "orderNow": "Order Now",
+      "reorder": "Reorder",
+      "favorite": "Add to Favorites",
+      "unfavorite": "Remove from Favorites",
+      "share": "Share",
+      "review": "Write Review",
+      "trackOrder": "Track Order",
+      "callDriver": "Call Driver",
+      "pickupReady": "Ready for Pickup",
+      "notifications": "Notifications",
+      "locationServices": "Location Services"
+    },
+    "deliveryButtons": {
+      "title": "🍜 Vietnamese Food Delivery App Buttons",
+      "description": "Order, payment, and delivery related buttons used in actual food delivery apps"
+    },
+    "designGuide": {
+      "title": "📐 Button Design Guide",
+      "description": "Button usage by size, state, and color along with visibility improvement measures"
+    }
+  },
+  "gallery": {
+    "capture": "촬영",
+    "loadingPhotos": "사진 로드 중...",
+    "noPhotos": "사진이 없습니다",
+    "noPhotosDescription": "디바이스에 저장된 사진이 없습니다."
+  },
+  "badges": {
+    "status": {
+      "popular": "인기",
+      "inactive": "비활성",
+      "open": "Open",
+      "preparing": "Preparing",
+      "closed": "Closed",
+      "dayOff": "Day Off",
+      "new": "NEW"
+    },
+    "promoted": "프로모션",
+    "koreanOwned": "한국인 사장님",
+    "open24Hours": "24시간",
+    "cardPayment": "카드결제",
+    "freeDelivery": "무료배송",
+    "featured": "추천",
+    "discount": {
+      "discount10": "-10%",
+      "discount20": "-20%",
+      "discount50": "-50%",
+      "onePlusOne": "1+1",
+      "freeDelivery": "Free Delivery",
+      "flashDelivery": "Flash Delivery"
+    },
+    "categories": {
+      "vietnamese": "🇻🇳 Vietnamese",
+      "korean": "🇰🇷 Korean",
+      "chinese": "🇨🇳 Chinese",
+      "japanese": "🇯🇵 Japanese",
+      "western": "🇺🇸 Western",
+      "fastfood": "🍕 Fast Food",
+      "cafe": "☕ Cafe",
+      "dessert": "🧁 Dessert"
+    }
+  },
+  "services": {
+    "minOrder": "최소 {{amount}}K₫"
+  },
+  "cards": {
+    "menuItemCard": {
+      "defaultName": "메뉴명",
+      "defaultDescription": "맛있는 메뉴입니다",
+      "addButton": "추가"
+    },
+    "storeCard": {
+      "defaultName": "매장명",
+      "title": "Store Card",
+      "description": "Store information card with image and actions",
+      "discount": "30% OFF",
+      "deliveryTime": "25-35 min",
+      "deliveryFee": "Delivery Fee",
+      "orderNow": "Order Now",
+      "addFavorite": "Add to Favorites",
+      "removeFavorite": "Remove from Favorites",
+      "storeInfo": "{{name}} store, rating {{rating}}, delivery time {{deliveryTime}}",
+      "orderFrom": "Order from {{name}}"
+    },
+    "title": "Cards",
+    "subtitle": "Card components expressing diverse information",
+    "systemTitle": "Vietnamese Food Delivery App Card System",
+    "systemDescription": "Explore diverse card designs and real-time information display cards that enhance user experience",
+    "deliveryTracker": {
+      "title": "🚚 Real-time Delivery Tracking",
+      "description": "Check real-time delivery status of your ordered food"
+    },
+    "weatherFood": {
+      "title": "🌤️ Weather-based Personalized Recommendations",
+      "description": "AI recommends perfect food for today's weather"
+    },
+    "aiRecommendation": {
+      "title": "🤖 AI Personalized Recommendations",
+      "description": "Analyze your preferences to find the perfect store"
+    },
+    "paymentMethods": {
+      "title": "💳 Vietnamese Payment System",
+      "description": "Easy with local payment methods like MoMo, ZaloPay"
+    },
+    "couponCard": {
+      "title": "🎫 Special Discount Coupons",
+      "description": "Vietnamese food specialized discount coupons and promotions"
+    },
+    "reviewSystem": {
+      "title": "⭐ Reviews & Ratings",
+      "description": "Honest reviews and star ratings from other customers"
+    },
+    "menuCard": {
+      "title": "Menu Item Card",
+      "description": "Menu item display with price and add button"
+    },
+    "orderCard": {
+      "title": "Order Card",
+      "description": "Order history card with status and actions"
+    },
+    "promoCard": {
+      "title": "Promotion Card",
+      "description": "Special offers and discounts card",
+      "data": {
+        "title": "50% OFF First Order",
+        "subtitle": "Up to 200,000₫ discount",
+        "badge": "New User Offer",
+        "period": "~12/31",
+        "buttonText": "Get Coupon"
+      }
+    },
+    "vietnamCard": {
+      "title": "Vietnam Special Card",
+      "description": "Vietnamese theme special card",
+      "data": {
+        "title": "Traditional Vietnamese Food",
+        "subtitle": "Experience authentic Vietnamese cuisine",
+        "recommendation": {
+          "label": "Today's Special",
+          "dish": "Phở Bò",
+          "emoji": "🍜"
+        }
+      }
+    },
+    "orderData": {
+      "date": "2024.08.24 14:30",
+      "status": "Delivered",
+      "storeName": "Padosoo Seafood",
+      "items": "Tuna Sashimi + 2 items",
+      "totalPrice": "550,000₫"
+    },
+    "buttons": {
+      "reorder": "Reorder",
+      "writeReview": "Write Review"
+    }
+  },
+  "modals": {
+    "titles": {
+      "basic": "Basic Modal",
+      "success": "Success Modal",
+      "warning": "Warning Modal",
+      "orderConfirm": "Order Confirmation",
+      "addressInput": "Address Input",
+      "paymentMethod": "Payment Method"
+    },
+    "actions": {
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "placeOrder": "Place Order",
+      "continueOrder": "Continue Order",
+      "viewOrderStatus": "View Order Status"
+    }
+  },
+  "banners": {
+    "promotion": {
+      "title": "Special Discount",
+      "subtitle": "Order now and save 30%!",
+      "description": "Don't miss out on up to 30% discount with free delivery on your first order.",
+      "actionText": "Order Now"
+    },
+    "delivery": {
+      "title": "Fast Delivery",
+      "subtitle": "Guaranteed delivery within 30 minutes",
+      "description": "Get your food faster with our premium delivery service.",
+      "actionText": "Get Started"
+    },
+    "newStore": {
+      "title": "New Stores",
+      "subtitle": "Discover new food places",
+      "description": "Meet the hottest new stores that just opened in your area.",
+      "actionText": "Explore"
+    },
+    "loyalty": {
+      "title": "Loyalty Rewards",
+      "subtitle": "Earn points with every order",
+      "description": "Order and collect points to get discounts on your next orders.",
+      "actionText": "Learn More"
+    }
+  },
+  "weather": {
+    "card": {
+      "feelsLike": "Feels like",
+      "humidity": "Humidity",
+      "currentTime": {
+        "morning": "morning",
+        "lunch": "afternoon",
+        "evening": "evening",
+        "night": "night",
+        "nowIs": "It's now",
+        "timeText": "time!",
+        "weatherSuggestion": "In this weather,",
+        "howAbout": "how about?",
+        "suggestions": {
+          "morning": "a light breakfast",
+          "lunch": "a hearty lunch",
+          "evening": "a delicious dinner",
+          "night": "light night snacks"
+        }
+      },
+      "recommendations": {
+        "title": "Weather-based Recommendations",
+        "orderButton": "Order Now"
+      },
+      "tips": {
+        "title": "Today's Weather Tips!",
+        "sunny": "On hot days, adequate hydration is important. We recommend light meals with cool drinks!",
+        "rainy": "On rainy days, warm soups are the best! Relax at home and enjoy delivered food.",
+        "cloudy": "On cloudy days, how about some sweet desserts or warm tea to brighten your mood?",
+        "hot": "Scorching weather! Ice cream or shaved ice will help you cool down perfectly.",
+        "humid": "In humid weather, spicy food can help expel moisture from your body!"
+      },
+      "actions": {
+        "viewWeatherMenu": "View Weather Menu",
+        "refresh": "Refresh"
+      },
+      "defaultData": {
+        "location": "Ho Chi Minh City",
+        "description": "Clear and hot weather",
+        "categories": {
+          "coldDrinks": "Cold Drinks",
+          "coldNoodles": "Cold Noodles",
+          "tropicalFruits": "Tropical Fruits"
+        },
+        "reasons": {
+          "hotWeatherCool": "Cool for hot weather",
+          "coolDownHeat": "Cool down the heat",
+          "perfectThirstQuench": "Perfect for quenching thirst"
+        }
+      }
+    }
+  },
+  "inputs": {
+    "subtitle": "Various interfaces for user input",
+    "description": "Optimized for Vietnamese delivery app",
+    "component": "input components",
+    "modernDesign": "Modern interface design with usability and accessibility in mind",
+    "states": {
+      "default": {
+        "label": "Basic Input",
+        "placeholder": "Please enter text"
+      },
+      "focused": {
+        "label": "Focused State",
+        "placeholder": "Focused input field",
+        "value": "Entered text"
+      },
+      "error": {
+        "label": "Error State",
+        "placeholder": "Input field with error",
+        "value": "Invalid input",
+        "message": "Invalid format"
+      },
+      "success": {
+        "label": "Success State",
+        "placeholder": "Successful input field",
+        "value": "Valid input",
+        "message": "Available"
+      },
+      "disabled": {
+        "label": "Disabled State",
+        "placeholder": "Disabled input field"
+      }
+    },
+    "types": {
+      "search": {
+        "placeholder": "Search food, stores..."
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "90 123 4567"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Please enter password"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "example@email.com",
+        "helperText": "Please enter your email address to receive order confirmation emails",
+        "optional": "Optional"
+      },
+      "textarea": {
+        "label": "Special Requests",
+        "placeholder": "Please enter delivery requests\n(e.g.: Leave at door)"
+      },
+      "otp": {
+        "label": "Enter Verification Code",
+        "helperText": "Please enter the 6-digit verification code sent via SMS"
+      },
+      "creditCard": {
+        "label": "Card Number",
+        "placeholder": "1234 5678 9012 3456"
+      },
+      "quantity": {
+        "label": "Select Quantity"
+      },
+      "address": {
+        "label": "Delivery Address",
+        "placeholder": "District 7, Ho Chi Minh City"
+      },
+      "currency": {
+        "label": "Enter Amount",
+        "placeholder": "285,000"
+      }
+    },
+    "sections": {
+      "basic": {
+        "title": "Basic Input Fields",
+        "description": "Text input fields with various states"
+      },
+      "search": {
+        "title": "Search Input",
+        "description": "Search field used with icons"
+      },
+      "phone": {
+        "title": "Phone Number Input",
+        "description": "Phone number field used with country code"
+      },
+      "password": {
+        "title": "Password Input",
+        "description": "Secure text input and visibility toggle"
+      },
+      "textarea": {
+        "title": "Text Area",
+        "description": "Text area allowing multi-line input"
+      },
+      "labeled": {
+        "title": "Labels and Help",
+        "description": "Input fields with labels and helper text"
+      },
+      "groups": {
+        "title": "Input Groups",
+        "description": "Special type input fields"
+      },
+      "vietnam": {
+        "title": "Vietnam Specialized Input",
+        "description": "Special input fields localized for Vietnam"
+      }
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidFormat": "Invalid format",
+      "email": "Please enter a valid email address",
+      "phone": "Invalid phone number format",
+      "password": "Minimum 8 characters, uppercase, lowercase and numbers",
+      "otp": "Please enter 6 digits",
+      "creditCard": "Invalid card number format",
+      "success": "Available"
+    },
+    "input": {
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Re-enter your password"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "search": {
+        "placeholder": "Search stores, food..."
+      },
+      "message": {
+        "placeholder": "Type your message...",
+        "accessibilityLabel": "Message input field",
+        "accessibilityHint": "Type a message and press send button to send"
+      }
+    }
+  }
+}

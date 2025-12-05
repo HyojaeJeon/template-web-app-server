@@ -1,0 +1,640 @@
+{
+  "title": "주문",
+  "ongoing": "진행중",
+  "history": "주문내역",
+  "emptyOngoing": "진행 중인 주문이 없습니다",
+  "emptyOngoingDesc": "새로운 주문을 시작해보세요!",
+  "emptyHistory": "주문 내역이 없습니다",
+  "emptyHistoryDesc": "첫 번째 주문을 해보세요!",
+  "startOrdering": "주문하기",
+  "viewHistory": "과거 주문 보기",
+  "makeFirstOrder": "첫 주문하기",
+  "orderNumber": "주문번호",
+  "andOthers": "외 {{count}}개",
+  "totalItems": "총 {{count}}개",
+  "noItems": "주문 항목 없음",
+  "deliveringSoon": "곧 배달 예정",
+  "estimatedMinutes": "약 {{minutes}}분 후 도착",
+  "estimatedTime": "약 {{hours}}시간 {{minutes}}분 후 도착",
+  "urgent": "긴급",
+  "reorder": "재주문",
+  "writeReview": "리뷰쓰기",
+  "reorderSuccess": "장바구니에 추가되었습니다",
+  "store": "매장",
+  "storeName": "매장명",
+  "unknownStore": "매장",
+  "items": "아이템",
+  "itemsUnit": "개",
+  "deliveryFee": "배송비",
+  "discount": "할인",
+  "nextSteps": "다음 단계",
+  "stepsDescription": "• 매장에서 주문을 확인합니다\n• 조리가 시작되면 알림을 보내드립니다",
+  "orderSuccessMessage": "주문이 성공적으로 접수되었습니다. 매장에서 확인 후 조리를 시작합니다.",
+  "status": {
+    "pending": "주문 접수",
+    "pendingShort": "접수",
+    "confirmed": "주문 확인",
+    "confirmedShort": "확인",
+    "preparing": "조리 중",
+    "preparingShort": "조리",
+    "ready": "준비 완료",
+    "readyShort": "완료",
+    "pickedUp": "픽업 완료",
+    "pickedUpShort": "픽업",
+    "outForDelivery": "배달 중",
+    "outForDeliveryShort": "배달",
+    "delivered": "배달 완료",
+    "deliveredShort": "완료",
+    "cancelled": "주문 취소",
+    "cancelledShort": "취소",
+    "failed": "주문 실패",
+    "failedShort": "실패",
+    "refunded": "환불 완료",
+    "orderCompleted": "주문 완료",
+    "PENDING": "주문 접수",
+    "CONFIRMED": "주문 확인",
+    "PREPARING": "조리 중",
+    "READY": "준비 완료",
+    "PICKED_UP": "픽업 완료",
+    "DELIVERING": "배달 중",
+    "DELIVERED": "배달 완료",
+    "COMPLETED": "완료",
+    "CANCELLED": "주문 취소",
+    "REJECTED": "거절됨"
+  },
+  "statusMessages": {
+    "pending": "주문이 접수되었습니다",
+    "confirmed": "주문이 확인되었습니다",
+    "preparing": "음식을 조리하고 있습니다",
+    "ready": "음식이 준비되었습니다",
+    "pickedUp": "배달원이 음식을 픽업했습니다",
+    "outForDelivery": "배달 중입니다",
+    "delivering": "배달 중입니다",
+    "delivered": "배달이 완료되었습니다",
+    "orderCancelled": "주문이 취소되었습니다",
+    "orderFailed": "주문 처리에 실패했습니다"
+  },
+  "paymentMethod": {
+    "CASH": "현금",
+    "CARD": "카드",
+    "MOMO": "MoMo",
+    "ZALO_PAY": "ZaloPay",
+    "BANKING": "계좌이체",
+    "COD": "착불",
+    "BANK_TRANSFER": "계좌이체",
+    "CREDIT_CARD": "신용카드",
+    "VNPAY": "VNPay",
+    "ZALOPAY": "ZaloPay",
+    "momo": "MoMo",
+    "zalopay": "ZaloPay",
+    "vnpay": "VNPay",
+    "cod": "착불"
+  },
+  "filter": {
+    "title": "필터",
+    "all": "전체",
+    "allTime": "전체 기간",
+    "today": "오늘",
+    "thisWeek": "이번 주",
+    "thisMonth": "이번 달",
+    "status": "주문 상태",
+    "dateRange": "기간",
+    "paymentMethod": "결제 방법",
+    "reset": "초기화",
+    "apply": "적용",
+    "activeCount": "{{count}}개 적용 중"
+  },
+  "notifications": {
+    "statusUpdate": "주문 상태 업데이트",
+    "statusUpdated": "주문 상태가 업데이트되었습니다",
+    "orderComplete": "주문 완료",
+    "deliveryUpdate": "배달 업데이트",
+    "connectionIssue": "연결 문제",
+    "orderCancelled": "주문 취소",
+    "confirmed": "결제가 완료되었습니다",
+    "preparing": "음식을 준비하고 있습니다",
+    "ready": "음식이 준비되었습니다",
+    "pickedUp": "배달원이 음식을 픽업했습니다",
+    "outForDelivery": "음식이 배달 중입니다",
+    "delivered": "음식이 배달되었습니다",
+    "driverAssigned": "배달원 배정",
+    "driverAssignedMessage": "배달원 {{driverName}}님이 배정되었습니다 (연락처: {{phone}})",
+    "nearDestination": "배달원이 목적지 근처에 도착했습니다",
+    "orderCancelledMessage": "주문이 취소되었습니다"
+  },
+  "tracking": {
+    "title": "주문 추적",
+    "orderInfo": "주문 정보",
+    "viewOrderInfo": "주문정보 보기",
+    "deliveryInfo": "배달 정보",
+    "timeline": "진행 상황",
+    "progress": "배달 진행률",
+    "currentTime": "현재 시간",
+    "estimatedArrivalShort": "예상 도착",
+    "arrivingSoon": "배달원이 곧 도착합니다. 준비해주세요!",
+    "delayNotice": "교통 상황으로 인해 지연될 수 있습니다",
+    "severeDelay": "지연에 대해 죄송합니다. 고객센터로 문의해주세요",
+    "deliveredOnTime": "정시에 배달되었습니다. 맛있게 드세요!",
+    "deliveredDelayed": "{{minutes}}분 지연되어 배달되었습니다",
+    "liveUpdate": "실시간 업데이트 중",
+    "stepsCompleted": "단계 완료",
+    "contact": "연락하기",
+    "contactStore": "매장에 문의",
+    "contactSupport": "고객센터",
+    "cancelOrder": "주문 취소 요청",
+    "driverInfo": "배달원 정보",
+    "rating": "평점",
+    "vehicleType": "차량",
+    "vehicleNumber": "차량번호",
+    "callDriver": "배달원 전화",
+    "messageDriver": "배달원 메시지",
+    "estimatedArrival": "도착 예정시간",
+    "currentLocation": "현재 위치"
+  },
+  "detail": {
+    "title": "주문 상세",
+    "orderSummary": "주문 요약",
+    "orderItems": "주문 상품",
+    "paymentInfo": "결제 정보",
+    "orderNumber": "주문번호",
+    "storeInfo": "매장정보",
+    "chat": "채팅",
+    "driver": "배달원",
+    "orderTime": "주문 시간",
+    "paymentMethod": "결제 방법",
+    "deliveryAddress": "배달 주소",
+    "specialInstructions": "특별 요청사항",
+    "orderItems": "주문 상품",
+    "quantity": "수량",
+    "unitPrice": "단가",
+    "options": "옵션",
+    "subtotal": "소계",
+    "deliveryFee": "배달비",
+    "discount": "할인",
+    "tax": "세금",
+    "total": "총 결제금액",
+    "receipt": "영수증",
+    "downloadReceipt": "영수증 다운로드",
+    "emailReceipt": "이메일로 전송",
+    "printReceipt": "인쇄",
+    "recipient": "수취인",
+    "contact": "연락처",
+    "phone": "전화번호",
+    "delivery": "배달 주문",
+    "pickup": "픽업 주문",
+    "deliveryNotes": "배달 요청사항",
+    "deliveryNote": "배달 메모",
+    "note": "메모",
+    "notFound": "주문을 찾을 수 없습니다",
+    "notFoundDesc": "주문 정보를 불러올 수 없습니다. 다시 시도해주세요.",
+    "liveTracking": "실시간 추적",
+    "currentLocation": "현재 위치",
+    "lastUpdate": "최근 업데이트",
+    "estimatedDelivery": "예상 배달 시간",
+    "saveReceipt": "영수증 저장",
+    "noItems": "주문 상품이 없습니다"
+  },
+  "pointsUsed": "포인트 사용",
+  "refundInfo": "환불 정보",
+  "refundAmount": "환불 금액",
+  "refundDate": "환불 일시",
+  "refundStatus": "처리 상태",
+  "refundCompleted": "환불 완료",
+  "processing": "처리 중",
+  "checkout": {
+    "title": "주문 확인",
+    "deliveryAddress": "배송 주소",
+    "deliveryInfo": "배달 정보",
+    "requestNote": "요청사항",
+    "selectAddress": "배송 주소를 선택해주세요",
+    "estimatedTime": "예상 도착 시간",
+    "orderDetails": "주문 내역",
+    "menuCount": "메뉴 {{count}}개",
+    "promotion": "프로모션",
+    "selectPromotion": "할인 쿠폰을 선택하세요",
+    "subtotal": "총 주문금액",
+    "deliveryFee": "배달팁",
+    "discount": "할인",
+    "totalAmount": "총 결제금액",
+    "addNew": "새로 추가",
+    "addDeliveryAddress": "배송 주소 추가",
+    "paymentMethod": "결제 방법",
+    "orderSummary": "주문 요약",
+    "total": "총액",
+    "placeOrder": "결제하기",
+    "creating": "주문 생성 중...",
+    "moreForFreeDelivery": "무료 배송까지 {{amount}} 더 필요합니다",
+    "freeDeliveryApplied": "무료 배송이 적용되었습니다",
+    "tempAddressLabel": "임시 주소",
+    "tempAddressText": "서울특별시 중구 세종대로 110 (임시)",
+    "tempRecipient": "주문자",
+    "defaultMenu": "메뉴"
+  },
+  "payment": {
+    "payment": "결제",
+    "methods": {
+      "COD": "현금결제",
+      "cod": "현금결제",
+      "codDescription": "배달 시 현금으로 결제",
+      "VNPAY": "VNPay",
+      "vnpay": "VNPay",
+      "vnpayDescription": "VNPay 전자지갑으로 결제",
+      "MOMO": "MoMo",
+      "momo": "MoMo",
+      "momoDescription": "MoMo 전자지갑으로 결제",
+      "ZALOPAY": "ZaloPay",
+      "zalopay": "ZaloPay",
+      "zalopayDescription": "ZaloPay 전자지갑으로 결제",
+      "NAPAS_QR": "NAPAS QR",
+      "napasQr": "NAPAS QR",
+      "napasQrDescription": "NAPAS QR 코드로 결제",
+      "INFOCMS_SHINHAN": "Shinhan 은행",
+      "infocmsShinhan": "Shinhan 은행",
+      "infocmsShinhanDescription": "Infocms Shinhan 은행 결제",
+      "INFOCMS_BIDV": "BIDV 은행",
+      "infocmsBidv": "BIDV 은행",
+      "infocmsBidvDescription": "Infocms BIDV 은행 결제",
+      "MBBANK": "MB Bank",
+      "mbbank": "MB Bank",
+      "mbbankDescription": "MB Bank 결제",
+      "BANK_TRANSFER": "계좌 이체",
+      "bankTransfer": "계좌 이체",
+      "bankTransferDescription": "은행 계좌로 이체"
+    },
+    "recommended": "추천",
+    "marketShare": "시장 점유율"
+  },
+  "cart": {
+    "empty": {
+      "title": "장바구니가 비어있습니다",
+      "description": "맛있는 음식을 담아보세요",
+      "browsestores": "매장 둘러보기"
+    }
+  },
+  "common": {
+    "loading": "로딩 중..."
+  },
+  "create": {
+    "title": "주문하기",
+    "step1": "매장 선택",
+    "step2": "메뉴 선택",
+    "step3": "배달 주소",
+    "step4": "특별 요청",
+    "step5": "주문 확인",
+    "selectStore": "매장을 선택해주세요",
+    "storeInfo": "매장 정보",
+    "businessHours": "영업시간",
+    "deliveryArea": "배달 가능 지역",
+    "minimumOrder": "최소 주문 금액",
+    "selectItems": "메뉴를 선택해주세요",
+    "fromCart": "장바구니에서 가져오기",
+    "reviewItems": "주문 상품 확인",
+    "deliveryAddress": "배달 주소",
+    "selectAddress": "주소 선택",
+    "newAddress": "새 주소 추가",
+    "addressDetails": "상세 주소",
+    "contactInfo": "연락처",
+    "specialRequests": "특별 요청사항",
+    "requestToStore": "매장 요청사항",
+    "requestToDriver": "배달원 요청사항",
+    "commonRequests": "자주 사용하는 요청",
+    "characterLimit": "{{current}}/{{max}} 글자",
+    "orderConfirm": "주문 확인",
+    "finalReview": "최종 주문 내역",
+    "paymentMethod": "결제 방법",
+    "termsAgreement": "이용약관 동의",
+    "privacyAgreement": "개인정보 처리방침 동의",
+    "placeOrder": "주문하기",
+    "processing": "주문 처리 중...",
+    "success": "주문이 완료되었습니다",
+    "failed": "주문에 실패했습니다"
+  },
+  "cancel": {
+    "title": "주문 취소",
+    "reason": "취소 사유",
+    "reasonRequired": "취소 사유를 선택해주세요",
+    "reasons": {
+      "changeOrder": "주문 변경",
+      "wrongAddress": "배달 주소 오류",
+      "paymentIssue": "결제 문제",
+      "tooLong": "배달 시간 너무 길음",
+      "other": "기타"
+    },
+    "otherReason": "기타 사유",
+    "confirm": "주문을 취소하시겠습니까?",
+    "confirmMessage": "취소 후에는 되돌릴 수 없습니다",
+    "processing": "취소 처리 중...",
+    "success": "주문이 취소되었습니다",
+    "failed": "주문 취소에 실패했습니다",
+    "notAllowed": "현재 상태에서는 취소할 수 없습니다"
+  },
+  "review": {
+    "title": "리뷰 작성",
+    "rating": "평점",
+    "rateFood": "음식 평점",
+    "rateDelivery": "배달 평점",
+    "rateOverall": "전체 평점",
+    "writeReview": "리뷰 작성",
+    "reviewPlaceholder": "주문하신 음식과 서비스는 어떠셨나요?",
+    "photos": "사진 첨부",
+    "addPhotos": "사진 추가",
+    "anonymous": "익명으로 작성",
+    "submit": "리뷰 등록",
+    "submitting": "등록 중...",
+    "success": "리뷰가 등록되었습니다",
+    "failed": "리뷰 등록에 실패했습니다"
+  },
+  "auth": {
+    "loginRequired": "로그인이 필요합니다",
+    "loginMessage": "주문 내역을 확인하려면 로그인해 주세요"
+  },
+  "driver": {
+    "title": "배달원",
+    "info": "배달원 정보",
+    "loading": "배달원 정보를 불러오는 중...",
+    "online": "온라인",
+    "offline": "오프라인",
+    "noContact": "배달원 연락처가 없습니다",
+    "phoneNotAvailable": "전화 기능을 사용할 수 없습니다",
+    "phoneCallFailed": "전화 연결에 실패했습니다",
+    "messageNotAvailable": "메시지 기능을 사용할 수 없습니다",
+    "messageSendFailed": "메시지 전송에 실패했습니다",
+    "call": "전화걸기",
+    "message": "메시지",
+    "rating": "평점",
+    "deliveries": "회 배달",
+    "successRate": "성공률",
+    "avgTime": "분",
+    "avgTimeLabel": "평균시간",
+    "experience": "개월",
+    "experienceLabel": "경력",
+    "badges": "배달원 뱃지",
+    "totalDeliveries": "총 배달",
+    "statusMessage": {
+      "confirmed": "매장으로 이동 중입니다",
+      "preparing": "매장에서 음식을 픽업 대기 중입니다",
+      "ready": "음식을 픽업했습니다",
+      "outForDelivery": "고객님께 배달 중입니다",
+      "delivered": "배달이 완료되었습니다"
+    }
+  },
+  "actions": {
+    "cancel": "주문 취소",
+    "reorder": "재주문",
+    "writeReview": "리뷰 작성",
+    "availableActions": "사용 가능한 액션",
+    "pay": {
+      "title": "결제하기",
+      "description": "안전한 결제로 주문을 완료하세요"
+    },
+    "cancelOrder": {
+      "title": "주문 취소",
+      "descriptionBeforePayment": "결제 전까지 취소 가능합니다",
+      "descriptionBeforeCooking": "조리 시작 전까지 취소 가능합니다"
+    },
+    "callStore": {
+      "title": "매장에 연락",
+      "descriptionGeneral": "주문 변경이나 문의사항이 있으시면 연락하세요",
+      "descriptionCooking": "조리 상황을 문의하실 수 있습니다",
+      "descriptionReady": "픽업 준비가 완료되었습니다",
+      "descriptionDelivery": "매장에 문의사항이 있으시면 연락하세요"
+    },
+    "callDriver": {
+      "title": "배달원에게 연락",
+      "description": "배달원과 직접 통화할 수 있습니다"
+    },
+    "trackLocation": {
+      "title": "실시간 위치 추적",
+      "description": "배달원의 현재 위치를 확인하세요"
+    },
+    "confirmDelivery": {
+      "title": "배달 완료 확인",
+      "description": "음식을 받으셨다면 확인해 주세요"
+    },
+    "writeReviewAction": {
+      "title": "리뷰 작성",
+      "description": "서비스는 어떠셨나요?"
+    },
+    "reorderAction": {
+      "title": "재주문",
+      "description": "같은 메뉴를 다시 주문하시겠어요?"
+    },
+    "reorderNew": {
+      "title": "다시 주문하기",
+      "description": "새로운 주문을 시작하세요"
+    }
+  },
+  "toasts": {
+    "cancelConfirm": {
+      "message": "주문 취소",
+      "description": "정말로 주문을 취소하시겠습니까?",
+      "button": "취소하기"
+    },
+    "cancelProcessing": {
+      "message": "주문 취소 처리 중...",
+      "description": "잠시만 기다려 주세요"
+    },
+    "storeContactNotFound": {
+      "message": "매장 연락처를 찾을 수 없습니다",
+      "description": "고객센터로 문의해 주세요"
+    },
+    "phoneNotAvailable": "전화 기능을 사용할 수 없습니다",
+    "phoneCallFailed": "전화 연결에 실패했습니다",
+    "driverContactNotFound": {
+      "message": "배달원 연락처를 찾을 수 없습니다",
+      "description": "매장으로 문의해 주세요"
+    },
+    "confirmDelivery": {
+      "message": "배달 완료 확인",
+      "description": "음식을 받으셨습니까?",
+      "button": "네, 받았습니다"
+    },
+    "deliveryConfirmed": {
+      "message": "배달 완료 확인되었습니다",
+      "description": "맛있게 드세요!"
+    },
+    "featureComingSoon": {
+      "message": "곧 사용 가능한 기능입니다",
+      "description": "업데이트를 기다려 주세요"
+    }
+  },
+  "map": {
+    "loading": "지도 로딩 중...",
+    "loadingWithNote": "지도 로딩 중...\n(react-native-maps 미설치)"
+  },
+  "contact": {
+    "title": "문의하기",
+    "store": "매장에 연락하기",
+    "storeDesc": "주문이나 음식에 대해 문의하세요",
+    "support": "고객센터 연락하기",
+    "supportDesc": "배달이나 앱 사용에 대해 문의하세요"
+  },
+  "timeline": {
+    "pending": "주문 접수",
+    "confirmed": "주문 확인",
+    "preparing": "조리 중",
+    "ready": "준비 완료",
+    "pickedUp": "픽업 완료",
+    "outForDelivery": "배달 중",
+    "delivered": "배달 완료",
+    "cancelled": "주문 취소",
+    "simplified": {
+      "waiting": "접수 대기",
+      "cooking": "접수완료/조리중",
+      "delivering": "조리완료/배달중",
+      "completed": "배달완료",
+      "rejected": "거절됨"
+    },
+    "steps": {
+      "orderReceived": {
+        "title": "주문 접수",
+        "description": "주문이 접수되었습니다"
+      },
+      "orderConfirmed": {
+        "title": "주문 확인",
+        "description": "매장에서 주문을 확인했습니다"
+      },
+      "preparing": {
+        "title": "음식 조리",
+        "description": "매장에서 음식을 조리하고 있습니다",
+        "currentInfo": "예상 완료: 약 10분 후"
+      },
+      "ready": {
+        "title": "조리 완료",
+        "description": "음식이 준비되었습니다",
+        "currentInfo": "배달원 배정 중"
+      },
+      "pickedUp": {
+        "title": "픽업 완료",
+        "description": "배달원이 음식을 픽업했습니다"
+      },
+      "outForDelivery": {
+        "title": "배달 중",
+        "description": "고객님께 배달하고 있습니다",
+        "currentInfo": "예상 도착: 약 15분 후"
+      },
+      "delivered": {
+        "title": "배달 완료",
+        "description": "배달이 완료되었습니다"
+      },
+      "confirmed": {
+        "currentInfo": "매장 확인 대기 중"
+      }
+    },
+    "status": {
+      "completed": "완료",
+      "inProgress": "진행중",
+      "pending": "대기중",
+      "estimatedTime": "약 {{time}}분 후"
+    },
+    "totalEstimatedTime": "총 예상 시간",
+    "trackingNumber": "추적번호",
+    "minutesUntilArrival": "{{minutes}}분 후 도착",
+    "defaultEstimatedTime": "약 40-50분",
+    "collapseView": "간단히 보기",
+    "expandView": "전체 보기",
+    "moreSteps": "{{count}}개 단계 더 있음"
+  },
+  "messages": {
+    "CART_ADD_SUCCESS": "장바구니에 추가되었습니다",
+    "ORDER_COMPLETED_SUCCESS": "주문이 완료되었습니다",
+    "ORDER_CREATED_SUCCESS": "주문이 생성되었습니다",
+    "ORDER_REORDER_FAILED": "재주문에 실패했습니다",
+    "DRIVER_MESSAGE_NOT_AVAILABLE": "배달원에게 메시지를 보낼 수 없습니다",
+    "DRIVER_MESSAGE_SEND_FAILED": "배달원에게 메시지 전송에 실패했습니다",
+    "DRIVER_NO_CONTACT": "배달원 연락처가 없습니다",
+    "DRIVER_PHONE_CALL_FAILED": "배달원에게 전화 연결에 실패했습니다",
+    "DRIVER_PHONE_NOT_AVAILABLE": "배달원 전화 기능을 사용할 수 없습니다"
+  },
+  "errors": {
+    "storeNotFound": "매장 정보를 찾을 수 없습니다",
+    "serverUnavailable": "서버 연결에 문제가 있습니다",
+    "serverRetryMessage": "잠시 후 다시 시도해주세요",
+    "navigationError": "네비게이션 오류",
+    "navigationErrorMessage": "앱을 다시 시작해주세요",
+    "orderNotFound": "주문 정보를 찾을 수 없습니다"
+  },
+  "validation": {
+    "storeNotOpen": "매장이 영업 중이 아닙니다",
+    "cannotReorderStatus": "현재 주문 상태에서는 재주문할 수 없습니다",
+    "allItemsSoldOut": "주문했던 모든 메뉴가 현재 품절입니다",
+    "someItemsSoldOut": "{{count}}개 메뉴가 품절입니다",
+    "notInDeliveryArea": "현재 위치가 배달 가능 지역이 아닙니다",
+    "minOrderNotMet": "최소 주문 금액 {{amount}}원 미달",
+    "cartHasItems": "장바구니에 다른 상품이 있습니다. 기존 상품을 삭제하고 재주문하시겠습니까?",
+    "reorderUnavailable": "재주문 불가"
+  },
+  "reorderError": "재주문 오류",
+  "cooking": {
+    "steps": {
+      "ingredients": {
+        "title": "재료 준비",
+        "description": "신선한 재료를 준비하고 있어요"
+      },
+      "cooking": {
+        "title": "조리 중",
+        "description": "정성스럽게 요리하고 있어요"
+      },
+      "plating": {
+        "title": "포장 준비",
+        "description": "맛있게 포장하고 있어요"
+      },
+      "ready": {
+        "title": "완성",
+        "description": "음식이 준비되었습니다!"
+      }
+    },
+    "messages": {
+      "message1": "셰프가 정성스럽게 준비하고 있어요 👨‍🍳",
+      "message2": "신선한 재료로 맛있게 만들고 있어요 🥬",
+      "message3": "조금만 더 기다려 주세요! ⏰",
+      "message4": "거의 완성되어 갑니다 🔥"
+    },
+    "itemProgress": "메뉴별 진행 상황",
+    "moreItems": "외 {{count}}개 메뉴",
+    "remainingMinutes": "약 {{minutes}}분",
+    "specialRequest": "요청사항",
+    "contactStore": "매장에 문의하기"
+  },
+  "header": {
+    "arrivingSoon": "곧 도착",
+    "arrivalMinutes": "약 {{minutes}}분 후",
+    "arrivalHoursMinutes": "약 {{hours}}시간 {{minutes}}분 후",
+    "normalDeliveryTime": "일반 배달시간",
+    "isOpen": "영업중",
+    "isClosed": "영업종료",
+    "customerService": "고객센터"
+  },
+  "paymentStatus": {
+    "completed": "결제완료",
+    "pending": "결제대기",
+    "failed": "결제실패"
+  },
+  "deliveryFreeLabel": "무료",
+  "actionsSection": {
+    "title": "주문 관련 기능",
+    "cancelOrder": "주문 취소",
+    "liveTracking": "실시간 추적",
+    "viewReceipt": "영수증 보기",
+    "customerService": "고객센터",
+    "completedMessage": "주문이 성공적으로 완료되었습니다!",
+    "reviewRequest": "맛있게 드셨나요? 리뷰를 남겨주시면 다른 고객들에게 큰 도움이 됩니다.",
+    "preparingMessage": "매장에서 정성스럽게 준비하고 있어요",
+    "preparingSubMessage": "예상보다 시간이 더 걸릴 수 있습니다. 조금만 더 기다려 주세요!",
+    "cancelledMessage": "주문이 취소되었습니다",
+    "cancelReason": "취소 사유",
+    "refundMessage": "환불이 완료되었습니다. 영업일 기준 2-3일 내 계좌로 입금됩니다.",
+    "needHelp": "주문 관련 도움이 필요하신가요?"
+  },
+  "stats": {
+    "title": "주문 통계",
+    "thisMonthOrders": "이번 달 주문",
+    "thisMonthSpent": "이번 달 지출",
+    "totalOrders": "총 주문",
+    "totalSpent": "총 지출"
+  },
+  "addressRequired": "배송 주소를 선택해주세요",
+  "cartEmpty": "장바구니가 비어있습니다",
+  "unknownItem": "알 수 없는 상품",
+  "unknownOption": "알 수 없는 옵션"
+}

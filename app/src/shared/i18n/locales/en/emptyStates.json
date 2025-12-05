@@ -1,0 +1,52 @@
+{
+  "orderHistory": {
+    "title": "No Order History",
+    "message": "You haven't ordered any food yet",
+    "description": "Explore delicious Vietnamese food and\nstart your first order!",
+    "action": "Order Now"
+  },
+  "searchResults": {
+    "title": "No Search Results",
+    "message": "No search results found",
+    "description": "Try a different search term or\ncheck out popular Vietnamese dishes",
+    "searchAgain": "Search Again",
+    "popularDishes": "Popular Dishes"
+  },
+  "favorites": {
+    "title": "No Favorites",
+    "message": "You haven't saved any favorites",
+    "description": "Save your favorite dishes and\neasily reorder them later",
+    "action": "Explore Stores"
+  },
+  "networkError": {
+    "title": "Network Error",
+    "message": "Please check your internet connection",
+    "description": "Check your network status and\ntry again",
+    "action": "Try Again"
+  },
+  "serviceUnavailable": {
+    "title": "Service Unavailable",
+    "message": "Delivery is not available in this area",
+    "description": "This area is currently not in our service zone\nTry changing to a different address",
+    "action": "Change Address"
+  },
+  "maintenance": {
+    "title": "Service Maintenance",
+    "message": "System maintenance in progress",
+    "description": "We're improving our service\nSystem maintenance is currently underway",
+    "expectedTime": "Expected completion: 3:00 PM (about 30 minutes)",
+    "action": "Get Completion Notification"
+  },
+  "cart": {
+    "title": "Empty Cart",
+    "message": "Your cart is empty",
+    "description": "Add some delicious food to your cart",
+    "action": "Browse Menu"
+  },
+  "notifications": {
+    "title": "No Notifications",
+    "message": "No new notifications",
+    "description": "We'll notify you about order updates and promotions",
+    "action": "Enable Notifications"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "title": "Thông báo",
+  "filter": {
+    "all": "Tất cả",
+    "unread": "Chưa đọc",
+    "important": "Quan trọng",
+    "promotions": "Khuyến mãi"
+  },
+  "settings": {
+    "title": "Cài đặt thông báo",
+    "saveSuccess": {
+      "message": "Đã lưu cài đặt thông báo"
+    },
+    "saveError": {
+      "message": "Lưu cài đặt thông báo thất bại"
+    },
+    "permission": {
+      "title": "Quyền thông báo",
+      "granted": "Đã cho phép thông báo",
+      "denied": "Đã từ chối thông báo",
+      "not_determined": "Vui lòng cài đặt quyền thông báo",
+      "unknown": "Trạng thái quyền chưa xác định",
+      "enable": "Cho phép"
+    },
+    "permissionError": {
+      "message": "Yêu cầu quyền thông báo thất bại"
+    },
+    "testSuccess": {
+      "message": "Đã gửi thông báo thử nghiệm"
+    },
+    "testError": {
+      "message": "Gửi thông báo thử nghiệm thất bại"
+    },
+    "unsavedChanges": {
+      "message": "Có thay đổi chưa được lưu",
+      "discard": "Bỏ thay đổi"
+    },
+    "general": {
+      "title": "Cài đặt chung",
+      "enabled": "Bật thông báo",
+      "enabledDesc": "Bạn có muốn nhận tất cả thông báo?",
+      "quietHours": "Giờ im lặng",
+      "quietHoursDesc": "Chặn thông báo vào ban đêm (22:00-08:00)",
+      "test": "Thông báo thử nghiệm",
+      "testDesc": "Kiểm tra thông báo có hoạt động bình thường không",
+      "testButton": "Gửi thử nghiệm"
+    },
+    "core": {
+      "title": "Thông báo cốt lõi"
+    },
+    "marketing_section": {
+      "title": "Thông báo tiếp thị"
+    },
+    "orderUpdates": {
+      "title": "Cập nhật đơn hàng",
+      "description": "Thông báo về thay đổi trạng thái đơn hàng (xác nhận đơn, chế biến, giao hàng)"
+    },
+    "chatMessages": {
+      "title": "Tin nhắn chat",
+      "description": "Thông báo tin nhắn mới từ cửa hàng hoặc dịch vụ khách hàng"
+    },
+    "paymentAlerts": {
+      "title": "Cảnh báo thanh toán",
+      "description": "Xác nhận thanh toán, hoàn tiền và các thông báo liên quan đến thanh toán"
+    },
+    "systemNotices": {
+      "title": "Thông báo hệ thống",
+      "description": "Cập nhật ứng dụng quan trọng và thông báo dịch vụ"
+    },
+    "promotions": {
+      "title": "Khuyến mãi",
+      "description": "Giảm giá đặc biệt và ưu đãi có thời hạn"
+    },
+    "marketing": {
+      "title": "Tiếp thị",
+      "description": "Thông tin cửa hàng mới và cập nhật sự kiện chung"
+    }
+  },
+  "markAsRead": "Đánh dấu đã đọc",
+  "delete": "Xóa",
+  "markAllAsRead": "Đánh dấu tất cả đã đọc",
+  "loading": "Đang tải...",
+  "empty": {
+    "noNotifications": "Không có thông báo",
+    "noUnread": "Không có thông báo chưa đọc",
+    "description": "Thông báo mới sẽ xuất hiện ở đây"
+  },
+  "error": {
+    "loadFailed": "Không thể tải thông báo"
+  },
+  "categories": {
+    "orders": {
+      "title": "Thông báo đơn hàng",
+      "push": "Thông báo đẩy",
+      "pushDesc": "Nhận thông báo khi trạng thái đơn hàng thay đổi",
+      "sound": "Âm thanh thông báo",
+      "soundDesc": "Phát âm thanh khi có thông báo",
+      "vibration": "Rung",
+      "vibrationDesc": "Rung khi có thông báo"
+    },
+    "promotions": {
+      "title": "Thông báo khuyến mãi",
+      "push": "Thông báo đẩy",
+      "pushDesc": "Nhận thông tin giảm giá và khuyến mãi",
+      "sound": "Âm thanh thông báo",
+      "soundDesc": "Phát âm thanh khi có thông báo khuyến mãi",
+      "vibration": "Rung",
+      "vibrationDesc": "Rung khi có thông báo khuyến mãi"
+    },
+    "updates": {
+      "title": "Thông báo cập nhật",
+      "push": "Thông báo đẩy",
+      "pushDesc": "Nhận tin tức cập nhật ứng dụng và tính năng mới",
+      "sound": "Âm thanh thông báo",
+      "soundDesc": "Phát âm thanh khi có thông báo cập nhật",
+      "vibration": "Rung",
+      "vibrationDesc": "Rung khi có thông báo cập nhật"
+    }
+  },
+  "orderStatus": {
+    "ORDER_CONFIRMED": {
+      "title": "Xác nhận đơn hàng",
+      "message": "Cửa hàng đã xác nhận đơn hàng của bạn"
+    },
+    "ORDER_PREPARING": {
+      "title": "Bắt đầu chế biến",
+      "message": "Đang chuẩn bị món ăn ngon cho bạn"
+    },
+    "ORDER_READY": {
+      "title": "Hoàn thành chế biến",
+      "message": "Món ăn đã được chuẩn bị xong"
+    },
+    "DRIVER_ASSIGNED": {
+      "title": "Phân công tài xế",
+      "message": "Tài xế đã được phân công và đang đến lấy hàng"
+    },
+    "OUT_FOR_DELIVERY": {
+      "title": "Bắt đầu giao hàng",
+      "message": "Đang giao hàng đến cho quý khách"
+    },
+    "DELIVERY_ARRIVING": {
+      "title": "Sắp đến",
+      "message": "Tài xế sắp đến nơi"
+    },
+    "ORDER_DELIVERED": {
+      "title": "Giao hàng thành công",
+      "message": "Đơn hàng đã được giao thành công. Chúc bạn ăn ngon!"
+    },
+    "ORDER_CANCELLED": {
+      "title": "Hủy đơn hàng",
+      "message": "Đơn hàng đã được hủy"
+    },
+    "ORDER_REJECTED": {
+      "title": "Từ chối đơn hàng",
+      "message": "Xin lỗi quý khách. Đơn hàng bị từ chối do tình hình cửa hàng"
+    },
+    "PAYMENT_FAILED": {
+      "title": "Thanh toán thất bại",
+      "message": "Có lỗi xảy ra trong quá trình thanh toán"
+    }
+  },
+  "logs": {
+    "loadError": "Lỗi tải cài đặt thông báo:",
+    "saveError": "Lỗi lưu cài đặt thông báo:",
+    "disabled": "Thông báo đã bị tắt",
+    "unknownType": "Loại thông báo không xác định:",
+    "received": "📱 Nhận thông báo đơn hàng:",
+    "inScreenUpdate": "[SYNC] Cập nhật thời gian thực trong màn hình:",
+    "toastInApp": "🍞 Hiển thị thông báo toast trong ứng dụng",
+    "background": "📱 Xử lý thông báo nền",
+    "pendingActionsSaveError": "Lỗi lưu thao tác thông báo chờ xử lý:",
+    "vibrationError": "Lỗi phát rung:",
+    "badgeUpdate": "🔢 Cập nhật số đếm huy hiệu ứng dụng",
+    "navigationRefMissing": "Thiếu navigation ref",
+    "navigationError": "Lỗi điều hướng:",
+    "logSaveError": "Lỗi lưu nhật ký thông báo:",
+    "pendingActions": "📱 Xử lý thao tác thông báo chờ:",
+    "pendingActionsError": "Lỗi xử lý thao tác thông báo chờ:",
+    "logLoadError": "Lỗi tải nhật ký thông báo:",
+    "logClearError": "Lỗi xóa nhật ký thông báo:",
+    "orderHistoryError": "Lỗi lấy lịch sử thông báo đơn hàng:"
+  },
+  "dynamicMessages": {
+    "driverPrefix": " (Tài xế: ",
+    "estimatedTimePrefix": " (Thời gian dự kiến: ",
+    "estimatedTimeSuffix": " phút)",
+    "storePrefix": " (",
+    "storeSuffix": ")"
+  },
+  "toastMessages": {
+    "NOTIFICATION_PERMISSION_ERROR": "Yêu cầu quyền thông báo thất bại",
+    "NOTIFICATION_PERMISSION_GRANTED": "Quyền thông báo đã được cấp",
+    "NOTIFICATION_SETTINGS_LOAD_ERROR": "Tải cài đặt thông báo thất bại",
+    "NOTIFICATION_SETTINGS_SAVED": "Cài đặt thông báo đã được lưu",
+    "NOTIFICATION_SETTINGS_SAVE_ERROR": "Lưu cài đặt thông báo thất bại",
+    "NOTIFICATION_SETTINGS_SAVE_SUCCESS": "Cài đặt thông báo đã được lưu thành công",
+    "NOTIFICATION_SETTINGS_UPDATE_SUCCESS": "Đã cập nhật cài đặt thông báo",
+    "NOTIFICATION_SETTINGS_UPDATE_FAILED": "Cập nhật cài đặt thông báo thất bại",
+    "NOTIFICATION_MARK_READ_FAILED": "Đánh dấu đã đọc thất bại",
+    "NOTIFICATION_MARK_ALL_READ_FAILED": "Đánh dấu tất cả đã đọc thất bại",
+    "NOTIFICATION_DELETE_FAILED": "Xóa thông báo thất bại",
+    "NOTIFICATION_CLEAR_ALL_FAILED": "Xóa tất cả thông báo thất bại",
+    "NOTIFICATION_TEST_ERROR": "Gửi thông báo thử nghiệm thất bại",
+    "NOTIFICATION_TEST_SUCCESS": "Thông báo thử nghiệm đã được gửi thành công"
+  },
+  "messages": {
+    "orderConfirmed": {
+      "title": "Xác nhận đơn hàng",
+      "message": "Cửa hàng đã xác nhận đơn hàng của bạn"
+    },
+    "orderPreparing": {
+      "title": "Bắt đầu chế biến",
+      "message": "Đang chuẩn bị món ăn ngon cho bạn"
+    },
+    "orderReady": {
+      "title": "Hoàn thành chế biến",
+      "message": "Món ăn đã sẵn sàng"
+    },
+    "driverAssigned": {
+      "title": "Đã phân công tài xế",
+      "message": "Tài xế đã được phân công và đang đến lấy đơn hàng của bạn"
+    },
+    "outForDelivery": {
+      "title": "Đang giao hàng",
+      "message": "Đơn hàng đang được giao đến bạn"
+    },
+    "deliveryArriving": {
+      "title": "Sắp đến",
+      "message": "Tài xế sắp đến nơi"
+    },
+    "orderDelivered": {
+      "title": "Giao hàng thành công",
+      "message": "Đơn hàng đã được giao thành công. Chúc bạn ăn ngon!"
+    },
+    "orderCancelled": {
+      "title": "Đơn hàng đã hủy",
+      "message": "Đơn hàng của bạn đã bị hủy"
+    },
+    "orderRejected": {
+      "title": "Đơn hàng bị từ chối",
+      "message": "Xin lỗi, cửa hàng đã từ chối đơn hàng của bạn do tình hình cửa hàng"
+    },
+    "paymentFailed": {
+      "title": "Thanh toán thất bại",
+      "message": "Có lỗi xảy ra trong quá trình thanh toán"
+    },
+    "withDriver": "(Tài xế: {{driverName}})",
+    "withEstimatedTime": "(Thời gian dự kiến: {{estimatedTime}} phút)",
+    "withStoreName": "({{storeName}})"
+  },
+  "system": {
+    "notificationDisabled": "Thông báo đã tắt",
+    "unknownNotificationType": "Loại thông báo không xác định",
+    "loadSettingsError": "Lỗi tải cài đặt thông báo",
+    "saveSettingsError": "Lỗi lưu cài đặt thông báo",
+    "vibrationError": "Lỗi phát rung",
+    "navigationError": "Lỗi điều hướng",
+    "navigationRefMissing": "Thiếu navigation ref",
+    "logSaveError": "Lỗi lưu nhật ký thông báo",
+    "pendingActionsError": "Lỗi lưu thao tác thông báo chờ xử lý",
+    "processingPendingActions": "Lỗi xử lý thao tác thông báo chờ xử lý",
+    "getLogsError": "Lỗi lấy nhật ký thông báo",
+    "clearLogsError": "Lỗi xóa nhật ký thông báo",
+    "getOrderHistoryError": "Lỗi lấy lịch sử thông báo đơn hàng"
+  },
+  "emptyTitle": "Không có thông báo",
+  "emptyDescription": "Khi có thông báo mới, chúng sẽ hiển thị ở đây",
+  "fcm": {
+    "initialization": {
+      "disabled": "🚫 Firebase messaging đã tắt - bỏ qua khởi tạo FCM",
+      "permissionCheckDisabled": "🚫 Firebase messaging đã tắt - bỏ qua kiểm tra quyền",
+      "tokenGetDisabled": "🚫 Firebase messaging đã tắt - bỏ qua lấy token"
+    },
+    "permission": {
+      "requestTitle": "Yêu cầu quyền thông báo",
+      "requestMessage": "Để nhận thông báo đơn hàng và khuyến mãi, vui lòng cho phép quyền.",
+      "buttonNeutral": "Để sau",
+      "buttonNegative": "Từ chối",
+      "buttonPositive": "Cho phép",
+      "androidGranted": "Đã cấp quyền thông báo trên Android",
+      "iosGranted": "Đã cấp quyền thông báo trên iOS",
+      "requestFailed": "Yêu cầu quyền thất bại:",
+      "iosRegistrationComplete": "Đăng ký thông báo iOS hoàn tất"
+    },
+    "token": {
+      "refresh": "Làm mới token FCM:",
+      "noUserId": "Không có ID người dùng, tạm hoãn gửi token",
+      "serverSendSuccess": "Gửi token FCM đến máy chủ thành công",
+      "serverSendFailed": "Gửi token FCM đến máy chủ thất bại:",
+      "serverSendError": "Lỗi gửi token đến máy chủ:"
+    },
+    "channels": {
+      "deliveryName": "Giao hàng",
+      "deliveryDescription": "Thông báo về đơn hàng và giao hàng",
+      "deliveryCreated": "Đã tạo kênh thông báo giao hàng:",
+      "promotionName": "Khuyến mãi",
+      "promotionDescription": "Thông báo giảm giá và sự kiện",
+      "promotionCreated": "Đã tạo kênh thông báo khuyến mãi:",
+      "createFailed": "Tạo kênh thông báo thất bại:"
+    },
+    "listeners": {
+      "registrationStart": "🎧 Bắt đầu đăng ký listener FCM",
+      "foregroundReceived": "📩 Nhận tin nhắn FCM khi đang mở ứng dụng:",
+      "foregroundError": "[ERROR] Xử lý tin nhắn FCM (foreground) thất bại:",
+      "backgroundClicked": "👆 Nhấp thông báo FCM (background):",
+      "backgroundError": "[ERROR] Xử lý nhấp thông báo (background) thất bại:",
+      "terminatedLaunch": "[API] Mở ứng dụng từ thông báo khi đã thoát:",
+      "terminatedError": "[ERROR] Xử lý thông báo khi đã thoát thất bại:",
+      "notLaunchedByNotification": "[INFO] Ứng dụng không mở từ thông báo",
+      "getInitialError": "[ERROR] getInitialNotification thất bại:",
+      "registrationComplete": "[SUCCESS] Đăng ký listener FCM hoàn tất",
+      "backgroundReceived": "Nhận tin nhắn nền:"
+    },
+    "localNotification": {
+      "displayStart": "🔔 Hiển thị thông báo cục bộ:",
+      "processedData": "🔔 Dữ liệu thông báo đã xử lý:",
+      "displaySuccess": "[SUCCESS] Hiển thị thông báo thành công",
+      "displayError": "[ERROR] Hiển thị thông báo thất bại:",
+      "defaultTitle": "Thông báo",
+      "defaultBody": "Bạn có thông báo mới.",
+      "fallbackError": "[ERROR] Thông báo dự phòng cũng thất bại:"
+    },
+    "clickHandling": {
+      "clickStart": "👆 Bắt đầu xử lý nhấp thông báo:",
+      "noData": "[WARNING] Không có dữ liệu nhấp",
+      "processedData": "👆 Dữ liệu nhấp đã xử lý:",
+      "navigateOrder": "📱 Điều hướng đến chi tiết đơn hàng:",
+      "noOrderId": "[WARNING] Thiếu mã đơn hàng",
+      "navigateDelivery": "📱 Điều hướng đến theo dõi giao hàng:",
+      "noDeliveryId": "[WARNING] Thiếu mã đơn giao hàng",
+      "navigatePromotion": "📱 Điều hướng đến khuyến mãi:",
+      "noPromotionId": "[WARNING] Thiếu mã khuyến mãi",
+      "navigateChat": "📱 Điều hướng đến trò chuyện:",
+      "noChatId": "[WARNING] Thiếu mã phòng trò chuyện",
+      "unknownType": "[WARNING] Loại thông báo không xác định:",
+      "clickComplete": "[SUCCESS] Đã xử lý nhấp thông báo",
+      "clickError": "[ERROR] Xử lý nhấp thông báo thất bại:"
+    },
+    "badge": {
+      "updateStart": "🔢 Bắt đầu cập nhật số huy hiệu",
+      "noBadgeData": "[WARNING] Không có dữ liệu huy hiệu",
+      "noBadgeCount": "[WARNING] Thiếu số huy hiệu",
+      "processedCount": "🔢 Số huy hiệu đã xử lý:",
+      "iosSetComplete": "🍎 Đã đặt số huy hiệu iOS:",
+      "localSaveComplete": "💾 Đã lưu số huy hiệu cục bộ:",
+      "updateComplete": "[SUCCESS] Cập nhật số huy hiệu thành công",
+      "updateError": "[ERROR] Cập nhật số huy hiệu thất bại:"
+    },
+    "settings": {
+      "updateSuccess": "Cập nhật cài đặt thông báo:",
+      "updateError": "Cập nhật cài đặt thông báo thất bại:"
+    },
+    "topic": {
+      "subscribeSuccess": "Đăng ký chủ đề thành công:",
+      "subscribeFailed": "Đăng ký chủ đề thất bại:",
+      "unsubscribeSuccess": "Hủy đăng ký chủ đề:",
+      "unsubscribeFailed": "Hủy đăng ký chủ đề thất bại:"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# ===============================================
+# Admin Users Schema (Template)
+# Location: /graphql/clients/admin/users/schema.graphql
+# Purpose: Admin 사용자 관리 스키마 (뼈대)
+# ===============================================
+
+# ===============================================
+# Queries - Admin Users (prefix: a)
+# ===============================================
+
+extend type Query {
+  # 추후 사용자 관리 쿼리 추가
+  _adminUsersPlaceholder: SuccessPayload
+}
+
+# ===============================================
+# Mutations - Admin Users (prefix: a)
+# ===============================================
+
+extend type Mutation {
+  # 추후 사용자 관리 뮤테이션 추가
+  _adminUsersMutationPlaceholder: SuccessPayload
+}
